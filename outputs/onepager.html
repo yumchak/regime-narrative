@@ -56,10 +56,10 @@ against 5% chance</b> (p&nbsp;&lt;&nbsp;0.0001),
 with <b>96.4% of 474 claims
 grounded in the source they cite and zero fabricated citations</b>. On
 era-matched non-transition dates the identical pipeline produced confident
-explanations <b>61.5%</b> of the time against
-80% on real transitions — a gap this study had only a
-<b>17% chance of detecting</b>. That is the honest
-limit of the method.
+explanations 61.5% of the time against
+80% on real transitions: <b>+18.5pp,
+95% CI [-12, 47]pp</b>. That comparison is unresolved, and this
+design could not have resolved it. That is the honest limit of the method.
 </div>
 
 <div class="cols">
@@ -87,11 +87,19 @@ statistical results comes from the model, and it never moves a regime boundary.<
 <td class="n">1.52×</td></tr>
 <tr><td>Nikkei 225</td><td class="n">1.54×</td><td class="n">1.18×</td><td class="n">1.38×</td></tr><tr><td>Hang Seng</td><td class="n">1.46×</td><td class="n">1.32×</td><td class="n">1.37×</td></tr><tr><td>DAX</td><td class="n">1.87×</td><td class="n">1.58×</td><td class="n">1.56×</td></tr>
 </tbody></table>
-<p><b>Forward-20d</b> measures volatility that had not happened when the state was
-assigned — the HMM is fed <i>trailing</i> volatility, so the same-day figure is
-partly definitional and the forward one is the real claim. The <b>per-fold
-median</b> sits below the pooled figure because pooling mixes calm-era and
-crisis-era days; it is the conservative number.</p>
+<p><b>Forward-20d</b> measures volatility that had not happened when the state
+was assigned — the HMM is fed <i>trailing</i> volatility, so the same-day figure
+is partly definitional and the forward one is the real claim. Nikkei at
+1.18× is close to nothing, and that is reported rather than left
+behind its more flattering same-day figure.</p>
+<div class="ok"><b>The strongest form of the separation result.</b> Of the
+20 folds that contain both states,
+<b>18 have a ratio above 1.0 — exact sign test
+p&nbsp;=&nbsp;0.00040</b>, median
+1.52× (95% CI 1.37–1.9).
+This is distribution-free and immune to the objection that the pooled
+2.18× mixes calm-era and crisis-era days. It is the number to
+defend.</div>
 
 <h2>Three corrections to the prior work</h2>
 <ul>
@@ -128,7 +136,10 @@ pinned by revision id.</div>
 supplied item; grounding is scored by lexical overlap, so the check itself has no
 world knowledge. <b>96.4% grounded,
 0.0% fabricated citations,
-474 claims.</b> Splitting either side of the training cutoff
+474 claims — against a
+1.8% floor</b> when the
+same claims are scored against a randomly chosen item from the same window
+(4,740 draws). It is not a metric everything passes. Splitting either side of the training cutoff
 was abandoned: the post-cutoff arm holds three transitions, and reporting
 <i>n</i>=3 as a test is worse than not running it.</p>
 
@@ -157,12 +168,14 @@ predicted direction and <b>reproduces exactly on a full replicate run</b>
 confidence label; rates 0.8&rarr;0.8
 and 0.65&rarr;0.65),
 so it is stable rather than noisy — but this design could not have proven it.</div>
-<div class="ok"><b>What is established.</b> The explanations are specific to their
-window and faithful to their sources — including on business-and-economy text
-alone (28.6% vs 7.1%
-chance, p&nbsp;=&nbsp;0.016). What is <i>not</i>
-established is that they are diagnostic of a regime change: the model finds a
-plausible story for an ordinary fortnight nearly as often.</div>
+<div class="ok"><b>What is established.</b> The explanations are specific to
+their window. A sceptic can explain 55%-against-5%
+by era-matching — adjacent fortnights share running stories — so each explanation
+was re-scored against only its <b>three temporally nearest</b> windows:
+<b>71.7% against 33.3% chance</b>.
+Era cannot explain that. What is <i>not</i> established is that the explanations
+are diagnostic of a regime change — the comparison above is unresolved, not
+settled either way.</div>
 
 <h2>Built with</h2>
 <p>Claude Code for development. <code>claude-opus-5</code> via

@@ -91,6 +91,7 @@ def build_report(
     *,
     power: dict | None = None,
     retest: dict | None = None,
+    referee: dict | None = None,
     figures: dict[str, Path],
     out_path: Path,
 ) -> Path:
@@ -201,6 +202,25 @@ def build_report(
       "pooled figure is a between-period effect rather than within-period "
       "separation. The per-fold median is the conservative number.</div>")
 
+    if referee and referee.get("per_fold_sign_test"):
+        sg = referee["per_fold_sign_test"]
+        a("<h3>The strongest form of the separation result</h3>")
+        a(f"<p>The pooled ratio can be attacked for mixing eras. The per-fold "
+          f"distribution cannot. Of the <strong>{sg['n_folds_with_both_states']} "
+          f"folds that contain both states</strong> — the other "
+          f"{sg['n_folds_total'] - sg['n_folds_with_both_states']} spent the whole "
+          f"test block in one regime and cannot produce a ratio — "
+          f"<strong>{sg['n_folds_ratio_above_1']} have a ratio above 1.0</strong>. "
+          f"Exact sign test <code>p = {sg['sign_test_p']:.5f}</code>; Wilcoxon on "
+          f"the log ratio <code>p = {sg['wilcoxon_log_ratio_p']:.2g}</code>; median "
+          f"{_fmt(sg['median_ratio'], 2)}× with a bootstrap 95% CI of "
+          f"{sg['median_95ci'][0]}–{sg['median_95ci'][1]}.</p>")
+        a('<div class="good">This is distribution-free, immune to the pooling '
+          "objection above, and immune to volatility clustering. It is the number "
+          "to defend under questioning. Note also that quoting a per-fold median "
+          f"alongside &ldquo;{sg['n_folds_total']} folds&rdquo; would be wrong — "
+          f"the median is over {sg['n_folds_with_both_states']}.</div>")
+
     # ---- transitions -----------------------------------------------------
     a("<h2>3 · Transition count and dwell discipline</h2>")
     a(f"<p>The raw state sequence flips {pf.get('raw_state_flips', '—')} times. "
@@ -302,6 +322,20 @@ def build_report(
         a(f"<p>Fisher exact, transitions vs all controls: "
           f"<code>p = {_fmt(p.get('fisher_p_all'), 4)}</code>; "
           f"vs clean controls: <code>p = {_fmt(p.get('fisher_p_clean'), 4)}</code>.</p>")
+
+        if referee and referee.get("placebo_interval"):
+            pi = referee["placebo_interval"]
+            lo, hi = pi["newcombe_95ci_pp_vs_clean"]
+            a('<div class="caveat"><strong>State this as an interval, not a '
+              "verdict.</strong> The difference is "
+              f"<strong>+{pi['difference_pp']}pp</strong>, with a Newcombe 95% "
+              f"interval of <strong>[{lo:.0f}, {hi:.0f}]pp</strong>. The data are "
+              "compatible with no difference and with a large one. A Jeffreys "
+              "posterior puts <strong>P(transitions &gt; controls) = "
+              f"{pi['posterior_prob_transition_higher']}</strong>. Saying the "
+              "explanations are &ldquo;not diagnostic&rdquo; would be an "
+              "affirmative claim of no-difference, and nothing here licenses "
+              "that. The comparison is unresolved.</div>")
 
         if power:
             obs = power.get("observed", {})
@@ -480,6 +514,32 @@ def build_report(
               f'<td class="num">{_fmt(d.get("mrr"), 3)}</td>'
               f'<td class="num">{_fmt(d.get("p_value"), 4)}</td></tr>')
         a("</tbody></table>")
+
+        if referee and referee.get("blind_match_hard_negatives"):
+            hn = referee["blind_match_hard_negatives"]
+            a("<h3>Against era-adjacent hard negatives</h3>")
+            a("<p>A sceptic can explain a high score against the full pool by "
+              "era-matching: adjacent fortnights share running stories, so the "
+              "matcher might only be recovering roughly <em>when</em>, not "
+              "<em>which</em> fortnight. Restricting each explanation to compete "
+              "only against its temporal neighbours removes that explanation.</p>")
+            a('<table><thead><tr><th>Candidate pool</th><th class="num">Correct</th>'
+              '<th class="num">Accuracy</th><th class="num">Chance</th>'
+              '<th class="num">p</th></tr></thead><tbody>')
+            for k, lbl in (("3_temporally_nearest", "3 temporally nearest windows"),
+                           ("5_temporally_nearest", "5 temporally nearest windows")):
+                d = hn.get(k)
+                if not isinstance(d, dict):
+                    continue
+                a(f'<tr><td>{lbl}</td>'
+                  f'<td class="num">{d["n_correct"]}/{d["n_scored"]}</td>'
+                  f'<td class="num">{100 * d["accuracy"]:.1f}%</td>'
+                  f'<td class="num">{100 * d["chance"]:.1f}%</td>'
+                  f'<td class="num">{d["binomial_p"]:.2g}</td></tr>')
+            a("</tbody></table>")
+            a('<div class="good">The signal survives every era-matched '
+              "restriction. That is stronger evidence than the headline number, "
+              "because era cannot account for it.</div>")
     else:
         a('<div class="missing">Awaiting narrative generation.</div>')
 
@@ -514,6 +574,37 @@ def build_report(
               f'<td class="num">{_fmt(d.get("uncited_rate"), 2)}</td>'
               f'<td class="num">{_fmt(d.get("fabricated_citation_rate"), 2)}</td></tr>')
         a("</tbody></table>")
+
+        if referee and referee.get("grounding_null"):
+            gn = referee["grounding_null"]
+            a("<h3>What that rate is measured against</h3>")
+            a("<p>A grounding rate means nothing without a floor — the obvious "
+              "objection is that lexical overlap at a lenient threshold is a "
+              "test everything passes. So the same claims were re-scored against "
+              "a <em>randomly chosen item from the same window</em>.</p>")
+            a('<table><thead><tr><th>Scored against</th>'
+              '<th class="num">Mean overlap</th><th class="num">Grounded</th>'
+              "</tr></thead><tbody>")
+            a(f'<tr class="total"><td>The item the claim actually cites</td>'
+              f'<td class="num">{gn["mean_overlap_cited"]:.3f}</td>'
+              f'<td class="num">{100 * gn["grounded_rate_cited"]:.1f}%</td></tr>')
+            a(f'<tr><td>A random item from the same window '
+              f'({gn["n_random_draws"]:,} draws)</td>'
+              f'<td class="num">{gn["mean_overlap_random_same_window"]:.3f}</td>'
+              f'<td class="num">{100 * gn["grounded_rate_random_same_window"]:.1f}%'
+              f"</td></tr>")
+            a("</tbody></table>")
+            a('<div class="good">A '
+              f'{gn["grounded_rate_cited"] / max(gn["grounded_rate_random_same_window"], 1e-9):.0f}× '
+              "separation between cited and random items from the same fortnight. "
+              "The objection does not hold: this is not a test everything passes."
+              "</div>")
+            a('<div class="caveat"><strong>What it still cannot see.</strong> The '
+              "tokeniser drops numerals, so a misquoted figure is invisible to it; "
+              "negation is invisible; and bag-of-words cannot tell "
+              "&ldquo;X caused Y&rdquo; from &ldquo;Y caused X&rdquo;. Grounding "
+              "establishes that a claim's content came from the item it cites, not "
+              "that the claim is correct.</div>")
     else:
         a('<div class="missing">Awaiting narrative generation.</div>')
 

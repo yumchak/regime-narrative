@@ -38,6 +38,7 @@ def main() -> None:
     narratives = _load("narrative_results.json")
     power = _load("placebo_power.json")
     retest = _load("retest_stability.json")
+    referee = _load("referee_stats.json")
 
     states = pd.read_csv(output_dir() / "oos_states.csv", index_col=0, parse_dates=True)
     transitions = regimes["seed_stability"]["transitions"]
@@ -76,7 +77,7 @@ def main() -> None:
     print("building report")
     out = build_report(
         regimes, news, ceiling, narratives,
-        power=power, retest=retest,
+        power=power, retest=retest, referee=referee,
         figures={"chart": chart, "dwell": dwell, "generalisation": gen},
         out_path=output_dir() / "report.html",
     )

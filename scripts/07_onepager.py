@@ -69,6 +69,7 @@ def main() -> None:
     D = _load("narrative_results.json") or {}
     P = _load("placebo_power.json") or {}
     T = _load("retest_stability.json") or {}
+    RF = _load("referee_stats.json") or {}
     if R is None:
         print("run scripts/01_regimes.py first")
         sys.exit(1)
@@ -105,6 +106,15 @@ def main() -> None:
 
     power_obs = P.get("power_at_observed_effect", {}).get("vs_clean_n13")
     gap_pp = P.get("observed", {}).get("gap_pp")
+    pi = RF.get("placebo_interval", {})
+    ci = pi.get("newcombe_95ci_pp_vs_clean", [None, None])
+    sg = RF.get("per_fold_sign_test", {})
+    gn = RF.get("grounding_null", {})
+    hn = RF.get("blind_match_hard_negatives", {}).get("3_temporally_nearest", {})
+    sg_ci = sg.get("median_95ci", [None, None])
+    sg_ci_txt = (f"{sg_ci[0]}–{sg_ci[1]}" if sg_ci and sg_ci[0] is not None else "—")
+    nikkei_fwd = next((g["ratio_forward"] for g in R["generalisation"]
+                       if g.get("index") == "nikkei"), None)
 
     t_rate = pb.get("transitions", {}).get("confident_rate")
     c_rate = pb.get("placebos_clean_stratum", {}).get("confident_rate")
@@ -135,10 +145,10 @@ against {100 * bm.get('chance', 0):.0f}% chance</b> (p&nbsp;&lt;&nbsp;0.0001),
 with <b>{100 * fa.get('grounding_rate', 0):.1f}% of {fa.get('n_claims', 0)} claims
 grounded in the source they cite and zero fabricated citations</b>. On
 era-matched non-transition dates the identical pipeline produced confident
-explanations <b>{100 * (c_rate or 0):.1f}%</b> of the time against
-{100 * (t_rate or 0):.0f}% on real transitions — a gap this study had only a
-<b>{100 * (power_obs or 0):.0f}% chance of detecting</b>. That is the honest
-limit of the method.
+explanations {100 * (c_rate or 0):.1f}% of the time against
+{100 * (t_rate or 0):.0f}% on real transitions: <b>+{pi.get('difference_pp')}pp,
+95% CI [{ci[0]:.0f}, {ci[1]:.0f}]pp</b>. That comparison is unresolved, and this
+design could not have resolved it. That is the honest limit of the method.
 </div>
 
 <div class="cols">
@@ -166,11 +176,19 @@ statistical results comes from the model, and it never moves a regime boundary.<
 <td class="n">{wf['per_fold_ratio_median']:.2f}×</td></tr>
 {gen_rows}
 </tbody></table>
-<p><b>Forward-20d</b> measures volatility that had not happened when the state was
-assigned — the HMM is fed <i>trailing</i> volatility, so the same-day figure is
-partly definitional and the forward one is the real claim. The <b>per-fold
-median</b> sits below the pooled figure because pooling mixes calm-era and
-crisis-era days; it is the conservative number.</p>
+<p><b>Forward-20d</b> measures volatility that had not happened when the state
+was assigned — the HMM is fed <i>trailing</i> volatility, so the same-day figure
+is partly definitional and the forward one is the real claim. Nikkei at
+{nikkei_fwd:.2f}× is close to nothing, and that is reported rather than left
+behind its more flattering same-day figure.</p>
+<div class="ok"><b>The strongest form of the separation result.</b> Of the
+{sg.get('n_folds_with_both_states')} folds that contain both states,
+<b>{sg.get('n_folds_ratio_above_1')} have a ratio above 1.0 — exact sign test
+p&nbsp;=&nbsp;{sg.get('sign_test_p', 0):.5f}</b>, median
+{sg.get('median_ratio', 0):.2f}× (95% CI {sg_ci_txt}).
+This is distribution-free and immune to the objection that the pooled
+{oos['ratio']:.2f}× mixes calm-era and crisis-era days. It is the number to
+defend.</div>
 
 <h2>Three corrections to the prior work</h2>
 <ul>
@@ -207,7 +225,10 @@ pinned by revision id.</div>
 supplied item; grounding is scored by lexical overlap, so the check itself has no
 world knowledge. <b>{100 * fa.get('grounding_rate', 0):.1f}% grounded,
 {100 * fa.get('fabricated_citation_rate', 0):.1f}% fabricated citations,
-{fa.get('n_claims', 0)} claims.</b> Splitting either side of the training cutoff
+{fa.get('n_claims', 0)} claims — against a
+{100 * gn.get('grounded_rate_random_same_window', 0):.1f}% floor</b> when the
+same claims are scored against a randomly chosen item from the same window
+({gn.get('n_random_draws', 0):,} draws). It is not a metric everything passes. Splitting either side of the training cutoff
 was abandoned: the post-cutoff arm holds three transitions, and reporting
 <i>n</i>=3 as a test is worse than not running it.</p>
 
@@ -236,12 +257,14 @@ predicted direction and <b>reproduces exactly on a full replicate run</b>
 confidence label; rates {T.get('confident_rate_run1_transitions')}&rarr;{T.get('confident_rate_run2_transitions')}
 and {T.get('confident_rate_run1_placebos')}&rarr;{T.get('confident_rate_run2_placebos')}),
 so it is stable rather than noisy — but this design could not have proven it.</div>
-<div class="ok"><b>What is established.</b> The explanations are specific to their
-window and faithful to their sources — including on business-and-economy text
-alone ({100 * bmb.get('accuracy', 0):.1f}% vs {100 * bmb.get('chance', 0):.1f}%
-chance, p&nbsp;=&nbsp;{bmb.get('p_value', float('nan')):.3f}). What is <i>not</i>
-established is that they are diagnostic of a regime change: the model finds a
-plausible story for an ordinary fortnight nearly as often.</div>
+<div class="ok"><b>What is established.</b> The explanations are specific to
+their window. A sceptic can explain {100 * bm.get('accuracy', 0):.0f}%-against-{100 * bm.get('chance', 0):.0f}%
+by era-matching — adjacent fortnights share running stories — so each explanation
+was re-scored against only its <b>three temporally nearest</b> windows:
+<b>{100 * hn.get('accuracy', 0):.1f}% against {100 * hn.get('chance', 0):.1f}% chance</b>.
+Era cannot explain that. What is <i>not</i> established is that the explanations
+are diagnostic of a regime change — the comparison above is unresolved, not
+settled either way.</div>
 
 <h2>Built with</h2>
 <p>Claude Code for development. <code>{D.get('model', 'claude-opus-5')}</code> via
