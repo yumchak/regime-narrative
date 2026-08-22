@@ -92,6 +92,8 @@ def main() -> None:
     bm = D.get("blind_match", {}).get("transitions_all_sections", {})
     fa = D.get("faithfulness", {}).get("all", {})
     sg = RF.get("per_fold_sign_test", {})
+    nikkei_fwd = next((g["ratio_forward"] for g in R["generalisation"]
+                       if g.get("index") == "nikkei"), float("nan"))
     gn = RF.get("grounding_null", {})
     hn = RF.get("blind_match_hard_negatives", {}).get("3_temporally_nearest", {})
     pi = RF.get("placebo_interval", {})
@@ -119,15 +121,13 @@ BSc Mathematics with Statistics, University of Bristol.</p>
 
 <div class="claim">
 <b>The claim.</b> A two-state HMM refitted inside every walk-forward fold
-separates SPY volatility regimes in {sg.get('n_folds_ratio_above_1')} of the
-{sg.get('n_folds_with_both_states')} folds containing both states (sign test
-<b>p&nbsp;=&nbsp;{sg.get('sign_test_p', 0):.5f}</b>). Reading only news published
-<i>before</i> each of {stab['n_stable_transitions']} transitions, a language model produced cited
-explanations that match back to their own fortnight
+separates SPY volatility regimes in <b>{sg.get('n_folds_ratio_above_1')} of {sg.get('n_folds_with_both_states')} folds</b>
+containing both states (sign test p&nbsp;=&nbsp;{sg.get('sign_test_p', 0):.5f}). Reading only news
+published <i>before</i> each of {stab['n_stable_transitions']} transitions, a language model produced
+cited explanations matching back to their own fortnight
 <b>{100 * hn.get('accuracy', 0):.0f}% of the time against {100 * hn.get('chance', 0):.0f}% chance</b>, with
-<b>{100 * fa.get('grounding_rate', 0):.1f}% of {fa.get('n_claims', 0)} claims grounded and zero fabricated
-citations</b>. Whether they are <i>diagnostic</i> of a regime change is
-unresolved: <b>+{pi.get('difference_pp')}pp over matched controls, 95% CI
+<b>{100 * fa.get('grounding_rate', 0):.1f}% of {fa.get('n_claims', 0)} claims grounded, zero fabricated</b>. Whether they
+are <i>diagnostic</i> is unresolved: <b>+{pi.get('difference_pp')}pp, 95% CI
 [{ci[0]:.0f},&nbsp;{ci[1]:.0f}]pp</b>.
 </div>
 
@@ -137,9 +137,7 @@ unresolved: <b>+{pi.get('difference_pp')}pp over matched controls, 95% CI
 <h2>Problem</h2>
 <p>A regime model tells you the market changed but not what happened, because it
 only ever sees returns. Its output is coloured bands a human interprets from
-memory &mdash; undocumented, unauditable, different for everyone who looks. For a
-platform running thirty portfolio managers, that is thirty private readings of
-one signal.</p>
+memory &mdash; undocumented, unauditable, different for everyone who looks.</p>
 
 <h2>Solution</h2>
 <p><b>The HMM decides <i>when</i> the regime changed; the language model only
@@ -147,26 +145,31 @@ describes <i>what was in the news</i> then.</b> No statistic comes from the
 language model. For each date the tool retrieves a 14-day window that
 <i>provably</i> closes on it, and returns an explanation whose every claim cites
 a supplied article.</p>
-<p>The reusable part is the <b>controls</b>, not the explanations. Anyone can ask
-a model what happened in March 2020; nobody can otherwise tell you whether the
-answer is specific to that window or boilerplate fitting any month. Point the
-tool at any regime model's dates and each explanation arrives with a blind-match
-score, a grounding rate, and a matched control arm.</p>
 
-<h2>Impact &amp; value</h2>
+<h2>Evidence the detector works</h2>
 <table>
 <tr><th>Stressed / calm volatility</th><th class="n">Same&#8209;day</th><th class="n">Forward&nbsp;20d</th></tr>
 <tr class="hi"><td>SPY <i>(fitted)</i></td><td class="n">{oos['ratio']:.2f}&times;</td><td class="n">{fwd['ratio']:.2f}&times;</td></tr>
 {gen_rows}
 </table>
-<p>A ratio of {oos['ratio']:.2f}&times; means the stressed state's daily moves are
-{oos['ratio']:.2f} times the size of the calm state's. <b>Same-day</b> is partly
-definitional &mdash; the HMM is fed trailing volatility, so it had better
-separate on it. <b>Forward-20d</b> measures volatility that had <i>not
-happened</i> when the state was assigned, and is the honest number. Nikkei at
-1.18&times; is close to nothing, and is reported as such. Within SPY the
-per-fold median is {sg.get('median_ratio', 0):.2f}&times;, below the pooled
-figure because pooling mixes calm and crisis years.</p>
+<p>{oos['ratio']:.2f}&times; means stressed days move {oos['ratio']:.2f} times as much as calm
+days. Same-day is partly definitional &mdash; the HMM is fed trailing volatility;
+<b>forward-20d</b> is volatility that had <i>not happened</i> when the state was
+assigned, and is the honest number. Nikkei at {nikkei_fwd:.2f}&times; is close to nothing
+and is reported as such.</p>
+
+<h2>Impact &amp; value</h2>
+<p>A desk with thirty portfolio managers gets thirty private readings of one
+regime chart. None is written down, none is auditable, and the reasoning leaves
+with whoever remembers that week. This replaces &ldquo;trust me, that band is the
+Greek referendum&rdquo; with a written explanation, citing dated sources,
+carrying a number that says how specific it is.</p>
+<p><b>The reusable asset is the controls, not the explanations.</b> Anyone can
+ask a model what happened in a given month; nobody can otherwise tell you
+whether the answer is specific to that fortnight or commentary fitting any
+month. Point this at any regime model's dates &mdash; any asset, any method
+&mdash; and each explanation returns with a blind-match score against chance, a
+grounding rate against a random-citation floor, and a matched control arm.</p>
 
 </div>
 <div class="col">
@@ -188,26 +191,28 @@ current Wikipedia day-page (peak {leak.get('max_pct_written_after_boundary')}%) 
 the boundary.</li>
 <li><b>Memorisation.</b> Dates stripped; every claim must cite; grounding scored
 lexically, so the check has no world knowledge.</li>
-<li><b>Placebo.</b> Era-matched controls, identical prompt and pipeline.</li>
+<li><b>Placebo.</b> Era-matched controls, identical prompt.</li>
 </ul>
 
-<h2>Reflections</h2>
-<p>The placebo arm went against me and is the result I would keep. Calling the
-explanations &ldquo;not diagnostic&rdquo; would be a no-difference claim that
-<i>p</i>&nbsp;=&nbsp;0.43 does not license. <b>Power at the observed gap is
-{pw:.2f}</b> &mdash; one chance in six of detecting the effect observed. The
-binding constraint is 20 transitions, not controls, so more placebos cannot fix
-it; pre-specifying volatility <i>onsets</i> would roughly triple it.</p>
-<div class="flag"><b>What replicates.</b> Re-run on <code>claude-sonnet-5</code>,
-blind matching is identical and grounding differs by 0.4pp &mdash; properties of
-having the news. The confidence label is not
-(&kappa;&nbsp;=&nbsp;{X.get('kappa_is_confident')}; Sonnet declined half as often), which is why
-blind matching is load-bearing and the self-report is a weak instrument.</div>
-<p><b>Given more time:</b> more transitions, not more controls. One leak stays
-open &mdash; the boundary is 23:59&nbsp;UTC and Wikipedia reports closes the same
-evening &mdash; though controls carry <i>more</i> of it than transitions, so it
-does not manufacture the gap.</p>
+<div class="flag"><b>The honest bound on that value.</b> The placebo arm says
+these explanations are not yet shown to be <i>diagnostic</i> of a regime change.
+So what this buys today is auditability, not signal generation: an undocumented
+interpretation becomes a documented one, with a figure attached saying how far
+to trust it. A smaller claim than the obvious one, and unlike the obvious one it
+is defensible.</div>
 
+<h2>Reflections</h2>
+<p><b>What worked:</b> writing the controls before generating anything,
+including the negative controls that prove the blind-match test can fail on
+boilerplate. Making the retrieval boundary structural rather than a convention.</p>
+<p><b>What I would change:</b> the placebo test was doomed by design &mdash;
+power at the observed gap is {pw:.2f}, and the binding constraint is
+{pb.get('transitions', {}).get('n', 20)} transitions, not the number of controls, so more placebos
+could never have helped. Pre-specifying volatility <i>onsets</i> at a shorter
+dwell threshold would roughly triple it. One leak also stays open: the boundary
+is 23:59&nbsp;UTC and Wikipedia reports the US close the same evening, though
+controls carry <i>more</i> of it than transitions, so it does not manufacture
+the result.</p>
 </div>
 </div>
 
