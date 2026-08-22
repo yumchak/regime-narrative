@@ -30,7 +30,17 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 warnings.filterwarnings("ignore")
 
+import base64
+
 from regime_narrative.config import output_dir
+
+
+def _img(name: str) -> str:
+    q = output_dir() / name
+    if not q.exists():
+        return ""
+    b = base64.b64encode(q.read_bytes()).decode("ascii")
+    return f'<img src="data:image/png;base64,{b}" alt="{q.stem}">'
 
 # Every size below is >= 11pt. The rule is a floor on *all* text, so captions
 # and table cells are bound by it too, not just body copy.
@@ -60,6 +70,9 @@ tr.hi td { font-weight: 600; border-top: 0.8pt solid #14202a; }
 ul { margin: 0 0 1.5mm; padding-left: 4mm; }
 li { margin: 0 0 0.5mm; }
 b { font-weight: 600; }
+img { width: 87%; height: auto; display: block; margin: 0.5mm auto 0.5mm; }
+figcaption { font-size: 11pt; color: #4a5763; margin: 0 0 1.5mm; }
+.wide { margin: 0 0 2mm; }
 .foot { margin-top: 2.5mm; padding-top: 1.2mm; border-top: 0.4pt solid #dbe2e8;
   font-size: 11pt; color: #4a5763; }
 """
@@ -131,88 +144,71 @@ are <i>diagnostic</i> is unresolved: <b>+{pi.get('difference_pp')}pp, 95% CI
 [{ci[0]:.0f},&nbsp;{ci[1]:.0f}]pp</b>.
 </div>
 
+<div class="wide">{_img("pipeline.png")}</div>
+
 <div class="cols">
 <div class="col">
 
-<h2>Problem</h2>
-<p>A regime model tells you the market changed but not what happened, because it
-only ever sees returns. Its output is coloured bands a human interprets from
-memory &mdash; undocumented, unauditable, different for everyone who looks.</p>
+<h2>Problem statement</h2>
+<p>A regime model tells you the market changed, not what happened &mdash; it only
+ever sees returns. So its output is coloured bands that a human interprets from
+memory. On a desk of thirty portfolio managers that is thirty private,
+unrecorded readings of one signal, and the reasoning leaves with whoever
+remembers the week.</p>
 
-<h2>Solution</h2>
-<p><b>The HMM decides <i>when</i> the regime changed; the language model only
-describes <i>what was in the news</i> then.</b> No statistic comes from the
-language model. For each date the tool retrieves a 14-day window that
-<i>provably</i> closes on it, and returns an explanation whose every claim cites
-a supplied article.</p>
+<h2>Solution overview</h2>
+<p>Above. A two-state HMM marks <i>when</i> the regime changed; a language model
+reading <i>only news published before that date</i> describes what was
+happening. The two never mix: no statistic comes from the model, and it never
+moves a regime boundary.</p>
+<p>The boundary is enforced by the type system &mdash; a window object refuses to
+construct if any item post-dates it. Pages are pinned to their revision id,
+because a mean of <b>{leak.get('mean_pct_written_after_boundary')}%</b> of a Wikipedia day-page as it
+stands today (peak {leak.get('max_pct_written_after_boundary')}%) was written <i>after</i> the day it
+describes. Fetching the live page feeds the model hindsight, invisibly.</p>
 
-<h2>Evidence the detector works</h2>
-<table>
-<tr><th>Stressed / calm volatility</th><th class="n">Same&#8209;day</th><th class="n">Forward&nbsp;20d</th></tr>
-<tr class="hi"><td>SPY <i>(fitted)</i></td><td class="n">{oos['ratio']:.2f}&times;</td><td class="n">{fwd['ratio']:.2f}&times;</td></tr>
-{gen_rows}
-</table>
-<p>{oos['ratio']:.2f}&times; means stressed days move {oos['ratio']:.2f} times as much as calm
-days. Same-day is partly definitional &mdash; the HMM is fed trailing volatility;
-<b>forward-20d</b> is volatility that had <i>not happened</i> when the state was
-assigned, and is the honest number. Nikkei at {nikkei_fwd:.2f}&times; is close to nothing
-and is reported as such.</p>
-
-<h2>Impact &amp; value</h2>
-<p>A desk with thirty portfolio managers gets thirty private readings of one
-regime chart. None is written down, none is auditable, and the reasoning leaves
-with whoever remembers that week. This replaces &ldquo;trust me, that band is the
-Greek referendum&rdquo; with a written explanation, citing dated sources,
-carrying a number that says how specific it is.</p>
-<p><b>The reusable asset is the controls, not the explanations.</b> Anyone can
-ask a model what happened in a given month; nobody can otherwise tell you
-whether the answer is specific to that fortnight or commentary fitting any
-month. Point this at any regime model's dates &mdash; any asset, any method
-&mdash; and each explanation returns with a blind-match score against chance, a
-grounding rate against a random-citation floor, and a matched control arm.</p>
+<h2>Use of AI</h2>
+<p><code>claude-opus-5</code> via the Anthropic Messages API &mdash; one call per
+window, effort high, output schema enforced server-side. Prompts live in
+version-controlled files with a dated iteration history, never inline strings;
+every call logs the model id, prompt hash and input hash, so any sentence in the
+results traces to the exact prompt and news window behind it. Built with Claude
+Code. Wikipedia MediaWiki API, yfinance, hmmlearn, scikit-learn, Streamlit.</p>
 
 </div>
 <div class="col">
 
-<h2>Use of AI</h2>
-<p><code>claude-opus-5</code> via the Anthropic Messages API &mdash; one call per
-window, effort high, schema enforced server-side. Prompts are version-controlled
-files with a dated iteration history, never inline strings; every call logs model
-id, prompt hash and input hash. Built with Claude Code. News via the
-revision-pinned Wikipedia MediaWiki API, prices via yfinance, statistics via
-hmmlearn and scikit-learn, tool in Streamlit.</p>
-
-<h2>Three controls</h2>
-<ul>
-<li><b>Hindsight.</b> A window object refuses to construct if any item post-dates
-it: {nsum.get('n_windows')} windows, {nsum.get('total_items', 0):,} items, zero survivors. Pages are
-pinned by revision id because a mean of <b>{leak.get('mean_pct_written_after_boundary')}%</b> of a
-current Wikipedia day-page (peak {leak.get('max_pct_written_after_boundary')}%) was written <i>after</i>
-the boundary.</li>
-<li><b>Memorisation.</b> Dates stripped; every claim must cite; grounding scored
-lexically, so the check has no world knowledge.</li>
-<li><b>Placebo.</b> Era-matched controls, identical prompt.</li>
-</ul>
-
-<div class="flag"><b>The honest bound on that value.</b> The placebo arm says
-these explanations are not yet shown to be <i>diagnostic</i> of a regime change.
-So what this buys today is auditability, not signal generation: an undocumented
-interpretation becomes a documented one, with a figure attached saying how far
-to trust it. A smaller claim than the obvious one, and unlike the obvious one it
-is defensible.</div>
+<h2>Impact &amp; value</h2>
+<p>It replaces &ldquo;trust me, that band is the Greek referendum&rdquo; with a
+written explanation citing dated sources &mdash; <b>and arriving with its own
+error bars</b>. Tested on {stab['n_stable_transitions']} detected transitions and {pb.get('placebos_all', {}).get('n', 40)} matched
+control dates:</p>
+<table>
+<tr><th>Does the narrator work?</th><th class="n">Result</th><th class="n">Against</th></tr>
+<tr><td>Matched back to its own fortnight</td><td class="n">{100 * hn.get('accuracy', 0):.0f}%</td><td class="n">{100 * hn.get('chance', 0):.0f}% chance</td></tr>
+<tr><td>Claims grounded in the item cited</td><td class="n">{100 * fa.get('grounding_rate', 0):.1f}%</td><td class="n">{100 * gn.get('grounded_rate_random_same_window', 0):.1f}% floor</td></tr>
+<tr><td>Fabricated citations</td><td class="n">0</td><td class="n">of {fa.get('n_claims', 0)}</td></tr>
+<tr class="hi"><td>Confident on <i>non</i>-events</td><td class="n">{100 * c_rate:.0f}%</td><td class="n">vs {100 * t_rate:.0f}%</td></tr>
+<tr><td>Repeated on a second model</td><td class="n">{100 * xrep.get('blind_match_accuracy', {}).get('claude-sonnet-5', 0):.0f}%</td><td class="n">identical</td></tr>
+</table>
+<p><b>The reusable asset is the controls, not the explanations.</b> Anyone can ask
+a model what happened in a month; nobody can otherwise say whether the answer is
+specific to it. Point this at any regime model's dates and every explanation
+returns with that table attached.</p>
 
 <h2>Reflections</h2>
-<p><b>What worked:</b> writing the controls before generating anything,
-including the negative controls that prove the blind-match test can fail on
-boilerplate. Making the retrieval boundary structural rather than a convention.</p>
-<p><b>What I would change:</b> the placebo test was doomed by design &mdash;
-power at the observed gap is {pw:.2f}, and the binding constraint is
-{pb.get('transitions', {}).get('n', 20)} transitions, not the number of controls, so more placebos
-could never have helped. Pre-specifying volatility <i>onsets</i> at a shorter
-dwell threshold would roughly triple it. One leak also stays open: the boundary
-is 23:59&nbsp;UTC and Wikipedia reports the US close the same evening, though
-controls carry <i>more</i> of it than transitions, so it does not manufacture
-the result.</p>
+<p><b>Row four is the finding.</b> The model explains an ordinary Tuesday almost
+as readily as a real transition. Calling that &ldquo;not diagnostic&rdquo; would
+be a no-difference claim <i>p</i>&nbsp;=&nbsp;0.43 does not license: it is
+<b>+{pi.get('difference_pp')}pp, 95% CI [{ci[0]:.0f},&nbsp;{ci[1]:.0f}]pp</b>, unresolved &mdash; power at that
+gap is only {pw:.2f}, and the constraint is {pb.get('transitions', {}).get('n', 20)} transitions, not controls, so
+more placebos could never have helped. <b>What this buys today is auditability,
+not signal generation.</b></p>
+<p><b>Next:</b> pre-specify volatility <i>onsets</i> rather than all transitions,
+which roughly triples the power. One leak stays open &mdash; the boundary is
+23:59&nbsp;UTC and Wikipedia reports the US close the same evening, though
+controls carry <i>more</i> of it than transitions.</p>
+
 </div>
 </div>
 
