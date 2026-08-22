@@ -1,0 +1,26 @@
+{
+  "window_id": "placebo_2017-12-22",
+  "kind": "placebo",
+  "boundary_date": "2017-12-22",
+  "driver_identified": true,
+  "confidence": "high",
+  "summary": "On the final day of the window, Bitcoin lost a third of its value within 24 hours, a sudden and severe single-day drawdown in a widely-traded asset. This kind of abrupt repricing is exactly the sort of event that a purely price/volatility-based statistical model would flag as a regime change.",
+  "mechanism": "A one-third intraday loss in a major, liquid, actively-traded asset produces an extreme spike in realized volatility and a large negative return shock, which is precisely the signature a price-and-volatility-only model is designed to detect as a change in market conditions.",
+  "claims": [
+    {
+      "claim": "Bitcoin lost a third of its value within a 24-hour period on Day 14, the day the model flagged.",
+      "item_ids": [
+        "09bd73e5bd1a67b1"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "09bd73e5bd1a67b1"
+  ],
+  "competing_explanation": "Other Day 14 items (Apple facing lawsuits over throttling older iPhones, Abbas rejecting a US peace plan, unclear coalition outcomes in unnamed elections, UK passport announcement) are politically or corporately notable but lack the direct, large-magnitude price/volatility signature that a statistical model monitoring only price and volatility data would react to; none of them describes a market-wide financial shock comparable to the Bitcoin crash.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"On the final day of the window, Bitcoin lost a third of its value within 24 hours, a sudden and severe single-day drawdown in a widely-traded asset. This kind of abrupt repricing is exactly the sort of event that a purely price/volatility-based statistical model would flag as a regime change.\",\"mechanism\":\"A one-third intraday loss in a major, liquid, actively-traded asset produces an extreme spike in realized volatility and a large negative return shock, which is precisely the signature a price-and-volatility-only model is designed to detect as a change in market conditions.\",\"claims\":[{\"claim\":\"Bitcoin lost a third of its value within a 24-hour period on Day 14, the day the model flagged.\",\"item_ids\":[\"09bd73e5bd1a67b1\"]}],\"primary_item_ids\":[\"09bd73e5bd1a67b1\"],\"competing_explanation\":\"Other Day 14 items (Apple facing lawsuits over throttling older iPhones, Abbas rejecting a US peace plan, unclear coalition outcomes in unnamed elections, UK passport announcement) are politically or corporately notable but lack the direct, large-magnitude price/volatility signature that a statistical model monitoring only price and volatility data would react to; none of them describes a market-wide financial shock comparable to the Bitcoin crash.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "5177ef0d9fe7248d"
+}

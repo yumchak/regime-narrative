@@ -1,0 +1,35 @@
+{
+  "window_id": "placebo_2019-04-22",
+  "kind": "placebo",
+  "boundary_date": "2019-04-22",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "On the flagged day, the United States announced it would demand that all countries stop purchasing Iranian oil or face sanctions, a direct move to cut off Iran's oil-based income. This is a clear geopolitical-economic policy action with immediate implications for global oil supply and pricing.",
+  "mechanism": "A threat to sanction any country still buying Iranian oil raises the prospect of a sudden supply-side shock to global crude markets, which would be expected to increase volatility in oil futures and related equities/currencies as traders price in supply disruption and retaliation risk.",
+  "claims": [
+    {
+      "claim": "The United States demanded that all countries cease purchasing oil from Iran by a set date or face sanctions, aiming to reduce Iran's income.",
+      "item_ids": [
+        "8ad7ffa7dc82c7a7"
+      ]
+    },
+    {
+      "claim": "In the days prior, several geopolitical flashpoints were also active, including an escalating military offensive in Libya and coordinated attacks in Saudi Arabia and Sri Lanka, contributing to a generally tense backdrop.",
+      "item_ids": [
+        "893656cab2bf1fc9",
+        "66a4078e85cf722c",
+        "015f29bb549157d2",
+        "a139ae41f6c34b15"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "8ad7ffa7dc82c7a7"
+  ],
+  "competing_explanation": "The volatility flag could instead reflect an accumulation of unrelated geopolitical stressors over the two weeks \u2014 the Libyan National Army's advance on Tripoli, the Sri Lankan attacks aftermath, and Saudi security incidents \u2014 rather than being attributable to a single event; the Iran oil ultimatum on the final day is the most market-specific and dateable candidate but the items do not show a direct market reaction to confirm causation.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"On the flagged day, the United States announced it would demand that all countries stop purchasing Iranian oil or face sanctions, a direct move to cut off Iran's oil-based income. This is a clear geopolitical-economic policy action with immediate implications for global oil supply and pricing.\", \"mechanism\": \"A threat to sanction any country still buying Iranian oil raises the prospect of a sudden supply-side shock to global crude markets, which would be expected to increase volatility in oil futures and related equities/currencies as traders price in supply disruption and retaliation risk.\", \"claims\": [{\"claim\": \"The United States demanded that all countries cease purchasing oil from Iran by a set date or face sanctions, aiming to reduce Iran's income.\", \"item_ids\": [\"8ad7ffa7dc82c7a7\"]}, {\"claim\": \"In the days prior, several geopolitical flashpoints were also active, including an escalating military offensive in Libya and coordinated attacks in Saudi Arabia and Sri Lanka, contributing to a generally tense backdrop.\", \"item_ids\": [\"893656cab2bf1fc9\", \"66a4078e85cf722c\", \"015f29bb549157d2\", \"a139ae41f6c34b15\"]}], \"primary_item_ids\": [\"8ad7ffa7dc82c7a7\"], \"competing_explanation\": \"The volatility flag could instead reflect an accumulation of unrelated geopolitical stressors over the two weeks \u2014 the Libyan National Army's advance on Tripoli, the Sri Lankan attacks aftermath, and Saudi security incidents \u2014 rather than being attributable to a single event; the Iran oil ultimatum on the final day is the most market-specific and dateable candidate but the items do not show a direct market reaction to confirm causation.\", \"insufficient_evidence_reason\": \"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "dc10de6fea00f3cd"
+}

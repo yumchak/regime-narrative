@@ -1,0 +1,57 @@
+{
+  "window_id": "placebo_2015-08-10",
+  "kind": "placebo",
+  "boundary_date": "2015-08-10",
+  "driver_identified": false,
+  "confidence": "none",
+  "summary": "",
+  "mechanism": "",
+  "claims": [
+    {
+      "claim": "The only sovereign/credit event in the window is Puerto Rico missing a scheduled $58 million payment on $72 billion of debt, with Moody's treating the commonwealth as in default; this occurs on Day 7, a week before the flag.",
+      "item_ids": [
+        "1342a134a1fa2f53"
+      ]
+    },
+    {
+      "claim": "The remaining business and economy items are idiosyncratic corporate or balance-sheet news: HSBC selling its Brazilian unit to Banco Bradesco for $5.2 billion, the UK government selling a 5.4% stake in Royal Bank of Scotland for GBP 2.1bn, and the Swiss National Bank reporting a CHF 50 billion first-half loss tied to the removal of the franc-euro peg.",
+      "item_ids": [
+        "bb7da46fa098738a",
+        "f682667a99116b86",
+        "5aef3f0a85b9c679"
+      ]
+    },
+    {
+      "claim": "One central bank action appears: a policy rate cut to 11% accompanied by a 1.5% fall in the ruble to 60.60 per dollar, a single-country move with no stated spillover.",
+      "item_ids": [
+        "af0aa5c8546e7a47"
+      ]
+    },
+    {
+      "claim": "The single business item dated on the flag day is a corporate reorganisation in which Google creates a holding company, Alphabet Inc., housing Google Inc. and other subsidiaries.",
+      "item_ids": [
+        "4e382db33657eea7"
+      ]
+    },
+    {
+      "claim": "The flag day is otherwise dominated by geographically dispersed, small-casualty security and disaster events: an armed attack on the US consulate in Istanbul with no fatalities, a stabbing killing two in Sweden, a suicide bombing killing at least five at Kabul airport, flood deaths in Myanmar, and a parliamentary speakership election in Australia.",
+      "item_ids": [
+        "972d34684003afd3",
+        "547b6b5a8bed2f50",
+        "a5396fac7ebde5b1",
+        "e449f2b1640039cc",
+        "e5daa081f39760e2"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "1342a134a1fa2f53",
+    "4e382db33657eea7"
+  ],
+  "competing_explanation": "The least weak candidate is the Puerto Rico default (1342a134a1fa2f53), a genuine credit event on $72 billion of obligations that could plausibly disturb a segment of the fixed-income market; the Alphabet restructuring (4e382db33657eea7) is the only flag-day business item and involves a very large listed issuer, so a single-name repricing story is conceivable. Neither is convincing: the default is a week before the flag and confined to one issuer's municipal debt, and a holding-company reorganisation changes no cash flows.",
+  "insufficient_evidence_reason": "The window contains no macro shock, no policy surprise from a major central bank, no systemic financial-sector event, and no conflict involving major economies or commodity supply. The content is overwhelmingly local crime, aviation and weather disasters, insurgent attacks in Nigeria, Turkey, Afghanistan and Yemen, and the MH370 debris identification - none of which have a plausible transmission channel into broad price or volatility regimes. The economic items are idiosyncratic and mutually unrelated, and the only item on the flag day itself with market relevance is a corporate holding-company reorganisation that alters no fundamentals. On this evidence the flag is better read as noise or as driven by information not present in these items.",
+  "raw_response": "{\"driver_identified\": false, \"confidence\": \"none\", \"summary\": \"\", \"mechanism\": \"\", \"claims\": [{\"claim\": \"The only sovereign/credit event in the window is Puerto Rico missing a scheduled $58 million payment on $72 billion of debt, with Moody's treating the commonwealth as in default; this occurs on Day 7, a week before the flag.\", \"item_ids\": [\"1342a134a1fa2f53\"]}, {\"claim\": \"The remaining business and economy items are idiosyncratic corporate or balance-sheet news: HSBC selling its Brazilian unit to Banco Bradesco for $5.2 billion, the UK government selling a 5.4% stake in Royal Bank of Scotland for GBP 2.1bn, and the Swiss National Bank reporting a CHF 50 billion first-half loss tied to the removal of the franc-euro peg.\", \"item_ids\": [\"bb7da46fa098738a\", \"f682667a99116b86\", \"5aef3f0a85b9c679\"]}, {\"claim\": \"One central bank action appears: a policy rate cut to 11% accompanied by a 1.5% fall in the ruble to 60.60 per dollar, a single-country move with no stated spillover.\", \"item_ids\": [\"af0aa5c8546e7a47\"]}, {\"claim\": \"The single business item dated on the flag day is a corporate reorganisation in which Google creates a holding company, Alphabet Inc., housing Google Inc. and other subsidiaries.\", \"item_ids\": [\"4e382db33657eea7\"]}, {\"claim\": \"The flag day is otherwise dominated by geographically dispersed, small-casualty security and disaster events: an armed attack on the US consulate in Istanbul with no fatalities, a stabbing killing two in Sweden, a suicide bombing killing at least five at Kabul airport, flood deaths in Myanmar, and a parliamentary speakership election in Australia.\", \"item_ids\": [\"972d34684003afd3\", \"547b6b5a8bed2f50\", \"a5396fac7ebde5b1\", \"e449f2b1640039cc\", \"e5daa081f39760e2\"]}], \"primary_item_ids\": [\"1342a134a1fa2f53\", \"4e382db33657eea7\"], \"competing_explanation\": \"The least weak candidate is the Puerto Rico default (1342a134a1fa2f53), a genuine credit event on $72 billion of obligations that could plausibly disturb a segment of the fixed-income market; the Alphabet restructuring (4e382db33657eea7) is the only flag-day business item and involves a very large listed issuer, so a single-name repricing story is conceivable. Neither is convincing: the default is a week before the flag and confined to one issuer's municipal debt, and a holding-company reorganisation changes no cash flows.\", \"insufficient_evidence_reason\": \"The window contains no macro shock, no policy surprise from a major central bank, no systemic financial-sector event, and no conflict involving major economies or commodity supply. The content is overwhelmingly local crime, aviation and weather disasters, insurgent attacks in Nigeria, Turkey, Afghanistan and Yemen, and the MH370 debris identification - none of which have a plausible transmission channel into broad price or volatility regimes. The economic items are idiosyncratic and mutually unrelated, and the only item on the flag day itself with market relevance is a corporate holding-company reorganisation that alters no fundamentals. On this evidence the flag is better read as noise or as driven by information not present in these items.\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "21dd5294717b4462"
+}

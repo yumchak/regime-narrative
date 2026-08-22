@@ -1,0 +1,67 @@
+{
+  "window_id": "placebo_2018-07-20",
+  "kind": "placebo",
+  "boundary_date": "2018-07-20",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The clearest macro-relevant development in the window is the US Trade Representative publishing a list of roughly $200 billion of Chinese goods slated for a further round of tariffs, a direct escalation of trade conflict between the world's two largest economies. Secondary political-risk items \u2014 the resignation of the UK Brexit secretary amid negotiation disagreements, and a US-Russia leaders' summit accompanied by US charges against a Russian national for acting as an unregistered agent \u2014 add to a window unusually dense in cross-border policy uncertainty. No item dated on or immediately before the flag day is itself market-significant, so any regime change would have to reflect the cumulative repricing of these earlier shocks.",
+  "mechanism": "A large announced tariff list forces markets to re-estimate the distribution of future trade costs, corporate margins and retaliation paths, which typically widens the dispersion of equity and FX outcomes; simultaneous political stress in the UK government and in US-Russia relations compounds headline-driven repricing.",
+  "claims": [
+    {
+      "claim": "The Office of the United States Trade Representative published a list of approximately $200 billion of Chinese goods to be covered by its next round of tariffs.",
+      "item_ids": [
+        "a7e26462bb9c4315"
+      ]
+    },
+    {
+      "claim": "The UK Secretary of State for Exiting the European Union resigned over disagreements with the Prime Minister on Brexit negotiations.",
+      "item_ids": [
+        "22435694fd3c7f3b"
+      ]
+    },
+    {
+      "claim": "The US and Russian presidents met in Helsinki, and on the same day the US government charged a Russian national with conspiracy to act as an agent of the Russian government.",
+      "item_ids": [
+        "ca1b24112ea33145",
+        "cb1ac7cc1b56d028"
+      ]
+    },
+    {
+      "claim": "The US president visited the UK amid widespread protests during the window.",
+      "item_ids": [
+        "ca9a8817b88a19a8"
+      ]
+    },
+    {
+      "claim": "Iran began operating a facility capable of producing rotors for up to 60 centrifuges per day.",
+      "item_ids": [
+        "ba968a5b06f79fcd"
+      ]
+    },
+    {
+      "claim": "Talks between North Korea and the US Secretary of State were publicly characterised by North Korean state media as 'regrettable' and involving 'gangster-like' demands.",
+      "item_ids": [
+        "dd2b38b517f3da3d"
+      ]
+    },
+    {
+      "claim": "The items falling on the final two days of the window concern a South Korean former president's sentencing, a stabbing on a bus in Germany, and a protest in Tehran over compensation policy \u2014 none with evident direct market significance.",
+      "item_ids": [
+        "79f21e117bb16604",
+        "976dcb14836f422b",
+        "a83025eeb6cfb03c"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "a7e26462bb9c4315",
+    "22435694fd3c7f3b",
+    "ca1b24112ea33145"
+  ],
+  "competing_explanation": "The model may simply have flagged noise: the overwhelming majority of items are disasters, sports results, crime and science stories with no financial content, and the two most market-relevant items (the tariff list on Day 4 and the Helsinki summit on Day 10) both precede the flag day by several days, with nothing on Days 13-14 to trigger a fresh repricing. A second reading is that Brexit political instability, rather than trade policy, is the operative channel.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The clearest macro-relevant development in the window is the US Trade Representative publishing a list of roughly $200 billion of Chinese goods slated for a further round of tariffs, a direct escalation of trade conflict between the world's two largest economies. Secondary political-risk items \u2014 the resignation of the UK Brexit secretary amid negotiation disagreements, and a US-Russia leaders' summit accompanied by US charges against a Russian national for acting as an unregistered agent \u2014 add to a window unusually dense in cross-border policy uncertainty. No item dated on or immediately before the flag day is itself market-significant, so any regime change would have to reflect the cumulative repricing of these earlier shocks.\",\"mechanism\":\"A large announced tariff list forces markets to re-estimate the distribution of future trade costs, corporate margins and retaliation paths, which typically widens the dispersion of equity and FX outcomes; simultaneous political stress in the UK government and in US-Russia relations compounds headline-driven repricing.\",\"claims\":[{\"claim\":\"The Office of the United States Trade Representative published a list of approximately $200 billion of Chinese goods to be covered by its next round of tariffs.\",\"item_ids\":[\"a7e26462bb9c4315\"]},{\"claim\":\"The UK Secretary of State for Exiting the European Union resigned over disagreements with the Prime Minister on Brexit negotiations.\",\"item_ids\":[\"22435694fd3c7f3b\"]},{\"claim\":\"The US and Russian presidents met in Helsinki, and on the same day the US government charged a Russian national with conspiracy to act as an agent of the Russian government.\",\"item_ids\":[\"ca1b24112ea33145\",\"cb1ac7cc1b56d028\"]},{\"claim\":\"The US president visited the UK amid widespread protests during the window.\",\"item_ids\":[\"ca9a8817b88a19a8\"]},{\"claim\":\"Iran began operating a facility capable of producing rotors for up to 60 centrifuges per day.\",\"item_ids\":[\"ba968a5b06f79fcd\"]},{\"claim\":\"Talks between North Korea and the US Secretary of State were publicly characterised by North Korean state media as 'regrettable' and involving 'gangster-like' demands.\",\"item_ids\":[\"dd2b38b517f3da3d\"]},{\"claim\":\"The items falling on the final two days of the window concern a South Korean former president's sentencing, a stabbing on a bus in Germany, and a protest in Tehran over compensation policy \u2014 none with evident direct market significance.\",\"item_ids\":[\"79f21e117bb16604\",\"976dcb14836f422b\",\"a83025eeb6cfb03c\"]}],\"primary_item_ids\":[\"a7e26462bb9c4315\",\"22435694fd3c7f3b\",\"ca1b24112ea33145\"],\"competing_explanation\":\"The model may simply have flagged noise: the overwhelming majority of items are disasters, sports results, crime and science stories with no financial content, and the two most market-relevant items (the tariff list on Day 4 and the Helsinki summit on Day 10) both precede the flag day by several days, with nothing on Days 13-14 to trigger a fresh repricing. A second reading is that Brexit political instability, rather than trade policy, is the operative channel.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "cf20607ef9f39a6b"
+}

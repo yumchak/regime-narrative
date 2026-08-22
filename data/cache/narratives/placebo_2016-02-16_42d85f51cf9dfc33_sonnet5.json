@@ -1,0 +1,70 @@
+{
+  "window_id": "placebo_2016-02-16",
+  "kind": "placebo",
+  "boundary_date": "2016-02-16",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "Over the window, geopolitical risk escalated on two parallel fronts: North Korea's long-range rocket launch drew Japanese and South Korean alerts, UN Security Council condemnation, Chinese backing for punitive measures, and North Korea's retaliatory freeze of South Korean assets at Kaesong; simultaneously the Syrian civil war intensified with Russian airstrikes on Aleppo, a Saudi troop deployment to Turkey's Incirlik base ahead of a possible ground invasion, Turkish shelling of Kurdish positions, and explicit 'new Cold War' rhetoric between NATO and Russia at the Munich Security Conference. These threads compounded across nearly the entire 14-day window and culminated in direct Turkey-Russia accusations of terrorism just before the flagged day.",
+  "mechanism": "Escalating state-to-state military tensions (Korea) combined with a widening proxy conflict involving NATO member Turkey, Russia, and Gulf states raises perceived tail risk of a broader regional or great-power confrontation, which typically elevates risk premia and volatility across equities, currencies, and safe-haven assets even without a single discrete shock.",
+  "claims": [
+    {
+      "claim": "North Korea's planned rocket launch prompted Japan to put its military on alert and South Korea to warn of 'searing consequences'.",
+      "item_ids": [
+        "953913d130519bd1",
+        "e81fab9ba99e9b50"
+      ]
+    },
+    {
+      "claim": "North Korea's rocket launch passed over Japanese territory and was condemned by the UN Security Council as a violation of resolutions.",
+      "item_ids": [
+        "cf50df830539753c",
+        "0a47e88740069845"
+      ]
+    },
+    {
+      "claim": "China announced it would back a UN resolution to make North Korea 'pay the necessary price', while North Korea retaliated by freezing South Korean assets at the Kaesong Industrial Park and cutting associated water and electricity.",
+      "item_ids": [
+        "656b379a2bbfcafc",
+        "d4c1e690c0e44fd3",
+        "7f02462663b53d2d"
+      ]
+    },
+    {
+      "claim": "Russian airstrikes on rebel-held Aleppo killed civilians as the Syrian Army broke a rebel siege in the northwest.",
+      "item_ids": [
+        "a364a5b94e07ec3c",
+        "69ae1401be138b56"
+      ]
+    },
+    {
+      "claim": "Saudi Arabia began deploying troops and jets to Turkey's Incirlik base ahead of a possible ground invasion of Syria, while Turkey shelled Kurdish-held positions in northern Syria.",
+      "item_ids": [
+        "57dc064368dea0db",
+        "62c604b7fbd3cb6c"
+      ]
+    },
+    {
+      "claim": "At the Munich Security Conference, NATO's Secretary-General and Russia's Prime Minister traded warnings about a 'new Cold War', with Russia rejecting accusations of bombing civilians in Syria.",
+      "item_ids": [
+        "cfff5dc077c661f8"
+      ]
+    },
+    {
+      "claim": "Turkey's Prime Minister accused Russia of acting as a 'terrorist organization' in Syria just before the flagged day.",
+      "item_ids": [
+        "29c394138f8782ec"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "cfff5dc077c661f8",
+    "57dc064368dea0db",
+    "0a47e88740069845"
+  ],
+  "competing_explanation": "The window also contains a major, rapidly worsening natural disaster (the Taiwan earthquake, with the death toll climbing from 14 to over 100 across multiple days) and a wave of unrelated domestic political and crime stories (US primaries, Malheur standoff, Olmert's imprisonment); it is possible the flagged volatility reflects idiosyncratic regional shocks (e.g., Taiwan) rather than a coherent geopolitical risk narrative, and no single item here is unambiguously a global market-moving headline like a central bank decision or major corporate default.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"Over the window, geopolitical risk escalated on two parallel fronts: North Korea's long-range rocket launch drew Japanese and South Korean alerts, UN Security Council condemnation, Chinese backing for punitive measures, and North Korea's retaliatory freeze of South Korean assets at Kaesong; simultaneously the Syrian civil war intensified with Russian airstrikes on Aleppo, a Saudi troop deployment to Turkey's Incirlik base ahead of a possible ground invasion, Turkish shelling of Kurdish positions, and explicit 'new Cold War' rhetoric between NATO and Russia at the Munich Security Conference. These threads compounded across nearly the entire 14-day window and culminated in direct Turkey-Russia accusations of terrorism just before the flagged day.\", \"mechanism\": \"Escalating state-to-state military tensions (Korea) combined with a widening proxy conflict involving NATO member Turkey, Russia, and Gulf states raises perceived tail risk of a broader regional or great-power confrontation, which typically elevates risk premia and volatility across equities, currencies, and safe-haven assets even without a single discrete shock.\", \"claims\": [{\"claim\": \"North Korea's planned rocket launch prompted Japan to put its military on alert and South Korea to warn of 'searing consequences'.\", \"item_ids\": [\"953913d130519bd1\", \"e81fab9ba99e9b50\"]}, {\"claim\": \"North Korea's rocket launch passed over Japanese territory and was condemned by the UN Security Council as a violation of resolutions.\", \"item_ids\": [\"cf50df830539753c\", \"0a47e88740069845\"]}, {\"claim\": \"China announced it would back a UN resolution to make North Korea 'pay the necessary price', while North Korea retaliated by freezing South Korean assets at the Kaesong Industrial Park and cutting associated water and electricity.\", \"item_ids\": [\"656b379a2bbfcafc\", \"d4c1e690c0e44fd3\", \"7f02462663b53d2d\"]}, {\"claim\": \"Russian airstrikes on rebel-held Aleppo killed civilians as the Syrian Army broke a rebel siege in the northwest.\", \"item_ids\": [\"a364a5b94e07ec3c\", \"69ae1401be138b56\"]}, {\"claim\": \"Saudi Arabia began deploying troops and jets to Turkey's Incirlik base ahead of a possible ground invasion of Syria, while Turkey shelled Kurdish-held positions in northern Syria.\", \"item_ids\": [\"57dc064368dea0db\", \"62c604b7fbd3cb6c\"]}, {\"claim\": \"At the Munich Security Conference, NATO's Secretary-General and Russia's Prime Minister traded warnings about a 'new Cold War', with Russia rejecting accusations of bombing civilians in Syria.\", \"item_ids\": [\"cfff5dc077c661f8\"]}, {\"claim\": \"Turkey's Prime Minister accused Russia of acting as a 'terrorist organization' in Syria just before the flagged day.\", \"item_ids\": [\"29c394138f8782ec\"]}], \"primary_item_ids\": [\"cfff5dc077c661f8\", \"57dc064368dea0db\", \"0a47e88740069845\"], \"competing_explanation\": \"The window also contains a major, rapidly worsening natural disaster (the Taiwan earthquake, with the death toll climbing from 14 to over 100 across multiple days) and a wave of unrelated domestic political and crime stories (US primaries, Malheur standoff, Olmert's imprisonment); it is possible the flagged volatility reflects idiosyncratic regional shocks (e.g., Taiwan) rather than a coherent geopolitical risk narrative, and no single item here is unambiguously a global market-moving headline like a central bank decision or major corporate default.\", \"insufficient_evidence_reason\": \"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "655e0b6578bc9524"
+}

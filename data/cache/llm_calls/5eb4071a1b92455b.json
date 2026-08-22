@@ -1,0 +1,21 @@
+{
+  "call_id": "5eb4071a1b92455b",
+  "timestamp_utc": "2026-08-22T07:51:08.333414+00:00",
+  "window_id": "placebo_2019-10-07",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2019-10-07",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "d99628fa51b30910",
+  "n_items_in_window": 89,
+  "input_chars": 24635,
+  "usage": {
+    "input_tokens": 11012,
+    "output_tokens": 1504
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"On Day 14, news broke that U.S. forces had begun withdrawing from northern Syria near the Turkish border, immediately followed by the U.S. expelling Turkey from the Combined Air Operations Centre and warnings from a former U.S. envoy about a potential ISIL resurgence among 60,000 SDF-held detainees. This came directly on the heels of Turkish President Erdo\u011fan's threat two days earlier to invade SDF-held areas in Syria \\\"today or tomorrow,\\\" raising the prospect of an imminent military incursion and regional destabilization.\", \"mechanism\": \"A sudden U.S. troop withdrawal opening the door to a Turkish military offensive against the Kurdish-led SDF introduces acute geopolitical risk (regional war, refugee flows, potential ISIL resurgence, and strain on the NATO-Turkey relationship), which can trigger risk-off moves in equities, currencies (notably the Turkish lira), and oil prices, and thus show up as a volatility spike in price data.\", \"claims\": [{\"claim\": \"The Kurdish-led SDF and Turkey reported that the U.S. began withdrawing troops from Syrian border areas, with a Trump loyalist senator calling it a win for Iran and Assad, and a former envoy warning of ISIL resurgence risk from detainees.\", \"item_ids\": [\"52014c6e2f43a707\"]}, {\"claim\": \"The U.S. Department of Defense expelled Turkey from the Combined Air Operations Centre, cutting off Turkish access to surveillance on SDF positions, as U.S. forces began withdrawing.\", \"item_ids\": [\"e4a8d8bed1b3e1bf\"]}, {\"claim\": \"Two days prior, Turkish President Erdo\u011fan had threatened to invade SDF-held areas of northern Syria imminently, dismissing the existing U.S.-Turkish buffer zone patrol arrangement.\", \"item_ids\": [\"ea191e8bd5f9a228\"]}], \"primary_item_ids\": [\"52014c6e2f43a707\", \"e4a8d8bed1b3e1bf\", \"ea191e8bd5f9a228\"], \"competing_explanation\": \"An escalating U.S. political crisis was also unfolding in parallel: a formal impeachment inquiry into President Trump was launched on Day 1 over a Ukraine phone call, with a special envoy resigning (Day 4), an inspector general seeking an urgent Ukraine briefing (Day 8), and Trump's personal lawyer hiring a Watergate-era defense attorney (Day 8). This sustained political uncertainty around the U.S. presidency could independently account for elevated market volatility rather than the Syria developments.\", \"insufficient_evidence_reason\": \"\"}"
+}

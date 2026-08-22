@@ -1,0 +1,49 @@
+{
+  "window_id": "placebo_2019-02-15",
+  "kind": "placebo",
+  "boundary_date": "2019-02-15",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The most market-relevant development close to the flagged day is the large suicide bombing that killed at least 46 Indian security force members in Jammu and Kashmir on Day 13, an attack claimed as one of the deadliest against Indian forces in the region. This occurred amid an already escalating set of geopolitical flashpoints, including a deepening Venezuela crisis (border blockade, threats of U.S. military involvement, arms-smuggling accusations) and Russia's suspension of the INF Treaty with plans to build new missiles.",
+  "mechanism": "A mass-casualty attack on Indian security forces in a disputed, nuclear-armed border region raises the probability of military retaliation and India-Pakistan escalation, which would be priced into regional equity indices, currency (INR), and defense-related assets as a jump in geopolitical risk premium and volatility; the Venezuela and Russia items add compounding geopolitical uncertainty that could independently or jointly lift broad risk aversion.",
+  "claims": [
+    {
+      "claim": "A suicide bomber killed at least 46 Indian security force members in a convoy attack in Jammu and Kashmir on Day 13.",
+      "item_ids": [
+        "f90ed000b83eb552"
+      ]
+    },
+    {
+      "claim": "Venezuela's crisis escalated with the government blocking a border bridge to prevent humanitarian aid and the opposition leader not ruling out seeking U.S. military help.",
+      "item_ids": [
+        "f603c1f6b87eb950",
+        "73cc3ddac36daf0d",
+        "aac58a55f4514aaa"
+      ]
+    },
+    {
+      "claim": "Russia suspended participation in the INF Treaty and announced plans to develop new missiles in response to the U.S. withdrawal.",
+      "item_ids": [
+        "c717e819dbcc07fc"
+      ]
+    },
+    {
+      "claim": "On Day 14, North Korean officials arrived in Beijing ahead of a second Trump-Kim summit, and Spain's Prime Minister called a snap election, among other political developments.",
+      "item_ids": [
+        "50888d28a0ccc905",
+        "87f0a4e3d5a4798f"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "f90ed000b83eb552",
+    "f603c1f6b87eb950",
+    "c717e819dbcc07fc"
+  ],
+  "competing_explanation": "The escalating Venezuela crisis (border blockade, arms-smuggling accusations, talk of U.S. military intervention) could independently be read as the dominant geopolitical risk driver given its direct relevance to oil markets and U.S. foreign policy, rather than the Kashmir attack.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"The most market-relevant development close to the flagged day is the large suicide bombing that killed at least 46 Indian security force members in Jammu and Kashmir on Day 13, an attack claimed as one of the deadliest against Indian forces in the region. This occurred amid an already escalating set of geopolitical flashpoints, including a deepening Venezuela crisis (border blockade, threats of U.S. military involvement, arms-smuggling accusations) and Russia's suspension of the INF Treaty with plans to build new missiles.\", \"mechanism\": \"A mass-casualty attack on Indian security forces in a disputed, nuclear-armed border region raises the probability of military retaliation and India-Pakistan escalation, which would be priced into regional equity indices, currency (INR), and defense-related assets as a jump in geopolitical risk premium and volatility; the Venezuela and Russia items add compounding geopolitical uncertainty that could independently or jointly lift broad risk aversion.\", \"claims\": [{\"claim\": \"A suicide bomber killed at least 46 Indian security force members in a convoy attack in Jammu and Kashmir on Day 13.\", \"item_ids\": [\"f90ed000b83eb552\"]}, {\"claim\": \"Venezuela's crisis escalated with the government blocking a border bridge to prevent humanitarian aid and the opposition leader not ruling out seeking U.S. military help.\", \"item_ids\": [\"f603c1f6b87eb950\", \"73cc3ddac36daf0d\", \"aac58a55f4514aaa\"]}, {\"claim\": \"Russia suspended participation in the INF Treaty and announced plans to develop new missiles in response to the U.S. withdrawal.\", \"item_ids\": [\"c717e819dbcc07fc\"]}, {\"claim\": \"On Day 14, North Korean officials arrived in Beijing ahead of a second Trump-Kim summit, and Spain's Prime Minister called a snap election, among other political developments.\", \"item_ids\": [\"50888d28a0ccc905\", \"87f0a4e3d5a4798f\"]}], \"primary_item_ids\": [\"f90ed000b83eb552\", \"f603c1f6b87eb950\", \"c717e819dbcc07fc\"], \"competing_explanation\": \"The escalating Venezuela crisis (border blockade, arms-smuggling accusations, talk of U.S. military intervention) could independently be read as the dominant geopolitical risk driver given its direct relevance to oil markets and U.S. foreign policy, rather than the Kashmir attack.\", \"insufficient_evidence_reason\": \"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "1dd10ed5b358f968"
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "d7f15749e65969c0",
+  "timestamp_utc": "2026-08-22T07:33:49.104747+00:00",
+  "window_id": "transition_2015-06-29",
+  "kind": "transition",
+  "run_label": "sonnet5",
+  "boundary_date": "2015-06-29",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "2de5128686023dbd",
+  "n_items_in_window": 81,
+  "input_chars": 16000,
+  "usage": {
+    "input_tokens": 8058,
+    "output_tokens": 1579
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"Through the second week of the window, the Greek sovereign-debt crisis escalates sharply: emergency liquidity to Greek banks is raised amid steady deposit withdrawals, a senior Greek official warns parliament may reject creditor terms, Eurozone finance ministers then reject Greece's request to extend the negotiation deadline, and the Greek parliament approves a snap bailout referendum. Puerto Rico's governor separately declares the territory's debts 'not payable,' adding to sovereign-debt stress, while China's central bank cuts rates for a fourth straight time to prop up slowing growth.\", \"mechanism\": \"An unresolved Greek default/Grexit threat combined with a hard rejection of a negotiating extension and a referendum announcement creates acute uncertainty about Eurozone financial stability and bank solvency, which is a classic trigger for spikes in equity and currency volatility; concurrent sovereign-debt stress in Puerto Rico and monetary easing in China reinforce a global risk-off backdrop.\", \"claims\": [{\"claim\": \"The ECB raised the cap on emergency liquidity assistance to Greek banks as withdrawals continued, with over 3 billion euros withdrawn recently.\", \"item_ids\": [\"bbb07c30847ce107\"]}, {\"claim\": \"A senior Greek parliamentary official warned that the government's concessions to creditors could be rejected by the body.\", \"item_ids\": [\"ef58e74f7285cc62\"]}, {\"claim\": \"Eurozone finance ministers rejected Greece's request to extend debt negotiations past a Tuesday deadline.\", \"item_ids\": [\"c0ebb271db7b3fd8\"]}, {\"claim\": \"The Greek parliament approved holding a referendum on a proposed bailout.\", \"item_ids\": [\"591c614b47257c7b\"]}, {\"claim\": \"Puerto Rico's governor stated the territory's debts were 'not payable.'\", \"item_ids\": [\"fe7b91204f243769\"]}, {\"claim\": \"China's central bank cut interest rates for a fourth consecutive time to stabilize growth.\", \"item_ids\": [\"73d93ac182c0be18\"]}], \"primary_item_ids\": [\"c0ebb271db7b3fd8\", \"591c614b47257c7b\", \"bbb07c30847ce107\"], \"competing_explanation\": \"A cluster of terrorism and mass-casualty attacks (Tunisia, Kuwait, France, Boko Haram, ISIL advances) also intensifies through the window and could independently unsettle markets via geopolitical risk premia, though these are less directly tied to financial-market mechanisms than the Greek/sovereign-debt developments.\", \"insufficient_evidence_reason\": \"\"}"
+}

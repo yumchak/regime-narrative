@@ -1,0 +1,21 @@
+{
+  "call_id": "a769a2b935a1f091",
+  "timestamp_utc": "2026-08-22T07:57:13.177193+00:00",
+  "window_id": "placebo_2026-07-28",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2026-07-28",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "20b3141a303eb251",
+  "n_items_in_window": 125,
+  "input_chars": 25014,
+  "usage": {
+    "input_tokens": 11681,
+    "output_tokens": 1957
+  },
+  "response_text": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The dominant thread across the window is an escalating U.S.-Iran military conflict centered on the Strait of Hormuz, with American strikes on Iranian targets, Iranian retaliatory missile and drone attacks on Bahrain, Jordan, Saudi Arabia and Gulf shipping, and disruption of tanker traffic. This coincided with a spike in oil prices and gasoline costs, and explicit central-bank tightening citing inflation risk from the 'Iran war,' alongside a parallel escalation in U.S. tariff actions against Canada and other trading partners.\",\"mechanism\":\"Military strikes threatening a key global oil transit chokepoint (Strait of Hormuz) combined with tanker seizures and rising oil/gasoline prices would directly raise volatility in energy and broader markets, while simultaneous new tariff announcements add trade-policy uncertainty that compounds risk repricing.\",\"claims\":[{\"claim\":\"U.S. CENTCOM conducted multiple consecutive nights of strikes against Iran, reaching a tenth round by Day 6, with American casualties rising to 18 by Day 7.\",\"item_ids\":[\"64235171f33c3cc3\",\"f6384f647e4f0857\",\"67d1f338f2abc457\"]},{\"claim\":\"Iran launched retaliatory ballistic missile and drone strikes against Bahrain, Jordan, and other Gulf states, and disrupted Kuwaiti airspace and flights.\",\"item_ids\":[\"312ac5ab64074eab\",\"5c3c620f49434d47\",\"73102467b7a0740d\",\"1e2f8441a5a87b10\"]},{\"claim\":\"Iran's IRGC Navy repeatedly stopped or prevented tankers from transiting the Strait of Hormuz over several days.\",\"item_ids\":[\"3e801cde491650b7\",\"30ffdbeb3d34c0d6\",\"d2d3c436c191b437\"]},{\"claim\":\"Oil and gasoline prices rose sharply amid the conflict, with Brent Crude and WTI both surging and U.S. gasoline prices climbing.\",\"item_ids\":[\"7fd7596ed25fb8be\"]},{\"claim\":\"Singapore's monetary authority tightened policy for the second time in three months, explicitly citing inflation risks caused by the Iran war.\",\"item_ids\":[\"fb4ca5962bf1e57c\"]},{\"claim\":\"The U.S. simultaneously escalated trade tensions, imposing 50% tariffs on many Canadian goods and broader tariffs on imports from dozens of trading partners.\",\"item_ids\":[\"f0b7dca9bfb09484\",\"e38ebf3271bfadd3\"]},{\"claim\":\"Saudi Arabia and Saudi-linked infrastructure came under drone/missile attack from Iran-backed forces, further threatening regional oil facilities.\",\"item_ids\":[\"90840f5b37be1f1f\",\"b2a4fc4f0e247d4c\"]}],\"primary_item_ids\":[\"7fd7596ed25fb8be\",\"fb4ca5962bf1e57c\",\"f6384f647e4f0857\",\"d2d3c436c191b437\"],\"competing_explanation\":\"An alternative or compounding driver is the separate U.S. trade war escalation (50% tariffs on Canada, tariffs on 60 trading partners, generic drug tariffs) which independently could unsettle markets regardless of the Iran conflict; the items do not make clear which factor dominated market pricing by Day 14.\",\"insufficient_evidence_reason\":\"\"}"
+}

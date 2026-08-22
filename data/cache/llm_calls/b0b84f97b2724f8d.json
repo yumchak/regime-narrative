@@ -1,0 +1,21 @@
+{
+  "call_id": "b0b84f97b2724f8d",
+  "timestamp_utc": "2026-08-22T07:37:27.443956+00:00",
+  "window_id": "transition_2019-03-01",
+  "kind": "transition",
+  "run_label": "sonnet5",
+  "boundary_date": "2019-03-01",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "f38f1d98ecd56247",
+  "n_items_in_window": 77,
+  "input_chars": 18230,
+  "usage": {
+    "input_tokens": 8906,
+    "output_tokens": 1530
+  },
+  "response_text": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"In the days immediately preceding the flagged date, two significant geopolitical shocks occurred in quick succession: an escalation between nuclear-armed India and Pakistan following an Indian airstrike inside Pakistani territory, and the abrupt, dealless collapse of the Trump-Kim Hanoi summit. Both represent unexpected breakdowns in high-stakes diplomatic/military situations that were being closely watched by markets.\", \"mechanism\":\"Escalation between two nuclear-armed states (India conducting a cross-border airstrike, Pakistan scrambling jets in response) raises tail-risk premia and can trigger safe-haven flows and equity volatility in the region and beyond; simultaneously, the failure of a high-profile US-North Korea summit removes an anticipated de-escalation catalyst, injecting uncertainty into risk assets tied to geopolitical stability.\", \"claims\":[{\"claim\":\"Pakistan reported Indian military aircraft crossed into its airspace and released a payload near Balakot, prompting Pakistan to scramble jets; India described this as a retaliatory airstrike on a militant camp following the earlier Pulwama attack.\",\"item_ids\":[\"53fe84eedaa9cc77\"]},{\"claim\":\"An earlier skirmish in Pulwama had already killed Indian soldiers and militants as authorities searched for suspects in a suicide attack that killed 40 Indian paramilitary police.\",\"item_ids\":[\"18548282137091ed\"]},{\"claim\":\"The Hanoi summit between Trump and Kim Jong-un ended earlier than scheduled with no deal reached on denuclearization or sanctions.\",\"item_ids\":[\"d601e7db502b12c6\"]},{\"claim\":\"The UN Security Council separately rejected competing US and Russian resolutions on the Venezuela crisis, reflecting continued major-power friction.\",\"item_ids\":[\"1662e07f7cfd5d88\"]}],\"primary_item_ids\":[\"53fe84eedaa9cc77\",\"d601e7db502b12c6\",\"18548282137091ed\"],\"competing_explanation\":\"The Venezuela crisis (closed borders, aid convoys clashing with security forces, broken diplomatic relations, failed UN resolutions) escalated steadily across nearly the entire window and could alone account for elevated risk sentiment, making it difficult to isolate a single dominant driver from the India-Pakistan and Hanoi events.\",\"insufficient_evidence_reason\":\"\"}"
+}

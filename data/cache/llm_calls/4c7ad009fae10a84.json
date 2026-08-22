@@ -1,0 +1,21 @@
+{
+  "call_id": "4c7ad009fae10a84",
+  "timestamp_utc": "2026-08-22T07:52:54.149523+00:00",
+  "window_id": "placebo_2021-02-18",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2021-02-18",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "a0aa1299ff4ffe55",
+  "n_items_in_window": 125,
+  "input_chars": 23606,
+  "usage": {
+    "input_tokens": 11143,
+    "output_tokens": 1742
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"The most plausible market-relevant development in the window is Winter Storm Uri, which caused mass power outages across the United States and at least 23 deaths just two days before the flagged date. Large-scale U.S. grid failures of this kind are the type of event that can disrupt energy production and distribution, which is a classic source of commodity and equity volatility.\", \"mechanism\": \"Severe winter storms that knock out power for millions of people, particularly in a major energy-producing region, can force shutdowns of refineries, natural gas processing, and oil production, disrupting supply chains and pricing in energy and related markets; the resulting uncertainty and physical disruption commonly shows up as a volatility spike in the days that follow.\", \"claims\": [{\"claim\": \"Winter Storm Uri killed at least 23 people and caused power outages for millions of people across the United States.\", \"item_ids\": [\"b972a7cef34bd95e\"]}, {\"claim\": \"The U.S. Senate passed a budget resolution as a step toward a $1.9 trillion stimulus package, a major fiscal policy development in the window.\", \"item_ids\": [\"6dc55b0ab0819739\"]}, {\"claim\": \"The IAEA confirmed Iran had produced uranium metal at Isfahan, a breach of the nuclear deal, introducing geopolitical risk relevant to energy markets.\", \"item_ids\": [\"6071a452a20e5cd1\"]}], \"primary_item_ids\": [\"b972a7cef34bd95e\", \"6dc55b0ab0819739\", \"6071a452a20e5cd1\"], \"competing_explanation\": \"The steady drumbeat of COVID-19 vaccine rollout and variant-detection news across nearly every day, combined with progress on the $1.9 trillion U.S. stimulus package, could alternatively explain shifting market sentiment through changing expectations about reopening timelines and fiscal support, rather than any single discrete shock.\", \"insufficient_evidence_reason\": \"\"}"
+}

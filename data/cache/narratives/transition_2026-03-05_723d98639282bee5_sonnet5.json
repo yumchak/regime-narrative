@@ -1,0 +1,66 @@
+{
+  "window_id": "transition_2026-03-05",
+  "kind": "transition",
+  "boundary_date": "2026-03-05",
+  "driver_identified": true,
+  "confidence": "high",
+  "summary": "An Israeli strike on Iran (Day 9) escalated rapidly into a broad regional war involving the US, with strikes on Iranian leadership, retaliatory Iranian missile and drone attacks across the Gulf, closures of airspace and stock exchanges, a suspension of shipping through the Strait of Hormuz, and direct attacks on US military bases. By Day 14 South Korea explicitly activated a large financial stabilization fund citing market volatility linked to the Iran war.",
+  "mechanism": "A major armed conflict between Israel/US and Iran disrupted oil-producing and transit regions (including threats to the Strait of Hormuz, a key oil chokepoint), closed airspace and stock exchanges, and drew in multiple states and their militaries, creating acute uncertainty over energy supply, shipping, and geopolitical stability that would be expected to sharply increase volatility in equity, commodity, and currency markets.",
+  "claims": [
+    {
+      "claim": "Israel launched a preemptive strike on Iran, killing several high-ranking officials including the supreme leader.",
+      "item_ids": [
+        "9525707c8e966476"
+      ]
+    },
+    {
+      "claim": "Iran and Israel/US exchanged strikes over multiple days, hitting targets including UAE airports, US embassies and bases, an Iranian frigate, and Iranian government buildings.",
+      "item_ids": [
+        "28fbb841267ec9fb",
+        "313c8ce6f307f1e4",
+        "49f1503a4c1959be",
+        "db3a869cc6e9123d",
+        "2368743467c8227f",
+        "bf2fc99b7d067ac5"
+      ]
+    },
+    {
+      "claim": "Maersk suspended all vessel transits through the Strait of Hormuz due to the conflict, and multiple Gulf states closed their airspace to civilian flights.",
+      "item_ids": [
+        "df02b0ba9ef0f159",
+        "bfc63198f51edae8"
+      ]
+    },
+    {
+      "claim": "UAE stock exchanges were paused for two days due to the Iranian strikes before resuming on Day 13.",
+      "item_ids": [
+        "067101c1fb8e65a7"
+      ]
+    },
+    {
+      "claim": "South Korea's president activated a roughly $68 billion stabilization fund explicitly to address financial market volatility linked to the Iran war.",
+      "item_ids": [
+        "ad3ec86586393da1"
+      ]
+    },
+    {
+      "claim": "By Day 14, Iran's foreign minister said Iran was not seeking a ceasefire, and further attacks on oil infrastructure and tankers near Kuwait were reported, indicating the conflict was ongoing and unresolved.",
+      "item_ids": [
+        "6a5bad6b8b8e93fd",
+        "eb6627f522631439",
+        "ac1f040e97c0379c"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "9525707c8e966476",
+    "df02b0ba9ef0f159",
+    "ad3ec86586393da1"
+  ],
+  "competing_explanation": "A competing reading is that the US tariff escalation (Day 2, raising global tariffs from 10% to 15% under emergency powers after a Supreme Court ruling) could independently drive volatility through trade policy uncertainty, but this event occurs well before Day 14 and lacks the scale and immediacy of the Iran war's direct disruption to oil markets and shipping.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"An Israeli strike on Iran (Day 9) escalated rapidly into a broad regional war involving the US, with strikes on Iranian leadership, retaliatory Iranian missile and drone attacks across the Gulf, closures of airspace and stock exchanges, a suspension of shipping through the Strait of Hormuz, and direct attacks on US military bases. By Day 14 South Korea explicitly activated a large financial stabilization fund citing market volatility linked to the Iran war.\",\"mechanism\":\"A major armed conflict between Israel/US and Iran disrupted oil-producing and transit regions (including threats to the Strait of Hormuz, a key oil chokepoint), closed airspace and stock exchanges, and drew in multiple states and their militaries, creating acute uncertainty over energy supply, shipping, and geopolitical stability that would be expected to sharply increase volatility in equity, commodity, and currency markets.\",\"claims\":[{\"claim\":\"Israel launched a preemptive strike on Iran, killing several high-ranking officials including the supreme leader.\",\"item_ids\":[\"9525707c8e966476\"]},{\"claim\":\"Iran and Israel/US exchanged strikes over multiple days, hitting targets including UAE airports, US embassies and bases, an Iranian frigate, and Iranian government buildings.\",\"item_ids\":[\"28fbb841267ec9fb\",\"313c8ce6f307f1e4\",\"49f1503a4c1959be\",\"db3a869cc6e9123d\",\"2368743467c8227f\",\"bf2fc99b7d067ac5\"]},{\"claim\":\"Maersk suspended all vessel transits through the Strait of Hormuz due to the conflict, and multiple Gulf states closed their airspace to civilian flights.\",\"item_ids\":[\"df02b0ba9ef0f159\",\"bfc63198f51edae8\"]},{\"claim\":\"UAE stock exchanges were paused for two days due to the Iranian strikes before resuming on Day 13.\",\"item_ids\":[\"067101c1fb8e65a7\"]},{\"claim\":\"South Korea's president activated a roughly $68 billion stabilization fund explicitly to address financial market volatility linked to the Iran war.\",\"item_ids\":[\"ad3ec86586393da1\"]},{\"claim\":\"By Day 14, Iran's foreign minister said Iran was not seeking a ceasefire, and further attacks on oil infrastructure and tankers near Kuwait were reported, indicating the conflict was ongoing and unresolved.\",\"item_ids\":[\"6a5bad6b8b8e93fd\",\"eb6627f522631439\",\"ac1f040e97c0379c\"]}],\"primary_item_ids\":[\"9525707c8e966476\",\"df02b0ba9ef0f159\",\"ad3ec86586393da1\"],\"competing_explanation\":\"A competing reading is that the US tariff escalation (Day 2, raising global tariffs from 10% to 15% under emergency powers after a Supreme Court ruling) could independently drive volatility through trade policy uncertainty, but this event occurs well before Day 14 and lacks the scale and immediacy of the Iran war's direct disruption to oil markets and shipping.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "6d97c68c787f6737"
+}

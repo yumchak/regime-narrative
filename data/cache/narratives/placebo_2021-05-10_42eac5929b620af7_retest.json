@@ -1,0 +1,88 @@
+{
+  "window_id": "placebo_2021-05-10",
+  "kind": "placebo",
+  "boundary_date": "2021-05-10",
+  "driver_identified": true,
+  "confidence": "high",
+  "summary": "The dominant candidate is the ransomware cyberattack on the Colonial Pipeline, the largest U.S. fuel pipeline, which carries 2.5 million barrels a day and roughly 45 percent of the East Coast's diesel, gasoline and jet fuel supply, and which prompted a presidential state of emergency on Day 13 \u2014 the day before the flag. A secondary, reinforcing energy-risk item appears on Day 14, when a U.S. Coast Guard cutter fired warning shots at Iranian fast-attack craft harassing U.S. warships in the Strait of Hormuz. Together these are the only items in the window with direct, immediate bearing on physically traded commodities and on a major piece of critical infrastructure.",
+  "mechanism": "An abrupt outage of the pipeline supplying nearly half of one region's refined-product demand forces rapid repricing of fuel spreads, regional gasoline and distillate contracts, and inventory expectations, while an emergency declaration signals the disruption is material rather than routine; a naval confrontation in the world's key crude chokepoint adds a geopolitical supply-risk premium on top, and both channels typically raise realised and implied volatility in energy and energy-sensitive equities.",
+  "claims": [
+    {
+      "claim": "A ransomware cyberattack shut in the Colonial Pipeline, described as the largest fuel pipeline in the U.S., transporting 2.5 million barrels a day and 45 percent of the East Coast's supply of diesel, gasoline and jet fuel.",
+      "item_ids": [
+        "e03775f03baedcd4"
+      ]
+    },
+    {
+      "claim": "The U.S. President declared a state of emergency in response to that attack, on the day before the flagged day.",
+      "item_ids": [
+        "e03775f03baedcd4"
+      ]
+    },
+    {
+      "claim": "On the flagged day, a U.S. Coast Guard cutter fired 30 warning shots at 13 Iranian Revolutionary Guard fast-attack craft harassing six U.S. Navy warships in the Strait of Hormuz.",
+      "item_ids": [
+        "dbd02e8c71931fc2"
+      ]
+    },
+    {
+      "claim": "On the flagged day the World Health Organization designated the B.1.617 lineage a 'Variant of Concern', the fourth such designation.",
+      "item_ids": [
+        "f925183e26e35505"
+      ]
+    },
+    {
+      "claim": "Throughout the window the B.1.617 lineage spread internationally, with first cases reported in Portugal, Romania, Jordan, Malaysia, Mexico, Algeria, Morocco, Kenya and South Africa, and India setting successive global records for daily cases and deaths, passing 20 million cases and 238,000 deaths.",
+      "item_ids": [
+        "df1e5b22b9b363d7",
+        "82c582cc5a0af30c",
+        "662bdc6164be5856",
+        "b484a5acea3b6d76",
+        "d553363c5d81b517",
+        "7730400d2a5dfa9c",
+        "d73bda306f5429da",
+        "fc24bdaefc509780",
+        "fc6abce38109945b",
+        "f158610c02286d74",
+        "bdad978c4a3fcdb6"
+      ]
+    },
+    {
+      "claim": "Several countries restricted travel from India during the window, including Australia and the United States.",
+      "item_ids": [
+        "ddd8518434e1790f",
+        "464c4ccf91108087"
+      ]
+    },
+    {
+      "claim": "Escalating clashes between Palestinian protesters and Israeli police in East Jerusalem injured at least 90 Palestinians on Day 12.",
+      "item_ids": [
+        "c6f1bb809e6e7f01"
+      ]
+    },
+    {
+      "claim": "Colombia's president withdrew a tax reform proposal after mass protests in which people were killed, and the foreign minister later resigned amid continuing unrest with at least 26 dead.",
+      "item_ids": [
+        "b5444c2a1a6eeaad",
+        "b414ad3162e7bfe1"
+      ]
+    },
+    {
+      "claim": "A France\u2013UK maritime standoff over Jersey fishing permits saw both countries deploy naval patrol vessels.",
+      "item_ids": [
+        "ba37568f544d1eed"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "e03775f03baedcd4",
+    "dbd02e8c71931fc2",
+    "f925183e26e35505"
+  ],
+  "competing_explanation": "The pandemic thread is the most persistent alternative: the WHO's elevation of B.1.617 to 'Variant of Concern' fell exactly on the flagged day, against a backdrop of record Indian case and death counts, first detections of the lineage across nine or more countries, new travel bans, and fresh lockdowns in Malaysia, Tunisia and Indian states. That could plausibly have re-introduced reopening-trade uncertainty. It is judged weaker because the variant news accumulated gradually over the full fortnight and was accompanied by offsetting positive items (vaccine authorisations for adolescents in Canada and the U.S., a 900-million-dose EU purchase, Spain lifting its state of emergency, French and Danish reopenings), whereas the pipeline outage was a single discrete shock to a specific traded commodity in the last two days of the window. Emerging geopolitical friction \u2014 East Jerusalem clashes, the Kyrgyz\u2013Tajik border episode, and the Jersey naval standoff \u2014 is a further but more diffuse competitor.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"The dominant candidate is the ransomware cyberattack on the Colonial Pipeline, the largest U.S. fuel pipeline, which carries 2.5 million barrels a day and roughly 45 percent of the East Coast's diesel, gasoline and jet fuel supply, and which prompted a presidential state of emergency on Day 13 \u2014 the day before the flag. A secondary, reinforcing energy-risk item appears on Day 14, when a U.S. Coast Guard cutter fired warning shots at Iranian fast-attack craft harassing U.S. warships in the Strait of Hormuz. Together these are the only items in the window with direct, immediate bearing on physically traded commodities and on a major piece of critical infrastructure.\",\"mechanism\":\"An abrupt outage of the pipeline supplying nearly half of one region's refined-product demand forces rapid repricing of fuel spreads, regional gasoline and distillate contracts, and inventory expectations, while an emergency declaration signals the disruption is material rather than routine; a naval confrontation in the world's key crude chokepoint adds a geopolitical supply-risk premium on top, and both channels typically raise realised and implied volatility in energy and energy-sensitive equities.\",\"claims\":[{\"claim\":\"A ransomware cyberattack shut in the Colonial Pipeline, described as the largest fuel pipeline in the U.S., transporting 2.5 million barrels a day and 45 percent of the East Coast's supply of diesel, gasoline and jet fuel.\",\"item_ids\":[\"e03775f03baedcd4\"]},{\"claim\":\"The U.S. President declared a state of emergency in response to that attack, on the day before the flagged day.\",\"item_ids\":[\"e03775f03baedcd4\"]},{\"claim\":\"On the flagged day, a U.S. Coast Guard cutter fired 30 warning shots at 13 Iranian Revolutionary Guard fast-attack craft harassing six U.S. Navy warships in the Strait of Hormuz.\",\"item_ids\":[\"dbd02e8c71931fc2\"]},{\"claim\":\"On the flagged day the World Health Organization designated the B.1.617 lineage a 'Variant of Concern', the fourth such designation.\",\"item_ids\":[\"f925183e26e35505\"]},{\"claim\":\"Throughout the window the B.1.617 lineage spread internationally, with first cases reported in Portugal, Romania, Jordan, Malaysia, Mexico, Algeria, Morocco, Kenya and South Africa, and India setting successive global records for daily cases and deaths, passing 20 million cases and 238,000 deaths.\",\"item_ids\":[\"df1e5b22b9b363d7\",\"82c582cc5a0af30c\",\"662bdc6164be5856\",\"b484a5acea3b6d76\",\"d553363c5d81b517\",\"7730400d2a5dfa9c\",\"d73bda306f5429da\",\"fc24bdaefc509780\",\"fc6abce38109945b\",\"f158610c02286d74\",\"bdad978c4a3fcdb6\"]},{\"claim\":\"Several countries restricted travel from India during the window, including Australia and the United States.\",\"item_ids\":[\"ddd8518434e1790f\",\"464c4ccf91108087\"]},{\"claim\":\"Escalating clashes between Palestinian protesters and Israeli police in East Jerusalem injured at least 90 Palestinians on Day 12.\",\"item_ids\":[\"c6f1bb809e6e7f01\"]},{\"claim\":\"Colombia's president withdrew a tax reform proposal after mass protests in which people were killed, and the foreign minister later resigned amid continuing unrest with at least 26 dead.\",\"item_ids\":[\"b5444c2a1a6eeaad\",\"b414ad3162e7bfe1\"]},{\"claim\":\"A France\u2013UK maritime standoff over Jersey fishing permits saw both countries deploy naval patrol vessels.\",\"item_ids\":[\"ba37568f544d1eed\"]}],\"primary_item_ids\":[\"e03775f03baedcd4\",\"dbd02e8c71931fc2\",\"f925183e26e35505\"],\"competing_explanation\":\"The pandemic thread is the most persistent alternative: the WHO's elevation of B.1.617 to 'Variant of Concern' fell exactly on the flagged day, against a backdrop of record Indian case and death counts, first detections of the lineage across nine or more countries, new travel bans, and fresh lockdowns in Malaysia, Tunisia and Indian states. That could plausibly have re-introduced reopening-trade uncertainty. It is judged weaker because the variant news accumulated gradually over the full fortnight and was accompanied by offsetting positive items (vaccine authorisations for adolescents in Canada and the U.S., a 900-million-dose EU purchase, Spain lifting its state of emergency, French and Danish reopenings), whereas the pipeline outage was a single discrete shock to a specific traded commodity in the last two days of the window. Emerging geopolitical friction \u2014 East Jerusalem clashes, the Kyrgyz\u2013Tajik border episode, and the Jersey naval standoff \u2014 is a further but more diffuse competitor.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "a4331f5b4338d6d4"
+}

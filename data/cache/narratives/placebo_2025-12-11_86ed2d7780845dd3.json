@@ -1,0 +1,84 @@
+{
+  "window_id": "placebo_2025-12-11",
+  "kind": "placebo",
+  "boundary_date": "2025-12-11",
+  "driver_identified": true,
+  "confidence": "low",
+  "summary": "No item in the window describes a macro-financial event (no central bank action, no data release, no systemic credit event). The closest candidates cluster in the final days: an open interstate shooting war between Thailand and Cambodia involving cross-border airstrikes and shelling with fatalities on both sides (Days 11-13), and a US Coast Guard seizure of an oil tanker off Venezuela bound for Cuba (Day 13), an interdiction with direct oil-flow implications. Either could plausibly raise risk premia into the flag date, but the connection is indirect and the case is weak.",
+  "mechanism": "Escalation from border skirmishing to reciprocal airstrikes between two states raises regional risk premia and disrupts trade and travel in a densely traded emerging-market region, while naval seizure of a tanker off a major oil producer introduces supply-disruption risk into energy pricing; both channels typically widen implied volatility.",
+  "claims": [
+    {
+      "claim": "Thai F-16 jets struck Cambodian military targets in Oddar Meanchey and Preah Vihear, killing four Cambodian civilians and wounding ten.",
+      "item_ids": [
+        "cd53c9674a277bba"
+      ]
+    },
+    {
+      "claim": "Cambodian shelling of Ubon Ratchathani province killed a Thai soldier and injured eight others.",
+      "item_ids": [
+        "e9fec1071bd977b0"
+      ]
+    },
+    {
+      "claim": "The conflict spilled into civil life, with heightened security for Cambodian athletes at the SEA Games in Bangkok and Cambodia subsequently withdrawing its entire delegation on security grounds.",
+      "item_ids": [
+        "00eff1f38b82eea2",
+        "781aebb9b8431e53"
+      ]
+    },
+    {
+      "claim": "The US Coast Guard seized an oil tanker off Venezuela that was en route to Cuba and flying a Guyanese flag without being registered there.",
+      "item_ids": [
+        "14cdcb59732a58d5"
+      ]
+    },
+    {
+      "claim": "A US Navy strike destroyed a boat in the Pacific alleged to be carrying narcotics, killing four.",
+      "item_ids": [
+        "8523c4483883e68c"
+      ]
+    },
+    {
+      "claim": "Netflix agreed to acquire Warner Bros. Discovery for US$72 billion, described as one of the largest entertainment-industry takeovers.",
+      "item_ids": [
+        "71a81ef32b892fb0"
+      ]
+    },
+    {
+      "claim": "Airbus issued an emergency software update affecting 6,000 A320 aircraft worldwide, causing major travel disruption.",
+      "item_ids": [
+        "92c22ae1a54b63a4"
+      ]
+    },
+    {
+      "claim": "On the flag day, the Zhelyazkov Government resigned after weeks of mass protests over economic policy and alleged corruption.",
+      "item_ids": [
+        "1ae1bd3b6d821f50"
+      ]
+    },
+    {
+      "claim": "Also on the flag day, the Greek finance minister was elected president of the Eurogroup.",
+      "item_ids": [
+        "7def473d6adb9f84"
+      ]
+    },
+    {
+      "claim": "Russia said its forces captured Pokrovsk in Donetsk Oblast, and the UK sanctioned Russia's GRU over the Novichok attack findings.",
+      "item_ids": [
+        "73b905516963c676",
+        "e571bd17b200c659"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "cd53c9674a277bba",
+    "e9fec1071bd977b0",
+    "14cdcb59732a58d5"
+  ],
+  "competing_explanation": "The single largest identifiable financial event in the window is the US$72bn Netflix/Warner Bros. Discovery takeover (Day 8), which would move media-sector equities and could register as a volatility shift, but it sits six days before the flag and is sector-specific rather than market-wide. Other competitors include the Airbus A320 fleet-wide software recall affecting 6,000 aircraft (Day 1), the EU's Digital Services Act fine on X (Day 8), and the political events on the flag day itself (a European government resignation and a Eurogroup leadership change) \u2014 none of which individually carries obvious cross-asset weight. It is entirely possible the model flagged noise.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"low\",\"summary\":\"No item in the window describes a macro-financial event (no central bank action, no data release, no systemic credit event). The closest candidates cluster in the final days: an open interstate shooting war between Thailand and Cambodia involving cross-border airstrikes and shelling with fatalities on both sides (Days 11-13), and a US Coast Guard seizure of an oil tanker off Venezuela bound for Cuba (Day 13), an interdiction with direct oil-flow implications. Either could plausibly raise risk premia into the flag date, but the connection is indirect and the case is weak.\",\"mechanism\":\"Escalation from border skirmishing to reciprocal airstrikes between two states raises regional risk premia and disrupts trade and travel in a densely traded emerging-market region, while naval seizure of a tanker off a major oil producer introduces supply-disruption risk into energy pricing; both channels typically widen implied volatility.\",\"claims\":[{\"claim\":\"Thai F-16 jets struck Cambodian military targets in Oddar Meanchey and Preah Vihear, killing four Cambodian civilians and wounding ten.\",\"item_ids\":[\"cd53c9674a277bba\"]},{\"claim\":\"Cambodian shelling of Ubon Ratchathani province killed a Thai soldier and injured eight others.\",\"item_ids\":[\"e9fec1071bd977b0\"]},{\"claim\":\"The conflict spilled into civil life, with heightened security for Cambodian athletes at the SEA Games in Bangkok and Cambodia subsequently withdrawing its entire delegation on security grounds.\",\"item_ids\":[\"00eff1f38b82eea2\",\"781aebb9b8431e53\"]},{\"claim\":\"The US Coast Guard seized an oil tanker off Venezuela that was en route to Cuba and flying a Guyanese flag without being registered there.\",\"item_ids\":[\"14cdcb59732a58d5\"]},{\"claim\":\"A US Navy strike destroyed a boat in the Pacific alleged to be carrying narcotics, killing four.\",\"item_ids\":[\"8523c4483883e68c\"]},{\"claim\":\"Netflix agreed to acquire Warner Bros. Discovery for US$72 billion, described as one of the largest entertainment-industry takeovers.\",\"item_ids\":[\"71a81ef32b892fb0\"]},{\"claim\":\"Airbus issued an emergency software update affecting 6,000 A320 aircraft worldwide, causing major travel disruption.\",\"item_ids\":[\"92c22ae1a54b63a4\"]},{\"claim\":\"On the flag day, the Zhelyazkov Government resigned after weeks of mass protests over economic policy and alleged corruption.\",\"item_ids\":[\"1ae1bd3b6d821f50\"]},{\"claim\":\"Also on the flag day, the Greek finance minister was elected president of the Eurogroup.\",\"item_ids\":[\"7def473d6adb9f84\"]},{\"claim\":\"Russia said its forces captured Pokrovsk in Donetsk Oblast, and the UK sanctioned Russia's GRU over the Novichok attack findings.\",\"item_ids\":[\"73b905516963c676\",\"e571bd17b200c659\"]}],\"primary_item_ids\":[\"cd53c9674a277bba\",\"e9fec1071bd977b0\",\"14cdcb59732a58d5\"],\"competing_explanation\":\"The single largest identifiable financial event in the window is the US$72bn Netflix/Warner Bros. Discovery takeover (Day 8), which would move media-sector equities and could register as a volatility shift, but it sits six days before the flag and is sector-specific rather than market-wide. Other competitors include the Airbus A320 fleet-wide software recall affecting 6,000 aircraft (Day 1), the EU's Digital Services Act fine on X (Day 8), and the political events on the flag day itself (a European government resignation and a Eurogroup leadership change) \u2014 none of which individually carries obvious cross-asset weight. It is entirely possible the model flagged noise.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "ce3f43489684ace7"
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "b8714e5c25f4b4eb",
+  "timestamp_utc": "2026-08-22T07:36:19.859405+00:00",
+  "window_id": "transition_2016-07-28",
+  "kind": "transition",
+  "run_label": "sonnet5",
+  "boundary_date": "2016-07-28",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "e671b28203cc599f",
+  "n_items_in_window": 93,
+  "input_chars": 22523,
+  "usage": {
+    "input_tokens": 10460,
+    "output_tokens": 2231
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"On the day the model flagged a shift, North Korea publicly declared that new U.S. sanctions on Kim Jong-un amounted to a 'declaration of war' and stated the U.S. had 'crossed the red line', a sharp escalation in rhetoric between two nuclear-armed-adjacent states. This followed a two-week period already marked by an attempted military coup in Turkey, mass-casualty terror attacks in Germany and elsewhere, and a unilateral Catalan secession vote defying Spain, all of which had kept geopolitical risk elevated.\", \"mechanism\": \"Escalatory war rhetoric from North Korea directed at the United States raises tail-risk perceptions for Asian and global markets, typically prompting risk-off flows into safe havens (gold, yen, Treasuries) and increased equity volatility, especially layered on top of an already elevated baseline of geopolitical stress from the preceding fortnight.\", \"claims\": [{\"claim\": \"North Korea stated that U.S. sanctions on its leader Kim Jong-un had 'crossed the red line' and characterized the sanctions as a 'declaration of war'.\", \"item_ids\": [\"ddc29e1152b003a8\"]}, {\"claim\": \"Earlier in the same window, an attempted military coup occurred in Turkey, followed by a state of emergency, mass detentions, and a warning from the U.S. Secretary of State that Turkey could lose NATO membership.\", \"item_ids\": [\"71048653dd1d2feb\", \"78e534d9f2ff85a5\", \"4bfac62efaa7d620\"]}, {\"claim\": \"Catalonia held a unilateral, informal vote for secession in its regional parliament, defying the Spanish state.\", \"item_ids\": [\"62edb75bb979fb0f\"]}, {\"claim\": \"A twin bombing claimed by ISIL killed at least 44 people on the Syria-Turkey border shortly before the flagged day.\", \"item_ids\": [\"cd18c95e5a36fa7c\"]}], \"primary_item_ids\": [\"ddc29e1152b003a8\", \"62edb75bb979fb0f\", \"78e534d9f2ff85a5\"], \"competing_explanation\": \"The change could instead reflect cumulative fatigue/uncertainty from the dense sequence of unrelated shocks across the window (Turkey coup, Munich shooting, DNC email leak, RNC and DNC conventions, doping bans, multiple mass-casualty attacks) rather than any single Day 14 event; a volatility model could be responding to aggregate news density and political-convention-driven U.S. political risk (e.g., the DNC convention culminating with Hillary Clinton's historic nomination) rather than the North Korea statement specifically.\", \"insufficient_evidence_reason\": \"\"}"
+}

@@ -1,0 +1,20 @@
+{
+  "call_id": "04f7ce9bdd2563a1",
+  "timestamp_utc": "2026-08-22T04:58:40.086281+00:00",
+  "window_id": "placebo_2018-03-01",
+  "kind": "placebo",
+  "boundary_date": "2018-03-01",
+  "model": "claude-opus-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "2c917e93e1af91b4",
+  "n_items_in_window": 55,
+  "input_chars": 12391,
+  "usage": {
+    "input_tokens": 6572,
+    "output_tokens": 1471
+  },
+  "response_text": "{\"driver_identified\": false, \"confidence\": \"none\", \"summary\": \"\", \"mechanism\": \"\", \"claims\": [{\"claim\": \"The two items closest to the flagged day that touch on business and economy are the UK administrations of Maplin Electronics (2,500 jobs at risk) and Toys \\\"R\\\" Us UK (3,200 jobs at risk), both single-company retail failures rather than macro events.\", \"item_ids\": [\"9fcc879216a6ba49\", \"fba338b7e970ea0a\"]}, {\"claim\": \"The flagged day itself contains only political items: an Argentine presidential address opening congressional sessions, a Senate Intelligence Committee report on a leak of text messages, a generic entry on Russian interference in a US election, and an FBI-assisted Norwegian probe into forged Nobel nominations.\", \"item_ids\": [\"19f87d019df64168\", \"aac9669764319ec3\", \"2b14753e8b232054\", \"6d72aedd80c8894e\", \"ecfc0b123fe38a35\"]}, {\"claim\": \"The most financially specific item in the window, the detention of the head of the Bank of Latvia, was accompanied by a statement from the Latvian Prime Minister that there was no apparent threat to the country's financial system, and it occurred early in the window rather than near the flagged day.\", \"item_ids\": [\"a3f5d9133418e777\"]}, {\"claim\": \"Other candidate items are geopolitical or legal but not obviously price-relevant: escalating airstrikes and a blocked UN truce resolution in Eastern Ghouta, indictments and guilty pleas in the US special counsel investigation, and a statement that North Korea is willing to hold denuclearisation talks.\", \"item_ids\": [\"ccc2e0f1e9549c94\", \"85261a449999aefb\", \"0266740580a4328b\", \"f777831b1abd8ef7\", \"0ea10735d377b788\", \"24e2c880b4a5fd76\"]}, {\"claim\": \"Announced trade policy in the window is liberalising and small in scale: South Korea signing free trade agreements with five Central American countries.\", \"item_ids\": [\"54e0f0e780963abc\"]}], \"primary_item_ids\": [], \"competing_explanation\": \"The least weak candidates are (a) the detention of the Bank of Latvia governor, which touches a euro-area central bank but was explicitly described by the Latvian government as posing no threat to the financial system and falls nine days before the flag, and (b) the back-to-back UK retail administrations of Maplin and Toys \\\"R\\\" Us on Day 13, which are sector- and country-specific insolvencies affecting a few thousand jobs and are far too small to move broad volatility. A third reading would attribute a risk-premium shift to the sustained escalation in Eastern Ghouta and Russia's blocking of the UN truce resolution, but the items report no associated commodity, currency or cross-border financial consequence.\", \"insufficient_evidence_reason\": \"No item in the window describes a macroeconomic, monetary, fiscal, trade-policy or systemic financial event of a scale that would plausibly reprice broad markets, and the items dated on and immediately before the flagged day are almost entirely domestic politics, crime, sport, weather and single-firm insolvencies. The only financial-sector item (the Latvian central bank governor's detention) is early in the window and is accompanied by an official denial of systemic risk. On the supplied evidence the flag is more consistent with noise, or with a driver that simply is not present in this news set.\"}"
+}

@@ -1,0 +1,73 @@
+{
+  "window_id": "live_2019-12-03",
+  "kind": "placebo",
+  "boundary_date": "2019-12-03",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The clearest market-relevant thread across the window is a steady escalation in US\u2013China friction that culminates near the flag date: the FCC formally designating Huawei and ZTE as national security risks and ordering their equipment stripped from carrier networks, the signing of the Hong Kong Human Rights and Democracy Act which explicitly conditions US trade treatment of Hong Kong on its autonomy, and \u2014 on Day 13 \u2014 Beijing's retaliation by banning US military ship visits to Hong Kong and sanctioning US NGOs. A concrete corporate datapoint in the same window (Dollar Tree missing profit expectations and blaming China tariff costs) shows the tariff dispute already feeding into earnings.",
+  "mechanism": "Explicit tit-for-tat retaliation between the two largest economies raises the perceived probability that the existing tariff regime persists or worsens, forcing repricing of trade-exposed earnings and supply chains; because the trigger is political rather than scheduled, it widens the distribution of outcomes and lifts realised and implied volatility.",
+  "claims": [
+    {
+      "claim": "The US FCC unanimously designated Huawei and ZTE as national security risks, barred them from the Universal Service Fund, and ordered national wireless carriers to remove their products from existing networks, with 30 days to appeal.",
+      "item_ids": [
+        "9a62e6b435cce0c0"
+      ]
+    },
+    {
+      "claim": "China's foreign minister publicly accused the United States of being the 'world's biggest destabilizing factor' and of 'smearing China everywhere' at a G20 meeting.",
+      "item_ids": [
+        "7a88fbdfa51f26b0"
+      ]
+    },
+    {
+      "claim": "The US President signed the Hong Kong Human Rights and Democracy Act into law over strong Chinese objections; the law conditions US trade with Hong Kong on the territory retaining sufficient autonomy and bans export of crowd-control munitions to its police.",
+      "item_ids": [
+        "8dd75f067d65babd"
+      ]
+    },
+    {
+      "claim": "On Day 13 China retaliated for that legislation by banning US military ship visits to Hong Kong and sanctioning five US NGOs.",
+      "item_ids": [
+        "0405ba585aa6e7ed"
+      ]
+    },
+    {
+      "claim": "A US discount retailer publicly warned it would miss analysts' profit expectations, attributing the shortfall to US tariffs on goods imported from China.",
+      "item_ids": [
+        "daa64353d9f9c871"
+      ]
+    },
+    {
+      "claim": "Separately, Hong Kong district-level elections produced a landslide pro-democracy result on record turnout, keeping the territory's political status in the foreground of US\u2013China relations during the window.",
+      "item_ids": [
+        "3176981e2286ead9",
+        "eca0ef13c4810600"
+      ]
+    },
+    {
+      "claim": "Allegations of Chinese intelligence operations in Hong Kong, Taiwan and Australia, including an alleged plot to place an agent in Australia's parliament, added to diplomatic friction involving Beijing during the window.",
+      "item_ids": [
+        "b13dc4034d4856ac",
+        "ccb2419ea8366c44",
+        "acb1f7a2c81847db"
+      ]
+    },
+    {
+      "claim": "On the flag day itself, Google's co-founders stepped down as CEO and president with Sundar Pichai taking over as chief executive of Google and Alphabet, effective immediately.",
+      "item_ids": [
+        "1741afeeb0c8bede"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "0405ba585aa6e7ed",
+    "8dd75f067d65babd",
+    "9a62e6b435cce0c0"
+  ],
+  "competing_explanation": "The items may simply not contain the driver. Nothing here reports a central bank decision, a macro data release, a tariff deadline or an actual change to tariff rates; the Chinese retaliation described is symbolic (military port calls and NGO sanctions) rather than economic, and the flag-day items are idiosyncratic (a single company's CEO succession, a US primary-campaign withdrawal, a Finnish prime minister's resignation) rather than systemic. On that reading the model may have flagged noise, or a driver absent from this list.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The clearest market-relevant thread across the window is a steady escalation in US\u2013China friction that culminates near the flag date: the FCC formally designating Huawei and ZTE as national security risks and ordering their equipment stripped from carrier networks, the signing of the Hong Kong Human Rights and Democracy Act which explicitly conditions US trade treatment of Hong Kong on its autonomy, and \u2014 on Day 13 \u2014 Beijing's retaliation by banning US military ship visits to Hong Kong and sanctioning US NGOs. A concrete corporate datapoint in the same window (Dollar Tree missing profit expectations and blaming China tariff costs) shows the tariff dispute already feeding into earnings.\",\"mechanism\":\"Explicit tit-for-tat retaliation between the two largest economies raises the perceived probability that the existing tariff regime persists or worsens, forcing repricing of trade-exposed earnings and supply chains; because the trigger is political rather than scheduled, it widens the distribution of outcomes and lifts realised and implied volatility.\",\"claims\":[{\"claim\":\"The US FCC unanimously designated Huawei and ZTE as national security risks, barred them from the Universal Service Fund, and ordered national wireless carriers to remove their products from existing networks, with 30 days to appeal.\",\"item_ids\":[\"9a62e6b435cce0c0\"]},{\"claim\":\"China's foreign minister publicly accused the United States of being the 'world's biggest destabilizing factor' and of 'smearing China everywhere' at a G20 meeting.\",\"item_ids\":[\"7a88fbdfa51f26b0\"]},{\"claim\":\"The US President signed the Hong Kong Human Rights and Democracy Act into law over strong Chinese objections; the law conditions US trade with Hong Kong on the territory retaining sufficient autonomy and bans export of crowd-control munitions to its police.\",\"item_ids\":[\"8dd75f067d65babd\"]},{\"claim\":\"On Day 13 China retaliated for that legislation by banning US military ship visits to Hong Kong and sanctioning five US NGOs.\",\"item_ids\":[\"0405ba585aa6e7ed\"]},{\"claim\":\"A US discount retailer publicly warned it would miss analysts' profit expectations, attributing the shortfall to US tariffs on goods imported from China.\",\"item_ids\":[\"daa64353d9f9c871\"]},{\"claim\":\"Separately, Hong Kong district-level elections produced a landslide pro-democracy result on record turnout, keeping the territory's political status in the foreground of US\u2013China relations during the window.\",\"item_ids\":[\"3176981e2286ead9\",\"eca0ef13c4810600\"]},{\"claim\":\"Allegations of Chinese intelligence operations in Hong Kong, Taiwan and Australia, including an alleged plot to place an agent in Australia's parliament, added to diplomatic friction involving Beijing during the window.\",\"item_ids\":[\"b13dc4034d4856ac\",\"ccb2419ea8366c44\",\"acb1f7a2c81847db\"]},{\"claim\":\"On the flag day itself, Google's co-founders stepped down as CEO and president with Sundar Pichai taking over as chief executive of Google and Alphabet, effective immediately.\",\"item_ids\":[\"1741afeeb0c8bede\"]}],\"primary_item_ids\":[\"0405ba585aa6e7ed\",\"8dd75f067d65babd\",\"9a62e6b435cce0c0\"],\"competing_explanation\":\"The items may simply not contain the driver. Nothing here reports a central bank decision, a macro data release, a tariff deadline or an actual change to tariff rates; the Chinese retaliation described is symbolic (military port calls and NGO sanctions) rather than economic, and the flag-day items are idiosyncratic (a single company's CEO succession, a US primary-campaign withdrawal, a Finnish prime minister's resignation) rather than systemic. On that reading the model may have flagged noise, or a driver absent from this list.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "c8be4516ad968b2b"
+}

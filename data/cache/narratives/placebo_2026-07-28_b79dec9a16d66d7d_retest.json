@@ -1,0 +1,98 @@
+{
+  "window_id": "placebo_2026-07-28",
+  "kind": "placebo",
+  "boundary_date": "2026-07-28",
+  "driver_identified": true,
+  "confidence": "high",
+  "summary": "The window is dominated by an escalating US/Iran military confrontation centred on the Strait of Hormuz, which by the final days had spread to physical damage of Gulf oil infrastructure. Brent crude passed US$95 and WTI $86 with US retail gasoline at $4.06/gal (Day 8), the IRGC Navy repeatedly blocked tankers from transiting Hormuz (Days 9, 11, 12), and on Day 13 a Houthi drone attack damaged the Abqaiq oil field in eastern Saudi Arabia while Iran-backed Iraqi militias also targeted eastern Saudi and Riyadh oil facilities. A parallel, secondary shock is a broad tariff escalation by the US (50% on Canadian goods, 100\u2013200% on generic drugs, 10\u201312.5% on 60 trading partners).",
+  "mechanism": "Direct interdiction of tanker traffic through the world's key oil chokepoint plus kinetic damage to Saudi export/processing infrastructure injects a large supply-risk premium into crude, which feeds through to inflation expectations, central bank reaction functions and cross-asset risk pricing \u2014 precisely the conditions that produce a regime shift in realised and implied volatility.",
+  "claims": [
+    {
+      "claim": "Brent crude rose above US$95 and WTI above US$86 per barrel, with US average gasoline at $4.06 per gallon, attributed to the ongoing conflict.",
+      "item_ids": [
+        "7fd7596ed25fb8be"
+      ]
+    },
+    {
+      "claim": "Iran's IRGC Navy repeatedly prevented commercial vessels from transiting the Strait of Hormuz \u2014 three tankers, then four vessels, then six ships on successive reported occasions.",
+      "item_ids": [
+        "3e801cde491650b7",
+        "30ffdbeb3d34c0d6",
+        "d2d3c436c191b437"
+      ]
+    },
+    {
+      "claim": "A Houthi drone attack damaged the Abqaiq oil field in eastern Saudi Arabia.",
+      "item_ids": [
+        "b2a4fc4f0e247d4c"
+      ]
+    },
+    {
+      "claim": "Saudi Arabia reported intercepting drones fired by Iran-backed Iraqi militias at oil facilities in eastern Saudi Arabia and the Riyadh area.",
+      "item_ids": [
+        "90840f5b37be1f1f"
+      ]
+    },
+    {
+      "claim": "US CENTCOM conducted at least ten consecutive rounds of strikes on Iranian military, missile, maritime and air-defence targets, and disabled a tanker bound for an Iranian port amid a blockade.",
+      "item_ids": [
+        "64235171f33c3cc3",
+        "f6384f647e4f0857",
+        "cce736d6dba97a47",
+        "2f35d72c86e2e59f"
+      ]
+    },
+    {
+      "claim": "Iran struck Arab states including Bahrain, Jordan and Kuwait, with Kuwait intercepting 32 drones and Kuwaiti airspace closing, forcing flight rescheduling.",
+      "item_ids": [
+        "312ac5ab64074eab",
+        "89ae5565638e10f5",
+        "73102467b7a0740d",
+        "b9713d9223a02b94",
+        "1e2f8441a5a87b10"
+      ]
+    },
+    {
+      "claim": "A tanker in the Strait of Hormuz was attacked and shipping was being rerouted/monitored around Bab-el-Mandeb, with Saudi Arabia striking Houthi sites in Hodeidah and the Houthis maintaining a naval blockade against Saudi Arabia.",
+      "item_ids": [
+        "f120047deca2f85c",
+        "5fba365802827fa9",
+        "e6c691d6fd9e2666",
+        "c8fccb67d1dd8df0"
+      ]
+    },
+    {
+      "claim": "Singapore's monetary authority tightened policy for the second time in three months, explicitly citing rising import costs and inflation risks caused by the Iran war \u2014 evidence the conflict had already entered central bank reaction functions.",
+      "item_ids": [
+        "fb4ca5962bf1e57c"
+      ]
+    },
+    {
+      "claim": "American casualties in the conflict were reported rising, reaching 17 and then 18.",
+      "item_ids": [
+        "9e29bf0e51679252",
+        "67d1f338f2abc457"
+      ]
+    },
+    {
+      "claim": "Separately, the US imposed 50% tariffs on many Canadian goods, announced escalating tariffs of 100% then 200% on imported generic drugs, and imposed 10\u201312.5% tariffs on imports from 60 trading partners.",
+      "item_ids": [
+        "f0b7dca9bfb09484",
+        "663bf7afaf8eb5ad",
+        "e38ebf3271bfadd3"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "7fd7596ed25fb8be",
+    "b2a4fc4f0e247d4c",
+    "d2d3c436c191b437",
+    "fb4ca5962bf1e57c"
+  ],
+  "competing_explanation": "The concurrent trade-policy escalation could independently account for a volatility regime change: 50% tariffs on Canadian goods including USMCA-covered products, a 100%-then-200% schedule on generic pharmaceuticals, and new 10\u201312.5% duties on 60 trading partners, alongside visible diplomatic frictions such as the Gordie Howe bridge opening without US officials. A further, much weaker candidate specific to the flagged day is the Kumamoto earthquake with a tsunami alert and fatalities in Japan, but the items give no indication of economic or infrastructure damage of market scale.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"The window is dominated by an escalating US/Iran military confrontation centred on the Strait of Hormuz, which by the final days had spread to physical damage of Gulf oil infrastructure. Brent crude passed US$95 and WTI $86 with US retail gasoline at $4.06/gal (Day 8), the IRGC Navy repeatedly blocked tankers from transiting Hormuz (Days 9, 11, 12), and on Day 13 a Houthi drone attack damaged the Abqaiq oil field in eastern Saudi Arabia while Iran-backed Iraqi militias also targeted eastern Saudi and Riyadh oil facilities. A parallel, secondary shock is a broad tariff escalation by the US (50% on Canadian goods, 100\u2013200% on generic drugs, 10\u201312.5% on 60 trading partners).\",\"mechanism\":\"Direct interdiction of tanker traffic through the world's key oil chokepoint plus kinetic damage to Saudi export/processing infrastructure injects a large supply-risk premium into crude, which feeds through to inflation expectations, central bank reaction functions and cross-asset risk pricing \u2014 precisely the conditions that produce a regime shift in realised and implied volatility.\",\"claims\":[{\"claim\":\"Brent crude rose above US$95 and WTI above US$86 per barrel, with US average gasoline at $4.06 per gallon, attributed to the ongoing conflict.\",\"item_ids\":[\"7fd7596ed25fb8be\"]},{\"claim\":\"Iran's IRGC Navy repeatedly prevented commercial vessels from transiting the Strait of Hormuz \u2014 three tankers, then four vessels, then six ships on successive reported occasions.\",\"item_ids\":[\"3e801cde491650b7\",\"30ffdbeb3d34c0d6\",\"d2d3c436c191b437\"]},{\"claim\":\"A Houthi drone attack damaged the Abqaiq oil field in eastern Saudi Arabia.\",\"item_ids\":[\"b2a4fc4f0e247d4c\"]},{\"claim\":\"Saudi Arabia reported intercepting drones fired by Iran-backed Iraqi militias at oil facilities in eastern Saudi Arabia and the Riyadh area.\",\"item_ids\":[\"90840f5b37be1f1f\"]},{\"claim\":\"US CENTCOM conducted at least ten consecutive rounds of strikes on Iranian military, missile, maritime and air-defence targets, and disabled a tanker bound for an Iranian port amid a blockade.\",\"item_ids\":[\"64235171f33c3cc3\",\"f6384f647e4f0857\",\"cce736d6dba97a47\",\"2f35d72c86e2e59f\"]},{\"claim\":\"Iran struck Arab states including Bahrain, Jordan and Kuwait, with Kuwait intercepting 32 drones and Kuwaiti airspace closing, forcing flight rescheduling.\",\"item_ids\":[\"312ac5ab64074eab\",\"89ae5565638e10f5\",\"73102467b7a0740d\",\"b9713d9223a02b94\",\"1e2f8441a5a87b10\"]},{\"claim\":\"A tanker in the Strait of Hormuz was attacked and shipping was being rerouted/monitored around Bab-el-Mandeb, with Saudi Arabia striking Houthi sites in Hodeidah and the Houthis maintaining a naval blockade against Saudi Arabia.\",\"item_ids\":[\"f120047deca2f85c\",\"5fba365802827fa9\",\"e6c691d6fd9e2666\",\"c8fccb67d1dd8df0\"]},{\"claim\":\"Singapore's monetary authority tightened policy for the second time in three months, explicitly citing rising import costs and inflation risks caused by the Iran war \u2014 evidence the conflict had already entered central bank reaction functions.\",\"item_ids\":[\"fb4ca5962bf1e57c\"]},{\"claim\":\"American casualties in the conflict were reported rising, reaching 17 and then 18.\",\"item_ids\":[\"9e29bf0e51679252\",\"67d1f338f2abc457\"]},{\"claim\":\"Separately, the US imposed 50% tariffs on many Canadian goods, announced escalating tariffs of 100% then 200% on imported generic drugs, and imposed 10\u201312.5% tariffs on imports from 60 trading partners.\",\"item_ids\":[\"f0b7dca9bfb09484\",\"663bf7afaf8eb5ad\",\"e38ebf3271bfadd3\"]}],\"primary_item_ids\":[\"7fd7596ed25fb8be\",\"b2a4fc4f0e247d4c\",\"d2d3c436c191b437\",\"fb4ca5962bf1e57c\"],\"competing_explanation\":\"The concurrent trade-policy escalation could independently account for a volatility regime change: 50% tariffs on Canadian goods including USMCA-covered products, a 100%-then-200% schedule on generic pharmaceuticals, and new 10\u201312.5% duties on 60 trading partners, alongside visible diplomatic frictions such as the Gordie Howe bridge opening without US officials. A further, much weaker candidate specific to the flagged day is the Kumamoto earthquake with a tsunami alert and fatalities in Japan, but the items give no indication of economic or infrastructure damage of market scale.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "f47b682f756842cf"
+}

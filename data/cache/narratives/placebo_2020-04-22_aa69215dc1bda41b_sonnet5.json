@@ -1,0 +1,66 @@
+{
+  "window_id": "placebo_2020-04-22",
+  "kind": "placebo",
+  "boundary_date": "2020-04-22",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "Throughout the fourteen-day window, the COVID-19 pandemic dominates the news, with repeated record-high daily death tolls in the US, UK, Germany and Russia, extended lockdowns in multiple countries, and large-scale economic interventions such as the EU's \u20ac540 billion relief package. This sustained stream of grim health data and shifting lockdown/reopening signals (e.g., Germany reopening shops while warning of a second wave) is consistent with elevated market volatility over the period, though no single acute new shock is evident on the flagged day itself.",
+  "mechanism": "Repeated record death tolls, extended and then partially eased lockdowns, and large fiscal/monetary responses create ongoing uncertainty about the depth and duration of the economic contraction, which markets typically price via elevated volatility as investors reassess growth, corporate earnings and policy support.",
+  "claims": [
+    {
+      "claim": "The US recorded multiple record single-day COVID-19 death tolls during the window, including 2,108 deaths on Day 2 and 2,228 deaths on Day 6, and by Day 3 had the highest cumulative death toll in the world.",
+      "item_ids": [
+        "1855ffab5708e6d0",
+        "fe3cce978c1f2868",
+        "7e2646235d87aed9"
+      ]
+    },
+    {
+      "claim": "Germany and the UK also reported successive record daily death tolls (Germany on Day 1 and Day 8; UK on Day 2), while extending or reporting rising cumulative national death tolls.",
+      "item_ids": [
+        "c1422f5d79605ee9",
+        "e67f3653a946706e",
+        "7c18abfe1a4dc159"
+      ]
+    },
+    {
+      "claim": "Governments extended lockdown and stay-at-home measures during the window, including Spain's State of Alarm extension, Michigan's extended stay-at-home order, and Germany's national lockdown extension.",
+      "item_ids": [
+        "546d529d7b01b0df",
+        "598758f8286ddc3d",
+        "8e12ef5cb6176ac6"
+      ]
+    },
+    {
+      "claim": "EU finance ministers agreed a \u20ac540 billion loan package to address the pandemic's economic fallout, an example of large-scale policy response to the crisis.",
+      "item_ids": [
+        "6d19f9ea9f8701fd"
+      ]
+    },
+    {
+      "claim": "By the later part of the window some countries began reopening (Germany reopening shops, Volvo resuming full production) even as officials warned of a possible second wave, indicating mixed and uncertain signals about the economic trajectory.",
+      "item_ids": [
+        "e3f03127f0527788",
+        "587798d4c0e85618"
+      ]
+    },
+    {
+      "claim": "The final flagged day is represented only by a generic recurring entry on the coronavirus pandemic in Asia, without a distinct new catalyst beyond the ongoing pandemic narrative.",
+      "item_ids": [
+        "0c9b3de8cbfbf25f"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "1855ffab5708e6d0",
+    "fe3cce978c1f2868",
+    "6d19f9ea9f8701fd",
+    "e3f03127f0527788"
+  ],
+  "competing_explanation": "An alternative reading is that no single dominant driver exists and the flagged change reflects a diffuse mix of unrelated geopolitical and domestic events (e.g., the Nova Scotia mass shooting, South Korean elections, Libyan conflict escalation, Israeli unity government deal), none of which individually has the scale to plausibly move broad market volatility, making the pandemic the only recurring theme with plausible market-wide reach despite the absence of a single sharp new shock on Day 14.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"Throughout the fourteen-day window, the COVID-19 pandemic dominates the news, with repeated record-high daily death tolls in the US, UK, Germany and Russia, extended lockdowns in multiple countries, and large-scale economic interventions such as the EU's \u20ac540 billion relief package. This sustained stream of grim health data and shifting lockdown/reopening signals (e.g., Germany reopening shops while warning of a second wave) is consistent with elevated market volatility over the period, though no single acute new shock is evident on the flagged day itself.\",\"mechanism\":\"Repeated record death tolls, extended and then partially eased lockdowns, and large fiscal/monetary responses create ongoing uncertainty about the depth and duration of the economic contraction, which markets typically price via elevated volatility as investors reassess growth, corporate earnings and policy support.\",\"claims\":[{\"claim\":\"The US recorded multiple record single-day COVID-19 death tolls during the window, including 2,108 deaths on Day 2 and 2,228 deaths on Day 6, and by Day 3 had the highest cumulative death toll in the world.\",\"item_ids\":[\"1855ffab5708e6d0\",\"fe3cce978c1f2868\",\"7e2646235d87aed9\"]},{\"claim\":\"Germany and the UK also reported successive record daily death tolls (Germany on Day 1 and Day 8; UK on Day 2), while extending or reporting rising cumulative national death tolls.\",\"item_ids\":[\"c1422f5d79605ee9\",\"e67f3653a946706e\",\"7c18abfe1a4dc159\"]},{\"claim\":\"Governments extended lockdown and stay-at-home measures during the window, including Spain's State of Alarm extension, Michigan's extended stay-at-home order, and Germany's national lockdown extension.\",\"item_ids\":[\"546d529d7b01b0df\",\"598758f8286ddc3d\",\"8e12ef5cb6176ac6\"]},{\"claim\":\"EU finance ministers agreed a \u20ac540 billion loan package to address the pandemic's economic fallout, an example of large-scale policy response to the crisis.\",\"item_ids\":[\"6d19f9ea9f8701fd\"]},{\"claim\":\"By the later part of the window some countries began reopening (Germany reopening shops, Volvo resuming full production) even as officials warned of a possible second wave, indicating mixed and uncertain signals about the economic trajectory.\",\"item_ids\":[\"e3f03127f0527788\",\"587798d4c0e85618\"]},{\"claim\":\"The final flagged day is represented only by a generic recurring entry on the coronavirus pandemic in Asia, without a distinct new catalyst beyond the ongoing pandemic narrative.\",\"item_ids\":[\"0c9b3de8cbfbf25f\"]}],\"primary_item_ids\":[\"1855ffab5708e6d0\",\"fe3cce978c1f2868\",\"6d19f9ea9f8701fd\",\"e3f03127f0527788\"],\"competing_explanation\":\"An alternative reading is that no single dominant driver exists and the flagged change reflects a diffuse mix of unrelated geopolitical and domestic events (e.g., the Nova Scotia mass shooting, South Korean elections, Libyan conflict escalation, Israeli unity government deal), none of which individually has the scale to plausibly move broad market volatility, making the pandemic the only recurring theme with plausible market-wide reach despite the absence of a single sharp new shock on Day 14.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "3544d244691617d9"
+}

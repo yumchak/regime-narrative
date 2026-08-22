@@ -1,0 +1,109 @@
+{
+  "window_id": "placebo_2024-12-09",
+  "kind": "placebo",
+  "boundary_date": "2024-12-09",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The window contains a rapid, cumulative sequence of geopolitical and political shocks culminating on Days 12\u201314 in the collapse of the Syrian government: rebel forces took Aleppo, Hama, Homs and then Damascus, Assad was reported to have fled to Moscow and been granted asylum, a transitional prime minister was appointed, and Israel struck military and chemical-weapons-related sites near Damascus. This capped a fortnight that also included a declaration of martial law and impeachment proceedings against the president in South Korea, the collapse of the French government on a no-confidence vote, and the annulment of a Romanian presidential election round \u2014 an unusually dense cluster of state-level political ruptures.",
+  "mechanism": "An abrupt regime collapse in the Middle East, with foreign powers (Israel, Russia, Iran, Turkey) directly engaged and borders closing, raises the regional risk premium in energy, defence and safe-haven assets, while simultaneous executive-level crises in a major Asian economy and a large euro-area sovereign inject currency, equity and sovereign-spread uncertainty.",
+  "claims": [
+    {
+      "claim": "Rebel forces led by Tahrir al-Sham advanced from Idlib into Aleppo, then Hama, Salamiyah and Homs over the course of the window.",
+      "item_ids": [
+        "8e4cd08c5f1091ca",
+        "542dd466ea3e30ba",
+        "45d9ac42f88172f6",
+        "e81f1f43ddae767c",
+        "9e44f75a24269851"
+      ]
+    },
+    {
+      "claim": "Rebel forces seized the Presidential Palace in Damascus and Sednaya Prison, releasing thousands of prisoners.",
+      "item_ids": [
+        "46cdfd85215878f1",
+        "72737c41ef112f70"
+      ]
+    },
+    {
+      "claim": "Russian state media reported that Bashar al-Assad and his family were in Moscow and had been granted asylum, following speculation about a plane that disappeared from radar near Homs.",
+      "item_ids": [
+        "a82855df249bb59f",
+        "49e9a3f36958b99d"
+      ]
+    },
+    {
+      "claim": "A Syrian opposition figure, Mohammed al-Bashir, was appointed prime minister of a transitional government on the final day of the window.",
+      "item_ids": [
+        "1ff05296ba501270"
+      ]
+    },
+    {
+      "claim": "Israel launched airstrikes on Syrian air bases and on a research centre overseeing chemical weapons and ballistic missile programmes.",
+      "item_ids": [
+        "cfbcac3bf1b59c9d"
+      ]
+    },
+    {
+      "claim": "Iran evacuated military personnel, diplomatic staff and civilians from Syria, and Jordan closed its border after rebels seized the main crossing.",
+      "item_ids": [
+        "04874b4778336b10",
+        "4b766fc4323afe8a"
+      ]
+    },
+    {
+      "claim": "The UN estimated the renewed Syrian conflict could displace around 1.5 million people, and the UN envoy called for an orderly political transition.",
+      "item_ids": [
+        "91e64fcafdf924d4",
+        "940f6c993ba90753"
+      ]
+    },
+    {
+      "claim": "South Korea's president declared martial law, protesters attempted to storm the National Assembly, impeachment proceedings began, and he subsequently apologised.",
+      "item_ids": [
+        "1b8b4fe1e27de981",
+        "a53f04157463d201",
+        "33132aa2831ccbb8",
+        "21627b857bb18fad"
+      ]
+    },
+    {
+      "claim": "The French government fell after 331 of 577 deputies backed a no-confidence motion.",
+      "item_ids": [
+        "94f356ea426012b8"
+      ]
+    },
+    {
+      "claim": "Romania's Constitutional Court annulled the first round of the presidential election two days before the runoff.",
+      "item_ids": [
+        "f52e03d46818595b"
+      ]
+    },
+    {
+      "claim": "A separate front opened between Turkish-backed forces and Kurdish SDF units, with fighting in Manbij producing 50 deaths on the final day.",
+      "item_ids": [
+        "5c37ab394f105117",
+        "84142cd1f8fb5c1a",
+        "7e756d5111ce1212"
+      ]
+    },
+    {
+      "claim": "A ceasefire in Lebanon was agreed at the start of the window but was followed by mutual accusations of violation and continued exchanges of fire.",
+      "item_ids": [
+        "04cfd8cc0545045c",
+        "3128bb24e056e06b",
+        "68b83a55d120dfa6"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "46cdfd85215878f1",
+    "a82855df249bb59f",
+    "1b8b4fe1e27de981"
+  ],
+  "competing_explanation": "The flag could instead be attributed to the political shocks in developed markets rather than the Middle East: the South Korean martial law episode and impeachment proceedings (Days 8\u201312) and the collapse of the French government on a no-confidence vote (Day 9) both have far more direct transmission into currency, equity and sovereign bond volatility than events in Syria, which is not itself a significant participant in global capital or commodity markets. A third reading is that the model flagged noise \u2014 much of the window is routine election results, weather disasters and accidents, and the Syrian escalation was visible and progressive from Day 3 onward rather than a single surprise at Day 14.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The window contains a rapid, cumulative sequence of geopolitical and political shocks culminating on Days 12\u201314 in the collapse of the Syrian government: rebel forces took Aleppo, Hama, Homs and then Damascus, Assad was reported to have fled to Moscow and been granted asylum, a transitional prime minister was appointed, and Israel struck military and chemical-weapons-related sites near Damascus. This capped a fortnight that also included a declaration of martial law and impeachment proceedings against the president in South Korea, the collapse of the French government on a no-confidence vote, and the annulment of a Romanian presidential election round \u2014 an unusually dense cluster of state-level political ruptures.\",\"mechanism\":\"An abrupt regime collapse in the Middle East, with foreign powers (Israel, Russia, Iran, Turkey) directly engaged and borders closing, raises the regional risk premium in energy, defence and safe-haven assets, while simultaneous executive-level crises in a major Asian economy and a large euro-area sovereign inject currency, equity and sovereign-spread uncertainty.\",\"claims\":[{\"claim\":\"Rebel forces led by Tahrir al-Sham advanced from Idlib into Aleppo, then Hama, Salamiyah and Homs over the course of the window.\",\"item_ids\":[\"8e4cd08c5f1091ca\",\"542dd466ea3e30ba\",\"45d9ac42f88172f6\",\"e81f1f43ddae767c\",\"9e44f75a24269851\"]},{\"claim\":\"Rebel forces seized the Presidential Palace in Damascus and Sednaya Prison, releasing thousands of prisoners.\",\"item_ids\":[\"46cdfd85215878f1\",\"72737c41ef112f70\"]},{\"claim\":\"Russian state media reported that Bashar al-Assad and his family were in Moscow and had been granted asylum, following speculation about a plane that disappeared from radar near Homs.\",\"item_ids\":[\"a82855df249bb59f\",\"49e9a3f36958b99d\"]},{\"claim\":\"A Syrian opposition figure, Mohammed al-Bashir, was appointed prime minister of a transitional government on the final day of the window.\",\"item_ids\":[\"1ff05296ba501270\"]},{\"claim\":\"Israel launched airstrikes on Syrian air bases and on a research centre overseeing chemical weapons and ballistic missile programmes.\",\"item_ids\":[\"cfbcac3bf1b59c9d\"]},{\"claim\":\"Iran evacuated military personnel, diplomatic staff and civilians from Syria, and Jordan closed its border after rebels seized the main crossing.\",\"item_ids\":[\"04874b4778336b10\",\"4b766fc4323afe8a\"]},{\"claim\":\"The UN estimated the renewed Syrian conflict could displace around 1.5 million people, and the UN envoy called for an orderly political transition.\",\"item_ids\":[\"91e64fcafdf924d4\",\"940f6c993ba90753\"]},{\"claim\":\"South Korea's president declared martial law, protesters attempted to storm the National Assembly, impeachment proceedings began, and he subsequently apologised.\",\"item_ids\":[\"1b8b4fe1e27de981\",\"a53f04157463d201\",\"33132aa2831ccbb8\",\"21627b857bb18fad\"]},{\"claim\":\"The French government fell after 331 of 577 deputies backed a no-confidence motion.\",\"item_ids\":[\"94f356ea426012b8\"]},{\"claim\":\"Romania's Constitutional Court annulled the first round of the presidential election two days before the runoff.\",\"item_ids\":[\"f52e03d46818595b\"]},{\"claim\":\"A separate front opened between Turkish-backed forces and Kurdish SDF units, with fighting in Manbij producing 50 deaths on the final day.\",\"item_ids\":[\"5c37ab394f105117\",\"84142cd1f8fb5c1a\",\"7e756d5111ce1212\"]},{\"claim\":\"A ceasefire in Lebanon was agreed at the start of the window but was followed by mutual accusations of violation and continued exchanges of fire.\",\"item_ids\":[\"04cfd8cc0545045c\",\"3128bb24e056e06b\",\"68b83a55d120dfa6\"]}],\"primary_item_ids\":[\"46cdfd85215878f1\",\"a82855df249bb59f\",\"1b8b4fe1e27de981\"],\"competing_explanation\":\"The flag could instead be attributed to the political shocks in developed markets rather than the Middle East: the South Korean martial law episode and impeachment proceedings (Days 8\u201312) and the collapse of the French government on a no-confidence vote (Day 9) both have far more direct transmission into currency, equity and sovereign bond volatility than events in Syria, which is not itself a significant participant in global capital or commodity markets. A third reading is that the model flagged noise \u2014 much of the window is routine election results, weather disasters and accidents, and the Syrian escalation was visible and progressive from Day 3 onward rather than a single surprise at Day 14.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "e644fddffec7dae0"
+}

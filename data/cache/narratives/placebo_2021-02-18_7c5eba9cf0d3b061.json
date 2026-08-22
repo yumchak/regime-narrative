@@ -1,0 +1,80 @@
+{
+  "window_id": "placebo_2021-02-18",
+  "kind": "placebo",
+  "boundary_date": "2021-02-18",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The clearest market-relevant shock in the window is Winter Storm Uri, which two days before the flag date was reported to have killed at least 23 people and knocked out power for millions of people across the United States. This sits alongside a cluster of energy-supply and fiscal items \u2014 a Houthi drone strike on a Saudi airport, confirmation that Iran had breached the nuclear deal by producing uranium metal, and the Senate's 51\u201350 budget resolution opening the path to a $1.9 trillion stimulus without Republican votes \u2014 that together plausibly account for a shift in volatility conditions.",
+  "mechanism": "A continent-scale outage event abruptly removes both power generation and industrial/energy production capacity, forcing violent repricing in power, gas and related commodity markets and spilling into utility and industrial equities; simultaneously, a large deficit-financed fiscal package and fresh Middle East supply-risk headlines push rate and oil volatility higher.",
+  "claims": [
+    {
+      "claim": "Winter Storm Uri was reported to have killed at least 23 people and caused power outages for millions of people across the United States two days before the flag date.",
+      "item_ids": [
+        "b972a7cef34bd95e"
+      ]
+    },
+    {
+      "claim": "The US Senate passed a budget resolution 51\u201350, with the Vice President casting the tiebreaking vote, as a step toward passing a $1.9 trillion stimulus package without Republican support.",
+      "item_ids": [
+        "6dc55b0ab0819739"
+      ]
+    },
+    {
+      "claim": "The White House announced an extension of the foreclosure ban and mortgage forbearance to address the pandemic's economic impact.",
+      "item_ids": [
+        "3269735c8903968e"
+      ]
+    },
+    {
+      "claim": "The IAEA confirmed Iran had produced uranium metal at Isfahan, described as a major breach of the nuclear deal.",
+      "item_ids": [
+        "6071a452a20e5cd1"
+      ]
+    },
+    {
+      "claim": "Houthi forces carried out a drone strike on Abha International Airport in Saudi Arabia, damaging a civilian aircraft.",
+      "item_ids": [
+        "d1d431150961df0b"
+      ]
+    },
+    {
+      "claim": "Japan reported a 4.8% annual GDP contraction, its first annual contraction in years, attributed to the pandemic.",
+      "item_ids": [
+        "3d85b47411de69ac"
+      ]
+    },
+    {
+      "claim": "Several jurisdictions reimposed or extended restrictions during the window, including a five-day Stage 4 lockdown in Victoria with all international flights to Melbourne cancelled, a stay-at-home order for two million people in Vietnam's Hai Duong province, and extended lockdowns in Greece.",
+      "item_ids": [
+        "6c1ce832c79b1600",
+        "581d64d9a5e08324",
+        "6e3e5b2390b170c2"
+      ]
+    },
+    {
+      "claim": "Counterweighting the restriction news, large vaccine supply and procurement announcements accumulated, including a US deal for 200 million Moderna and Pfizer doses and an EU deal for an additional 300 million Moderna doses.",
+      "item_ids": [
+        "71090fd2faa9c33b",
+        "1210c184c709ce15"
+      ]
+    },
+    {
+      "claim": "A limited clinical trial suggested the Oxford\u2013AstraZeneca vaccine was weak against the 501.V2 variant, while the WHO subsequently recommended the vaccine for all adults worldwide.",
+      "item_ids": [
+        "85a260f205e3d6b9",
+        "780b69cdfd644fd3"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "b972a7cef34bd95e",
+    "6dc55b0ab0819739",
+    "6071a452a20e5cd1"
+  ],
+  "competing_explanation": "The window is dominated by routine pandemic reporting \u2014 case milestones, variant detections and vaccine rollouts \u2014 none of which individually constitutes a shock. A reasonable alternative reading is that the fiscal/reflation thread (the 51\u201350 budget resolution enabling a $1.9 trillion package, plus the extension of foreclosure and forbearance relief) rather than the storm is what shifted rate and equity volatility, or that the model flagged noise: the storm item mentions casualties and outages but says nothing about prices, markets or energy production, so the transmission channel is inferred rather than stated.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The clearest market-relevant shock in the window is Winter Storm Uri, which two days before the flag date was reported to have killed at least 23 people and knocked out power for millions of people across the United States. This sits alongside a cluster of energy-supply and fiscal items \u2014 a Houthi drone strike on a Saudi airport, confirmation that Iran had breached the nuclear deal by producing uranium metal, and the Senate's 51\u201350 budget resolution opening the path to a $1.9 trillion stimulus without Republican votes \u2014 that together plausibly account for a shift in volatility conditions.\",\"mechanism\":\"A continent-scale outage event abruptly removes both power generation and industrial/energy production capacity, forcing violent repricing in power, gas and related commodity markets and spilling into utility and industrial equities; simultaneously, a large deficit-financed fiscal package and fresh Middle East supply-risk headlines push rate and oil volatility higher.\",\"claims\":[{\"claim\":\"Winter Storm Uri was reported to have killed at least 23 people and caused power outages for millions of people across the United States two days before the flag date.\",\"item_ids\":[\"b972a7cef34bd95e\"]},{\"claim\":\"The US Senate passed a budget resolution 51\u201350, with the Vice President casting the tiebreaking vote, as a step toward passing a $1.9 trillion stimulus package without Republican support.\",\"item_ids\":[\"6dc55b0ab0819739\"]},{\"claim\":\"The White House announced an extension of the foreclosure ban and mortgage forbearance to address the pandemic's economic impact.\",\"item_ids\":[\"3269735c8903968e\"]},{\"claim\":\"The IAEA confirmed Iran had produced uranium metal at Isfahan, described as a major breach of the nuclear deal.\",\"item_ids\":[\"6071a452a20e5cd1\"]},{\"claim\":\"Houthi forces carried out a drone strike on Abha International Airport in Saudi Arabia, damaging a civilian aircraft.\",\"item_ids\":[\"d1d431150961df0b\"]},{\"claim\":\"Japan reported a 4.8% annual GDP contraction, its first annual contraction in years, attributed to the pandemic.\",\"item_ids\":[\"3d85b47411de69ac\"]},{\"claim\":\"Several jurisdictions reimposed or extended restrictions during the window, including a five-day Stage 4 lockdown in Victoria with all international flights to Melbourne cancelled, a stay-at-home order for two million people in Vietnam's Hai Duong province, and extended lockdowns in Greece.\",\"item_ids\":[\"6c1ce832c79b1600\",\"581d64d9a5e08324\",\"6e3e5b2390b170c2\"]},{\"claim\":\"Counterweighting the restriction news, large vaccine supply and procurement announcements accumulated, including a US deal for 200 million Moderna and Pfizer doses and an EU deal for an additional 300 million Moderna doses.\",\"item_ids\":[\"71090fd2faa9c33b\",\"1210c184c709ce15\"]},{\"claim\":\"A limited clinical trial suggested the Oxford\u2013AstraZeneca vaccine was weak against the 501.V2 variant, while the WHO subsequently recommended the vaccine for all adults worldwide.\",\"item_ids\":[\"85a260f205e3d6b9\",\"780b69cdfd644fd3\"]}],\"primary_item_ids\":[\"b972a7cef34bd95e\",\"6dc55b0ab0819739\",\"6071a452a20e5cd1\"],\"competing_explanation\":\"The window is dominated by routine pandemic reporting \u2014 case milestones, variant detections and vaccine rollouts \u2014 none of which individually constitutes a shock. A reasonable alternative reading is that the fiscal/reflation thread (the 51\u201350 budget resolution enabling a $1.9 trillion package, plus the extension of foreclosure and forbearance relief) rather than the storm is what shifted rate and equity volatility, or that the model flagged noise: the storm item mentions casualties and outages but says nothing about prices, markets or energy production, so the transmission channel is inferred rather than stated.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "33ee622fbb3d1622"
+}

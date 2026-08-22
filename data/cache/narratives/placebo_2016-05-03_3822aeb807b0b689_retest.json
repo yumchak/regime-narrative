@@ -1,0 +1,84 @@
+{
+  "window_id": "placebo_2016-05-03",
+  "kind": "placebo",
+  "boundary_date": "2016-05-03",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "Two discrete, market-relevant events cluster at the end of the window: Puerto Rico's governor announced the Commonwealth would default on a $422 million bond payment due Monday, with Congress unable to pass a restructuring bill (Day 12), and Donald Trump won the Indiana Republican primary on the flagged day (Day 14), following his sweep of five northeastern primaries a week earlier (Day 7). Alongside these, an emerging-market stress signal is visible in the Philippines, where the peso was described as Asia's worst-performing currency (Day 8) and the equity market suffered its biggest drop in months on Day 13. No single item describes a systemic macro shock, so the case rests on the accumulation of political and credit-event risk rather than one unambiguous trigger.",
+  "mechanism": "A sovereign-style default by a US territory injects repricing and headline risk into municipal and credit markets, while a decisive primary result narrows the distribution of US election outcomes and forces political-risk premia to be re-marked; election-driven currency and equity stress in the Philippines shows the same uncertainty channel already operating in an emerging market.",
+  "claims": [
+    {
+      "claim": "Puerto Rico's governor announced the Commonwealth would default on a $422 million bond payment due the following Monday, having suspended debt payments to fund essential services, with Congress unable to pass a debt restructuring bill.",
+      "item_ids": [
+        "afc152572ca1a8e3"
+      ]
+    },
+    {
+      "claim": "Donald Trump won the Indiana Republican presidential primary on the day the model flagged.",
+      "item_ids": [
+        "cc705549f6cbf6c7",
+        "f51819465b333a5c"
+      ]
+    },
+    {
+      "claim": "Trump had already been forecast to win Republican primaries in five states earlier in the window.",
+      "item_ids": [
+        "e25c9fc6947e387b"
+      ]
+    },
+    {
+      "claim": "The Philippine peso was reported as the worst-performing currency in Asia because of a volatile and unpredictable presidential election.",
+      "item_ids": [
+        "834e2522328d369a"
+      ]
+    },
+    {
+      "claim": "The Philippine stock market suffered its biggest drop in months amid election uncertainty on Day 13.",
+      "item_ids": [
+        "f024e0dcf57d04f6"
+      ]
+    },
+    {
+      "claim": "Spain failed to form a government, forcing the king to dissolve parliament and call an unprecedented repeat election.",
+      "item_ids": [
+        "9902aa1f50319258",
+        "e29f66b8d3aeb71a"
+      ]
+    },
+    {
+      "claim": "Iraqi officials declared a state of emergency for all of Baghdad after protesters stormed parliament in the Green Zone.",
+      "item_ids": [
+        "f3cf2facb17850e2"
+      ]
+    },
+    {
+      "claim": "A Kuwaiti oil workers' strike that had cut the country's crude production by nearly half ended at the start of the window.",
+      "item_ids": [
+        "f43e89cbd8c7198e"
+      ]
+    },
+    {
+      "claim": "UK retailer British Home Stores, employing 11,000 people, collapsed into administration in the biggest high-street failure since Woolworths.",
+      "item_ids": [
+        "b27bbebeb574f627"
+      ]
+    },
+    {
+      "claim": "The Finnish parliament debated a citizen petition on abandoning the euro amid a weakening economy, though the petition was judged unlikely to lead to exit.",
+      "item_ids": [
+        "95babf23e00cf34e"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "afc152572ca1a8e3",
+    "cc705549f6cbf6c7",
+    "f024e0dcf57d04f6"
+  ],
+  "competing_explanation": "The window is dominated by geopolitical and human-interest items with no direct pricing channel, and the financially relevant items are individually small or localised: the Puerto Rico default was pre-announced and long anticipated given Congress's failure to act, the Philippine moves are country-specific election noise, and a primary win in one US state changes no policy. On that reading the model may simply have flagged noise, or reacted to an oil-supply narrative (the end of the Kuwaiti strike restoring roughly half of a producer's output, plus emergency conditions in Baghdad) that the items describe only obliquely.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"Two discrete, market-relevant events cluster at the end of the window: Puerto Rico's governor announced the Commonwealth would default on a $422 million bond payment due Monday, with Congress unable to pass a restructuring bill (Day 12), and Donald Trump won the Indiana Republican primary on the flagged day (Day 14), following his sweep of five northeastern primaries a week earlier (Day 7). Alongside these, an emerging-market stress signal is visible in the Philippines, where the peso was described as Asia's worst-performing currency (Day 8) and the equity market suffered its biggest drop in months on Day 13. No single item describes a systemic macro shock, so the case rests on the accumulation of political and credit-event risk rather than one unambiguous trigger.\",\"mechanism\":\"A sovereign-style default by a US territory injects repricing and headline risk into municipal and credit markets, while a decisive primary result narrows the distribution of US election outcomes and forces political-risk premia to be re-marked; election-driven currency and equity stress in the Philippines shows the same uncertainty channel already operating in an emerging market.\",\"claims\":[{\"claim\":\"Puerto Rico's governor announced the Commonwealth would default on a $422 million bond payment due the following Monday, having suspended debt payments to fund essential services, with Congress unable to pass a debt restructuring bill.\",\"item_ids\":[\"afc152572ca1a8e3\"]},{\"claim\":\"Donald Trump won the Indiana Republican presidential primary on the day the model flagged.\",\"item_ids\":[\"cc705549f6cbf6c7\",\"f51819465b333a5c\"]},{\"claim\":\"Trump had already been forecast to win Republican primaries in five states earlier in the window.\",\"item_ids\":[\"e25c9fc6947e387b\"]},{\"claim\":\"The Philippine peso was reported as the worst-performing currency in Asia because of a volatile and unpredictable presidential election.\",\"item_ids\":[\"834e2522328d369a\"]},{\"claim\":\"The Philippine stock market suffered its biggest drop in months amid election uncertainty on Day 13.\",\"item_ids\":[\"f024e0dcf57d04f6\"]},{\"claim\":\"Spain failed to form a government, forcing the king to dissolve parliament and call an unprecedented repeat election.\",\"item_ids\":[\"9902aa1f50319258\",\"e29f66b8d3aeb71a\"]},{\"claim\":\"Iraqi officials declared a state of emergency for all of Baghdad after protesters stormed parliament in the Green Zone.\",\"item_ids\":[\"f3cf2facb17850e2\"]},{\"claim\":\"A Kuwaiti oil workers' strike that had cut the country's crude production by nearly half ended at the start of the window.\",\"item_ids\":[\"f43e89cbd8c7198e\"]},{\"claim\":\"UK retailer British Home Stores, employing 11,000 people, collapsed into administration in the biggest high-street failure since Woolworths.\",\"item_ids\":[\"b27bbebeb574f627\"]},{\"claim\":\"The Finnish parliament debated a citizen petition on abandoning the euro amid a weakening economy, though the petition was judged unlikely to lead to exit.\",\"item_ids\":[\"95babf23e00cf34e\"]}],\"primary_item_ids\":[\"afc152572ca1a8e3\",\"cc705549f6cbf6c7\",\"f024e0dcf57d04f6\"],\"competing_explanation\":\"The window is dominated by geopolitical and human-interest items with no direct pricing channel, and the financially relevant items are individually small or localised: the Puerto Rico default was pre-announced and long anticipated given Congress's failure to act, the Philippine moves are country-specific election noise, and a primary win in one US state changes no policy. On that reading the model may simply have flagged noise, or reacted to an oil-supply narrative (the end of the Kuwaiti strike restoring roughly half of a producer's output, plus emergency conditions in Baghdad) that the items describe only obliquely.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "62cb0a239f0b9997"
+}

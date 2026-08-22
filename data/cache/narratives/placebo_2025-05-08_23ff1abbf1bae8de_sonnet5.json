@@ -1,0 +1,58 @@
+{
+  "window_id": "placebo_2025-05-08",
+  "kind": "placebo",
+  "boundary_date": "2025-05-08",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "A rapidly escalating military confrontation between India and Pakistan is the most plausible driver: skirmishes that began earlier in the window turned into direct cross-border airstrikes, claimed destruction of fighter jets, and a declaration of war by Pakistan's prime minister just before the flagged day. This is a nuclear-armed regional conflict with a sudden jump in intensity right at the end of the window.",
+  "mechanism": "Escalation between nuclear-armed states toward open war raises tail-risk premia and can trigger rapid repricing of risk assets, regional currencies, and safe-haven flows, which would show up as a spike in volatility even absent a single dominant headline instrument.",
+  "claims": [
+    {
+      "claim": "Border skirmishes between India and Pakistan were already underway earlier in the window.",
+      "item_ids": [
+        "72ebe6527dce64f8"
+      ]
+    },
+    {
+      "claim": "Pakistan's government warned of an imminent Indian military strike within 24-36 hours.",
+      "item_ids": [
+        "98da3141359285a6"
+      ]
+    },
+    {
+      "claim": "Indian airstrikes hit multiple locations in Pakistan and Pakistan-administered Kashmir, killing at least 8 people.",
+      "item_ids": [
+        "10ac0e1f3e00835a"
+      ]
+    },
+    {
+      "claim": "Pakistan launched retaliatory strikes, claiming to have destroyed five Indian fighter jets, with three civilians killed.",
+      "item_ids": [
+        "76d51be282b5a442"
+      ]
+    },
+    {
+      "claim": "Pakistan's prime minister declared the Indian attacks an act of war and vowed further retaliation.",
+      "item_ids": [
+        "c50bc613124fc6b8"
+      ]
+    },
+    {
+      "claim": "Border skirmishes were reported continuing into Day 13.",
+      "item_ids": [
+        "0ed098bf2fb954b9"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "10ac0e1f3e00835a",
+    "76d51be282b5a442",
+    "c50bc613124fc6b8"
+  ],
+  "competing_explanation": "A separate and partially overlapping candidate is broader Middle East/Red Sea military risk: a Houthi ballistic missile hit near Ben Gurion Airport, Israel struck Hudaydah Port, a US Navy jet was lost in the Red Sea, a US-Houthi ceasefire was announced, and Israeli airstrikes on Gaza killed dozens just before the flagged day, all of which could independently or jointly contribute to elevated geopolitical risk pricing.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"A rapidly escalating military confrontation between India and Pakistan is the most plausible driver: skirmishes that began earlier in the window turned into direct cross-border airstrikes, claimed destruction of fighter jets, and a declaration of war by Pakistan's prime minister just before the flagged day. This is a nuclear-armed regional conflict with a sudden jump in intensity right at the end of the window.\", \"mechanism\": \"Escalation between nuclear-armed states toward open war raises tail-risk premia and can trigger rapid repricing of risk assets, regional currencies, and safe-haven flows, which would show up as a spike in volatility even absent a single dominant headline instrument.\", \"claims\": [{\"claim\": \"Border skirmishes between India and Pakistan were already underway earlier in the window.\", \"item_ids\": [\"72ebe6527dce64f8\"]}, {\"claim\": \"Pakistan's government warned of an imminent Indian military strike within 24-36 hours.\", \"item_ids\": [\"98da3141359285a6\"]}, {\"claim\": \"Indian airstrikes hit multiple locations in Pakistan and Pakistan-administered Kashmir, killing at least 8 people.\", \"item_ids\": [\"10ac0e1f3e00835a\"]}, {\"claim\": \"Pakistan launched retaliatory strikes, claiming to have destroyed five Indian fighter jets, with three civilians killed.\", \"item_ids\": [\"76d51be282b5a442\"]}, {\"claim\": \"Pakistan's prime minister declared the Indian attacks an act of war and vowed further retaliation.\", \"item_ids\": [\"c50bc613124fc6b8\"]}, {\"claim\": \"Border skirmishes were reported continuing into Day 13.\", \"item_ids\": [\"0ed098bf2fb954b9\"]}], \"primary_item_ids\": [\"10ac0e1f3e00835a\", \"76d51be282b5a442\", \"c50bc613124fc6b8\"], \"competing_explanation\": \"A separate and partially overlapping candidate is broader Middle East/Red Sea military risk: a Houthi ballistic missile hit near Ben Gurion Airport, Israel struck Hudaydah Port, a US Navy jet was lost in the Red Sea, a US-Houthi ceasefire was announced, and Israeli airstrikes on Gaza killed dozens just before the flagged day, all of which could independently or jointly contribute to elevated geopolitical risk pricing.\", \"insufficient_evidence_reason\": \"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "057e67fa0b413d5c"
+}

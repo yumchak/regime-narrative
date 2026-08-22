@@ -1,0 +1,21 @@
+{
+  "call_id": "f6adf82490391fd6",
+  "timestamp_utc": "2026-08-22T07:55:41.476376+00:00",
+  "window_id": "placebo_2025-12-11",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2025-12-11",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "b044c51d670191d4",
+  "n_items_in_window": 111,
+  "input_chars": 20880,
+  "usage": {
+    "input_tokens": 10013,
+    "output_tokens": 1767
+  },
+  "response_text": "{\"driver_identified\": false, \"confidence\": \"none\", \"summary\": \"\", \"mechanism\": \"\", \"claims\": [{\"claim\": \"The window contains a large number of geopolitical, disaster, and political stories (e.g., Indonesia/Sri Lanka flood tolls, Ukraine strikes, Gaza violence, Cambodia-Thailand border conflict, Honduran election dispute, Bulgarian government resignation) but none of these are framed as having direct, large-scale financial market impact.\", \"item_ids\": [\"028aa886415b518f\", \"55068707f49f7d38\", \"7c905dc1bdf15a38\", \"cd53c9674a277bba\", \"84e24477b318573d\", \"1ae1bd3b6d821f50\"]}, {\"claim\": \"A major corporate transaction (Netflix's $72 billion acquisition of Warner Bros. Discovery) occurred during the window, which could plausibly affect equity markets, but it happened six days before the flagged date and is not obviously connected to a shift in broader volatility on Day 14.\", \"item_ids\": [\"71a81ef32b892fb0\"]}, {\"claim\": \"A global aviation disruption (Airbus emergency software update affecting 6,000 A320 aircraft) occurred early in the window, which could have market implications for airlines, but this was on Day 1, far from the flagged day.\", \"item_ids\": [\"92c22ae1a54b63a4\"]}, {\"claim\": \"On the flagged day itself, the most notable item is the resignation of Bulgaria's Zhelyazkov Government after protests, but this is a domestic political event without clear indication of broader market significance in the source material.\", \"item_ids\": [\"1ae1bd3b6d821f50\"]}], \"primary_item_ids\": [], \"competing_explanation\": \"One could argue the Netflix-Warner Bros. Discovery $72 billion merger (Day 8) or the Airbus A320 software grounding (Day 1) are the most 'market-shaped' events in the set, since they involve large corporate/financial and supply-chain implications; however, neither aligns temporally with the Day 14 flag, and neither is described with market reaction details (stock moves, index effects, etc.) that would confirm a causal link to a volatility change.\", \"insufficient_evidence_reason\": \"The item set is a broad, unfiltered digest of global news covering disasters, wars, elections, and diplomacy, with no item explicitly describing a financial market reaction, monetary policy action, central bank decision, major index move, or systemic economic shock. Several events (Bulgarian government collapse, Cambodia-Thailand conflict escalation, Honduran election unrest) are politically significant but are not tied in the text to market or volatility effects. Without an item that explicitly connects to price/volatility behavior, attributing the model's flagged change to any single story here would be speculative rather than evidence-based.\"}"
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "38f1f56fe3a760a0",
+  "timestamp_utc": "2026-08-22T07:51:28.630337+00:00",
+  "window_id": "placebo_2019-12-03",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2019-12-03",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "a71db02494ddc15b",
+  "n_items_in_window": 81,
+  "input_chars": 19274,
+  "usage": {
+    "input_tokens": 9094,
+    "output_tokens": 1376
+  },
+  "response_text": "{\"driver_identified\": false, \"confidence\": \"none\", \"summary\": \"\", \"mechanism\": \"\", \"claims\": [], \"primary_item_ids\": [], \"competing_explanation\": \"The items include several ongoing geopolitical stress points during the window\u2014Iran-related protests and rhetoric (23563a064091c36d, d8b73dafb9969a1d, 7dab490e650cf2e5), the Iraq protest crackdown (7bce55760e9eb735, b716c953b0f638ec, 34688b2385fb18ab), Hong Kong unrest and the U.S. Hong Kong Human Rights and Democracy Act (8dd75f067d65babd), and U.S.-China tech tensions (9a62e6b435cce0c0)\u2014any of which could in principle be argued to feed background market uncertainty, but none of these cluster around or intensify on Day 14 specifically, and none are framed with financial-market consequences in the source items.\", \"insufficient_evidence_reason\": \"The items on Day 14 itself (a vaccination/travel measure tied to a measles outbreak, a factory explosion in Khartoum, and the resignation of Finland's Prime Minister over a domestic labor dispute) are not events of clear macro-financial significance, and no item in the broader 14-day window is described in terms of market, trade, currency, or financial-system impact. The list is a general global news digest spanning conflicts, elections, disasters, and legal proceedings, and while several stories (e.g., Iran protests, Iraq unrest, Hong Kong legislation, Huawei/ZTE ruling) are significant geopolitically, nothing in the supplied text ties them to a volatility-relevant shock concentrated at the end of the window. Asserting one of these as the driver of a price/volatility model's flag would require importing outside knowledge about market reactions not present in the items themselves.\"}"
+}

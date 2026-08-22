@@ -1,0 +1,21 @@
+{
+  "call_id": "deda6937b7abc388",
+  "timestamp_utc": "2026-08-22T07:53:12.950396+00:00",
+  "window_id": "placebo_2021-05-10",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2021-05-10",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "8da32d4f5a0490c1",
+  "n_items_in_window": 125,
+  "input_chars": 25858,
+  "usage": {
+    "input_tokens": 11861,
+    "output_tokens": 1578
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"In the days immediately preceding the flagged date, two events with direct economic and geopolitical significance appear: the Colonial Pipeline ransomware attack prompted a U.S. presidential declaration of a state of emergency due to disruption of 45% of East Coast fuel supply, and a tense naval confrontation occurred in the Strait of Hormuz between U.S. Navy vessels and Iranian fast-attack craft. Either could plausibly unsettle markets sensitive to energy supply and geopolitical risk in the Middle East.\", \"mechanism\": \"A national emergency over a major fuel pipeline shutdown directly threatens energy supply chains and can move energy and transport-sector prices and volatility; a naval standoff involving warning shots near a critical oil shipping chokepoint (Strait of Hormuz) raises geopolitical risk premia that typically spike volatility in oil and related markets.\", \"claims\": [{\"claim\": \"President Biden declared a state of emergency following a ransomware attack on Colonial Pipeline, which transports 2.5 million barrels a day, 45% of the U.S. East Coast's fuel supply.\", \"item_ids\": [\"e03775f03baedcd4\"]}, {\"claim\": \"The USCGC Maui fired 30 warning shots at a squadron of 13 Iranian Revolutionary Guard fast-attack craft harassing a U.S. Navy flotilla escorting a guided-missile submarine in the Strait of Hormuz.\", \"item_ids\": [\"dbd02e8c71931fc2\"]}, {\"claim\": \"The WHO classified the Indian-origin B.1.617 lineage as a 'Variant of Concern', the fourth such global designation, around the same time.\", \"item_ids\": [\"f925183e26e35505\"]}, {\"claim\": \"India's COVID-19 case and death counts continued setting records through the window, with cumulative cases surpassing 20 million and daily deaths setting new highs.\", \"item_ids\": [\"f158610c02286d74\", \"bdad978c4a3fcdb6\", \"c3c0b14e751e3ffa\"]}], \"primary_item_ids\": [\"e03775f03baedcd4\", \"dbd02e8c71931fc2\", \"f925183e26e35505\"], \"competing_explanation\": \"The steady worsening of India's COVID-19 crisis (record daily cases and deaths, new variant spread to multiple countries) represents a slower-building but persistent macro concern that could also plausibly account for elevated volatility, independent of the more acute Colonial Pipeline and Hormuz incidents.\", \"insufficient_evidence_reason\": \"\"}"
+}

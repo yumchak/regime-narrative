@@ -1,0 +1,21 @@
+{
+  "call_id": "dfefa6ed5c7e6c14",
+  "timestamp_utc": "2026-08-22T07:50:15.087372+00:00",
+  "window_id": "placebo_2019-08-20",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2019-08-20",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "ec3890cf2a28b027",
+  "n_items_in_window": 51,
+  "input_chars": 11043,
+  "usage": {
+    "input_tokens": 6075,
+    "output_tokens": 2037
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"The window contains several distinct sources of political and financial stress that intensified toward Day 14: an Argentine currency crisis triggered by Macri's primary defeat, escalating and increasingly large-scale Hong Kong protests including an airport shutdown and a reported 1.7 million-person rally, and an Italian government collapse that culminated in the President formally accepting PM Conte's resignation on the flagged day itself. Any of these, or their combination, plausibly explains a shift in volatility.\", \"mechanism\": \"Sovereign political risk events\u2014a currency collapsing to record lows alongside a finance minister's resignation, a G7 government falling, and mass protests disrupting a major financial hub's airport\u2014each directly feed into risk-repricing in currency, equity, and bond markets, which a price/volatility-only model would register as a regime change.\", \"claims\": [{\"claim\": \"Argentina's Treasury Minister resigned after Macri's primary loss caused the peso to fall to record lows.\", \"item_ids\": [\"066ea002cb25e075\"]}, {\"claim\": \"Hong Kong International Airport cancelled all departure flights amid ongoing unrest.\", \"item_ids\": [\"f2911e89ca2b55b3\"]}, {\"claim\": \"Organizers claimed at least 1.7 million people joined a rally in Hong Kong, with train service disrupted.\", \"item_ids\": [\"36be91592abf2aaf\"]}, {\"claim\": \"Matteo Salvini presented a vote of no-confidence against PM Giuseppe Conte, and on Day 14 the President of Italy accepted Conte's resignation.\", \"item_ids\": [\"51f62845049b71f1\", \"b38a977d4ae85ffa\"]}, {\"claim\": \"The US Trade Representative delayed a significant portion of announced tariffs on Chinese goods, while Trump also tweeted about Chinese troop movements toward the Hong Kong border.\", \"item_ids\": [\"04e4472bf6941a27\", \"480862d80e194838\"]}], \"primary_item_ids\": [\"b38a977d4ae85ffa\", \"066ea002cb25e075\", \"36be91592abf2aaf\"], \"competing_explanation\": \"The Hong Kong unrest (airport lockdown, record-scale protests, teacher participation, and Trump's comments on Chinese troop movements) forms its own coherent escalation narrative that could independently account for a volatility flag tied to US-China trade and Asian market risk, separate from the Italian and Argentine political stories.\", \"insufficient_evidence_reason\": \"\"}"
+}

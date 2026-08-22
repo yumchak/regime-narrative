@@ -1,0 +1,82 @@
+{
+  "window_id": "placebo_2019-02-15",
+  "kind": "placebo",
+  "boundary_date": "2019-02-15",
+  "driver_identified": true,
+  "confidence": "low",
+  "summary": "Two political/geopolitical events cluster at the end of the window: a mass-casualty suicide bombing against an Indian security convoy in Jammu and Kashmir that killed at least 46 personnel (Day 13), and the Spanish Prime Minister's call for a snap general election after failing to pass a budget, with dissolution of parliament announced (Day 14). Either could plausibly reprice risk in the affected regional markets, but neither item in the list is described in economic or financial terms, and the window otherwise contains no macro, central-bank, earnings or trade news.",
+  "mechanism": "A large attack on state security forces raises the perceived probability of cross-border escalation and a regional risk premium, while an unscheduled national election following a failed budget injects fiscal and policy uncertainty into a large eurozone economy, both of which typically widen the distribution of expected outcomes and lift implied volatility in local equities, rates and currency.",
+  "claims": [
+    {
+      "claim": "At least 46 members of India's security forces were killed by a suicide bomber striking a military convoy in Jammu and Kashmir.",
+      "item_ids": [
+        "f90ed000b83eb552"
+      ]
+    },
+    {
+      "claim": "On the day the model flagged, Spain's Prime Minister called a snap general election and announced the dissolution of the Cortes Generales after failing to approve a government budget.",
+      "item_ids": [
+        "87f0a4e3d5a4798f"
+      ]
+    },
+    {
+      "claim": "Political conflict in Spain had already escalated earlier in the window, with the central government breaking off dialogue with the Catalan government.",
+      "item_ids": [
+        "c21aaf6c635fbba0"
+      ]
+    },
+    {
+      "claim": "Russia suspended participation in the Intermediate-Range Nuclear Forces Treaty and said it would develop new missiles in response to the U.S. withdrawal.",
+      "item_ids": [
+        "c717e819dbcc07fc"
+      ]
+    },
+    {
+      "claim": "Venezuela's crisis intensified during the window: aid deliveries were physically blocked at the Colombian border, the interim president did not rule out seeking U.S. military help, and authorities alleged a U.S.-owned freight company delivered weapons.",
+      "item_ids": [
+        "f603c1f6b87eb950",
+        "73cc3ddac36daf0d",
+        "aac58a55f4514aaa",
+        "c39ac180347370b3"
+      ]
+    },
+    {
+      "claim": "A suicide bombing in southeastern Iran killed at least 27 Iranian Revolutionary Guards.",
+      "item_ids": [
+        "d5bbf78b305c785c"
+      ]
+    },
+    {
+      "claim": "Preparations for a second U.S.\", ",
+      "item_ids": [
+        "1f374aa36d4fa9f0",
+        "50888d28a0ccc905"
+      ]
+    },
+    {
+      "claim": "A second U.S.-North Korea summit was announced during the State of the Union and North Korean officials arrived in Beijing ahead of it on the final day of the window.",
+      "item_ids": [
+        "1f374aa36d4fa9f0",
+        "50888d28a0ccc905"
+      ]
+    },
+    {
+      "claim": "The only explicitly business-and-economy items in the window are two corporate bankruptcies of limited scale: a German airline ceasing operations and a private Dutch Mars-colonisation organisation.",
+      "item_ids": [
+        "12e3469ca309d97e",
+        "a5edf2f79a58b5e0"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "f90ed000b83eb552",
+    "87f0a4e3d5a4798f",
+    "c717e819dbcc07fc"
+  ],
+  "competing_explanation": "The window may simply contain no market driver and the flag may be noise. The overwhelming majority of items are crime, disaster, sport and culture stories with no financial channel; the only economy-tagged items are two small bankruptcies; and there is no central-bank, inflation, growth, trade or large-cap corporate news anywhere in the list. A statistical break in price and volatility data at the end of such a window is at least as consistent with an unobserved macro or flow-driven cause outside this news set as with the Kashmir attack or the Spanish election call.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\": true, \"confidence\": \"low\", \"summary\": \"Two political/geopolitical events cluster at the end of the window: a mass-casualty suicide bombing against an Indian security convoy in Jammu and Kashmir that killed at least 46 personnel (Day 13), and the Spanish Prime Minister's call for a snap general election after failing to pass a budget, with dissolution of parliament announced (Day 14). Either could plausibly reprice risk in the affected regional markets, but neither item in the list is described in economic or financial terms, and the window otherwise contains no macro, central-bank, earnings or trade news.\", \"mechanism\": \"A large attack on state security forces raises the perceived probability of cross-border escalation and a regional risk premium, while an unscheduled national election following a failed budget injects fiscal and policy uncertainty into a large eurozone economy, both of which typically widen the distribution of expected outcomes and lift implied volatility in local equities, rates and currency.\", \"claims\": [{\"claim\": \"At least 46 members of India's security forces were killed by a suicide bomber striking a military convoy in Jammu and Kashmir.\", \"item_ids\": [\"f90ed000b83eb552\"]}, {\"claim\": \"On the day the model flagged, Spain's Prime Minister called a snap general election and announced the dissolution of the Cortes Generales after failing to approve a government budget.\", \"item_ids\": [\"87f0a4e3d5a4798f\"]}, {\"claim\": \"Political conflict in Spain had already escalated earlier in the window, with the central government breaking off dialogue with the Catalan government.\", \"item_ids\": [\"c21aaf6c635fbba0\"]}, {\"claim\": \"Russia suspended participation in the Intermediate-Range Nuclear Forces Treaty and said it would develop new missiles in response to the U.S. withdrawal.\", \"item_ids\": [\"c717e819dbcc07fc\"]}, {\"claim\": \"Venezuela's crisis intensified during the window: aid deliveries were physically blocked at the Colombian border, the interim president did not rule out seeking U.S. military help, and authorities alleged a U.S.-owned freight company delivered weapons.\", \"item_ids\": [\"f603c1f6b87eb950\", \"73cc3ddac36daf0d\", \"aac58a55f4514aaa\", \"c39ac180347370b3\"]}, {\"claim\": \"A suicide bombing in southeastern Iran killed at least 27 Iranian Revolutionary Guards.\", \"item_ids\": [\"d5bbf78b305c785c\"]}, {\"claim\": \"Preparations for a second U.S.\\\", \", \"item_ids\": [\"1f374aa36d4fa9f0\", \"50888d28a0ccc905\"]}, {\"claim\": \"A second U.S.-North Korea summit was announced during the State of the Union and North Korean officials arrived in Beijing ahead of it on the final day of the window.\", \"item_ids\": [\"1f374aa36d4fa9f0\", \"50888d28a0ccc905\"]}, {\"claim\": \"The only explicitly business-and-economy items in the window are two corporate bankruptcies of limited scale: a German airline ceasing operations and a private Dutch Mars-colonisation organisation.\", \"item_ids\": [\"12e3469ca309d97e\", \"a5edf2f79a58b5e0\"]}], \"primary_item_ids\": [\"f90ed000b83eb552\", \"87f0a4e3d5a4798f\", \"c717e819dbcc07fc\"], \"competing_explanation\": \"The window may simply contain no market driver and the flag may be noise. The overwhelming majority of items are crime, disaster, sport and culture stories with no financial channel; the only economy-tagged items are two small bankruptcies; and there is no central-bank, inflation, growth, trade or large-cap corporate news anywhere in the list. A statistical break in price and volatility data at the end of such a window is at least as consistent with an unobserved macro or flow-driven cause outside this news set as with the Kashmir attack or the Spanish election call.\", \"insufficient_evidence_reason\": \"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "681281387b8b93bd"
+}

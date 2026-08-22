@@ -1,0 +1,58 @@
+{
+  "window_id": "transition_2015-06-29",
+  "kind": "transition",
+  "boundary_date": "2015-06-29",
+  "driver_identified": true,
+  "confidence": "high",
+  "summary": "The dominant thread across the window is an escalating Greek sovereign-debt crisis that came to a head in the final three days: eurozone finance ministers refused to extend debt negotiations past a Tuesday deadline, the Hellenic Parliament voted to put the creditors' bailout proposal to a referendum, and Greek banks were already suffering sustained deposit flight funded by ECB emergency liquidity. A second, independent credit shock landed on Day 13 when the Governor of Puerto Rico declared the territory's debts \"not payable\", and the People's Bank of China cut rates for a fourth consecutive time on Day 12 to prop up growth.",
+  "mechanism": "An abrupt breakdown in bailout negotiations plus a referendum on the creditors' terms converts a negotiated outcome into a binary, date-certain event with default and currency-redenomination tail risk, which repricing of sovereign and bank exposures transmits into sharply higher equity, rates and FX volatility; a simultaneous municipal-debt repudiation and a central-bank easing signalling growth weakness reinforce the risk-off impulse.",
+  "claims": [
+    {
+      "claim": "Eurozone finance ministers rejected a Greek request to extend debt negotiations beyond a Tuesday deadline.",
+      "item_ids": [
+        "c0ebb271db7b3fd8"
+      ]
+    },
+    {
+      "claim": "The Hellenic Parliament approved holding a referendum on a proposed bailout, scheduled for the following Sunday.",
+      "item_ids": [
+        "591c614b47257c7b"
+      ]
+    },
+    {
+      "claim": "Greek banks were experiencing steady deposit withdrawals, with over 3 billion euros pulled out, prompting the ECB to raise the cap on emergency liquidity assistance.",
+      "item_ids": [
+        "bbb07c30847ce107"
+      ]
+    },
+    {
+      "claim": "A senior Greek parliamentary figure had earlier warned that parliament might reject the concessions the government offered creditors, signalling political fragility ahead of the deadline.",
+      "item_ids": [
+        "ef58e74f7285cc62"
+      ]
+    },
+    {
+      "claim": "The Governor of Puerto Rico stated that the territory's debts are \"not payable\".",
+      "item_ids": [
+        "fe7b91204f243769"
+      ]
+    },
+    {
+      "claim": "The People's Bank of China cut interest rates for a fourth successive time to help stabilise growth.",
+      "item_ids": [
+        "73d93ac182c0be18"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "c0ebb271db7b3fd8",
+    "591c614b47257c7b",
+    "fe7b91204f243769"
+  ],
+  "competing_explanation": "A cluster of high-casualty terrorist attacks late in the window \u2014 a beheading at a factory near Lyon, a mass-casualty attack in Tunisia killing 39 including more than 30 Britons, and a suicide bombing in Kuwait killing 27 \u2014 could independently raise geopolitical risk premia and hit travel/tourism-linked assets. However, such attacks historically produce short-lived, sector-localised moves, whereas the Greek deadline and referendum items describe a scheduled, system-wide financial event; the Chinese rate cut is a further, weaker alternative pointing to growth concerns.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"The dominant thread across the window is an escalating Greek sovereign-debt crisis that came to a head in the final three days: eurozone finance ministers refused to extend debt negotiations past a Tuesday deadline, the Hellenic Parliament voted to put the creditors' bailout proposal to a referendum, and Greek banks were already suffering sustained deposit flight funded by ECB emergency liquidity. A second, independent credit shock landed on Day 13 when the Governor of Puerto Rico declared the territory's debts \\\"not payable\\\", and the People's Bank of China cut rates for a fourth consecutive time on Day 12 to prop up growth.\",\"mechanism\":\"An abrupt breakdown in bailout negotiations plus a referendum on the creditors' terms converts a negotiated outcome into a binary, date-certain event with default and currency-redenomination tail risk, which repricing of sovereign and bank exposures transmits into sharply higher equity, rates and FX volatility; a simultaneous municipal-debt repudiation and a central-bank easing signalling growth weakness reinforce the risk-off impulse.\",\"claims\":[{\"claim\":\"Eurozone finance ministers rejected a Greek request to extend debt negotiations beyond a Tuesday deadline.\",\"item_ids\":[\"c0ebb271db7b3fd8\"]},{\"claim\":\"The Hellenic Parliament approved holding a referendum on a proposed bailout, scheduled for the following Sunday.\",\"item_ids\":[\"591c614b47257c7b\"]},{\"claim\":\"Greek banks were experiencing steady deposit withdrawals, with over 3 billion euros pulled out, prompting the ECB to raise the cap on emergency liquidity assistance.\",\"item_ids\":[\"bbb07c30847ce107\"]},{\"claim\":\"A senior Greek parliamentary figure had earlier warned that parliament might reject the concessions the government offered creditors, signalling political fragility ahead of the deadline.\",\"item_ids\":[\"ef58e74f7285cc62\"]},{\"claim\":\"The Governor of Puerto Rico stated that the territory's debts are \\\"not payable\\\".\",\"item_ids\":[\"fe7b91204f243769\"]},{\"claim\":\"The People's Bank of China cut interest rates for a fourth successive time to help stabilise growth.\",\"item_ids\":[\"73d93ac182c0be18\"]}],\"primary_item_ids\":[\"c0ebb271db7b3fd8\",\"591c614b47257c7b\",\"fe7b91204f243769\"],\"competing_explanation\":\"A cluster of high-casualty terrorist attacks late in the window \u2014 a beheading at a factory near Lyon, a mass-casualty attack in Tunisia killing 39 including more than 30 Britons, and a suicide bombing in Kuwait killing 27 \u2014 could independently raise geopolitical risk premia and hit travel/tourism-linked assets. However, such attacks historically produce short-lived, sector-localised moves, whereas the Greek deadline and referendum items describe a scheduled, system-wide financial event; the Chinese rate cut is a further, weaker alternative pointing to growth concerns.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "7a0903e72ba2e563"
+}

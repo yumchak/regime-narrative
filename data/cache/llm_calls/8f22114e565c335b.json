@@ -1,0 +1,20 @@
+{
+  "call_id": "8f22114e565c335b",
+  "timestamp_utc": "2026-08-22T05:09:18.525479+00:00",
+  "window_id": "placebo_2023-02-09",
+  "kind": "placebo",
+  "boundary_date": "2023-02-09",
+  "model": "claude-opus-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "f57496819d0bcf63",
+  "n_items_in_window": 85,
+  "input_chars": 14986,
+  "usage": {
+    "input_tokens": 7801,
+    "output_tokens": 1694
+  },
+  "response_text": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The dominant event in the window is the pair of very large earthquakes striking southern Turkey and northern Syria on Day 11 (magnitude 7.8 in Gaziantep Province, followed nine hours later by a magnitude 7.5 in Kahramanmara\u015f), with at least 3,400 deaths reported immediately and consequences still unfolding at the close of the window. A secondary, unrelated candidate is the geopolitical friction implied by the US shooting down a high-altitude balloon off its east coast on Day 9, which forced the FAA to close airspace and suspend arrivals at several airports. The earthquake is the more plausible account of a regime change in price and volatility behaviour flagged three days later, since its economic and humanitarian scale was still expanding through Day 14.\",\"mechanism\":\"A catastrophic earthquake destroys physical capital, disrupts industry, logistics and insurance exposures across an entire region, and creates deep uncertainty about fiscal and reconstruction costs, which typically shows up as a sharp repricing and elevated volatility in the affected country's assets and in insurance-linked risk more broadly.\",\"claims\":[{\"claim\":\"A magnitude 7.8 earthquake struck Gaziantep Province, Turkey, on Day 11, with at least 3,400 people reported killed across Turkey and Syria.\",\"item_ids\":[\"b99abacebd588376\"]},{\"claim\":\"A second earthquake of magnitude 7.5 struck Kahramanmara\u015f, Turkey, nine hours after the first.\",\"item_ids\":[\"d7566de66dcedf1f\"]},{\"claim\":\"The disaster was still generating disorder at the end of the window: three inmates were killed and twelve injured when soldiers opened fire during a prison riot in Hatay Province, Turkey, by prisoners demanding to see families affected by the earthquake.\",\"item_ids\":[\"c685576a564757fe\"]},{\"claim\":\"Two days before the earthquake, the US Federal Aviation Administration closed airspace off the east coast and suspended arrivals at three airports after the president ordered a high-altitude balloon shot down over the Atlantic.\",\"item_ids\":[\"a953243f9ebca426\"]},{\"claim\":\"Separate items in the window point to macroeconomic strain: PayPal announced roughly 2,000 job cuts citing a challenging macro-economic environment, Flybe collapsed into administration, and Lebanon's central bank devalued its currency by 90%.\",\"item_ids\":[\"104a3765f1c7b5ee\",\"660bc9e03b6c94d4\",\"cdb49008eefccd33\"]},{\"claim\":\"More than 500,000 UK public sector workers struck in the largest industrial action there in decades, and France was experiencing pension reform strikes.\",\"item_ids\":[\"659771030f82caea\",\"d9d1400ad5cb5711\"]}],\"primary_item_ids\":[\"b99abacebd588376\",\"d7566de66dcedf1f\",\"c685576a564757fe\"],\"competing_explanation\":\"The balloon shootdown and airspace closure off the US east coast (Day 9) signals a sharp deterioration in a major bilateral relationship and is closer in time to some of the window's other security items; alternatively, the cluster of corporate and macro stress items (PayPal layoffs citing macro conditions, Flybe's collapse, Lebanon's 90% devaluation, mass strikes in the UK and France) could be read as a slow-building risk backdrop with no single trigger. Neither has the clear, dated discontinuity that the twin earthquakes provide, and none of the items quantifies any market reaction.\",\"insufficient_evidence_reason\":\"\"}"
+}

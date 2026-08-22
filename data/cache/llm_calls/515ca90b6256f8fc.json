@@ -1,0 +1,21 @@
+{
+  "call_id": "515ca90b6256f8fc",
+  "timestamp_utc": "2026-08-22T05:20:53.946345+00:00",
+  "window_id": "transition_2020-01-31",
+  "kind": "transition",
+  "run_label": "retest",
+  "boundary_date": "2020-01-31",
+  "model": "claude-opus-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "238961585c57a8b8",
+  "n_items_in_window": 73,
+  "input_chars": 18023,
+  "usage": {
+    "input_tokens": 8726,
+    "output_tokens": 1201
+  },
+  "response_text": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"Over the window a novel coronavirus outbreak in China escalated from a handful of reported deaths to city-wide quarantine, a national leading group, extended national holidays, and confirmed international spillover. By the final days the disruption had reached global supply of travel and consumer activity (border closures, resort shutdowns, a quarantined cruise ship in Italy, a quarantined evacuation flight into the US), which is the kind of broad, open-ended economic shock that would plausibly reprice risk and lift volatility.\",\"mechanism\":\"An escalating epidemic in a major manufacturing and consumption economy transmits to markets through expected demand destruction, travel/consumption shutdowns and supply-chain interruption, while the unbounded uncertainty about the infection curve widens the distribution of outcomes and raises implied and realised volatility.\",\"claims\":[{\"claim\":\"Chinese authorities reported a third death from the coronavirus and confirmed spread from Wuhan to Shenzhen, Beijing and Hong Kong.\",\"item_ids\":[\"4924c6ba6af2fc81\"]},{\"claim\":\"Chinese authorities quarantined the entire city of Wuhan, suspending all public transport, as the death toll reached 17.\",\"item_ids\":[\"c2a2ea5c906916f2\"]},{\"claim\":\"The reported toll escalated sharply during the window, with Hubei reporting 1,291 new confirmed cases and a cumulative 106 deaths.\",\"item_ids\":[\"35e045ccbb45a4fa\"]},{\"claim\":\"Economic and consumer activity was directly curtailed: Shanghai Disney Resort closed and the Chinese government extended the Spring Festival holiday under a new leading group headed by the Premier.\",\"item_ids\":[\"09ef28cc16c488b5\",\"97b948dd74be3431\"]},{\"claim\":\"Cross-border effects appeared, with North Korea banning foreign tourists and closing its border with China.\",\"item_ids\":[\"b231214a0c03f3db\"]},{\"claim\":\"By the last two days, containment measures had spread outside Asia: over 6,000 passengers were barred from disembarking a cruise ship in Italy over two suspected cases, and a flight of 195 Americans returning from China was quarantined.\",\"item_ids\":[\"8ad78973d71b51ac\",\"4dd503b4bee53542\"]},{\"claim\":\"China's head of state publicly addressed the World Health Organization about defeating the virus, indicating the outbreak had become a top-level state matter.\",\"item_ids\":[\"7c92c2a05f037f40\"]}],\"primary_item_ids\":[\"c2a2ea5c906916f2\",\"35e045ccbb45a4fa\",\"8ad78973d71b51ac\"],\"competing_explanation\":\"Two other candidates appear: the European Parliament's 621-49 approval of the Brexit agreement, marking Britain's last day of EU parliamentary representation, and the unveiling of the US-Israeli Middle East plan rejected by the Palestinian president. Both are macro-relevant political events, but the Brexit vote was a widely anticipated ratification of an already-signed agreement and the peace plan carried no direct financial channel, whereas the outbreak items escalate continuously and end the window with fresh, unresolved developments.\",\"insufficient_evidence_reason\":\"\"}"
+}

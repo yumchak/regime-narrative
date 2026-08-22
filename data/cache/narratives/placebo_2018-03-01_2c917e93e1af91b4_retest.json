@@ -1,0 +1,65 @@
+{
+  "window_id": "placebo_2018-03-01",
+  "kind": "placebo",
+  "boundary_date": "2018-03-01",
+  "driver_identified": false,
+  "confidence": "none",
+  "summary": "",
+  "mechanism": "",
+  "claims": [
+    {
+      "claim": "The only items in the window with direct corporate/financial content on the final days are two UK retail insolvencies: Maplin Electronics entering administration with 2,500 jobs at risk, and Toys \"R\" Us collapsing into administration in the UK with 3,200 jobs at risk.",
+      "item_ids": [
+        "9fcc879216a6ba49",
+        "fba338b7e970ea0a"
+      ]
+    },
+    {
+      "claim": "An earlier financial-institution item \u2014 the detention of the head of the Bank of Latvia \u2014 was accompanied by an explicit official statement that there was no apparent threat to the Latvian financial system.",
+      "item_ids": [
+        "a3f5d9133418e777"
+      ]
+    },
+    {
+      "claim": "The final day's items are procedural or political in nature: an Argentine presidential address opening congressional sessions, a Senate Intelligence Committee report on a leak of text messages, and an FBI-assisted inquiry into forged Nobel nominations.",
+      "item_ids": [
+        "19f87d019df64168",
+        "aac9669764319ec3",
+        "2b14753e8b232054",
+        "ecfc0b123fe38a35"
+      ]
+    },
+    {
+      "claim": "Geopolitical items in the window include ongoing Syrian airstrikes on Eastern Ghouta with over 400 dead and a blocked UN Security Council truce resolution, and a stated North Korean willingness to enter denuclearisation talks with the United States.",
+      "item_ids": [
+        "0266740580a4328b",
+        "a20c490ece20ec29",
+        "85261a449999aefb",
+        "24e2c880b4a5fd76"
+      ]
+    },
+    {
+      "claim": "Policy/institutional items with potential macro relevance are limited to a nomination for a European Central Bank vice-presidency and a set of South Korean bilateral free trade agreements with five Central American states.",
+      "item_ids": [
+        "37beb42cd2b32382",
+        "54e0f0e780963abc"
+      ]
+    },
+    {
+      "claim": "Several items concern domestic political and legal proceedings in the United States, including indictments and guilty pleas connected to the special counsel investigation.",
+      "item_ids": [
+        "f777831b1abd8ef7",
+        "0ea10735d377b788",
+        "35ee6a044f53f723",
+        "7804f05c3fee5044"
+      ]
+    }
+  ],
+  "primary_item_ids": [],
+  "competing_explanation": "The strongest candidate, and the one closest to the flag date, is the pair of UK retail administrations on Day 13 (Maplin and Toys \"R\" Us UK, together around 5,700 jobs at risk), which could be read as evidence of consumer-sector stress, arriving alongside an unprecedented red-level snow warning for parts of Scotland that would depress near-term retail footfall. This is a plausible narrative for UK consumer-discretionary names but is far too narrow and too well-telegraphed (both followed failed rescue talks) to account for a regime-level change in broad price and volatility behaviour. Secondary candidates \u2014 the ECB vice-presidency nomination, the detention of Latvia's central bank governor (explicitly described as posing no systemic threat), the North Korea talks signal, and the escalating Syria conflict with a blocked UN truce \u2014 are each individually weak and point in different directions, which is itself a reason to doubt a single news-driven driver.",
+  "insufficient_evidence_reason": "No item in the window describes a monetary policy decision, an inflation or growth data release, a trade or tariff action by a major economy, a sovereign or systemic credit event, or a shock to a major financial institution or commodity market. The final day contains only political process items (an Argentine congressional address, a congressional leak dispute, a forged-nomination inquiry) with no discernible pricing channel. The two corporate failures on Day 13 are single-country retail insolvencies following publicly failed rescue talks \u2014 the kind of event already largely discounted and far too small to reset broad volatility. On the evidence supplied, the flag is more consistent with noise, or with a driver that is simply not represented in this news set, than with any identifiable event here.",
+  "raw_response": "{\"driver_identified\":false,\"confidence\":\"none\",\"summary\":\"\",\"mechanism\":\"\",\"claims\":[{\"claim\":\"The only items in the window with direct corporate/financial content on the final days are two UK retail insolvencies: Maplin Electronics entering administration with 2,500 jobs at risk, and Toys \\\"R\\\" Us collapsing into administration in the UK with 3,200 jobs at risk.\",\"item_ids\":[\"9fcc879216a6ba49\",\"fba338b7e970ea0a\"]},{\"claim\":\"An earlier financial-institution item \u2014 the detention of the head of the Bank of Latvia \u2014 was accompanied by an explicit official statement that there was no apparent threat to the Latvian financial system.\",\"item_ids\":[\"a3f5d9133418e777\"]},{\"claim\":\"The final day's items are procedural or political in nature: an Argentine presidential address opening congressional sessions, a Senate Intelligence Committee report on a leak of text messages, and an FBI-assisted inquiry into forged Nobel nominations.\",\"item_ids\":[\"19f87d019df64168\",\"aac9669764319ec3\",\"2b14753e8b232054\",\"ecfc0b123fe38a35\"]},{\"claim\":\"Geopolitical items in the window include ongoing Syrian airstrikes on Eastern Ghouta with over 400 dead and a blocked UN Security Council truce resolution, and a stated North Korean willingness to enter denuclearisation talks with the United States.\",\"item_ids\":[\"0266740580a4328b\",\"a20c490ece20ec29\",\"85261a449999aefb\",\"24e2c880b4a5fd76\"]},{\"claim\":\"Policy/institutional items with potential macro relevance are limited to a nomination for a European Central Bank vice-presidency and a set of South Korean bilateral free trade agreements with five Central American states.\",\"item_ids\":[\"37beb42cd2b32382\",\"54e0f0e780963abc\"]},{\"claim\":\"Several items concern domestic political and legal proceedings in the United States, including indictments and guilty pleas connected to the special counsel investigation.\",\"item_ids\":[\"f777831b1abd8ef7\",\"0ea10735d377b788\",\"35ee6a044f53f723\",\"7804f05c3fee5044\"]}],\"primary_item_ids\":[],\"competing_explanation\":\"The strongest candidate, and the one closest to the flag date, is the pair of UK retail administrations on Day 13 (Maplin and Toys \\\"R\\\" Us UK, together around 5,700 jobs at risk), which could be read as evidence of consumer-sector stress, arriving alongside an unprecedented red-level snow warning for parts of Scotland that would depress near-term retail footfall. This is a plausible narrative for UK consumer-discretionary names but is far too narrow and too well-telegraphed (both followed failed rescue talks) to account for a regime-level change in broad price and volatility behaviour. Secondary candidates \u2014 the ECB vice-presidency nomination, the detention of Latvia's central bank governor (explicitly described as posing no systemic threat), the North Korea talks signal, and the escalating Syria conflict with a blocked UN truce \u2014 are each individually weak and point in different directions, which is itself a reason to doubt a single news-driven driver.\",\"insufficient_evidence_reason\":\"No item in the window describes a monetary policy decision, an inflation or growth data release, a trade or tariff action by a major economy, a sovereign or systemic credit event, or a shock to a major financial institution or commodity market. The final day contains only political process items (an Argentine congressional address, a congressional leak dispute, a forged-nomination inquiry) with no discernible pricing channel. The two corporate failures on Day 13 are single-country retail insolvencies following publicly failed rescue talks \u2014 the kind of event already largely discounted and far too small to reset broad volatility. On the evidence supplied, the flag is more consistent with noise, or with a driver that is simply not represented in this news set, than with any identifiable event here.\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "838a24b37368d738"
+}

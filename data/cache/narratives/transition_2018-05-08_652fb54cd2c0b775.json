@@ -1,0 +1,66 @@
+{
+  "window_id": "transition_2018-05-08",
+  "kind": "transition",
+  "boundary_date": "2018-05-08",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "On the final day of the window the U.S. President announced U.S. withdrawal from the Iran nuclear deal, an outcome that had been publicly contested during the window when the UK, Germany and France jointly reaffirmed their support for the agreement as the best means of preventing an Iranian nuclear weapon. This is the only item in the window with direct, broad cross-asset significance, and it lands precisely on the day the model flagged. Surrounding items show an already tense Middle East backdrop \u2014 Israeli strikes in Gaza, Israeli-Russian/Syrian airspace incidents, Saudi-led strikes destroying the presidential palace in Sana'a, and Hezbollah-aligned parties winning a parliamentary majority.",
+  "mechanism": "Abandoning a nuclear agreement re-opens the prospect of sanctions on a major oil producer and of transatlantic policy divergence, which transmits into energy price uncertainty, geopolitical risk premia and a repricing of exposure for firms with Iran-linked business, all of which raise realised and implied volatility.",
+  "claims": [
+    {
+      "claim": "The United States announced its withdrawal from the Iran nuclear deal on the day the model flagged.",
+      "item_ids": [
+        "32e117467b79aa9f"
+      ]
+    },
+    {
+      "claim": "Earlier in the window the leaders of the United Kingdom, Germany and France publicly agreed that the Iran nuclear deal was the best way to prevent Iran from obtaining nuclear weapons, indicating a transatlantic split over the agreement's future.",
+      "item_ids": [
+        "902e093e920acb76"
+      ]
+    },
+    {
+      "claim": "The regional security backdrop during the window included Israeli airstrikes on Hamas targets in Gaza and repeated shooting incidents at the Gaza fence.",
+      "item_ids": [
+        "94cc043467f70e18",
+        "03c706f71568ea48",
+        "e026f920908decd1"
+      ]
+    },
+    {
+      "claim": "Israel used a hotline to warn a Russian-operated airbase in Syria after a Russian jet approached Israeli airspace near the Golan Heights, following an earlier shoot-down of a Syrian warplane.",
+      "item_ids": [
+        "b4e1d0935016bec2"
+      ]
+    },
+    {
+      "claim": "Saudi-led coalition airstrikes destroyed the presidential palace in Sana'a, Yemen, killing at least six.",
+      "item_ids": [
+        "be93be2adc9bb7b0"
+      ]
+    },
+    {
+      "claim": "Official results showed Hezbollah and allied parties winning a slight parliamentary majority.",
+      "item_ids": [
+        "51d75aba4549f164"
+      ]
+    },
+    {
+      "claim": "Syrian government forces with what were believed to be Iranian-backed militias clashed with U.S.-backed Kurdish-led forces east of the Euphrates, with U.S.-led coalition jets involved in the counter-attack.",
+      "item_ids": [
+        "165be569b9c5c0ad"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "32e117467b79aa9f",
+    "902e093e920acb76",
+    "165be569b9c5c0ad"
+  ],
+  "competing_explanation": "The window also contains a marked Korean-peninsula detente \u2014 an inter-Korean summit agreeing to end the Korean War, North Korea aligning its time zone with the South, and a second Kim\u2013Xi meeting on the flagged day \u2014 which is geopolitically large but risk-reducing rather than risk-increasing, and would not obviously raise volatility. Purely domestic corporate and political stories in the window (the Asda\u2013Sainsbury's merger, Cambridge Analytica's closure, a UK Home Secretary's resignation) are too narrow to move broad market conditions. It is also possible the model flagged noise, since no item reports actual price, rate or commodity moves.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"On the final day of the window the U.S. President announced U.S. withdrawal from the Iran nuclear deal, an outcome that had been publicly contested during the window when the UK, Germany and France jointly reaffirmed their support for the agreement as the best means of preventing an Iranian nuclear weapon. This is the only item in the window with direct, broad cross-asset significance, and it lands precisely on the day the model flagged. Surrounding items show an already tense Middle East backdrop \u2014 Israeli strikes in Gaza, Israeli-Russian/Syrian airspace incidents, Saudi-led strikes destroying the presidential palace in Sana'a, and Hezbollah-aligned parties winning a parliamentary majority.\",\"mechanism\":\"Abandoning a nuclear agreement re-opens the prospect of sanctions on a major oil producer and of transatlantic policy divergence, which transmits into energy price uncertainty, geopolitical risk premia and a repricing of exposure for firms with Iran-linked business, all of which raise realised and implied volatility.\",\"claims\":[{\"claim\":\"The United States announced its withdrawal from the Iran nuclear deal on the day the model flagged.\",\"item_ids\":[\"32e117467b79aa9f\"]},{\"claim\":\"Earlier in the window the leaders of the United Kingdom, Germany and France publicly agreed that the Iran nuclear deal was the best way to prevent Iran from obtaining nuclear weapons, indicating a transatlantic split over the agreement's future.\",\"item_ids\":[\"902e093e920acb76\"]},{\"claim\":\"The regional security backdrop during the window included Israeli airstrikes on Hamas targets in Gaza and repeated shooting incidents at the Gaza fence.\",\"item_ids\":[\"94cc043467f70e18\",\"03c706f71568ea48\",\"e026f920908decd1\"]},{\"claim\":\"Israel used a hotline to warn a Russian-operated airbase in Syria after a Russian jet approached Israeli airspace near the Golan Heights, following an earlier shoot-down of a Syrian warplane.\",\"item_ids\":[\"b4e1d0935016bec2\"]},{\"claim\":\"Saudi-led coalition airstrikes destroyed the presidential palace in Sana'a, Yemen, killing at least six.\",\"item_ids\":[\"be93be2adc9bb7b0\"]},{\"claim\":\"Official results showed Hezbollah and allied parties winning a slight parliamentary majority.\",\"item_ids\":[\"51d75aba4549f164\"]},{\"claim\":\"Syrian government forces with what were believed to be Iranian-backed militias clashed with U.S.-backed Kurdish-led forces east of the Euphrates, with U.S.-led coalition jets involved in the counter-attack.\",\"item_ids\":[\"165be569b9c5c0ad\"]}],\"primary_item_ids\":[\"32e117467b79aa9f\",\"902e093e920acb76\",\"165be569b9c5c0ad\"],\"competing_explanation\":\"The window also contains a marked Korean-peninsula detente \u2014 an inter-Korean summit agreeing to end the Korean War, North Korea aligning its time zone with the South, and a second Kim\u2013Xi meeting on the flagged day \u2014 which is geopolitically large but risk-reducing rather than risk-increasing, and would not obviously raise volatility. Purely domestic corporate and political stories in the window (the Asda\u2013Sainsbury's merger, Cambridge Analytica's closure, a UK Home Secretary's resignation) are too narrow to move broad market conditions. It is also possible the model flagged noise, since no item reports actual price, rate or commodity moves.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "189ef562729b801c"
+}

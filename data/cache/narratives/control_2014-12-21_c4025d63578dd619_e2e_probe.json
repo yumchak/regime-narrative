@@ -1,0 +1,66 @@
+{
+  "window_id": "control_2014-12-21",
+  "kind": "placebo",
+  "boundary_date": "2014-12-21",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The dominant market-relevant development in the window is an acute Russian currency and rates shock: the Bank of Russia raised its key repo rate from 10.5% to 17% in an explicitly emergency move to arrest a collapse in the ruble (Day 9), followed two days later by fresh EU sanctions banning investment, tourism and oil exploration in Russia-occupied Crimea (Day 11). This sits alongside an unstable oil complex \u2014 Brent reported at $61+ with companies cutting upstream investment (Day 11) \u2014 and a separate European political risk event, the Greek parliament's failure to elect a president at the first round (Day 10). Together these give a plausible account of a shift in volatility conditions in the second half of the window.",
+  "mechanism": "A 650bp emergency policy-rate move to defend a collapsing currency, reinforced by new sanctions on the same economy, forces abrupt repricing of FX, sovereign credit and commodity-linked assets and propagates through cross-asset correlations; a failed first-round presidential vote in Greece adds sovereign political risk to the same window.",
+  "claims": [
+    {
+      "claim": "The Bank of Russia raised its key weekly repo rate from 10.5% to 17% as an emergency measure to halt a collapse in the ruble's value.",
+      "item_ids": [
+        "055d4621df4a322f"
+      ]
+    },
+    {
+      "claim": "The European Union imposed sanctions on Russia-occupied Crimea, banning investment and tourism and halting oil exploration.",
+      "item_ids": [
+        "2c5761bb1cf5efe0"
+      ]
+    },
+    {
+      "claim": "Brent crude was reported at $61+ per barrel, rising as companies cut upstream investment.",
+      "item_ids": [
+        "9d8632ead09f278d"
+      ]
+    },
+    {
+      "claim": "The Greek parliament failed to elect a new president in the first round of voting.",
+      "item_ids": [
+        "222f91e98535cdaf"
+      ]
+    },
+    {
+      "claim": "The United States and Cuba announced the re-establishment of diplomatic relations, with talks to begin on lifting the embargo.",
+      "item_ids": [
+        "f85bd6b3b57b4f1c"
+      ]
+    },
+    {
+      "claim": "A corporate cyber incident at Sony led to production shutdowns and the cancellation of a film release and preview screening after hacker threats.",
+      "item_ids": [
+        "f263edf7684c923b",
+        "dcb7397a4e455d9c",
+        "3799cc5c367adc00"
+      ]
+    },
+    {
+      "claim": "The only item on the day the model flagged is a magnitude-6.6 earthquake near Tobelo, Indonesia, with no reported injuries, damage, or tsunami alert.",
+      "item_ids": [
+        "3f9dca1218ed6c30"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "055d4621df4a322f",
+    "2c5761bb1cf5efe0",
+    "222f91e98535cdaf"
+  ],
+  "competing_explanation": "The flag falls on Day 14, whose only item is a non-damaging earthquake, and the currency/rates shock occurred five days earlier \u2014 so the model may be picking up either the lagged persistence of that shock or simply noise. An alternative reading emphasises the Greek presidential vote (Day 10) as a European sovereign-risk trigger independent of Russia, or the oil market itself (Day 11) as the common factor behind both. Nothing in Days 12\u201314 independently supports a fresh driver.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The dominant market-relevant development in the window is an acute Russian currency and rates shock: the Bank of Russia raised its key repo rate from 10.5% to 17% in an explicitly emergency move to arrest a collapse in the ruble (Day 9), followed two days later by fresh EU sanctions banning investment, tourism and oil exploration in Russia-occupied Crimea (Day 11). This sits alongside an unstable oil complex \u2014 Brent reported at $61+ with companies cutting upstream investment (Day 11) \u2014 and a separate European political risk event, the Greek parliament's failure to elect a president at the first round (Day 10). Together these give a plausible account of a shift in volatility conditions in the second half of the window.\",\"mechanism\":\"A 650bp emergency policy-rate move to defend a collapsing currency, reinforced by new sanctions on the same economy, forces abrupt repricing of FX, sovereign credit and commodity-linked assets and propagates through cross-asset correlations; a failed first-round presidential vote in Greece adds sovereign political risk to the same window.\",\"claims\":[{\"claim\":\"The Bank of Russia raised its key weekly repo rate from 10.5% to 17% as an emergency measure to halt a collapse in the ruble's value.\",\"item_ids\":[\"055d4621df4a322f\"]},{\"claim\":\"The European Union imposed sanctions on Russia-occupied Crimea, banning investment and tourism and halting oil exploration.\",\"item_ids\":[\"2c5761bb1cf5efe0\"]},{\"claim\":\"Brent crude was reported at $61+ per barrel, rising as companies cut upstream investment.\",\"item_ids\":[\"9d8632ead09f278d\"]},{\"claim\":\"The Greek parliament failed to elect a new president in the first round of voting.\",\"item_ids\":[\"222f91e98535cdaf\"]},{\"claim\":\"The United States and Cuba announced the re-establishment of diplomatic relations, with talks to begin on lifting the embargo.\",\"item_ids\":[\"f85bd6b3b57b4f1c\"]},{\"claim\":\"A corporate cyber incident at Sony led to production shutdowns and the cancellation of a film release and preview screening after hacker threats.\",\"item_ids\":[\"f263edf7684c923b\",\"dcb7397a4e455d9c\",\"3799cc5c367adc00\"]},{\"claim\":\"The only item on the day the model flagged is a magnitude-6.6 earthquake near Tobelo, Indonesia, with no reported injuries, damage, or tsunami alert.\",\"item_ids\":[\"3f9dca1218ed6c30\"]}],\"primary_item_ids\":[\"055d4621df4a322f\",\"2c5761bb1cf5efe0\",\"222f91e98535cdaf\"],\"competing_explanation\":\"The flag falls on Day 14, whose only item is a non-damaging earthquake, and the currency/rates shock occurred five days earlier \u2014 so the model may be picking up either the lagged persistence of that shock or simply noise. An alternative reading emphasises the Greek presidential vote (Day 10) as a European sovereign-risk trigger independent of Russia, or the oil market itself (Day 11) as the common factor behind both. Nothing in Days 12\u201314 independently supports a fresh driver.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "f326c82e5bc353a4"
+}

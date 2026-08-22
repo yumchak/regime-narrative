@@ -1,0 +1,68 @@
+{
+  "window_id": "placebo_2018-11-21",
+  "kind": "placebo",
+  "boundary_date": "2018-11-21",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The window contains a sustained UK political crisis over the Brexit withdrawal plan: a ministerial resignation early in the window, cabinet approval that drew open dissent, and then the resignation and replacement of the Brexit Secretary and Work and Pensions Secretary. Two other candidates with market relevance land late in the window: the APEC summit closing without a communiqu\u00e9 for the first time ever, and the arrest of the chairman of Nissan and Renault. Together these give a plausible, though not airtight, account of a shift in market conditions by the flagged day.",
+  "mechanism": "Repeated senior resignations around a contested withdrawal agreement raise the perceived probability of a leadership challenge or a disorderly outcome, which is transmitted directly into currency and rate volatility and into risk premia on domestically exposed equities; a summit failing to agree a communiqu\u00e9 signals unresolved trade friction, which widens the distribution of expected outcomes for globally exposed assets.",
+  "claims": [
+    {
+      "claim": "A British transport minister resigned over the Prime Minister's Brexit plan and called for a second referendum.",
+      "item_ids": [
+        "0edbbb4e4c348529"
+      ]
+    },
+    {
+      "claim": "The Prime Minister obtained cabinet approval for the Brexit plan, but many Conservative and opposition MPs voiced strong disapproval.",
+      "item_ids": [
+        "fe775946441925b2"
+      ]
+    },
+    {
+      "claim": "Following that approval, the Secretary of State for Exiting the European Union and the Secretary of State for Work and Pensions resigned and had to be replaced.",
+      "item_ids": [
+        "6fda46e8f55a86d4"
+      ]
+    },
+    {
+      "claim": "The APEC summit ended without a communiqu\u00e9 for the first time in the forum's history.",
+      "item_ids": [
+        "50bd99045530a413"
+      ]
+    },
+    {
+      "claim": "The chairman and former CEO of Nissan, who is also chairman and CEO of Renault, was arrested for breaching financial trading laws, and Nissan recommended he and another director step down.",
+      "item_ids": [
+        "6dce46e1ae812eda"
+      ]
+    },
+    {
+      "claim": "The European Union reached a provisional agreement on a mechanism to screen foreign investment into Europe.",
+      "item_ids": [
+        "68dec191375af772"
+      ]
+    },
+    {
+      "claim": "Most other items in the window describe events with no direct financial channel, including large California wildfires, several attacks and disasters, and scientific and sporting results.",
+      "item_ids": [
+        "028766f977500d14",
+        "c6047bfe2841d912",
+        "fe7af9b2c0860509",
+        "3771c8f00a5f2b5a",
+        "fdde32e3a840cb3f"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "6fda46e8f55a86d4",
+    "fe775946441925b2",
+    "50bd99045530a413"
+  ],
+  "competing_explanation": "The change may instead reflect trade and cross-border investment friction rather than UK politics: the APEC summit closing with no communiqu\u00e9, the EU agreeing a foreign investment screening system, and a wave of countries withdrawing from a UN migration compact all cluster in the last four days and point to a breakdown in multilateral coordination. A narrower reading is that the arrest of the Nissan/Renault chairman is a single-name corporate governance shock with limited index-level relevance, in which case the model may simply have flagged noise.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The window contains a sustained UK political crisis over the Brexit withdrawal plan: a ministerial resignation early in the window, cabinet approval that drew open dissent, and then the resignation and replacement of the Brexit Secretary and Work and Pensions Secretary. Two other candidates with market relevance land late in the window: the APEC summit closing without a communiqu\u00e9 for the first time ever, and the arrest of the chairman of Nissan and Renault. Together these give a plausible, though not airtight, account of a shift in market conditions by the flagged day.\",\"mechanism\":\"Repeated senior resignations around a contested withdrawal agreement raise the perceived probability of a leadership challenge or a disorderly outcome, which is transmitted directly into currency and rate volatility and into risk premia on domestically exposed equities; a summit failing to agree a communiqu\u00e9 signals unresolved trade friction, which widens the distribution of expected outcomes for globally exposed assets.\",\"claims\":[{\"claim\":\"A British transport minister resigned over the Prime Minister's Brexit plan and called for a second referendum.\",\"item_ids\":[\"0edbbb4e4c348529\"]},{\"claim\":\"The Prime Minister obtained cabinet approval for the Brexit plan, but many Conservative and opposition MPs voiced strong disapproval.\",\"item_ids\":[\"fe775946441925b2\"]},{\"claim\":\"Following that approval, the Secretary of State for Exiting the European Union and the Secretary of State for Work and Pensions resigned and had to be replaced.\",\"item_ids\":[\"6fda46e8f55a86d4\"]},{\"claim\":\"The APEC summit ended without a communiqu\u00e9 for the first time in the forum's history.\",\"item_ids\":[\"50bd99045530a413\"]},{\"claim\":\"The chairman and former CEO of Nissan, who is also chairman and CEO of Renault, was arrested for breaching financial trading laws, and Nissan recommended he and another director step down.\",\"item_ids\":[\"6dce46e1ae812eda\"]},{\"claim\":\"The European Union reached a provisional agreement on a mechanism to screen foreign investment into Europe.\",\"item_ids\":[\"68dec191375af772\"]},{\"claim\":\"Most other items in the window describe events with no direct financial channel, including large California wildfires, several attacks and disasters, and scientific and sporting results.\",\"item_ids\":[\"028766f977500d14\",\"c6047bfe2841d912\",\"fe7af9b2c0860509\",\"3771c8f00a5f2b5a\",\"fdde32e3a840cb3f\"]}],\"primary_item_ids\":[\"6fda46e8f55a86d4\",\"fe775946441925b2\",\"50bd99045530a413\"],\"competing_explanation\":\"The change may instead reflect trade and cross-border investment friction rather than UK politics: the APEC summit closing with no communiqu\u00e9, the EU agreeing a foreign investment screening system, and a wave of countries withdrawing from a UN migration compact all cluster in the last four days and point to a breakdown in multilateral coordination. A narrower reading is that the arrest of the Nissan/Renault chairman is a single-name corporate governance shock with limited index-level relevance, in which case the model may simply have flagged noise.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "c11f3d4fc8c54bb7"
+}

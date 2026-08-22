@@ -1,0 +1,47 @@
+{
+  "window_id": "placebo_2019-01-25",
+  "kind": "placebo",
+  "boundary_date": "2019-01-25",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "On Day 14, U.S. President Trump announced a short-term deal to reopen the federal government after a 35-day partial shutdown, the longest in U.S. history, with the agreement providing no funding for a border wall and lasting only three weeks. This resolves (temporarily) a prolonged period of fiscal and political uncertainty that had included unpaid federal workers, including Coast Guard servicemembers, and disputes over the State of the Union address.",
+  "mechanism": "Resolution of a record-length government shutdown removes a source of fiscal policy uncertainty and disruption to federal operations and contractor/employee income, which can shift risk sentiment and volatility in equity and rates markets; conversely, the short (three-week) duration and lack of a durable resolution on border funding leaves renewed uncertainty priced in, which can itself sustain elevated volatility.",
+  "claims": [
+    {
+      "claim": "Trump announced a short-term deal with congressional leaders to reopen the federal government after a 35-day partial shutdown.",
+      "item_ids": [
+        "e59e822a68cc9ae1"
+      ]
+    },
+    {
+      "claim": "The deal is temporary, lasting three weeks, and includes no funding for the border barrier.",
+      "item_ids": [
+        "e59e822a68cc9ae1"
+      ]
+    },
+    {
+      "claim": "Earlier in the window, the shutdown had already caused unpaid Coast Guard servicemembers, an unprecedented event.",
+      "item_ids": [
+        "f1cedbb8a6634a4f"
+      ]
+    },
+    {
+      "claim": "The shutdown also led to political conflict over the State of the Union address timing.",
+      "item_ids": [
+        "ee264a81ef6b5b0f",
+        "bed7924b6ca38e65"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "e59e822a68cc9ae1",
+    "f1cedbb8a6634a4f",
+    "bed7924b6ca38e65"
+  ],
+  "competing_explanation": "An escalating Venezuelan political crisis over the preceding days\u2014including a military mutiny, Guaid\u00f3 swearing himself in as president, and the U.S. and other nations recognizing him while Maduro refused to step down\u2014could also plausibly have contributed to market volatility given Venezuela's role in oil markets and the risk of broader regional instability.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"On Day 14, U.S. President Trump announced a short-term deal to reopen the federal government after a 35-day partial shutdown, the longest in U.S. history, with the agreement providing no funding for a border wall and lasting only three weeks. This resolves (temporarily) a prolonged period of fiscal and political uncertainty that had included unpaid federal workers, including Coast Guard servicemembers, and disputes over the State of the Union address.\", \"mechanism\": \"Resolution of a record-length government shutdown removes a source of fiscal policy uncertainty and disruption to federal operations and contractor/employee income, which can shift risk sentiment and volatility in equity and rates markets; conversely, the short (three-week) duration and lack of a durable resolution on border funding leaves renewed uncertainty priced in, which can itself sustain elevated volatility.\", \"claims\": [{\"claim\": \"Trump announced a short-term deal with congressional leaders to reopen the federal government after a 35-day partial shutdown.\", \"item_ids\": [\"e59e822a68cc9ae1\"]}, {\"claim\": \"The deal is temporary, lasting three weeks, and includes no funding for the border barrier.\", \"item_ids\": [\"e59e822a68cc9ae1\"]}, {\"claim\": \"Earlier in the window, the shutdown had already caused unpaid Coast Guard servicemembers, an unprecedented event.\", \"item_ids\": [\"f1cedbb8a6634a4f\"]}, {\"claim\": \"The shutdown also led to political conflict over the State of the Union address timing.\", \"item_ids\": [\"ee264a81ef6b5b0f\", \"bed7924b6ca38e65\"]}], \"primary_item_ids\": [\"e59e822a68cc9ae1\", \"f1cedbb8a6634a4f\", \"bed7924b6ca38e65\"], \"competing_explanation\": \"An escalating Venezuelan political crisis over the preceding days\u2014including a military mutiny, Guaid\u00f3 swearing himself in as president, and the U.S. and other nations recognizing him while Maduro refused to step down\u2014could also plausibly have contributed to market volatility given Venezuela's role in oil markets and the risk of broader regional instability.\", \"insufficient_evidence_reason\": \"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "f94f26568a64e91d"
+}

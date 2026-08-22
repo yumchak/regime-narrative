@@ -1,0 +1,21 @@
+{
+  "call_id": "dfa9f5c74648992b",
+  "timestamp_utc": "2026-08-22T05:34:06.382914+00:00",
+  "window_id": "placebo_2019-08-20",
+  "kind": "placebo",
+  "run_label": "retest",
+  "boundary_date": "2019-08-20",
+  "model": "claude-opus-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "7fdc3623c9685e74",
+  "n_items_in_window": 51,
+  "input_chars": 11043,
+  "usage": {
+    "input_tokens": 6075,
+    "output_tokens": 1411
+  },
+  "response_text": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The clearest candidate is the collapse of the Italian government: a deputy prime minister filed a no-confidence motion against the prime minister early in the window, and on the flag day the head of state accepted the prime minister's resignation. This sits on top of an already stressed risk backdrop within the window \u2014 a record low in Argentina's peso after a primary-vote loss and the resignation of its treasury minister, an escalating US import-tariff timetable that was partially delayed, and a Hong Kong airport shutdown followed by mass protests and US claims of Chinese troop movements toward the border.\",\"mechanism\":\"A collapsed government in a large sovereign-debt-heavy eurozone economy reprices sovereign risk and currency exposure with an uncertain election/coalition path, while simultaneous emerging-market currency stress and unresolved tariff timing force broad repositioning \u2014 all of which widen the distribution of near-term outcomes and lift realised and implied volatility.\",\"claims\":[{\"claim\":\"A deputy prime minister of Italy presented a vote of no-confidence against the prime minister early in the window.\",\"item_ids\":[\"51f62845049b71f1\"]},{\"claim\":\"On the day the model flagged, the President of Italy accepted the prime minister's resignation, leaving the government without a leader.\",\"item_ids\":[\"b38a977d4ae85ffa\"]},{\"claim\":\"Argentina's peso fell to record lows after the incumbent president's loss in a primary vote, and the treasury minister resigned as a result.\",\"item_ids\":[\"066ea002cb25e075\"]},{\"claim\":\"The US Trade Representative announced a delay on a significant number of products subject to announced 10% import tariffs.\",\"item_ids\":[\"04e4472bf6941a27\"]},{\"claim\":\"Hong Kong International Airport was effectively locked down when all departure flights were cancelled amid unrest, followed by further mass protests including a claimed 1.7 million-person rally.\",\"item_ids\":[\"f2911e89ca2b55b3\",\"cb6c1483fc3b6bff\",\"36be91592abf2aaf\"]},{\"claim\":\"The US president stated publicly that intelligence indicated China was moving troops toward the Hong Kong border.\",\"item_ids\":[\"480862d80e194838\"]}],\"primary_item_ids\":[\"b38a977d4ae85ffa\",\"51f62845049b71f1\",\"066ea002cb25e075\"],\"competing_explanation\":\"The volatility change may owe more to the cross-border risk complex than to Italy specifically: an emerging-market currency shock in Argentina with a resigning finance minister, unresolved US import tariffs on a shifting timetable, and the Hong Kong airport lockdown plus assertions of troop movements are each capable of moving global risk assets, and they overlap in time, making attribution to the Italian resignation alone uncertain. It is also possible the flag reflects noise, since the flag-day items other than the Italian resignation (a state-level ransomware incident, a Syrian town changing hands, a criminal acquittal) have no clear market channel.\",\"insufficient_evidence_reason\":\"\"}"
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "90b3be807657f346",
+  "timestamp_utc": "2026-08-22T05:32:27.549807+00:00",
+  "window_id": "placebo_2019-02-15",
+  "kind": "placebo",
+  "run_label": "retest",
+  "boundary_date": "2019-02-15",
+  "model": "claude-opus-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "25352b633ac6d9aa",
+  "n_items_in_window": 63,
+  "input_chars": 13268,
+  "usage": {
+    "input_tokens": 7044,
+    "output_tokens": 1922
+  },
+  "response_text": "{\"driver_identified\":true,\"confidence\":\"low\",\"summary\":\"The only items on or immediately before the flag day with a recognisable financial-market channel are the collapse of budget negotiations in Spain, where the Prime Minister called a snap general election and announced the dissolution of parliament, and a large-casualty suicide bombing against a security convoy in Jammu and Kashmir. Either could add a political-risk premium \u2014 the first to Spanish/European assets specifically, the second to regional geopolitical risk \u2014 but neither is a global macro shock, and the rest of the window is dominated by items with no market channel at all.\",\"mechanism\":\"A snap election called after a failed budget removes fiscal visibility and injects electoral uncertainty into sovereign spreads and domestic equities, while a mass-casualty attack on state security forces raises the perceived probability of cross-border escalation; both typically widen risk premia and raise realised volatility in the affected assets.\",\"claims\":[{\"claim\":\"The Prime Minister of Spain called a snap general election and said he would dissolve the Cortes Generales after failing to get a government budget approved.\",\"item_ids\":[\"87f0a4e3d5a4798f\"]},{\"claim\":\"At least 46 members of India's security forces were killed by a suicide bomber striking a military convoy in Jammu and Kashmir the day before the flag day.\",\"item_ids\":[\"f90ed000b83eb552\"]},{\"claim\":\"The Spanish central government had already escalated its regional dispute by breaking off dialogue with the Catalan government earlier in the window.\",\"item_ids\":[\"c21aaf6c635fbba0\"]},{\"claim\":\"Geopolitical friction was elevated elsewhere in the window: Russia suspended participation in the Intermediate-Range Nuclear Forces Treaty and announced new missile development in response to the U.S. withdrawal.\",\"item_ids\":[\"c717e819dbcc07fc\"]},{\"claim\":\"The Venezuela standoff intensified through the window, with a border bridge blocked against humanitarian aid, the interim president declining to rule out U.S. military help, and accusations of weapons shipments involving a U.S.-owned air freight company.\",\"item_ids\":[\"f603c1f6b87eb950\",\"73cc3ddac36daf0d\",\"aac58a55f4514aaa\"]},{\"claim\":\"A second summit between the U.S. President and the North Korean leader was announced for Vietnam, and North Korean officials arrived in Beijing ahead of it on the flag day.\",\"item_ids\":[\"1f374aa36d4fa9f0\",\"50888d28a0ccc905\"]},{\"claim\":\"Corporate distress in the window was confined to small, idiosyncratic failures: a German airline ceased operations and a private Dutch space venture was declared bankrupt.\",\"item_ids\":[\"12e3469ca309d97e\",\"a5edf2f79a58b5e0\"]}],\"primary_item_ids\":[\"87f0a4e3d5a4798f\",\"f90ed000b83eb552\"],\"competing_explanation\":\"The most honest alternative is that the model flagged noise. The window contains no monetary policy decision, no macroeconomic data, no major corporate or banking event, and no trade or sovereign-financing shock; it is overwhelmingly made up of local crime, disaster, sport and culture items. A slower-burning candidate is the accumulation of geopolitical friction across the whole window \u2014 INF treaty suspension, the Venezuela confrontation, and the run-up to a leaders' summit \u2014 none of which is tied to the final day in particular.\",\"insufficient_evidence_reason\":\"\"}"
+}

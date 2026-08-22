@@ -1,0 +1,58 @@
+{
+  "universe": {
+    "tickers": {
+      "spy": "SPY",
+      "tlt": "TLT",
+      "gld": "GLD",
+      "vix": "^VIX",
+      "hyg": "HYG"
+    },
+    "requested_start": "2010-01-01",
+    "requested_end": "2026-08-22",
+    "actual_start": "2010-01-04",
+    "actual_end": "2026-08-21",
+    "n_rows": 4184,
+    "retrieved_at_utc": "2026-08-21T21:00:07.329780+00:00",
+    "source": "yfinance",
+    "cache_file": "universe.csv"
+  },
+  "unseen_nikkei": {
+    "tickers": {
+      "nikkei": "^N225"
+    },
+    "requested_start": "2010-01-01",
+    "requested_end": "2026-08-22",
+    "actual_start": "2010-01-04",
+    "actual_end": "2026-08-20",
+    "n_rows": 4067,
+    "retrieved_at_utc": "2026-08-21T21:17:29.660203+00:00",
+    "source": "yfinance",
+    "cache_file": "unseen_nikkei.csv"
+  },
+  "unseen_hang_seng": {
+    "tickers": {
+      "hang_seng": "^HSI"
+    },
+    "requested_start": "2010-01-01",
+    "requested_end": "2026-08-22",
+    "actual_start": "2010-01-04",
+    "actual_end": "2026-08-20",
+    "n_rows": 4093,
+    "retrieved_at_utc": "2026-08-21T21:17:31.802910+00:00",
+    "source": "yfinance",
+    "cache_file": "unseen_hang_seng.csv"
+  },
+  "unseen_dax": {
+    "tickers": {
+      "dax": "^GDAXI"
+    },
+    "requested_start": "2010-01-01",
+    "requested_end": "2026-08-22",
+    "actual_start": "2010-01-04",
+    "actual_end": "2026-08-21",
+    "n_rows": 4222,
+    "retrieved_at_utc": "2026-08-21T21:17:33.776000+00:00",
+    "source": "yfinance",
+    "cache_file": "unseen_dax.csv"
+  }
+}

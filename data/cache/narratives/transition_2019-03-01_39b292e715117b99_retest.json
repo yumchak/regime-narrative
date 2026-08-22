@@ -1,0 +1,77 @@
+{
+  "window_id": "transition_2019-03-01",
+  "kind": "transition",
+  "boundary_date": "2019-03-01",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The final days of the window contain a cluster of geopolitical shocks: an Indian military incursion into Pakistani airspace with a claimed airstrike near Balakot and Pakistani jets scrambled in response (Day 11), the abrupt early collapse of the Trump\\\u2013Kim summit in Hanoi with no agreement on nuclear weapons or sanctions (Day 13), and a hardening standoff over Venezuela in which aid convoys were burned, people were killed at the border, diplomatic relations with Colombia were severed and the UN Security Council deadlocked (Days 8 and 13). Any of these could plausibly account for a shift in measured volatility at the close of the window; together they represent a marked concentration of unresolved cross-border risk in the last four days.",
+  "mechanism": "Direct military exchange between two nuclear-armed neighbours and the unexpected failure of a high-profile denuclearisation summit both reprice geopolitical tail risk, prompting hedging demand, safe-haven flows and repricing of regional assets and energy/sanctions-sensitive exposures; the Venezuela rupture adds a sanctions-and-supply dimension.",
+  "claims": [
+    {
+      "claim": "India conducted what it described as an airstrike on a militant camp at Balakot inside Pakistan, Pakistan reported an airspace violation and a released payload, and Pakistan scrambled its own jets in response.",
+      "item_ids": [
+        "53fe84eedaa9cc77"
+      ]
+    },
+    {
+      "claim": "The Indian action was framed as retaliation for a suicide attack in Pulwama that killed 40 Indian paramilitary police, with further fatal clashes in the district days earlier.",
+      "item_ids": [
+        "53fe84eedaa9cc77",
+        "18548282137091ed"
+      ]
+    },
+    {
+      "claim": "The Trump\\\u2013Kim summit in Hanoi ended earlier than scheduled with the White House saying no deal was reached on nuclear weapons policy or sanctions.",
+      "item_ids": [
+        "d601e7db502b12c6",
+        "2ffd9a378da5c8ac"
+      ]
+    },
+    {
+      "claim": "Ahead of the summit the administration had been reported to be weighing softened demands, so an abrupt no-deal outcome ran against the prevailing expectation described in the items.",
+      "item_ids": [
+        "1d6cca7c41827b60",
+        "dca06de3ae59415e"
+      ]
+    },
+    {
+      "claim": "On the Venezuela\\\u2013Colombia border, aid trucks were set on fire, civilians clashed with the National Guard with three deaths reported, and Venezuela broke diplomatic relations with Colombia.",
+      "item_ids": [
+        "8e05895044e8d0af",
+        "c1541e3468cc7ae0",
+        "f78461ac62179054"
+      ]
+    },
+    {
+      "claim": "The UN Security Council rejected rival U.S. and Russian resolutions on Venezuela, with Russia and China vetoing the U.S. text.",
+      "item_ids": [
+        "1662e07f7cfd5d88"
+      ]
+    },
+    {
+      "claim": "UK exit negotiations remained unresolved, with Labour backing a second referendum absent support for its own deal and the Prime Minister indicating MPs could be granted a vote on extending the departure deadline.",
+      "item_ids": [
+        "89f593eedd5a75a3",
+        "b127ad3c4a76a9d3",
+        "0c73a1a6970a8534"
+      ]
+    },
+    {
+      "claim": "The only item dated to the flagged day is a U.S. presidential primary campaign announcement, which carries no evident market significance.",
+      "item_ids": [
+        "4c92dbdbf2d32b44"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "53fe84eedaa9cc77",
+    "d601e7db502b12c6",
+    "1662e07f7cfd5d88"
+  ],
+  "competing_explanation": "The change may be driven by UK-specific policy risk rather than geopolitics: within three days Labour committed to backing a second referendum, the government signalled MPs could vote on extending the departure deadline, and a government amendment fight produced a ministerial resignation \\u2014 a sequence that materially shifts the distribution of outcomes for UK assets and sterling. A weaker alternative is that the model flagged noise: the single item on the flagged day is immaterial, and the sharper events fall two to three days earlier, so the timing fit is imperfect.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The final days of the window contain a cluster of geopolitical shocks: an Indian military incursion into Pakistani airspace with a claimed airstrike near Balakot and Pakistani jets scrambled in response (Day 11), the abrupt early collapse of the Trump\\\\\u2013Kim summit in Hanoi with no agreement on nuclear weapons or sanctions (Day 13), and a hardening standoff over Venezuela in which aid convoys were burned, people were killed at the border, diplomatic relations with Colombia were severed and the UN Security Council deadlocked (Days 8 and 13). Any of these could plausibly account for a shift in measured volatility at the close of the window; together they represent a marked concentration of unresolved cross-border risk in the last four days.\",\"mechanism\":\"Direct military exchange between two nuclear-armed neighbours and the unexpected failure of a high-profile denuclearisation summit both reprice geopolitical tail risk, prompting hedging demand, safe-haven flows and repricing of regional assets and energy/sanctions-sensitive exposures; the Venezuela rupture adds a sanctions-and-supply dimension.\",\"claims\":[{\"claim\":\"India conducted what it described as an airstrike on a militant camp at Balakot inside Pakistan, Pakistan reported an airspace violation and a released payload, and Pakistan scrambled its own jets in response.\",\"item_ids\":[\"53fe84eedaa9cc77\"]},{\"claim\":\"The Indian action was framed as retaliation for a suicide attack in Pulwama that killed 40 Indian paramilitary police, with further fatal clashes in the district days earlier.\",\"item_ids\":[\"53fe84eedaa9cc77\",\"18548282137091ed\"]},{\"claim\":\"The Trump\\\\\u2013Kim summit in Hanoi ended earlier than scheduled with the White House saying no deal was reached on nuclear weapons policy or sanctions.\",\"item_ids\":[\"d601e7db502b12c6\",\"2ffd9a378da5c8ac\"]},{\"claim\":\"Ahead of the summit the administration had been reported to be weighing softened demands, so an abrupt no-deal outcome ran against the prevailing expectation described in the items.\",\"item_ids\":[\"1d6cca7c41827b60\",\"dca06de3ae59415e\"]},{\"claim\":\"On the Venezuela\\\\\u2013Colombia border, aid trucks were set on fire, civilians clashed with the National Guard with three deaths reported, and Venezuela broke diplomatic relations with Colombia.\",\"item_ids\":[\"8e05895044e8d0af\",\"c1541e3468cc7ae0\",\"f78461ac62179054\"]},{\"claim\":\"The UN Security Council rejected rival U.S. and Russian resolutions on Venezuela, with Russia and China vetoing the U.S. text.\",\"item_ids\":[\"1662e07f7cfd5d88\"]},{\"claim\":\"UK exit negotiations remained unresolved, with Labour backing a second referendum absent support for its own deal and the Prime Minister indicating MPs could be granted a vote on extending the departure deadline.\",\"item_ids\":[\"89f593eedd5a75a3\",\"b127ad3c4a76a9d3\",\"0c73a1a6970a8534\"]},{\"claim\":\"The only item dated to the flagged day is a U.S. presidential primary campaign announcement, which carries no evident market significance.\",\"item_ids\":[\"4c92dbdbf2d32b44\"]}],\"primary_item_ids\":[\"53fe84eedaa9cc77\",\"d601e7db502b12c6\",\"1662e07f7cfd5d88\"],\"competing_explanation\":\"The change may be driven by UK-specific policy risk rather than geopolitics: within three days Labour committed to backing a second referendum, the government signalled MPs could vote on extending the departure deadline, and a government amendment fight produced a ministerial resignation \\\\u2014 a sequence that materially shifts the distribution of outcomes for UK assets and sterling. A weaker alternative is that the model flagged noise: the single item on the flagged day is immaterial, and the sharper events fall two to three days earlier, so the timing fit is imperfect.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "d3ebd46be0ac9739"
+}

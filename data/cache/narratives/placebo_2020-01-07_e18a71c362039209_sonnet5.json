@@ -1,0 +1,75 @@
+{
+  "window_id": "placebo_2020-01-07",
+  "kind": "placebo",
+  "boundary_date": "2020-01-07",
+  "driver_identified": true,
+  "confidence": "high",
+  "summary": "The dominant thread running through the final days of the window is the US killing of Iranian Quds Force commander Qasem Soleimani in a Baghdad airstrike and the rapid escalation that followed, including troop surges, retaliatory rhetoric, Iran's exit from the JCPOA nuclear deal, and coalition partners pulling back forces. This represents a sharp, sudden geopolitical shock centered on direct US-Iran military confrontation in Iraq.",
+  "mechanism": "A sudden assassination of a top military official from a major regional power, followed by troop deployments, embassy attacks, paused counter-ISIL operations, and formal severing of nuclear deal commitments, creates acute geopolitical risk with direct implications for oil supply routes, regional stability, and possibility of wider war\u2014classic drivers of spiking volatility and risk-off flows across equities, oil, and safe havens.",
+  "claims": [
+    {
+      "claim": "Qasem Soleimani, commander of Iran's Quds Force, was killed in a US airstrike in Baghdad, with Popular Mobilization Forces confirming his death and blaming Israel and the US.",
+      "item_ids": [
+        "fde6e15502a9a006"
+      ]
+    },
+    {
+      "claim": "Iranian officials vowed 'vigorous revenge' against the United States and state television replaced broadcasts with prayers for Soleimani.",
+      "item_ids": [
+        "178b830351df6e12"
+      ]
+    },
+    {
+      "claim": "The United States sent over 3,000 additional soldiers to the Middle East as tensions with Iran heightened.",
+      "item_ids": [
+        "9a905f91e47b45ec"
+      ]
+    },
+    {
+      "claim": "US officials confirmed additional strikes against targets linked to Iran in Baghdad, and a new Quds Force commander was appointed.",
+      "item_ids": [
+        "c91cd0e68af44051",
+        "e16b26760087197f"
+      ]
+    },
+    {
+      "claim": "Militants fired rockets at Iraqi bases supporting US personnel, nearly hitting the US Embassy, and tens of thousands attended a funeral procession for Soleimani in Baghdad.",
+      "item_ids": [
+        "6935a58721a28e51",
+        "a1f77f2a3440a126"
+      ]
+    },
+    {
+      "claim": "Iran's parliament voted to exit the JCPOA nuclear deal in direct response to the Soleimani killing, and the US paused anti-ISIL operations to protect its own troops.",
+      "item_ids": [
+        "73e791bde018516d",
+        "6aa3fb80f8c4e618"
+      ]
+    },
+    {
+      "claim": "By the final day of the window, Germany announced a partial withdrawal of Bundeswehr troops from Iraq citing security concerns, and Iran's parliament formally designated the US Department of Defense a terrorist organization.",
+      "item_ids": [
+        "b90cbc00629ff838",
+        "de3c6e14a6567bab"
+      ]
+    },
+    {
+      "claim": "Protests over the killing occurred internationally, including in Karachi, Pakistan.",
+      "item_ids": [
+        "e6cd1775a3987ad8"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "fde6e15502a9a006",
+    "9a905f91e47b45ec",
+    "73e791bde018516d",
+    "de3c6e14a6567bab"
+  ],
+  "competing_explanation": "A number of unrelated regional crises are also present in the window\u2014Australian bushfires causing states of emergency and deaths, Jakarta flooding with a rising death toll, the Catalan political crisis, and Nigerian/Sahel militant violence\u2014but none of these carry the scale of direct, escalating great-power military confrontation and energy-market relevance that the Soleimani killing and its aftermath do, so they are unlikely to be the primary driver of a broad volatility signal.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"The dominant thread running through the final days of the window is the US killing of Iranian Quds Force commander Qasem Soleimani in a Baghdad airstrike and the rapid escalation that followed, including troop surges, retaliatory rhetoric, Iran's exit from the JCPOA nuclear deal, and coalition partners pulling back forces. This represents a sharp, sudden geopolitical shock centered on direct US-Iran military confrontation in Iraq.\",\"mechanism\":\"A sudden assassination of a top military official from a major regional power, followed by troop deployments, embassy attacks, paused counter-ISIL operations, and formal severing of nuclear deal commitments, creates acute geopolitical risk with direct implications for oil supply routes, regional stability, and possibility of wider war\u2014classic drivers of spiking volatility and risk-off flows across equities, oil, and safe havens.\",\"claims\":[{\"claim\":\"Qasem Soleimani, commander of Iran's Quds Force, was killed in a US airstrike in Baghdad, with Popular Mobilization Forces confirming his death and blaming Israel and the US.\",\"item_ids\":[\"fde6e15502a9a006\"]},{\"claim\":\"Iranian officials vowed 'vigorous revenge' against the United States and state television replaced broadcasts with prayers for Soleimani.\",\"item_ids\":[\"178b830351df6e12\"]},{\"claim\":\"The United States sent over 3,000 additional soldiers to the Middle East as tensions with Iran heightened.\",\"item_ids\":[\"9a905f91e47b45ec\"]},{\"claim\":\"US officials confirmed additional strikes against targets linked to Iran in Baghdad, and a new Quds Force commander was appointed.\",\"item_ids\":[\"c91cd0e68af44051\",\"e16b26760087197f\"]},{\"claim\":\"Militants fired rockets at Iraqi bases supporting US personnel, nearly hitting the US Embassy, and tens of thousands attended a funeral procession for Soleimani in Baghdad.\",\"item_ids\":[\"6935a58721a28e51\",\"a1f77f2a3440a126\"]},{\"claim\":\"Iran's parliament voted to exit the JCPOA nuclear deal in direct response to the Soleimani killing, and the US paused anti-ISIL operations to protect its own troops.\",\"item_ids\":[\"73e791bde018516d\",\"6aa3fb80f8c4e618\"]},{\"claim\":\"By the final day of the window, Germany announced a partial withdrawal of Bundeswehr troops from Iraq citing security concerns, and Iran's parliament formally designated the US Department of Defense a terrorist organization.\",\"item_ids\":[\"b90cbc00629ff838\",\"de3c6e14a6567bab\"]},{\"claim\":\"Protests over the killing occurred internationally, including in Karachi, Pakistan.\",\"item_ids\":[\"e6cd1775a3987ad8\"]}],\"primary_item_ids\":[\"fde6e15502a9a006\",\"9a905f91e47b45ec\",\"73e791bde018516d\",\"de3c6e14a6567bab\"],\"competing_explanation\":\"A number of unrelated regional crises are also present in the window\u2014Australian bushfires causing states of emergency and deaths, Jakarta flooding with a rising death toll, the Catalan political crisis, and Nigerian/Sahel militant violence\u2014but none of these carry the scale of direct, escalating great-power military confrontation and energy-market relevance that the Soleimani killing and its aftermath do, so they are unlikely to be the primary driver of a broad volatility signal.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "48d908d4f5380602"
+}

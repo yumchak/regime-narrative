@@ -1,0 +1,66 @@
+{
+  "window_id": "placebo_2019-12-03",
+  "kind": "placebo",
+  "boundary_date": "2019-12-03",
+  "driver_identified": true,
+  "confidence": "low",
+  "summary": "The only thread in this window with plausible macro-market significance is a cluster of escalating US-China frictions: the FCC formally designating Huawei and ZTE as national security risks and ordering their equipment stripped from carrier networks, China's foreign minister publicly calling the US the \"world's biggest destabilizing factor,\" and the US president signing the Hong Kong Human Rights and Democracy Act into law over explicit Chinese objections. These items would inject uncertainty into the bilateral trade relationship, though none falls on or near the flagged day and nothing in the final three days of the window is market-relevant.",
+  "mechanism": "Legislative and regulatory actions that condition US trade treatment of Hong Kong and bar major Chinese telecom vendors raise the probability of retaliation and of a breakdown in trade negotiations, which repricing of tariff and supply-chain risk transmits into equity and currency volatility.",
+  "claims": [
+    {
+      "claim": "The US FCC unanimously voted to label Huawei and ZTE national security risks, barring them from the Universal Service Fund and requiring national wireless carriers to remove their products from existing networks, with a 30-day appeal period.",
+      "item_ids": [
+        "9a62e6b435cce0c0"
+      ]
+    },
+    {
+      "claim": "China's foreign minister publicly accused the United States of being the \"world's biggest destabilizing factor\" and of \"smearing China everywhere\" at a G20 ministerial meeting.",
+      "item_ids": [
+        "7a88fbdfa51f26b0"
+      ]
+    },
+    {
+      "claim": "The US president signed the Hong Kong Human Rights and Democracy Act into law despite strong opposition from China; the law conditions US trade with Hong Kong on its retaining sufficient autonomy.",
+      "item_ids": [
+        "8dd75f067d65babd"
+      ]
+    },
+    {
+      "claim": "A separate strand of China-related friction appears in an Australian intelligence investigation into an alleged Chinese Communist Party plot to place an agent in parliament, alongside a Shanghai police statement calling the associated defector a convicted fraudster.",
+      "item_ids": [
+        "acb1f7a2c81847db",
+        "8f66dc33cd1cf0b1",
+        "d4313d0601c70c6e"
+      ]
+    },
+    {
+      "claim": "Middle East risk items are present but are largely domestic-unrest and rhetoric rather than supply disruption: Saudi Arabia blaming Iran for missile and drone attacks, Revolutionary Guards threats against Israel, Saudi Arabia and the US, Iraqi protesters burning the Iranian consulate in Najaf, dozens of protesters killed by Iraqi security forces, and the Iraqi prime minister announcing he would offer his resignation.",
+      "item_ids": [
+        "2ecf627b36c76a59",
+        "d8b73dafb9969a1d",
+        "861d5dc1eab81199",
+        "7bce55760e9eb735",
+        "34688b2385fb18ab"
+      ]
+    },
+    {
+      "claim": "The items dated to the flagged day concern a domestic vaccination emergency and travel restriction, a factory explosion in Khartoum, and the resignation of Finland's prime minister over handling of industrial strikes \u2014 none of obvious systemic market consequence.",
+      "item_ids": [
+        "214ea6d069cbda0d",
+        "c37ce967c7a3078f",
+        "f0af39ee2f5d3095"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "8dd75f067d65babd",
+    "9a62e6b435cce0c0",
+    "7a88fbdfa51f26b0"
+  ],
+  "competing_explanation": "That the flag is noise. The items on and immediately before the final day are humanitarian, accidental or small-country political events with no discernible transmission channel to global asset prices, and the US-China items sit six to eleven days earlier in the window, so attributing a change in conditions at the close to them requires assuming a delayed or cumulative repricing. A secondary competitor is the Middle East cluster \u2014 Iranian internet shutdowns and protests, threats between Iran, Saudi Arabia, Israel and the US, and the collapse of the Iraqi government amid lethal crackdowns \u2014 which could support an energy-risk premium story, but the items describe no actual disruption to production or shipping (indeed a seized ship was released and the Iran-Iraq border reopened).",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"low\",\"summary\":\"The only thread in this window with plausible macro-market significance is a cluster of escalating US-China frictions: the FCC formally designating Huawei and ZTE as national security risks and ordering their equipment stripped from carrier networks, China's foreign minister publicly calling the US the \\\"world's biggest destabilizing factor,\\\" and the US president signing the Hong Kong Human Rights and Democracy Act into law over explicit Chinese objections. These items would inject uncertainty into the bilateral trade relationship, though none falls on or near the flagged day and nothing in the final three days of the window is market-relevant.\",\"mechanism\":\"Legislative and regulatory actions that condition US trade treatment of Hong Kong and bar major Chinese telecom vendors raise the probability of retaliation and of a breakdown in trade negotiations, which repricing of tariff and supply-chain risk transmits into equity and currency volatility.\",\"claims\":[{\"claim\":\"The US FCC unanimously voted to label Huawei and ZTE national security risks, barring them from the Universal Service Fund and requiring national wireless carriers to remove their products from existing networks, with a 30-day appeal period.\",\"item_ids\":[\"9a62e6b435cce0c0\"]},{\"claim\":\"China's foreign minister publicly accused the United States of being the \\\"world's biggest destabilizing factor\\\" and of \\\"smearing China everywhere\\\" at a G20 ministerial meeting.\",\"item_ids\":[\"7a88fbdfa51f26b0\"]},{\"claim\":\"The US president signed the Hong Kong Human Rights and Democracy Act into law despite strong opposition from China; the law conditions US trade with Hong Kong on its retaining sufficient autonomy.\",\"item_ids\":[\"8dd75f067d65babd\"]},{\"claim\":\"A separate strand of China-related friction appears in an Australian intelligence investigation into an alleged Chinese Communist Party plot to place an agent in parliament, alongside a Shanghai police statement calling the associated defector a convicted fraudster.\",\"item_ids\":[\"acb1f7a2c81847db\",\"8f66dc33cd1cf0b1\",\"d4313d0601c70c6e\"]},{\"claim\":\"Middle East risk items are present but are largely domestic-unrest and rhetoric rather than supply disruption: Saudi Arabia blaming Iran for missile and drone attacks, Revolutionary Guards threats against Israel, Saudi Arabia and the US, Iraqi protesters burning the Iranian consulate in Najaf, dozens of protesters killed by Iraqi security forces, and the Iraqi prime minister announcing he would offer his resignation.\",\"item_ids\":[\"2ecf627b36c76a59\",\"d8b73dafb9969a1d\",\"861d5dc1eab81199\",\"7bce55760e9eb735\",\"34688b2385fb18ab\"]},{\"claim\":\"The items dated to the flagged day concern a domestic vaccination emergency and travel restriction, a factory explosion in Khartoum, and the resignation of Finland's prime minister over handling of industrial strikes \u2014 none of obvious systemic market consequence.\",\"item_ids\":[\"214ea6d069cbda0d\",\"c37ce967c7a3078f\",\"f0af39ee2f5d3095\"]}],\"primary_item_ids\":[\"8dd75f067d65babd\",\"9a62e6b435cce0c0\",\"7a88fbdfa51f26b0\"],\"competing_explanation\":\"That the flag is noise. The items on and immediately before the final day are humanitarian, accidental or small-country political events with no discernible transmission channel to global asset prices, and the US-China items sit six to eleven days earlier in the window, so attributing a change in conditions at the close to them requires assuming a delayed or cumulative repricing. A secondary competitor is the Middle East cluster \u2014 Iranian internet shutdowns and protests, threats between Iran, Saudi Arabia, Israel and the US, and the collapse of the Iraqi government amid lethal crackdowns \u2014 which could support an energy-risk premium story, but the items describe no actual disruption to production or shipping (indeed a seized ship was released and the Iran-Iraq border reopened).\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "23d9bb3f5f022880"
+}

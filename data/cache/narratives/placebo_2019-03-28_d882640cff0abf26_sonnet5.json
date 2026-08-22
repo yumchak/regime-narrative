@@ -1,0 +1,46 @@
+{
+  "window_id": "placebo_2019-03-28",
+  "kind": "placebo",
+  "boundary_date": "2019-03-28",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The dominant recurring theme across the final days of the window is escalating uncertainty over Brexit: Theresa May's formal request for a delay, a mass pro-referendum march, a failed round of parliamentary indicative votes, and finally May's announcement that she would resign if her deal passed. This sequence culminates just before the flagged day with no resolution in sight, which plausibly explains a shift in market conditions tied to UK/EU political risk.",
+  "mechanism": "Repeated failure of the UK Parliament to coalesce around any Brexit path, combined with a leadership crisis (May's conditional resignation offer), sustains elevated uncertainty about the UK's future trading relationship with the EU. This type of unresolved political risk typically transmits into higher implied volatility in GBP, UK equities, and European risk assets as markets price a widening range of outcomes (no-deal, extended delay, second referendum, or leadership change).",
+  "claims": [
+    {
+      "claim": "Theresa May formally requested a delay to Brexit until a specified date.",
+      "item_ids": [
+        "2e5de3735d0b4315"
+      ]
+    },
+    {
+      "claim": "Approximately one million people marched in London calling for a second Brexit referendum.",
+      "item_ids": [
+        "0d690b3bc1aaf747"
+      ]
+    },
+    {
+      "claim": "The UK Parliament held indicative votes on eight Brexit options and none passed, with further votes planned.",
+      "item_ids": [
+        "f44d23a84df4de08"
+      ]
+    },
+    {
+      "claim": "Theresa May announced she would resign before the next phase of Brexit negotiations if her deal were passed, though no such vote was scheduled.",
+      "item_ids": [
+        "5bf7024fea3c7054"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "f44d23a84df4de08",
+    "5bf7024fea3c7054",
+    "2e5de3735d0b4315"
+  ],
+  "competing_explanation": "An alternative reading centers on the conclusion of the Mueller investigation: Attorney General Barr's letter summarizing 'no collusion' findings (days 8 and 10) removed a major source of US political uncertainty, which could itself be read as a market-relevant event, though this would typically be volatility-dampening rather than volatility-inducing, making it a weaker fit for a flagged 'change' than the unresolved Brexit impasse.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"The dominant recurring theme across the final days of the window is escalating uncertainty over Brexit: Theresa May's formal request for a delay, a mass pro-referendum march, a failed round of parliamentary indicative votes, and finally May's announcement that she would resign if her deal passed. This sequence culminates just before the flagged day with no resolution in sight, which plausibly explains a shift in market conditions tied to UK/EU political risk.\", \"mechanism\": \"Repeated failure of the UK Parliament to coalesce around any Brexit path, combined with a leadership crisis (May's conditional resignation offer), sustains elevated uncertainty about the UK's future trading relationship with the EU. This type of unresolved political risk typically transmits into higher implied volatility in GBP, UK equities, and European risk assets as markets price a widening range of outcomes (no-deal, extended delay, second referendum, or leadership change).\", \"claims\": [{\"claim\": \"Theresa May formally requested a delay to Brexit until a specified date.\", \"item_ids\": [\"2e5de3735d0b4315\"]}, {\"claim\": \"Approximately one million people marched in London calling for a second Brexit referendum.\", \"item_ids\": [\"0d690b3bc1aaf747\"]}, {\"claim\": \"The UK Parliament held indicative votes on eight Brexit options and none passed, with further votes planned.\", \"item_ids\": [\"f44d23a84df4de08\"]}, {\"claim\": \"Theresa May announced she would resign before the next phase of Brexit negotiations if her deal were passed, though no such vote was scheduled.\", \"item_ids\": [\"5bf7024fea3c7054\"]}], \"primary_item_ids\": [\"f44d23a84df4de08\", \"5bf7024fea3c7054\", \"2e5de3735d0b4315\"], \"competing_explanation\": \"An alternative reading centers on the conclusion of the Mueller investigation: Attorney General Barr's letter summarizing 'no collusion' findings (days 8 and 10) removed a major source of US political uncertainty, which could itself be read as a market-relevant event, though this would typically be volatility-dampening rather than volatility-inducing, making it a weaker fit for a flagged 'change' than the unresolved Brexit impasse.\", \"insufficient_evidence_reason\": \"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "0e721c1efc65470b"
+}

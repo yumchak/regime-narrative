@@ -1,0 +1,117 @@
+{
+  "window_id": "transition_2021-03-23",
+  "kind": "transition",
+  "boundary_date": "2021-03-23",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The window contains a sustained deterioration in the European pandemic picture: a coordinated wave of suspensions of the Oxford\u2013AstraZeneca vaccine across many countries on Days 5\u20136 over blood-clot reports, followed by a partial, conditional restart (Germany resuming after the EMA review, France restricting use to over-55s), and then renewed hard restrictions culminating in Germany's nationwide 'emergency brake' lockdown extension on Day 13. Alongside this, the US signed a $1.9 trillion relief package on Day 2, and a Houthi drone strike set a Saudi Aramco refinery in Riyadh on fire on Day 10. The most plausible driver of a change in market conditions flagged at the close is the combination of vaccine-rollout disruption and re-imposed European lockdowns, against a backdrop of a very large fiscal impulse and an energy-supply incident.",
+  "mechanism": "Vaccine-rollout interruptions and renewed lockdowns push out the expected reopening timeline for major economies, repricing growth- and reopening-sensitive assets, while a large fiscal package and a strike on oil infrastructure add competing inflation/rates and energy-price impulses \u2014 a mix that typically widens the distribution of expected outcomes and raises realised volatility.",
+  "claims": [
+    {
+      "claim": "Numerous countries suspended use of the Oxford\u2013AstraZeneca vaccine within a two-day span over reports of blood clots, including the Netherlands, Latvia, Cyprus, Slovenia, Andorra, Bulgaria, Italy's Piedmont region and others.",
+      "item_ids": [
+        "7deb948ad4dc4254",
+        "35f26315c975c64c",
+        "7392da5ec5dd126b",
+        "f060af4da0ee4d93",
+        "ee46d2870e37a93b",
+        "c472d030a082af01",
+        "d8d5384590833266",
+        "1a725967b2cf860c"
+      ]
+    },
+    {
+      "claim": "Germany resumed AstraZeneca vaccinations after the European Medicines Agency declared the vaccine safe, while France restricted it to those over 55.",
+      "item_ids": [
+        "d6e99966b34e757e",
+        "b5a63b49cee3d608"
+      ]
+    },
+    {
+      "claim": "Clinical trial results reported late in the window showed the AstraZeneca vaccine to be 79% effective.",
+      "item_ids": [
+        "92a29359cf9d04ba"
+      ]
+    },
+    {
+      "claim": "Germany announced an 'emergency brake' and extended its nationwide lockdown, including shop closures, amid a spike in cases.",
+      "item_ids": [
+        "7a652902d11565d5"
+      ]
+    },
+    {
+      "claim": "Other jurisdictions tightened restrictions during the window: Malta closed venues and schools, Bulgaria announced closures of theatres, cinemas, gyms and schools, Chile placed almost nine million people under quarantine, Metro Manila imposed a curfew, and Rajasthan imposed night curfews.",
+      "item_ids": [
+        "8b558c3861894477",
+        "4239c4a12b086b6a",
+        "9d5f633a90a4afb4",
+        "7df6763f27549f6a",
+        "8b4edd1fbeeb20f2"
+      ]
+    },
+    {
+      "claim": "Record case or death counts were reported in Hungary, Ukraine, Turkey, the Philippines, India, Kenya and Mongolia during the window.",
+      "item_ids": [
+        "3295a76ab62f2cec",
+        "11c93c3d442c0e36",
+        "f395a37640d63194",
+        "ad67ac8d8aac93e4",
+        "bd482ca4cc6752cb",
+        "255c3a0e77dfee5b",
+        "eab30b557674825b",
+        "942bc0e58466b6de"
+      ]
+    },
+    {
+      "claim": "The US President signed a $1.9 trillion relief package into law on Day 2.",
+      "item_ids": [
+        "f09e1d18cc753f93",
+        "3d9483b4119530a3"
+      ]
+    },
+    {
+      "claim": "A Houthi drone strike caused a large fire at a Saudi Aramco oil refinery in Riyadh, with the group vowing continued operations against Saudi Arabia.",
+      "item_ids": [
+        "c3d1d8a7db01dc54",
+        "d0544b77826d43b0"
+      ]
+    },
+    {
+      "claim": "Geopolitical friction featured in the window: China's legislature rewrote Hong Kong's electoral rules, the UK declared China in breach of the Sino-British Joint Declaration, Russia recalled its ambassador to the US, and US and Chinese representatives met in Anchorage.",
+      "item_ids": [
+        "7b85f63f1d5d4914",
+        "f745859f81ad6989",
+        "912b9928ee143cb0",
+        "c77c1e1ba0e36d32"
+      ]
+    },
+    {
+      "claim": "Overseas spectators were banned from the Tokyo Olympics and Paralympics due to COVID-19 risk.",
+      "item_ids": [
+        "4360905a77388a9d"
+      ]
+    },
+    {
+      "claim": "The final day of the window contains no item of obvious market significance beyond routine vaccination news.",
+      "item_ids": [
+        "38248a98fe4695ce",
+        "7ad2b16450ca9bda",
+        "b633397867731a3c",
+        "2ac62f90154ca33d",
+        "f4d0ea0ce4979d3e"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "7a652902d11565d5",
+    "1a725967b2cf860c",
+    "d6e99966b34e757e",
+    "f09e1d18cc753f93"
+  ],
+  "competing_explanation": "The flag may reflect the fiscal/energy side rather than the pandemic side: a $1.9 trillion US relief package signed early in the window is a large macro shock in its own right, and the drone strike on a Saudi Aramco refinery is a direct energy-supply event. Alternatively, the model may have flagged noise \u2014 the flagged day itself contains nothing of market consequence, and the pandemic and geopolitical items are a continuation of conditions present throughout the window rather than a discrete break.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The window contains a sustained deterioration in the European pandemic picture: a coordinated wave of suspensions of the Oxford\u2013AstraZeneca vaccine across many countries on Days 5\u20136 over blood-clot reports, followed by a partial, conditional restart (Germany resuming after the EMA review, France restricting use to over-55s), and then renewed hard restrictions culminating in Germany's nationwide 'emergency brake' lockdown extension on Day 13. Alongside this, the US signed a $1.9 trillion relief package on Day 2, and a Houthi drone strike set a Saudi Aramco refinery in Riyadh on fire on Day 10. The most plausible driver of a change in market conditions flagged at the close is the combination of vaccine-rollout disruption and re-imposed European lockdowns, against a backdrop of a very large fiscal impulse and an energy-supply incident.\",\"mechanism\":\"Vaccine-rollout interruptions and renewed lockdowns push out the expected reopening timeline for major economies, repricing growth- and reopening-sensitive assets, while a large fiscal package and a strike on oil infrastructure add competing inflation/rates and energy-price impulses \u2014 a mix that typically widens the distribution of expected outcomes and raises realised volatility.\",\"claims\":[{\"claim\":\"Numerous countries suspended use of the Oxford\u2013AstraZeneca vaccine within a two-day span over reports of blood clots, including the Netherlands, Latvia, Cyprus, Slovenia, Andorra, Bulgaria, Italy's Piedmont region and others.\",\"item_ids\":[\"7deb948ad4dc4254\",\"35f26315c975c64c\",\"7392da5ec5dd126b\",\"f060af4da0ee4d93\",\"ee46d2870e37a93b\",\"c472d030a082af01\",\"d8d5384590833266\",\"1a725967b2cf860c\"]},{\"claim\":\"Germany resumed AstraZeneca vaccinations after the European Medicines Agency declared the vaccine safe, while France restricted it to those over 55.\",\"item_ids\":[\"d6e99966b34e757e\",\"b5a63b49cee3d608\"]},{\"claim\":\"Clinical trial results reported late in the window showed the AstraZeneca vaccine to be 79% effective.\",\"item_ids\":[\"92a29359cf9d04ba\"]},{\"claim\":\"Germany announced an 'emergency brake' and extended its nationwide lockdown, including shop closures, amid a spike in cases.\",\"item_ids\":[\"7a652902d11565d5\"]},{\"claim\":\"Other jurisdictions tightened restrictions during the window: Malta closed venues and schools, Bulgaria announced closures of theatres, cinemas, gyms and schools, Chile placed almost nine million people under quarantine, Metro Manila imposed a curfew, and Rajasthan imposed night curfews.\",\"item_ids\":[\"8b558c3861894477\",\"4239c4a12b086b6a\",\"9d5f633a90a4afb4\",\"7df6763f27549f6a\",\"8b4edd1fbeeb20f2\"]},{\"claim\":\"Record case or death counts were reported in Hungary, Ukraine, Turkey, the Philippines, India, Kenya and Mongolia during the window.\",\"item_ids\":[\"3295a76ab62f2cec\",\"11c93c3d442c0e36\",\"f395a37640d63194\",\"ad67ac8d8aac93e4\",\"bd482ca4cc6752cb\",\"255c3a0e77dfee5b\",\"eab30b557674825b\",\"942bc0e58466b6de\"]},{\"claim\":\"The US President signed a $1.9 trillion relief package into law on Day 2.\",\"item_ids\":[\"f09e1d18cc753f93\",\"3d9483b4119530a3\"]},{\"claim\":\"A Houthi drone strike caused a large fire at a Saudi Aramco oil refinery in Riyadh, with the group vowing continued operations against Saudi Arabia.\",\"item_ids\":[\"c3d1d8a7db01dc54\",\"d0544b77826d43b0\"]},{\"claim\":\"Geopolitical friction featured in the window: China's legislature rewrote Hong Kong's electoral rules, the UK declared China in breach of the Sino-British Joint Declaration, Russia recalled its ambassador to the US, and US and Chinese representatives met in Anchorage.\",\"item_ids\":[\"7b85f63f1d5d4914\",\"f745859f81ad6989\",\"912b9928ee143cb0\",\"c77c1e1ba0e36d32\"]},{\"claim\":\"Overseas spectators were banned from the Tokyo Olympics and Paralympics due to COVID-19 risk.\",\"item_ids\":[\"4360905a77388a9d\"]},{\"claim\":\"The final day of the window contains no item of obvious market significance beyond routine vaccination news.\",\"item_ids\":[\"38248a98fe4695ce\",\"7ad2b16450ca9bda\",\"b633397867731a3c\",\"2ac62f90154ca33d\",\"f4d0ea0ce4979d3e\"]}],\"primary_item_ids\":[\"7a652902d11565d5\",\"1a725967b2cf860c\",\"d6e99966b34e757e\",\"f09e1d18cc753f93\"],\"competing_explanation\":\"The flag may reflect the fiscal/energy side rather than the pandemic side: a $1.9 trillion US relief package signed early in the window is a large macro shock in its own right, and the drone strike on a Saudi Aramco refinery is a direct energy-supply event. Alternatively, the model may have flagged noise \u2014 the flagged day itself contains nothing of market consequence, and the pandemic and geopolitical items are a continuation of conditions present throughout the window rather than a discrete break.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "78efa0b2aefef9e3"
+}

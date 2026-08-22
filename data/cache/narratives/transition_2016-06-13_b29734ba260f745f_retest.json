@@ -1,0 +1,73 @@
+{
+  "window_id": "transition_2016-06-13",
+  "kind": "transition",
+  "boundary_date": "2016-06-13",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The clearest macro-relevant development in the window is a sharp swing in polling ahead of Britain's referendum on European Union membership, with an ORB poll on Day 11 putting the \"Leave\" camp 10 points ahead of \"Remain\" with less than two weeks to voting. That is a discrete repricing of a binary, date-certain political risk with cross-border economic consequences, and it sits three days before the flagged day. Secondary, less systematic candidates in the closing days include a mass-casualty attack in Orlando (Day 13), a US Supreme Court ruling against Puerto Rico's debt-restructuring law amid imminent payment deadlines (Day 14), and a $26.2 billion acquisition of LinkedIn by Microsoft (Day 14).",
+  "mechanism": "A large, late swing toward an outcome that would sever a major economy's institutional ties with its largest trading bloc forces investors to reprice currency, rate and equity exposure ahead of a fixed event date, which mechanically raises implied and realised volatility as hedging demand rises and positioning is unwound.",
+  "claims": [
+    {
+      "claim": "A poll by ORB showed the \"Leave\" camp 10 points ahead of \"Remain\", described as a substantial swing, with less than two weeks remaining before Britain's referendum on EU membership.",
+      "item_ids": [
+        "85aa97941f2d7269"
+      ]
+    },
+    {
+      "claim": "A mass shooting at a nightclub in Orlando, Florida killed at least 50 people including the shooter and injured 53, and was described as the deadliest mass shooting and worst terror attack in the United States since 9/11.",
+      "item_ids": [
+        "ff5e7fd2660da0d5"
+      ]
+    },
+    {
+      "claim": "ISIL claimed responsibility for the Orlando assault via its Amaq news agency.",
+      "item_ids": [
+        "7eb97609272df564"
+      ]
+    },
+    {
+      "claim": "On the flagged day, the US Supreme Court struck down a Puerto Rico law permitting restructuring of public utility debts over creditor objections, with a $2 billion agency payment due and a prior $370 million default already recorded.",
+      "item_ids": [
+        "adaf0e233b876b77"
+      ]
+    },
+    {
+      "claim": "On the flagged day, Microsoft agreed to acquire LinkedIn for $26.2 billion.",
+      "item_ids": [
+        "a20150e23c3517f4"
+      ]
+    },
+    {
+      "claim": "The window also contained several security incidents in Europe and Turkey, including a car bombing near Istanbul's main tourism district that killed eleven and wounded 36, and a hostage crisis near Paris in which a police officer and his partner were killed.",
+      "item_ids": [
+        "17edab782ebc46c1",
+        "ad4785e12c54879b",
+        "fc8ce06eabbd80e6"
+      ]
+    },
+    {
+      "claim": "Oil-supply-relevant disruption continued, with the Niger Delta Avengers blowing up a pipeline operated by Eni.",
+      "item_ids": [
+        "560195a662621606"
+      ]
+    },
+    {
+      "claim": "Geopolitical friction items included Japan summoning China's ambassador over a naval warship near the disputed Senkaku Islands and Russia warning of \"retaliatory measures\" over a US destroyer's Black Sea port call.",
+      "item_ids": [
+        "0e14131b8b76663b",
+        "943e2f2c4e520892"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "85aa97941f2d7269",
+    "ff5e7fd2660da0d5",
+    "adaf0e233b876b77"
+  ],
+  "competing_explanation": "The Orlando attack on Day 13 is the largest single-headline shock immediately before the flag and could account for a risk-off move, but attacks of this kind typically transmit weakly to broad asset volatility relative to a scheduled sovereign-level referendum. A third reading is that no single item is responsible: the items on the flagged day (a large tech acquisition, a Puerto Rico court ruling) are sector- or issuer-specific rather than systematic, and the model may have flagged noise or a cumulative build-up of unrelated geopolitical and security headlines.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The clearest macro-relevant development in the window is a sharp swing in polling ahead of Britain's referendum on European Union membership, with an ORB poll on Day 11 putting the \\\"Leave\\\" camp 10 points ahead of \\\"Remain\\\" with less than two weeks to voting. That is a discrete repricing of a binary, date-certain political risk with cross-border economic consequences, and it sits three days before the flagged day. Secondary, less systematic candidates in the closing days include a mass-casualty attack in Orlando (Day 13), a US Supreme Court ruling against Puerto Rico's debt-restructuring law amid imminent payment deadlines (Day 14), and a $26.2 billion acquisition of LinkedIn by Microsoft (Day 14).\",\"mechanism\":\"A large, late swing toward an outcome that would sever a major economy's institutional ties with its largest trading bloc forces investors to reprice currency, rate and equity exposure ahead of a fixed event date, which mechanically raises implied and realised volatility as hedging demand rises and positioning is unwound.\",\"claims\":[{\"claim\":\"A poll by ORB showed the \\\"Leave\\\" camp 10 points ahead of \\\"Remain\\\", described as a substantial swing, with less than two weeks remaining before Britain's referendum on EU membership.\",\"item_ids\":[\"85aa97941f2d7269\"]},{\"claim\":\"A mass shooting at a nightclub in Orlando, Florida killed at least 50 people including the shooter and injured 53, and was described as the deadliest mass shooting and worst terror attack in the United States since 9/11.\",\"item_ids\":[\"ff5e7fd2660da0d5\"]},{\"claim\":\"ISIL claimed responsibility for the Orlando assault via its Amaq news agency.\",\"item_ids\":[\"7eb97609272df564\"]},{\"claim\":\"On the flagged day, the US Supreme Court struck down a Puerto Rico law permitting restructuring of public utility debts over creditor objections, with a $2 billion agency payment due and a prior $370 million default already recorded.\",\"item_ids\":[\"adaf0e233b876b77\"]},{\"claim\":\"On the flagged day, Microsoft agreed to acquire LinkedIn for $26.2 billion.\",\"item_ids\":[\"a20150e23c3517f4\"]},{\"claim\":\"The window also contained several security incidents in Europe and Turkey, including a car bombing near Istanbul's main tourism district that killed eleven and wounded 36, and a hostage crisis near Paris in which a police officer and his partner were killed.\",\"item_ids\":[\"17edab782ebc46c1\",\"ad4785e12c54879b\",\"fc8ce06eabbd80e6\"]},{\"claim\":\"Oil-supply-relevant disruption continued, with the Niger Delta Avengers blowing up a pipeline operated by Eni.\",\"item_ids\":[\"560195a662621606\"]},{\"claim\":\"Geopolitical friction items included Japan summoning China's ambassador over a naval warship near the disputed Senkaku Islands and Russia warning of \\\"retaliatory measures\\\" over a US destroyer's Black Sea port call.\",\"item_ids\":[\"0e14131b8b76663b\",\"943e2f2c4e520892\"]}],\"primary_item_ids\":[\"85aa97941f2d7269\",\"ff5e7fd2660da0d5\",\"adaf0e233b876b77\"],\"competing_explanation\":\"The Orlando attack on Day 13 is the largest single-headline shock immediately before the flag and could account for a risk-off move, but attacks of this kind typically transmit weakly to broad asset volatility relative to a scheduled sovereign-level referendum. A third reading is that no single item is responsible: the items on the flagged day (a large tech acquisition, a Puerto Rico court ruling) are sector- or issuer-specific rather than systematic, and the model may have flagged noise or a cumulative build-up of unrelated geopolitical and security headlines.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "ef1ffb4b62fcd9be"
+}

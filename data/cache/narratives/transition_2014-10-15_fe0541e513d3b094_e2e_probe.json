@@ -1,0 +1,86 @@
+{
+  "window_id": "transition_2014-10-15",
+  "kind": "transition",
+  "boundary_date": "2014-10-15",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The clearest market-relevant thread running through the window is the escalation of the Ebola outbreak from a West African emergency into confirmed transmission inside developed economies: a Spanish nurse infected outside West Africa (Day 5), the death of the first person diagnosed in the United States (Day 7), a WHO death toll passing 4,000 (Day 9), and then the first documented secondary infection on US soil in a Texas nurse (Day 11). That progression, compressed into a week, is the kind of headline sequence that shifts perceived tail risk in travel, consumer and risk assets even without any directly financial news. Nothing else in the window carries comparable breadth, though the disclosure of a cyber-attack compromising over 83 million accounts at JPMorgan Chase and nine other financial institutions (Day 2) and Hewlett-Packard's announced split and 5,000 job cuts (Day 5) are firm-level candidates.",
+  "mechanism": "Confirmed human-to-human transmission of a lethal virus inside the US and EU converts a distant humanitarian story into a domestic containment question, raising uncertainty over travel, consumption and public-health response and prompting broad de-risking and higher implied volatility.",
+  "claims": [
+    {
+      "claim": "A Spanish nurse became the first person infected with Ebola outside West Africa.",
+      "item_ids": [
+        "b0849e59a06c6fd4"
+      ]
+    },
+    {
+      "claim": "The first person diagnosed with Ebola in the United States died in Dallas, Texas.",
+      "item_ids": [
+        "4d15bd9ee08a4e8b"
+      ]
+    },
+    {
+      "claim": "The WHO estimated the outbreak death toll had passed 4,000, with all but nine deaths in Liberia, Sierra Leone and Guinea.",
+      "item_ids": [
+        "485e3dcd44facd14"
+      ]
+    },
+    {
+      "claim": "A Texas nurse tested positive for Ebola, the first infection contracted within the United States and the first US case by secondary contact.",
+      "item_ids": [
+        "db3e774f9d91a797"
+      ]
+    },
+    {
+      "claim": "An experimental Ebola vaccine was trialled in three people in Mali, the first such trial in Africa.",
+      "item_ids": [
+        "d689022cc1aa4dec"
+      ]
+    },
+    {
+      "claim": "A cyber-attack against JPMorgan Chase and nine other financial institutions compromising over 83 million accounts was disclosed early in the window.",
+      "item_ids": [
+        "a5f4f606605ae645"
+      ]
+    },
+    {
+      "claim": "Hewlett-Packard announced plans to split into two companies and shed 5,000 jobs.",
+      "item_ids": [
+        "9144abae2ab59418"
+      ]
+    },
+    {
+      "claim": "Several geopolitical flashpoints were active during the window, including ISIL advancing to within a mile of the centre of Kobani and violent Kurdish-Turkish clashes.",
+      "item_ids": [
+        "aa43bdb690057eab",
+        "9de6f4696968017c",
+        "321c9f43222a90d9"
+      ]
+    },
+    {
+      "claim": "Hong Kong authorities cancelled planned talks with pro-democracy student leaders, prompting calls for a major rally.",
+      "item_ids": [
+        "81a3f2623e1637bf",
+        "d2a1f86318697036"
+      ]
+    },
+    {
+      "claim": "Brazil held a presidential election and the third-placed candidate subsequently endorsed the centre-right challenger ahead of a runoff.",
+      "item_ids": [
+        "5fc571fdf5a0a5de",
+        "6266ff515e839909"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "db3e774f9d91a797",
+    "b0849e59a06c6fd4",
+    "4d15bd9ee08a4e8b"
+  ],
+  "competing_explanation": "The window may simply contain no market driver at all: the bulk of the items are sport, disasters, EU commissioner appointments and localised conflict, and the two genuinely financial items (the bank data breach and the HP restructuring) are single-firm stories. The Ebola thread is a health narrative whose transmission into asset prices requires an assumption about risk-appetite contagion rather than a direct financial channel. A weaker alternative is Brazilian election uncertainty, with a contested runoff shaping up after the first round, which would affect a specific market rather than global conditions.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The clearest market-relevant thread running through the window is the escalation of the Ebola outbreak from a West African emergency into confirmed transmission inside developed economies: a Spanish nurse infected outside West Africa (Day 5), the death of the first person diagnosed in the United States (Day 7), a WHO death toll passing 4,000 (Day 9), and then the first documented secondary infection on US soil in a Texas nurse (Day 11). That progression, compressed into a week, is the kind of headline sequence that shifts perceived tail risk in travel, consumer and risk assets even without any directly financial news. Nothing else in the window carries comparable breadth, though the disclosure of a cyber-attack compromising over 83 million accounts at JPMorgan Chase and nine other financial institutions (Day 2) and Hewlett-Packard's announced split and 5,000 job cuts (Day 5) are firm-level candidates.\",\"mechanism\":\"Confirmed human-to-human transmission of a lethal virus inside the US and EU converts a distant humanitarian story into a domestic containment question, raising uncertainty over travel, consumption and public-health response and prompting broad de-risking and higher implied volatility.\",\"claims\":[{\"claim\":\"A Spanish nurse became the first person infected with Ebola outside West Africa.\",\"item_ids\":[\"b0849e59a06c6fd4\"]},{\"claim\":\"The first person diagnosed with Ebola in the United States died in Dallas, Texas.\",\"item_ids\":[\"4d15bd9ee08a4e8b\"]},{\"claim\":\"The WHO estimated the outbreak death toll had passed 4,000, with all but nine deaths in Liberia, Sierra Leone and Guinea.\",\"item_ids\":[\"485e3dcd44facd14\"]},{\"claim\":\"A Texas nurse tested positive for Ebola, the first infection contracted within the United States and the first US case by secondary contact.\",\"item_ids\":[\"db3e774f9d91a797\"]},{\"claim\":\"An experimental Ebola vaccine was trialled in three people in Mali, the first such trial in Africa.\",\"item_ids\":[\"d689022cc1aa4dec\"]},{\"claim\":\"A cyber-attack against JPMorgan Chase and nine other financial institutions compromising over 83 million accounts was disclosed early in the window.\",\"item_ids\":[\"a5f4f606605ae645\"]},{\"claim\":\"Hewlett-Packard announced plans to split into two companies and shed 5,000 jobs.\",\"item_ids\":[\"9144abae2ab59418\"]},{\"claim\":\"Several geopolitical flashpoints were active during the window, including ISIL advancing to within a mile of the centre of Kobani and violent Kurdish-Turkish clashes.\",\"item_ids\":[\"aa43bdb690057eab\",\"9de6f4696968017c\",\"321c9f43222a90d9\"]},{\"claim\":\"Hong Kong authorities cancelled planned talks with pro-democracy student leaders, prompting calls for a major rally.\",\"item_ids\":[\"81a3f2623e1637bf\",\"d2a1f86318697036\"]},{\"claim\":\"Brazil held a presidential election and the third-placed candidate subsequently endorsed the centre-right challenger ahead of a runoff.\",\"item_ids\":[\"5fc571fdf5a0a5de\",\"6266ff515e839909\"]}],\"primary_item_ids\":[\"db3e774f9d91a797\",\"b0849e59a06c6fd4\",\"4d15bd9ee08a4e8b\"],\"competing_explanation\":\"The window may simply contain no market driver at all: the bulk of the items are sport, disasters, EU commissioner appointments and localised conflict, and the two genuinely financial items (the bank data breach and the HP restructuring) are single-firm stories. The Ebola thread is a health narrative whose transmission into asset prices requires an assumption about risk-appetite contagion rather than a direct financial channel. A weaker alternative is Brazilian election uncertainty, with a contested runoff shaping up after the first round, which would affect a specific market rather than global conditions.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "69231df82da5f0c3"
+}

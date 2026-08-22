@@ -1,0 +1,20 @@
+{
+  "call_id": "9bcc7e8b0a7a6b51",
+  "timestamp_utc": "2026-08-22T04:57:52.716036+00:00",
+  "window_id": "placebo_2016-10-12",
+  "kind": "placebo",
+  "boundary_date": "2016-10-12",
+  "model": "claude-opus-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "6b140a0c5329cfcc",
+  "n_items_in_window": 85,
+  "input_chars": 18431,
+  "usage": {
+    "input_tokens": 9071,
+    "output_tokens": 1796
+  },
+  "response_text": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The dominant market-relevant thread in the window is a sharp repricing of sterling following the UK Prime Minister's announcement of a firm deadline for triggering Article 50 and a 'Great Repeal Bill' (Day 4). The pound hit a 31-year low against the dollar (Day 6), then suffered an intraday flash crash from roughly $1.23 to $1.13 before recovering most of the move (Day 9), with observers blaming algorithmic trading; by Day 13 the weaker currency had pushed the FTSE 100 to an all-time intraday high. This is a currency-led volatility episode with a clear policy catalyst inside the window and visible knock-on effects in equities.\",\"mechanism\":\"A credible political timetable for withdrawal forced a rapid repricing of the currency, and the resulting one-way flow, amplified by algorithmic execution into thin liquidity, produced a discontinuous price gap and a persistently wider trading range; the FX move then transmitted mechanically into equity index levels via foreign-earnings translation, raising realised volatility across linked assets.\",\"claims\":[{\"claim\":\"The UK Prime Minister announced a specific deadline for triggering Article 50 and plans for a 'Great Repeal Bill' to repeal the European Communities Act once the UK leaves the EU.\",\"item_ids\":[\"a3e4191ee17f3080\"]},{\"claim\":\"The pound reached a 31-year low against the US dollar following the Brexit vote.\",\"item_ids\":[\"1e3083fd27f2558d\"]},{\"claim\":\"Sterling sustained a flash crash, falling from about $1.23 to $1.13 within minutes before recovering much of the move, which observers attributed to algorithmic trading.\",\"item_ids\":[\"87deefb351a85293\"]},{\"claim\":\"The FTSE 100 reached an all-time intraday high of 7,129, explicitly linked to the drop in the pound against the dollar.\",\"item_ids\":[\"e983b66bfcc7e80a\"]},{\"claim\":\"At least one issuer publicly delayed an IPO citing concern over potential market volatility around the US presidential election.\",\"item_ids\":[\"42456a5a5bc4c7bf\"]},{\"claim\":\"On the final day of the window, the CEO and chairman of a major US bank resigned amid a scandal over sales practices.\",\"item_ids\":[\"b99145042e437194\"]},{\"claim\":\"Earlier in the window, a US settlement demand against a large European bank over toxic mortgage bonds was reported to have been lowered to about $5.4 billion from an initial demand of up to $14 billion.\",\"item_ids\":[\"0821a68b9767289c\"]}],\"primary_item_ids\":[\"87deefb351a85293\",\"1e3083fd27f2558d\",\"a3e4191ee17f3080\"],\"competing_explanation\":\"A financial-sector narrative competes: a large European bank's mortgage-bond settlement was reported cut sharply (Day 2), warnings emerged of a second hacking group attacking banks via fraudulent SWIFT messages (Day 13), and a major US bank's CEO resigned over a sales-practices scandal on the flag day itself (Day 14). Separately, political/geopolitical items \u2014 a leaked trove of US campaign emails and a candidate controversy (Day 9), Russia suspending a nuclear agreement with the US (Day 7) and vetoing an Aleppo ceasefire resolution (Day 10) \u2014 could support an event-risk premium reading. Neither cluster shows a documented price dislocation inside the window the way the sterling items do.\",\"insufficient_evidence_reason\":\"\"}"
+}

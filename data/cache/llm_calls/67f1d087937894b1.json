@@ -1,0 +1,21 @@
+{
+  "call_id": "67f1d087937894b1",
+  "timestamp_utc": "2026-08-22T07:45:09.872956+00:00",
+  "window_id": "placebo_2016-06-28",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2016-06-28",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "8d29ddb2a5e78989",
+  "n_items_in_window": 99,
+  "input_chars": 25790,
+  "usage": {
+    "input_tokens": 11533,
+    "output_tokens": 1287
+  },
+  "response_text": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"The United Kingdom's referendum vote to leave the European Union triggered immediate and severe market turmoil, with the Dow Jones posting its biggest one-day drop in 10 months and US futures markets falling sharply. This was followed by sovereign credit downgrades, recession warnings, and significant political instability across the UK and EU that persisted through the end of the window.\",\"mechanism\":\"A surprise referendum outcome with major geopolitical and economic implications (UK-EU relations, currency and trade uncertainty) directly triggered a sharp equity selloff and elevated volatility; credit rating downgrades and analyst recession warnings compounded uncertainty, while ongoing political fallout (EU parliament clashes, Scotland's separate EU push, a petition for a second referendum, and EU refusal to negotiate informally) sustained market unease through Day 14.\",\"claims\":[{\"claim\":\"The Dow Jones fell 611.21 points to 17,399.86, its biggest drop in 10 months, on the day of the Brexit vote result.\",\"item_ids\":[\"83401a95307f6ad2\"]},{\"claim\":\"U.S. futures markets fell by 650 points as the UK voted to leave the EU.\",\"item_ids\":[\"9161c42665d9cb48\"]},{\"claim\":\"Standard & Poor's downgraded the UK credit rating from AAA to AA with a negative outlook, and Fitch downgraded UK from AA+ to AA.\",\"item_ids\":[\"962235f012e7947e\"]},{\"claim\":\"Analysts from Bank of America and Credit Suisse warned the UK economy was heading into recession.\",\"item_ids\":[\"fde67f8a27452976\"]},{\"claim\":\"The EU refused informal talks with the UK until Article 50 is triggered, and Germany and France called for a quick UK divorce from the EU.\",\"item_ids\":[\"e801d2b9c45aa4a2\",\"c15827a2d1563f13\"]},{\"claim\":\"A petition for a second EU referendum topped two million signatures.\",\"item_ids\":[\"3fb71aeb0821c861\"]},{\"claim\":\"Scotland's First Minister scheduled talks with EU officials about remaining in the EU, and the European Parliament's first Brexit debate was marked by bitter, heckled exchanges.\",\"item_ids\":[\"b3c39c2bfb766f07\",\"9d31eb0d1580def3\"]},{\"claim\":\"Spain signaled it would seek joint governance of Gibraltar following the Brexit vote.\",\"item_ids\":[\"b3f822d0933d1890\"]}],\"primary_item_ids\":[\"9161c42665d9cb48\",\"83401a95307f6ad2\",\"962235f012e7947e\"],\"competing_explanation\":\"One could argue the volatility reflects a broader accumulation of geopolitical stress (Syria airstrikes, Turkey-Israel and Turkey-Russia diplomatic shifts, Venezuela's recall referendum, China-Taiwan tensions) rather than a single driver, but none of these carry the direct, immediate market-quantified impact seen in the Brexit-related items.\",\"insufficient_evidence_reason\":\"\"}"
+}

@@ -1,0 +1,78 @@
+{
+  "window_id": "transition_2015-04-14",
+  "kind": "transition",
+  "boundary_date": "2015-04-14",
+  "driver_identified": true,
+  "confidence": "low",
+  "summary": "The only cluster in the window with plausible macro-market relevance is energy-related geopolitics: a P5+1 framework agreement on Iran's nuclear programme early in the window, set against a steadily escalating Saudi-led air campaign in Yemen with mounting casualties, a declared no-fly zone, foreign-national evacuations and regional states declining to join the coalition. Neither of these lands on the final day, and the Day 14 items themselves (a Japanese court injunction on nuclear restarts, a Cuba terror-list endorsement, an attack in Mogadishu, a failed rocket landing) are not of a scale that would ordinarily shift a volatility regime.",
+  "mechanism": "A framework deal that points toward eventual relaxation of restrictions on Iranian output, running alongside an intensifying conflict on the Arabian peninsula that threatens regional supply and shipping, pushes crude and energy-linked assets in opposite directions and widens the distribution of plausible price outcomes.",
+  "claims": [
+    {
+      "claim": "Iran, the US, UK, France, Russia, China, Germany and the EU reached a breakthrough framework agreement on Iran's nuclear programme, without signing an official document, with a deadline set for a full deal.",
+      "item_ids": [
+        "7c36116ea873729d"
+      ]
+    },
+    {
+      "claim": "Saudi-led air strikes on Yemen intensified during the window, with heavy strikes in the south killing at least 20 Houthi fighters and Saudi Arabia claiming 500 rebels killed since operations began.",
+      "item_ids": [
+        "07dbfb8929eb24fd"
+      ]
+    },
+    {
+      "claim": "The WHO estimated roughly 560 dead, more than 1,700 injured and over 100,000 displaced after three weeks of intensified fighting.",
+      "item_ids": [
+        "526c2271fbfec236"
+      ]
+    },
+    {
+      "claim": "A no-fly zone was declared over Yemen and India evacuated 5,600 people including 960 foreign nationals.",
+      "item_ids": [
+        "0487036855340bae"
+      ]
+    },
+    {
+      "claim": "Russia convened a UN Security Council session on Saudi strikes in Yemen after a refugee camp was bombed, and Pakistan's parliament voted not to join the Saudi-led coalition, indicating diplomatic friction around the campaign.",
+      "item_ids": [
+        "a2a7b793f10da6f9",
+        "c35719a6f6ec3c45"
+      ]
+    },
+    {
+      "claim": "Saudi Arabia also air-dropped weapons and medical supplies into the conflict zone.",
+      "item_ids": [
+        "38ded6147eabae52"
+      ]
+    },
+    {
+      "claim": "A Japanese court in Fukui Prefecture issued a landmark injunction blocking the restart of two reactors at the Takahama Nuclear Power Plant, a decision bearing on utility operations and fuel-import demand.",
+      "item_ids": [
+        "2cbfbe2040228726"
+      ]
+    },
+    {
+      "claim": "On the flagged day the US president endorsed removing Cuba from the state sponsors of terrorism list, following a first leaders' meeting since the Cuban Revolution earlier in the window.",
+      "item_ids": [
+        "4118f40f007b4040",
+        "5dbaab930f644649"
+      ]
+    },
+    {
+      "claim": "An Italian bank disclosed that its exposure to a single counterparty exceeded the regulatory limit, the only idiosyncratic financial-sector item in the window.",
+      "item_ids": [
+        "33ea4fb32bb404e4"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "7c36116ea873729d",
+    "07dbfb8929eb24fd",
+    "526c2271fbfec236"
+  ],
+  "competing_explanation": "The most credible alternative is that the model flagged noise. The overwhelming majority of items are accidents, local crime, sport and regional politics with no market channel, and nothing on the final day approaches the significance needed to reset a volatility regime; the two energy-relevant developments occurred days earlier and were already public, so a Day 14 break is poorly timed against them. A single bank's breach of a counterparty exposure limit is too idiosyncratic to carry a regime change on its own.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"low\",\"summary\":\"The only cluster in the window with plausible macro-market relevance is energy-related geopolitics: a P5+1 framework agreement on Iran's nuclear programme early in the window, set against a steadily escalating Saudi-led air campaign in Yemen with mounting casualties, a declared no-fly zone, foreign-national evacuations and regional states declining to join the coalition. Neither of these lands on the final day, and the Day 14 items themselves (a Japanese court injunction on nuclear restarts, a Cuba terror-list endorsement, an attack in Mogadishu, a failed rocket landing) are not of a scale that would ordinarily shift a volatility regime.\",\"mechanism\":\"A framework deal that points toward eventual relaxation of restrictions on Iranian output, running alongside an intensifying conflict on the Arabian peninsula that threatens regional supply and shipping, pushes crude and energy-linked assets in opposite directions and widens the distribution of plausible price outcomes.\",\"claims\":[{\"claim\":\"Iran, the US, UK, France, Russia, China, Germany and the EU reached a breakthrough framework agreement on Iran's nuclear programme, without signing an official document, with a deadline set for a full deal.\",\"item_ids\":[\"7c36116ea873729d\"]},{\"claim\":\"Saudi-led air strikes on Yemen intensified during the window, with heavy strikes in the south killing at least 20 Houthi fighters and Saudi Arabia claiming 500 rebels killed since operations began.\",\"item_ids\":[\"07dbfb8929eb24fd\"]},{\"claim\":\"The WHO estimated roughly 560 dead, more than 1,700 injured and over 100,000 displaced after three weeks of intensified fighting.\",\"item_ids\":[\"526c2271fbfec236\"]},{\"claim\":\"A no-fly zone was declared over Yemen and India evacuated 5,600 people including 960 foreign nationals.\",\"item_ids\":[\"0487036855340bae\"]},{\"claim\":\"Russia convened a UN Security Council session on Saudi strikes in Yemen after a refugee camp was bombed, and Pakistan's parliament voted not to join the Saudi-led coalition, indicating diplomatic friction around the campaign.\",\"item_ids\":[\"a2a7b793f10da6f9\",\"c35719a6f6ec3c45\"]},{\"claim\":\"Saudi Arabia also air-dropped weapons and medical supplies into the conflict zone.\",\"item_ids\":[\"38ded6147eabae52\"]},{\"claim\":\"A Japanese court in Fukui Prefecture issued a landmark injunction blocking the restart of two reactors at the Takahama Nuclear Power Plant, a decision bearing on utility operations and fuel-import demand.\",\"item_ids\":[\"2cbfbe2040228726\"]},{\"claim\":\"On the flagged day the US president endorsed removing Cuba from the state sponsors of terrorism list, following a first leaders' meeting since the Cuban Revolution earlier in the window.\",\"item_ids\":[\"4118f40f007b4040\",\"5dbaab930f644649\"]},{\"claim\":\"An Italian bank disclosed that its exposure to a single counterparty exceeded the regulatory limit, the only idiosyncratic financial-sector item in the window.\",\"item_ids\":[\"33ea4fb32bb404e4\"]}],\"primary_item_ids\":[\"7c36116ea873729d\",\"07dbfb8929eb24fd\",\"526c2271fbfec236\"],\"competing_explanation\":\"The most credible alternative is that the model flagged noise. The overwhelming majority of items are accidents, local crime, sport and regional politics with no market channel, and nothing on the final day approaches the significance needed to reset a volatility regime; the two energy-relevant developments occurred days earlier and were already public, so a Day 14 break is poorly timed against them. A single bank's breach of a counterparty exposure limit is too idiosyncratic to carry a regime change on its own.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "49907250dc6b44a3"
+}

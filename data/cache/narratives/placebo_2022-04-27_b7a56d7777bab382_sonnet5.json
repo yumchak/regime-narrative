@@ -1,0 +1,67 @@
+{
+  "window_id": "placebo_2022-04-27",
+  "kind": "placebo",
+  "boundary_date": "2022-04-27",
+  "driver_identified": true,
+  "confidence": "high",
+  "summary": "Gazprom's suspension of natural gas deliveries to Poland and Bulgaria over their refusal to pay in rubles, confirmed and finalized on Day 14, represents a direct weaponization of energy supply amid the Russian invasion of Ukraine. This coincides with escalating attacks in Transnistria (Moldova) that raised fears of the conflict spreading beyond Ukraine's borders, and with the UK explicitly stating maximalist war aims.",
+  "mechanism": "A confirmed cutoff of Russian gas to two EU member states creates immediate uncertainty about European energy security and supply chains, directly impacting energy prices, utility and industrial equities, and currency markets, while the Transnistria attacks and hardening rhetoric from both Russia and the UK raise the perceived risk of war escalation or spread, both of which are classic drivers of volatility spikes.",
+  "claims": [
+    {
+      "claim": "Gazprom announced it would stop delivering gas to Poland via the Yamal-Europe pipeline and to Bulgaria after both countries refused to pay in rubles.",
+      "item_ids": [
+        "8a628744b6f4028e"
+      ]
+    },
+    {
+      "claim": "On Day 14, Gazprom confirmed it had completely suspended gas supplies to Poland's PGNiG and Bulgaria's Bulgargaz, a move condemned by Bulgaria, Poland, and the European Union.",
+      "item_ids": [
+        "678ebfbfe299ecc6"
+      ]
+    },
+    {
+      "claim": "Bulgaria is almost completely dependent on Russian gas, making the suspension a serious challenge to its supply security.",
+      "item_ids": [
+        "8a628744b6f4028e"
+      ]
+    },
+    {
+      "claim": "The Transnistrian Ministry of State Security office was attacked with grenade launchers, and further Ukrainian UAVs were reported near the Cobasna ammunition depot in Transnistria on Day 14, raising fears of the war spreading to Moldova.",
+      "item_ids": [
+        "78eaf240984078b5",
+        "7f0bc7e87c740773",
+        "f32b68e20bdb1ee4",
+        "e39f905f3812caa8"
+      ]
+    },
+    {
+      "claim": "Russian Foreign Minister Lavrov warned that Western arms shipments to Ukraine would be considered legitimate military targets and described NATO as waging a proxy war against Russia.",
+      "item_ids": [
+        "b06845a1d2597de9"
+      ]
+    },
+    {
+      "claim": "UK Foreign Secretary Liz Truss stated that Russian forces must be pushed out of all of Ukraine, including Crimea and other territory held since 2014, described as Britain's clearest war aims statement yet.",
+      "item_ids": [
+        "9c074572b0aba02b"
+      ]
+    },
+    {
+      "claim": "Germany announced delivery of 50 Gepard anti-air tanks to Ukraine, its first heavy weapons shipment of the war.",
+      "item_ids": [
+        "d8cf6fc9bfff18f8"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "678ebfbfe299ecc6",
+    "8a628744b6f4028e",
+    "f32b68e20bdb1ee4"
+  ],
+  "competing_explanation": "An alternative reading is that this is simply a continuation of the ongoing Russian invasion of Ukraine (which has been generating volatility for weeks by this point) rather than a discrete new shock; the gas suspension and Transnistria incidents could be seen as incremental escalations within an already-priced-in war rather than a fresh regime change in market conditions.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"Gazprom's suspension of natural gas deliveries to Poland and Bulgaria over their refusal to pay in rubles, confirmed and finalized on Day 14, represents a direct weaponization of energy supply amid the Russian invasion of Ukraine. This coincides with escalating attacks in Transnistria (Moldova) that raised fears of the conflict spreading beyond Ukraine's borders, and with the UK explicitly stating maximalist war aims.\", \"mechanism\":\"A confirmed cutoff of Russian gas to two EU member states creates immediate uncertainty about European energy security and supply chains, directly impacting energy prices, utility and industrial equities, and currency markets, while the Transnistria attacks and hardening rhetoric from both Russia and the UK raise the perceived risk of war escalation or spread, both of which are classic drivers of volatility spikes.\", \"claims\":[{\"claim\":\"Gazprom announced it would stop delivering gas to Poland via the Yamal-Europe pipeline and to Bulgaria after both countries refused to pay in rubles.\", \"item_ids\":[\"8a628744b6f4028e\"]}, {\"claim\":\"On Day 14, Gazprom confirmed it had completely suspended gas supplies to Poland's PGNiG and Bulgaria's Bulgargaz, a move condemned by Bulgaria, Poland, and the European Union.\", \"item_ids\":[\"678ebfbfe299ecc6\"]}, {\"claim\":\"Bulgaria is almost completely dependent on Russian gas, making the suspension a serious challenge to its supply security.\", \"item_ids\":[\"8a628744b6f4028e\"]}, {\"claim\":\"The Transnistrian Ministry of State Security office was attacked with grenade launchers, and further Ukrainian UAVs were reported near the Cobasna ammunition depot in Transnistria on Day 14, raising fears of the war spreading to Moldova.\", \"item_ids\":[\"78eaf240984078b5\",\"7f0bc7e87c740773\",\"f32b68e20bdb1ee4\",\"e39f905f3812caa8\"]}, {\"claim\":\"Russian Foreign Minister Lavrov warned that Western arms shipments to Ukraine would be considered legitimate military targets and described NATO as waging a proxy war against Russia.\", \"item_ids\":[\"b06845a1d2597de9\"]}, {\"claim\":\"UK Foreign Secretary Liz Truss stated that Russian forces must be pushed out of all of Ukraine, including Crimea and other territory held since 2014, described as Britain's clearest war aims statement yet.\", \"item_ids\":[\"9c074572b0aba02b\"]}, {\"claim\":\"Germany announced delivery of 50 Gepard anti-air tanks to Ukraine, its first heavy weapons shipment of the war.\", \"item_ids\":[\"d8cf6fc9bfff18f8\"]}], \"primary_item_ids\":[\"678ebfbfe299ecc6\",\"8a628744b6f4028e\",\"f32b68e20bdb1ee4\"], \"competing_explanation\":\"An alternative reading is that this is simply a continuation of the ongoing Russian invasion of Ukraine (which has been generating volatility for weeks by this point) rather than a discrete new shock; the gas suspension and Transnistria incidents could be seen as incremental escalations within an already-priced-in war rather than a fresh regime change in market conditions.\", \"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "9037a547262fb5a7"
+}

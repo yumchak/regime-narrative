@@ -1,0 +1,103 @@
+{
+  "window_id": "placebo_2026-06-23",
+  "kind": "placebo",
+  "boundary_date": "2026-06-23",
+  "driver_identified": true,
+  "confidence": "high",
+  "summary": "The dominant thread through the window is the Iran\u2013United States war, its ceasefire agreement, and the status of the Strait of Hormuz. After an agreement announced mid-window that was supposed to reopen the strait and caused oil to fall 5%, the items document a rapid deterioration: Iran declaring transit fees, contested claims about whether the waterway is open, and a collapse in observed traffic from 26 to five ships in a single day, with the final day carrying an item explicitly labelled a Strait of Hormuz crisis. A renewed disruption of the world's principal oil chokepoint, on top of a Strategic Petroleum Reserve reported at multi-year lows, is a direct and sufficient candidate for a regime change in price and volatility behaviour.",
+  "mechanism": "The Strait of Hormuz is the transit route for a large share of seaborne crude and LNG; conflicting official claims about whether it is open, plus a measured collapse in transits, force rapid repricing of energy supply risk, which propagates into oil, freight, and broad equity volatility \u2014 the same channel already demonstrated earlier in the window when a de-escalation headline moved crude 5% and lifted US indices.",
+  "claims": [
+    {
+      "claim": "A ceasefire/peace agreement between Iran and the United States was announced mid-window, including a 60-day extension and reopening of the Strait of Hormuz, with signing planned in Switzerland.",
+      "item_ids": [
+        "304ede566af8649b",
+        "95f4e253713b166c",
+        "86b252c91facbebd"
+      ]
+    },
+    {
+      "claim": "Oil prices fell about 5% on the announcement that the war would end, the strait would reopen and the US blockade would end, demonstrating direct market sensitivity to this news thread.",
+      "item_ids": [
+        "af673e6ae0329c68"
+      ]
+    },
+    {
+      "claim": "US equity indices had earlier risen when a round of strikes against Iran was cancelled, confirming the same headline sensitivity in equities.",
+      "item_ids": [
+        "e4f0218cb0556d7e",
+        "b5897b0854cc2134"
+      ]
+    },
+    {
+      "claim": "Iran asserted that the Strait of Hormuz would be under Iranian and Omani sovereignty and subject to a fee, and later announced it would begin charging transit fees at the end of the 60-day agreement period.",
+      "item_ids": [
+        "07366f25bd4fb013",
+        "4da9da1041054fd7"
+      ]
+    },
+    {
+      "claim": "Claims about the strait's status were directly contradictory: US Central Command said 55 ships carrying over 17 million barrels had crossed and traffic had increased, rejecting Iranian claims the waterway was closed.",
+      "item_ids": [
+        "ca4441ae3acb0c86",
+        "8680fab96b456a52"
+      ]
+    },
+    {
+      "claim": "Observed transits collapsed to five known ships from 26 the previous day, described as occurring amid the closure, with only two crude tankers carrying 2 million barrels reported transiting the following day.",
+      "item_ids": [
+        "7c957ac7a8b4ca1a",
+        "2b232ebb12c5545f"
+      ]
+    },
+    {
+      "claim": "The final day of the window carries an item headed as a Strait of Hormuz crisis.",
+      "item_ids": [
+        "f9e41f3b207470b8"
+      ]
+    },
+    {
+      "claim": "The US Strategic Petroleum Reserve was reported at its lowest level in years after drawing 9 million barrels per week during the war, reducing the buffer against a supply disruption.",
+      "item_ids": [
+        "c7ba3175ae7be892"
+      ]
+    },
+    {
+      "claim": "A fuel crisis associated with the war was recorded during the window.",
+      "item_ids": [
+        "3b009e15695a5100"
+      ]
+    },
+    {
+      "claim": "QatarEnergy's plan to resume LNG production was contingent on the strait officially reopening, linking gas supply to the same chokepoint.",
+      "item_ids": [
+        "0acd61559bf3f989"
+      ]
+    },
+    {
+      "claim": "The ceasefire framework was described by Iran's foreign ministry as practically meaningless, and Iran/Hezbollah alleged repeated Israeli violations, while Israel ruled out withdrawal from southern Lebanon and Israeli soldiers were killed in a firefight with Hezbollah.",
+      "item_ids": [
+        "5ba177b7186d70f1",
+        "399b1c1ff799e3f5",
+        "faabc84828aa010f",
+        "0282b4fd608d9595"
+      ]
+    },
+    {
+      "claim": "On the flagged day the US Senate voted 50\u201348 to require the administration to halt military action against Iran, joining the House.",
+      "item_ids": [
+        "4b15414c9ae7ba4b"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "7c957ac7a8b4ca1a",
+    "f9e41f3b207470b8",
+    "af673e6ae0329c68"
+  ],
+  "competing_explanation": "The Day 14 Senate war-powers vote could be read as the flagged catalyst on its own, but it points toward de-escalation rather than risk, so it is more plausibly a symptom of the same Iran conflict thread than an independent driver. A weaker alternative is that the model flagged noise: several items on the final day (FIFA World Cup, a heat-wave drowning toll, an aircraft-loss anecdote) are market-irrelevant, and the traffic figures are contested by CENTCOM, so the apparent closure may reflect reporting inconsistency rather than a genuine supply shock.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"The dominant thread through the window is the Iran\u2013United States war, its ceasefire agreement, and the status of the Strait of Hormuz. After an agreement announced mid-window that was supposed to reopen the strait and caused oil to fall 5%, the items document a rapid deterioration: Iran declaring transit fees, contested claims about whether the waterway is open, and a collapse in observed traffic from 26 to five ships in a single day, with the final day carrying an item explicitly labelled a Strait of Hormuz crisis. A renewed disruption of the world's principal oil chokepoint, on top of a Strategic Petroleum Reserve reported at multi-year lows, is a direct and sufficient candidate for a regime change in price and volatility behaviour.\",\"mechanism\":\"The Strait of Hormuz is the transit route for a large share of seaborne crude and LNG; conflicting official claims about whether it is open, plus a measured collapse in transits, force rapid repricing of energy supply risk, which propagates into oil, freight, and broad equity volatility \u2014 the same channel already demonstrated earlier in the window when a de-escalation headline moved crude 5% and lifted US indices.\",\"claims\":[{\"claim\":\"A ceasefire/peace agreement between Iran and the United States was announced mid-window, including a 60-day extension and reopening of the Strait of Hormuz, with signing planned in Switzerland.\",\"item_ids\":[\"304ede566af8649b\",\"95f4e253713b166c\",\"86b252c91facbebd\"]},{\"claim\":\"Oil prices fell about 5% on the announcement that the war would end, the strait would reopen and the US blockade would end, demonstrating direct market sensitivity to this news thread.\",\"item_ids\":[\"af673e6ae0329c68\"]},{\"claim\":\"US equity indices had earlier risen when a round of strikes against Iran was cancelled, confirming the same headline sensitivity in equities.\",\"item_ids\":[\"e4f0218cb0556d7e\",\"b5897b0854cc2134\"]},{\"claim\":\"Iran asserted that the Strait of Hormuz would be under Iranian and Omani sovereignty and subject to a fee, and later announced it would begin charging transit fees at the end of the 60-day agreement period.\",\"item_ids\":[\"07366f25bd4fb013\",\"4da9da1041054fd7\"]},{\"claim\":\"Claims about the strait's status were directly contradictory: US Central Command said 55 ships carrying over 17 million barrels had crossed and traffic had increased, rejecting Iranian claims the waterway was closed.\",\"item_ids\":[\"ca4441ae3acb0c86\",\"8680fab96b456a52\"]},{\"claim\":\"Observed transits collapsed to five known ships from 26 the previous day, described as occurring amid the closure, with only two crude tankers carrying 2 million barrels reported transiting the following day.\",\"item_ids\":[\"7c957ac7a8b4ca1a\",\"2b232ebb12c5545f\"]},{\"claim\":\"The final day of the window carries an item headed as a Strait of Hormuz crisis.\",\"item_ids\":[\"f9e41f3b207470b8\"]},{\"claim\":\"The US Strategic Petroleum Reserve was reported at its lowest level in years after drawing 9 million barrels per week during the war, reducing the buffer against a supply disruption.\",\"item_ids\":[\"c7ba3175ae7be892\"]},{\"claim\":\"A fuel crisis associated with the war was recorded during the window.\",\"item_ids\":[\"3b009e15695a5100\"]},{\"claim\":\"QatarEnergy's plan to resume LNG production was contingent on the strait officially reopening, linking gas supply to the same chokepoint.\",\"item_ids\":[\"0acd61559bf3f989\"]},{\"claim\":\"The ceasefire framework was described by Iran's foreign ministry as practically meaningless, and Iran/Hezbollah alleged repeated Israeli violations, while Israel ruled out withdrawal from southern Lebanon and Israeli soldiers were killed in a firefight with Hezbollah.\",\"item_ids\":[\"5ba177b7186d70f1\",\"399b1c1ff799e3f5\",\"faabc84828aa010f\",\"0282b4fd608d9595\"]},{\"claim\":\"On the flagged day the US Senate voted 50\u201348 to require the administration to halt military action against Iran, joining the House.\",\"item_ids\":[\"4b15414c9ae7ba4b\"]}],\"primary_item_ids\":[\"7c957ac7a8b4ca1a\",\"f9e41f3b207470b8\",\"af673e6ae0329c68\"],\"competing_explanation\":\"The Day 14 Senate war-powers vote could be read as the flagged catalyst on its own, but it points toward de-escalation rather than risk, so it is more plausibly a symptom of the same Iran conflict thread than an independent driver. A weaker alternative is that the model flagged noise: several items on the final day (FIFA World Cup, a heat-wave drowning toll, an aircraft-loss anecdote) are market-irrelevant, and the traffic figures are contested by CENTCOM, so the apparent closure may reflect reporting inconsistency rather than a genuine supply shock.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "6668f18d61e693b5"
+}

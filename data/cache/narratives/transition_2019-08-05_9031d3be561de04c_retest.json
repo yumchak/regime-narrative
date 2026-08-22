@@ -1,0 +1,67 @@
+{
+  "window_id": "transition_2019-08-05",
+  "kind": "transition",
+  "boundary_date": "2019-08-05",
+  "driver_identified": true,
+  "confidence": "high",
+  "summary": "The window closes with a sharp escalation in US\u2013China economic conflict: on the final day the U.S. Treasury Department issued a formal designation against China (item text truncated, but it is an official Treasury designation of the country itself), coinciding with a city-wide general strike in Hong Kong that halted transport, cancelled over 200 flights and was accompanied by a sharp drop in the Hang Seng Index. A third, smaller escalation on the same day was the UK joining a US-led naval mission in the Persian Gulf after Iranian seizures of oil tankers. The clustering of a state-level economic action against the world's second-largest economy with visible financial-market disruption in Hong Kong on the flagged day is the most plausible account of a regime change in volatility.",
+  "mechanism": "A formal U.S. Treasury designation against China raises the perceived risk of a broader currency and trade confrontation, repricing exchange rates, export-exposed equities and safe-haven assets; simultaneously the Hong Kong general strike produced an observable equity drawdown and transport shutdown in a major Asian financial centre, and Gulf naval escalation adds an oil-supply risk premium.",
+  "claims": [
+    {
+      "claim": "On the final day of the window the U.S. Treasury Department issued a formal designation concerning China (the specific term is missing from the item text).",
+      "item_ids": [
+        "e2898625a6973f46"
+      ]
+    },
+    {
+      "claim": "On the same day, a Hong Kong city-wide general strike with sit-ins in seven districts cancelled over 200 flights, halted MTR lines, and coincided with a sharp fall in the Hang Seng Index.",
+      "item_ids": [
+        "559c48deea8ff114"
+      ]
+    },
+    {
+      "claim": "Hong Kong unrest had been building through the window, with mass protests near China's Liaison Office in defiance of a police ban and violence against pro-democracy activists.",
+      "item_ids": [
+        "08c80fecce86d5f6",
+        "9cd8feed6d8274b6",
+        "8f1290f9b1f70f23"
+      ]
+    },
+    {
+      "claim": "The Hong Kong Chief Executive publicly rejected protester demands and blamed them for 'destroying Hong Kong'.",
+      "item_ids": [
+        "559c48deea8ff114"
+      ]
+    },
+    {
+      "claim": "Also on the final day, the United Kingdom joined a US-led naval mission in the Persian Gulf to protect oil tankers after seizures by Iran's Revolutionary Guard Corps.",
+      "item_ids": [
+        "4ae35bc17360d856"
+      ]
+    },
+    {
+      "claim": "US\u2013Iran tensions had escalated earlier in the window when the U.S. Treasury sanctioned Iran's Foreign Minister.",
+      "item_ids": [
+        "5e213a3b9e238c44"
+      ]
+    },
+    {
+      "claim": "Separate geopolitical frictions during the window included North Korean missile tests into the Sea of Japan and a US threat to consider a blockade of Venezuela.",
+      "item_ids": [
+        "1fe9aa23be7fcad3",
+        "4de6f3d8fa0ef859"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "e2898625a6973f46",
+    "559c48deea8ff114",
+    "4ae35bc17360d856"
+  ],
+  "competing_explanation": "The Hong Kong general strike alone could account for the flagged change, since it is the only item that explicitly reports a market move (a sharp Hang Seng drop) and it caps two weeks of escalating unrest; on that reading the Treasury designation is incidental. A weaker alternative is that Gulf escalation \u2014 Iranian tanker seizures, sanctions on Iran's foreign minister and the UK joining the US naval mission \u2014 drove an oil-linked volatility increase.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"The window closes with a sharp escalation in US\u2013China economic conflict: on the final day the U.S. Treasury Department issued a formal designation against China (item text truncated, but it is an official Treasury designation of the country itself), coinciding with a city-wide general strike in Hong Kong that halted transport, cancelled over 200 flights and was accompanied by a sharp drop in the Hang Seng Index. A third, smaller escalation on the same day was the UK joining a US-led naval mission in the Persian Gulf after Iranian seizures of oil tankers. The clustering of a state-level economic action against the world's second-largest economy with visible financial-market disruption in Hong Kong on the flagged day is the most plausible account of a regime change in volatility.\",\"mechanism\":\"A formal U.S. Treasury designation against China raises the perceived risk of a broader currency and trade confrontation, repricing exchange rates, export-exposed equities and safe-haven assets; simultaneously the Hong Kong general strike produced an observable equity drawdown and transport shutdown in a major Asian financial centre, and Gulf naval escalation adds an oil-supply risk premium.\",\"claims\":[{\"claim\":\"On the final day of the window the U.S. Treasury Department issued a formal designation concerning China (the specific term is missing from the item text).\",\"item_ids\":[\"e2898625a6973f46\"]},{\"claim\":\"On the same day, a Hong Kong city-wide general strike with sit-ins in seven districts cancelled over 200 flights, halted MTR lines, and coincided with a sharp fall in the Hang Seng Index.\",\"item_ids\":[\"559c48deea8ff114\"]},{\"claim\":\"Hong Kong unrest had been building through the window, with mass protests near China's Liaison Office in defiance of a police ban and violence against pro-democracy activists.\",\"item_ids\":[\"08c80fecce86d5f6\",\"9cd8feed6d8274b6\",\"8f1290f9b1f70f23\"]},{\"claim\":\"The Hong Kong Chief Executive publicly rejected protester demands and blamed them for 'destroying Hong Kong'.\",\"item_ids\":[\"559c48deea8ff114\"]},{\"claim\":\"Also on the final day, the United Kingdom joined a US-led naval mission in the Persian Gulf to protect oil tankers after seizures by Iran's Revolutionary Guard Corps.\",\"item_ids\":[\"4ae35bc17360d856\"]},{\"claim\":\"US\u2013Iran tensions had escalated earlier in the window when the U.S. Treasury sanctioned Iran's Foreign Minister.\",\"item_ids\":[\"5e213a3b9e238c44\"]},{\"claim\":\"Separate geopolitical frictions during the window included North Korean missile tests into the Sea of Japan and a US threat to consider a blockade of Venezuela.\",\"item_ids\":[\"1fe9aa23be7fcad3\",\"4de6f3d8fa0ef859\"]}],\"primary_item_ids\":[\"e2898625a6973f46\",\"559c48deea8ff114\",\"4ae35bc17360d856\"],\"competing_explanation\":\"The Hong Kong general strike alone could account for the flagged change, since it is the only item that explicitly reports a market move (a sharp Hang Seng drop) and it caps two weeks of escalating unrest; on that reading the Treasury designation is incidental. A weaker alternative is that Gulf escalation \u2014 Iranian tanker seizures, sanctions on Iran's foreign minister and the UK joining the US naval mission \u2014 drove an oil-linked volatility increase.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "d8a9f18871127efd"
+}

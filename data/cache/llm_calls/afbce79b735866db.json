@@ -1,0 +1,20 @@
+{
+  "call_id": "afbce79b735866db",
+  "timestamp_utc": "2026-08-22T04:56:58.303789+00:00",
+  "window_id": "placebo_2016-06-28",
+  "kind": "placebo",
+  "boundary_date": "2016-06-28",
+  "model": "claude-opus-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "745fc6ced5d1be33",
+  "n_items_in_window": 99,
+  "input_chars": 25790,
+  "usage": {
+    "input_tokens": 11533,
+    "output_tokens": 1211
+  },
+  "response_text": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"A UK referendum vote to leave the European Union, reported on Day 10, is the clear driver. It was immediately accompanied by a 650-point drop in U.S. futures and a 611-point fall in the Dow \u2014 described as the biggest in ten months \u2014 followed within days by sovereign credit downgrades of the UK by two rating agencies, analyst calls for a UK recession, and an unresolved political standoff over when and how exit talks would begin.\",\"mechanism\":\"An unexpected constitutional and trade rupture in a major economy forces wholesale repricing of currency, rate and equity risk, while the refusal of informal negotiations and the absence of a defined exit timetable keep the terminal outcome unknowable, sustaining elevated implied and realised volatility.\",\"claims\":[{\"claim\":\"On Day 10 the UK voted to leave the EU and U.S. futures markets fell by 650 points.\",\"item_ids\":[\"9161c42665d9cb48\"]},{\"claim\":\"The Dow Jones closed down 611.21 points to 17,399.86, its largest drop in ten months.\",\"item_ids\":[\"83401a95307f6ad2\"]},{\"claim\":\"Standard & Poor's cut the UK credit rating from AAA to AA with a negative outlook, and Fitch cut it from AA+ to AA.\",\"item_ids\":[\"962235f012e7947e\"]},{\"claim\":\"Analysts at Bank of America and Credit Suisse said the UK economy was heading into recession.\",\"item_ids\":[\"fde67f8a27452976\"]},{\"claim\":\"The EU refused informal talks with the UK until Article 50 is triggered, while Germany and France pressed for a rapid separation, leaving the process timetable contested.\",\"item_ids\":[\"e801d2b9c45aa4a2\",\"c15827a2d1563f13\"]},{\"claim\":\"Political fragmentation followed: a petition for a second referendum exceeded two million signatures, Scotland's First Minister sought talks with EU institutions about remaining, and Spain raised joint governance of Gibraltar.\",\"item_ids\":[\"3fb71aeb0821c861\",\"b3c39c2bfb766f07\",\"b3f822d0933d1890\"]},{\"claim\":\"The European Parliament's first debate on the vote on Day 14 was marked by bitter exchanges and heckling.\",\"item_ids\":[\"9d31eb0d1580def3\"]},{\"claim\":\"Before the vote, the European Commission president had warned there would be no re-negotiation with Britain whatever the referendum outcome.\",\"item_ids\":[\"ce9566e7b5447990\"]}],\"primary_item_ids\":[\"9161c42665d9cb48\",\"83401a95307f6ad2\",\"962235f012e7947e\"],\"competing_explanation\":\"Other candidates in the window \u2014 a Spanish general election with no clear governing majority, the ECB reinstating the collateral waiver for Greek banks, and a $15bn Volkswagen settlement \u2014 are genuine market-relevant items, but none is accompanied by the direct evidence of a large index move and sovereign downgrades that the referendum items carry, and the Spanish election and ECB decision point in different directions in size and sign.\",\"insufficient_evidence_reason\":\"\"}"
+}

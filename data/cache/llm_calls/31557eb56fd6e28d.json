@@ -1,0 +1,20 @@
+{
+  "call_id": "31557eb56fd6e28d",
+  "timestamp_utc": "2026-08-22T05:02:20.395936+00:00",
+  "window_id": "placebo_2019-04-22",
+  "kind": "placebo",
+  "boundary_date": "2019-04-22",
+  "model": "claude-opus-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "bc74aca9a276e182",
+  "n_items_in_window": 45,
+  "input_chars": 10617,
+  "usage": {
+    "input_tokens": 5771,
+    "output_tokens": 1604
+  },
+  "response_text": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"On the flagged day, the United States demanded that all countries stop purchasing Iranian oil by a stated deadline or face sanctions, an explicit attempt to remove Iranian crude from world supply. This is a direct, dated supply shock to the global oil market arriving on the final day of the window, and it is the only item in the list with unambiguous and immediate pricing consequences. Supporting background of Middle East and South Asia security incidents late in the window adds to a risk-sensitive backdrop but is secondary.\",\"mechanism\":\"A policy that removes a major exporter's barrels from the market forces buyers to reprice crude supply and re-hedge exposure, which propagates into energy futures volatility and, through input costs and risk premia, into broader equity and currency volatility.\",\"claims\":[{\"claim\":\"On the final day of the window, the United States demanded that all countries cease purchasing oil from Iran by a set date or face sanctions, explicitly aimed at cutting Iran's income.\",\"item_ids\":[\"8ad7ffa7dc82c7a7\"]},{\"claim\":\"The days immediately preceding the flag contained a cluster of violent security events, including a foiled armed attack in Riyadh and a coordinated suicide and gun attack on a government ministry in Kabul.\",\"item_ids\":[\"015f29bb549157d2\",\"3f58007dd88c5943\"]},{\"claim\":\"A wave of attacks in Sri Lanka prompted the government to block access to all social media platforms the day before the flag.\",\"item_ids\":[\"a139ae41f6c34b15\"]},{\"claim\":\"Earlier in the window, a Libyan armed force stated it would continue its advance on Tripoli despite international calls to halt, and its commander met the Egyptian president who had backed the operation.\",\"item_ids\":[\"893656cab2bf1fc9\",\"66a4078e85cf722c\"]},{\"claim\":\"The window also contained macro signals of weakening trade, with Singapore reporting its largest year-on-year monthly drop in non-oil exports since a prior reference period, led by electronics.\",\"item_ids\":[\"0c6fb6e756e8cd4d\"]},{\"claim\":\"Political and policy events during the window included a UK-EU agreement to delay Brexit, the release of a redacted special counsel report in the United States, and an opposition candidate winning Ukraine's presidential run-off with over 70 percent.\",\"item_ids\":[\"28e34456ed7d49e0\",\"eb344c584c6a98bb\",\"f2109f31a07213d5\"]}],\"primary_item_ids\":[\"8ad7ffa7dc82c7a7\",\"015f29bb549157d2\",\"a139ae41f6c34b15\"],\"competing_explanation\":\"A weaker reading is that the flag reflects accumulated geopolitical risk rather than the oil announcement specifically: mass-casualty attacks in South Asia and Syria, a foiled attack in Saudi Arabia, an ongoing offensive on Tripoli, and a surprise landslide result in Ukraine's presidential run-off all cluster in the final days. Separately, the Singapore export slump and the collapse of a large UK retailer into administration point to a deteriorating growth backdrop that could independently raise volatility. Neither alternative, however, has the same direct and dated transmission channel into prices as the Iranian oil purchase ultimatum.\",\"insufficient_evidence_reason\":\"\"}"
+}

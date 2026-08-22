@@ -1,0 +1,62 @@
+{
+  "window_id": "placebo_2017-12-22",
+  "kind": "placebo",
+  "boundary_date": "2017-12-22",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The most direct candidate is on the flag day itself: Bitcoin lost roughly a third of its value within 24 hours, an unambiguous price/volatility shock in a traded asset. Two days earlier both chambers of the US Congress passed a major tax bill that also removed the Obamacare individual insurance mandate, a macro policy change with broad valuation implications, and the flag day also brought an inconclusive regional election result with no clarity on government formation.",
+  "mechanism": "A one-third single-day drawdown in a widely traded asset mechanically produces a jump in realised volatility and can spill into correlated risk assets via forced deleveraging and sentiment; enactment of sweeping tax legislation and an unresolved post-election government formation add repricing and political-uncertainty premia on top.",
+  "claims": [
+    {
+      "claim": "On the day the model flagged, Bitcoin lost a third of its value within 24 hours.",
+      "item_ids": [
+        "09bd73e5bd1a67b1"
+      ]
+    },
+    {
+      "claim": "Two days before the flag day, the US Senate and House passed the Tax Cuts and Jobs Act, sending it to the President, and the law removes the individual insurance mandate from Obamacare.",
+      "item_ids": [
+        "31ae04560804e13d"
+      ]
+    },
+    {
+      "claim": "On the flag day, pro-independence parties retained an absolute majority in a regional parliament and there was no clarity as to which party had the right to form a government.",
+      "item_ids": [
+        "576770ad946da361",
+        "3143c932380c2083"
+      ]
+    },
+    {
+      "claim": "Also on the flag day, Apple faced backlash and lawsuits after admitting it deliberately slowed some older phones, a company-specific legal overhang.",
+      "item_ids": [
+        "7c294b06c3452569"
+      ]
+    },
+    {
+      "claim": "A European Court of Justice ruling reclassified Uber as a transport company subject to stricter EU regulation and licensing, a sector-level regulatory decision during the window.",
+      "item_ids": [
+        "9809b13b2cc27520"
+      ]
+    },
+    {
+      "claim": "Geopolitical background during the window included a Houthi missile fired at Riyadh and intercepted, US accusations that Iran violated the nuclear deal, and mass protests over US recognition of Jerusalem as Israel's capital.",
+      "item_ids": [
+        "1d100b9dcabcc9f0",
+        "57393916ced7653f",
+        "c1d56388db2e527b",
+        "26af8d930d35dc5a"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "09bd73e5bd1a67b1",
+    "31ae04560804e13d",
+    "576770ad946da361"
+  ],
+  "competing_explanation": "If the flagged series is a broad equity or rates market rather than crypto, the Bitcoin move may be irrelevant and the driver would more likely be the passage of the tax legislation, which alters corporate and household cash flows and health-insurance rules. A further reading is that nothing here matters: most of the window is routine political, disaster and human-interest news, and the model may simply have flagged noise around a single asset-specific drawdown.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The most direct candidate is on the flag day itself: Bitcoin lost roughly a third of its value within 24 hours, an unambiguous price/volatility shock in a traded asset. Two days earlier both chambers of the US Congress passed a major tax bill that also removed the Obamacare individual insurance mandate, a macro policy change with broad valuation implications, and the flag day also brought an inconclusive regional election result with no clarity on government formation.\",\"mechanism\":\"A one-third single-day drawdown in a widely traded asset mechanically produces a jump in realised volatility and can spill into correlated risk assets via forced deleveraging and sentiment; enactment of sweeping tax legislation and an unresolved post-election government formation add repricing and political-uncertainty premia on top.\",\"claims\":[{\"claim\":\"On the day the model flagged, Bitcoin lost a third of its value within 24 hours.\",\"item_ids\":[\"09bd73e5bd1a67b1\"]},{\"claim\":\"Two days before the flag day, the US Senate and House passed the Tax Cuts and Jobs Act, sending it to the President, and the law removes the individual insurance mandate from Obamacare.\",\"item_ids\":[\"31ae04560804e13d\"]},{\"claim\":\"On the flag day, pro-independence parties retained an absolute majority in a regional parliament and there was no clarity as to which party had the right to form a government.\",\"item_ids\":[\"576770ad946da361\",\"3143c932380c2083\"]},{\"claim\":\"Also on the flag day, Apple faced backlash and lawsuits after admitting it deliberately slowed some older phones, a company-specific legal overhang.\",\"item_ids\":[\"7c294b06c3452569\"]},{\"claim\":\"A European Court of Justice ruling reclassified Uber as a transport company subject to stricter EU regulation and licensing, a sector-level regulatory decision during the window.\",\"item_ids\":[\"9809b13b2cc27520\"]},{\"claim\":\"Geopolitical background during the window included a Houthi missile fired at Riyadh and intercepted, US accusations that Iran violated the nuclear deal, and mass protests over US recognition of Jerusalem as Israel's capital.\",\"item_ids\":[\"1d100b9dcabcc9f0\",\"57393916ced7653f\",\"c1d56388db2e527b\",\"26af8d930d35dc5a\"]}],\"primary_item_ids\":[\"09bd73e5bd1a67b1\",\"31ae04560804e13d\",\"576770ad946da361\"],\"competing_explanation\":\"If the flagged series is a broad equity or rates market rather than crypto, the Bitcoin move may be irrelevant and the driver would more likely be the passage of the tax legislation, which alters corporate and household cash flows and health-insurance rules. A further reading is that nothing here matters: most of the window is routine political, disaster and human-interest news, and the model may simply have flagged noise around a single asset-specific drawdown.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "52b5bbf8f09c3a2b"
+}

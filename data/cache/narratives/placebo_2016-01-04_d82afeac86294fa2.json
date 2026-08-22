@@ -1,0 +1,70 @@
+{
+  "window_id": "placebo_2016-01-04",
+  "kind": "placebo",
+  "boundary_date": "2016-01-04",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The window closes on a rapidly escalating rupture between Saudi Arabia and Iran: the Saudi execution of Shi'ite cleric Nimr al-Nimr triggered the ransacking and burning of the Saudi embassy in Tehran (Day 12), Riyadh severing diplomatic relations (Day 13), and by Day 14 Sudan, the UAE and Bahrain following suit, with sectarian mosque bombings in Iraq attributed to the same dispute. This is a three-day, compounding confrontation between the region's two largest oil exporters and their allies, arriving alongside a separate armed assault on an Indian air base and an Iran-Russia nuclear-material transfer tied to sanctions relief.",
+  "mechanism": "A diplomatic rupture between two major crude exporters, with allied states aligning on one side and sectarian violence spreading to Iraq, injects a geopolitical risk premium into energy prices and regional assets, and repricing of that premium is typically abrupt and raises realised volatility across oil-sensitive markets.",
+  "claims": [
+    {
+      "claim": "Iranian protesters ransacked and set fire to the Saudi Arabian embassy in Tehran in response to the Saudi execution of Nimr al-Nimr.",
+      "item_ids": [
+        "4032ec9987125645"
+      ]
+    },
+    {
+      "claim": "Saudi Arabia broke off diplomatic relations with Iran following the execution and the embassy attack.",
+      "item_ids": [
+        "f81e2b0527f25ccd"
+      ]
+    },
+    {
+      "claim": "On the final day of the window, Sudan, the United Arab Emirates and Bahrain also cut diplomatic relations with Iran.",
+      "item_ids": [
+        "0cfd7c81f22338b9"
+      ]
+    },
+    {
+      "claim": "Two Sunni mosques were bombed in central Iraq amid fears of renewed sectarian strife linked to the execution.",
+      "item_ids": [
+        "ca83866e24bc9fa6"
+      ]
+    },
+    {
+      "claim": "Separately, enriched uranium was shipped from Iran to Russia under an international agreement, with IAEA verification a precondition for dismantling economic sanctions on Iran.",
+      "item_ids": [
+        "3ce41bfc42bd9570"
+      ]
+    },
+    {
+      "claim": "Anti-terrorist operations continued at an Indian Air Force base in Pathankot, with six militants and seven military and paramilitary personnel reported killed.",
+      "item_ids": [
+        "bb9114157e329a14"
+      ]
+    },
+    {
+      "claim": "Iraq's foreign minister demanded Turkish troop withdrawal from northern Iraq and raised the prospect of military action.",
+      "item_ids": [
+        "5ad269feef477410"
+      ]
+    },
+    {
+      "claim": "Denmark and Sweden introduced border identity checks despite all parties being Schengen signatories.",
+      "item_ids": [
+        "e3a67c66c8fa430e"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "4032ec9987125645",
+    "f81e2b0527f25ccd",
+    "0cfd7c81f22338b9"
+  ],
+  "competing_explanation": "The items contain no direct market data, and the escalation is diplomatic rather than physically disruptive to supply, so the model may have flagged noise or something unobserved in these items. Alternative candidates within the window are all weak or idiosyncratic: corporate news (DuPont job cuts, Nokia's acquisition of Alcatel-Lucent, SeaWorld's share decline), the Pathankot air base assault, or the Schengen border controls in Denmark and Sweden \u2014 none of which plausibly shifts broad market conditions on their own.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The window closes on a rapidly escalating rupture between Saudi Arabia and Iran: the Saudi execution of Shi'ite cleric Nimr al-Nimr triggered the ransacking and burning of the Saudi embassy in Tehran (Day 12), Riyadh severing diplomatic relations (Day 13), and by Day 14 Sudan, the UAE and Bahrain following suit, with sectarian mosque bombings in Iraq attributed to the same dispute. This is a three-day, compounding confrontation between the region's two largest oil exporters and their allies, arriving alongside a separate armed assault on an Indian air base and an Iran-Russia nuclear-material transfer tied to sanctions relief.\",\"mechanism\":\"A diplomatic rupture between two major crude exporters, with allied states aligning on one side and sectarian violence spreading to Iraq, injects a geopolitical risk premium into energy prices and regional assets, and repricing of that premium is typically abrupt and raises realised volatility across oil-sensitive markets.\",\"claims\":[{\"claim\":\"Iranian protesters ransacked and set fire to the Saudi Arabian embassy in Tehran in response to the Saudi execution of Nimr al-Nimr.\",\"item_ids\":[\"4032ec9987125645\"]},{\"claim\":\"Saudi Arabia broke off diplomatic relations with Iran following the execution and the embassy attack.\",\"item_ids\":[\"f81e2b0527f25ccd\"]},{\"claim\":\"On the final day of the window, Sudan, the United Arab Emirates and Bahrain also cut diplomatic relations with Iran.\",\"item_ids\":[\"0cfd7c81f22338b9\"]},{\"claim\":\"Two Sunni mosques were bombed in central Iraq amid fears of renewed sectarian strife linked to the execution.\",\"item_ids\":[\"ca83866e24bc9fa6\"]},{\"claim\":\"Separately, enriched uranium was shipped from Iran to Russia under an international agreement, with IAEA verification a precondition for dismantling economic sanctions on Iran.\",\"item_ids\":[\"3ce41bfc42bd9570\"]},{\"claim\":\"Anti-terrorist operations continued at an Indian Air Force base in Pathankot, with six militants and seven military and paramilitary personnel reported killed.\",\"item_ids\":[\"bb9114157e329a14\"]},{\"claim\":\"Iraq's foreign minister demanded Turkish troop withdrawal from northern Iraq and raised the prospect of military action.\",\"item_ids\":[\"5ad269feef477410\"]},{\"claim\":\"Denmark and Sweden introduced border identity checks despite all parties being Schengen signatories.\",\"item_ids\":[\"e3a67c66c8fa430e\"]}],\"primary_item_ids\":[\"4032ec9987125645\",\"f81e2b0527f25ccd\",\"0cfd7c81f22338b9\"],\"competing_explanation\":\"The items contain no direct market data, and the escalation is diplomatic rather than physically disruptive to supply, so the model may have flagged noise or something unobserved in these items. Alternative candidates within the window are all weak or idiosyncratic: corporate news (DuPont job cuts, Nokia's acquisition of Alcatel-Lucent, SeaWorld's share decline), the Pathankot air base assault, or the Schengen border controls in Denmark and Sweden \u2014 none of which plausibly shifts broad market conditions on their own.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "21035f5ed5a01960"
+}

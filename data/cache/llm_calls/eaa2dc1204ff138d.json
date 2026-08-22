@@ -1,0 +1,21 @@
+{
+  "call_id": "eaa2dc1204ff138d",
+  "timestamp_utc": "2026-08-22T07:39:46.650700+00:00",
+  "window_id": "transition_2021-03-23",
+  "kind": "transition",
+  "run_label": "sonnet5",
+  "boundary_date": "2021-03-23",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "301ef413256dbeab",
+  "n_items_in_window": 125,
+  "input_chars": 23216,
+  "usage": {
+    "input_tokens": 11087,
+    "output_tokens": 3156
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"Across the window, a growing number of European countries (Netherlands, Italy/Piedmont, Latvia, Cyprus, Andorra, Slovenia, Bulgaria) suspended use of the Oxford-AstraZeneca vaccine over blood-clot safety concerns, before Germany and others resumed it after an EMA safety review, and France restricted it to over-55s. This created a sustained, multi-day cloud of uncertainty over the pace of Europe's vaccination and reopening timeline, a theme directly relevant to reopening-sensitive equities, travel, and vaccine-maker sentiment.\", \"mechanism\": \"Repeated suspensions and reversals of a major vaccine used across the EU inject uncertainty into the expected timeline for reopening economies and lifting restrictions, which can move travel, leisure, and vaccine-related equities and increase cross-asset volatility as investors reprice the pace of pandemic recovery; the back-and-forth (suspend, then resume after EMA review, then restrict by age) compounds uncertainty rather than resolving it.\", \"claims\": [{\"claim\": \"Multiple European countries suspended the Oxford-AstraZeneca vaccine over blood clot concerns within the window.\", \"item_ids\": [\"7deb948ad4dc4254\", \"d8d5384590833266\", \"1a725967b2cf860c\", \"35f26315c975c64c\", \"7392da5ec5dd126b\", \"ee46d2870e37a93b\", \"f060af4da0ee4d93\", \"c472d030a082af01\"]}, {\"claim\": \"Germany resumed use of the AstraZeneca vaccine after the European Medicines Agency declared it safe, while France limited its use to those over 55.\", \"item_ids\": [\"d6e99966b34e757e\", \"b5a63b49cee3d608\"]}, {\"claim\": \"A further suspected vaccine-related death (a nurse in Georgia) was reported later in the window, extending the safety scare narrative.\", \"item_ids\": [\"3f7f1225dfc8255a\"]}, {\"claim\": \"A separate, large fiscal stimulus event occurred early in the window when the US President signed a $1.9 trillion relief package into law.\", \"item_ids\": [\"f09e1d18cc753f93\"]}, {\"claim\": \"Political violence escalated sharply in Myanmar with dozens of protesters killed by security forces and expanded martial law, prompting US sanctions on military officials.\", \"item_ids\": [\"49af5966a4d63e85\", \"fdd28e3235d51bdb\", \"7f8cc245342bdf2c\", \"995d7ccd12ce594a\"]}], \"primary_item_ids\": [\"7deb948ad4dc4254\", \"1a725967b2cf860c\", \"d6e99966b34e757e\"], \"competing_explanation\": \"Two other threads in the items could plausibly be read as market-relevant instead: the signing of the $1.9 trillion US stimulus package early in the window (a major fiscal event with broad market implications), and the rapid escalation of deadly violence and martial law in Myanmar following the coup, which drew US sanctions. Either could compete with the vaccine-suspension narrative as the more salient driver, and the items do not make clear which, if any, was dominant enough to move broad market volatility by the end of the window.\", \"insufficient_evidence_reason\": \"\"}"
+}

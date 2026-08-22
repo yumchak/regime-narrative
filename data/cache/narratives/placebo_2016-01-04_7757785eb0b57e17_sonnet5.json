@@ -1,0 +1,46 @@
+{
+  "window_id": "placebo_2016-01-04",
+  "kind": "placebo",
+  "boundary_date": "2016-01-04",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "A rapidly escalating diplomatic crisis between Saudi Arabia and Iran unfolds over the final days of the window: after Iranian protesters set fire to the Saudi embassy in Tehran, Saudi Arabia severed diplomatic relations with Iran, and by Day 14 Sudan, the UAE and Bahrain had followed suit, while sectarian bombings of Sunni mosques in Iraq raised fears of wider regional strife.",
+  "mechanism": "A multi-country diplomatic rupture in the Middle East, centered on two major oil producers, raises geopolitical risk premia and can inject volatility into oil prices and regional asset markets; the rapid multi-day escalation (embassy attack, broken relations, other states following suit, sectarian violence spreading) is the kind of fast-moving geopolitical shock that can shift market volatility regimes.",
+  "claims": [
+    {
+      "claim": "Iranian protesters set fire to the Saudi embassy in Tehran in response to Saudi Arabia's execution of Nimr al-Nimr.",
+      "item_ids": [
+        "4032ec9987125645"
+      ]
+    },
+    {
+      "claim": "Saudi Arabia broke off diplomatic relations with Iran following the embassy attack and the execution.",
+      "item_ids": [
+        "f81e2b0527f25ccd"
+      ]
+    },
+    {
+      "claim": "Sudan, the United Arab Emirates, and Bahrain followed Saudi Arabia's lead and also cut diplomatic relations with Iran.",
+      "item_ids": [
+        "0cfd7c81f22338b9"
+      ]
+    },
+    {
+      "claim": "Two Sunni mosques were bombed in central Iraq amid fears of renewed sectarian strife following the execution of Nimr al-Nimr.",
+      "item_ids": [
+        "ca83866e24bc9fa6"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "0cfd7c81f22338b9",
+    "f81e2b0527f25ccd",
+    "4032ec9987125645"
+  ],
+  "competing_explanation": "There are several other candidate stories in the same window, including the armed standoff at the Pathankot Indian Air Force base (Day 13) and the militia occupation of the Malheur National Wildlife Refuge (Day 12), plus a large corporate consolidation (Nokia/Alcatel-Lucent) and a major earthquake in India on Day 14; any of these could be unrelated noise rather than the true driver, and the statistical model gives no indication which asset class or region is implicated.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"A rapidly escalating diplomatic crisis between Saudi Arabia and Iran unfolds over the final days of the window: after Iranian protesters set fire to the Saudi embassy in Tehran, Saudi Arabia severed diplomatic relations with Iran, and by Day 14 Sudan, the UAE and Bahrain had followed suit, while sectarian bombings of Sunni mosques in Iraq raised fears of wider regional strife.\", \"mechanism\": \"A multi-country diplomatic rupture in the Middle East, centered on two major oil producers, raises geopolitical risk premia and can inject volatility into oil prices and regional asset markets; the rapid multi-day escalation (embassy attack, broken relations, other states following suit, sectarian violence spreading) is the kind of fast-moving geopolitical shock that can shift market volatility regimes.\", \"claims\": [{\"claim\": \"Iranian protesters set fire to the Saudi embassy in Tehran in response to Saudi Arabia's execution of Nimr al-Nimr.\", \"item_ids\": [\"4032ec9987125645\"]}, {\"claim\": \"Saudi Arabia broke off diplomatic relations with Iran following the embassy attack and the execution.\", \"item_ids\": [\"f81e2b0527f25ccd\"]}, {\"claim\": \"Sudan, the United Arab Emirates, and Bahrain followed Saudi Arabia's lead and also cut diplomatic relations with Iran.\", \"item_ids\": [\"0cfd7c81f22338b9\"]}, {\"claim\": \"Two Sunni mosques were bombed in central Iraq amid fears of renewed sectarian strife following the execution of Nimr al-Nimr.\", \"item_ids\": [\"ca83866e24bc9fa6\"]}], \"primary_item_ids\": [\"0cfd7c81f22338b9\", \"f81e2b0527f25ccd\", \"4032ec9987125645\"], \"competing_explanation\": \"There are several other candidate stories in the same window, including the armed standoff at the Pathankot Indian Air Force base (Day 13) and the militia occupation of the Malheur National Wildlife Refuge (Day 12), plus a large corporate consolidation (Nokia/Alcatel-Lucent) and a major earthquake in India on Day 14; any of these could be unrelated noise rather than the true driver, and the statistical model gives no indication which asset class or region is implicated.\", \"insufficient_evidence_reason\": \"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "3a98b604aaeb3bca"
+}

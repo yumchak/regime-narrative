@@ -1,0 +1,52 @@
+{
+  "window_id": "transition_2019-05-08",
+  "kind": "transition",
+  "boundary_date": "2019-05-08",
+  "driver_identified": true,
+  "confidence": "high",
+  "summary": "An abrupt re-escalation of the U.S.-China trade dispute appears to account for the change. On Day 12, U.S. President Trump threatened to raise tariffs on Chinese-made goods, sending Chinese equities down more than 5% intraday and U.S. stock futures sharply lower, while casting doubt on whether the scheduled negotiating round would go ahead. A secondary risk item \u2014 the deployment of a U.S. carrier strike group and bomber task force to the Middle East in response to stated Iranian threats (Day 11) \u2014 added a geopolitical layer immediately before the flagged day.",
+  "mechanism": "A surprise reversal in trade-negotiation expectations forces rapid repricing of earnings, supply-chain and growth assumptions across globally exposed equities, which mechanically lifts realised and implied volatility; the accompanying military deployment adds an energy- and safe-haven-linked risk premium.",
+  "claims": [
+    {
+      "claim": "Trump threatened to raise tariffs on Chinese-made goods, putting the scheduled bilateral negotiations in question.",
+      "item_ids": [
+        "a33b5282b94ef000"
+      ]
+    },
+    {
+      "claim": "Chinese stocks fell more than 5% by midday and U.S. stock futures fell sharply following the tariff threat.",
+      "item_ids": [
+        "a33b5282b94ef000"
+      ]
+    },
+    {
+      "claim": "The United States deployed a carrier strike group and a bomber task force to the Middle East in response to reported threats from Iran against U.S. maritime and land-based forces.",
+      "item_ids": [
+        "bbec8f338957f02a"
+      ]
+    },
+    {
+      "claim": "A separate corporate credit stress point was reported in the window: bankrupt utility Pacific Gas & Electric failed to reach a settlement with creditors over billions owed under power purchase contracts.",
+      "item_ids": [
+        "bf4209484baeb746"
+      ]
+    },
+    {
+      "claim": "Other geopolitical flashpoints active in the window included Israeli airstrikes on Gaza after rocket fire, and the annulment of the Istanbul mayoral election result with a rerun ordered.",
+      "item_ids": [
+        "1227a1e8068f0dc4",
+        "37800c6d2c94b8ed"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "a33b5282b94ef000",
+    "bbec8f338957f02a"
+  ],
+  "competing_explanation": "The Middle East military deployment (Day 11) and the annulled Istanbul election (Day 12) are both credible independent sources of risk repricing, and the Istanbul item in particular is a classic emerging-market volatility trigger. It is also possible the model flagged noise: the trade item is dated Day 12, two days before the flag, so the timing is not exact, and the closing days of the window (Days 13-14) contain no items of obvious macro-financial significance.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"An abrupt re-escalation of the U.S.-China trade dispute appears to account for the change. On Day 12, U.S. President Trump threatened to raise tariffs on Chinese-made goods, sending Chinese equities down more than 5% intraday and U.S. stock futures sharply lower, while casting doubt on whether the scheduled negotiating round would go ahead. A secondary risk item \u2014 the deployment of a U.S. carrier strike group and bomber task force to the Middle East in response to stated Iranian threats (Day 11) \u2014 added a geopolitical layer immediately before the flagged day.\",\"mechanism\":\"A surprise reversal in trade-negotiation expectations forces rapid repricing of earnings, supply-chain and growth assumptions across globally exposed equities, which mechanically lifts realised and implied volatility; the accompanying military deployment adds an energy- and safe-haven-linked risk premium.\",\"claims\":[{\"claim\":\"Trump threatened to raise tariffs on Chinese-made goods, putting the scheduled bilateral negotiations in question.\",\"item_ids\":[\"a33b5282b94ef000\"]},{\"claim\":\"Chinese stocks fell more than 5% by midday and U.S. stock futures fell sharply following the tariff threat.\",\"item_ids\":[\"a33b5282b94ef000\"]},{\"claim\":\"The United States deployed a carrier strike group and a bomber task force to the Middle East in response to reported threats from Iran against U.S. maritime and land-based forces.\",\"item_ids\":[\"bbec8f338957f02a\"]},{\"claim\":\"A separate corporate credit stress point was reported in the window: bankrupt utility Pacific Gas & Electric failed to reach a settlement with creditors over billions owed under power purchase contracts.\",\"item_ids\":[\"bf4209484baeb746\"]},{\"claim\":\"Other geopolitical flashpoints active in the window included Israeli airstrikes on Gaza after rocket fire, and the annulment of the Istanbul mayoral election result with a rerun ordered.\",\"item_ids\":[\"1227a1e8068f0dc4\",\"37800c6d2c94b8ed\"]}],\"primary_item_ids\":[\"a33b5282b94ef000\",\"bbec8f338957f02a\"],\"competing_explanation\":\"The Middle East military deployment (Day 11) and the annulled Istanbul election (Day 12) are both credible independent sources of risk repricing, and the Istanbul item in particular is a classic emerging-market volatility trigger. It is also possible the model flagged noise: the trade item is dated Day 12, two days before the flag, so the timing is not exact, and the closing days of the window (Days 13-14) contain no items of obvious macro-financial significance.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "07a61afe24572997"
+}

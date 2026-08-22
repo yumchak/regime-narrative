@@ -1,0 +1,21 @@
+{
+  "call_id": "e061aa3b3f4cacf3",
+  "timestamp_utc": "2026-08-22T07:47:24.106503+00:00",
+  "window_id": "placebo_2018-07-20",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2018-07-20",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "dbaf8ada314a6db7",
+  "n_items_in_window": 66,
+  "input_chars": 12273,
+  "usage": {
+    "input_tokens": 6713,
+    "output_tokens": 1908
+  },
+  "response_text": "{\"driver_identified\": false, \"confidence\": \"none\", \"summary\": \"\", \"mechanism\": \"\", \"claims\": [{\"claim\": \"The items span disasters (Thailand boat, Japan floods, Kilauea volcano, Panjshir landslide, Nigeria flooding), sports (World Cup final, Wimbledon), political events (Brexit resignation, Iranian protests, Trump-Putin Helsinki summit), and crime stories, but none of these are concentrated near Day 14 in a way that suggests a single market-relevant catalyst.\", \"item_ids\": [\"1448db72b52e2710\", \"884c766426aa4fe6\", \"807c3f9f6e04ad2c\", \"ca1b24112ea33145\", \"22435694fd3c7f3b\"]}, {\"claim\": \"The only item with clear macroeconomic/trade significance is the announcement of a list of roughly $200 billion in Chinese goods for tariffs, but this occurred on Day 4, ten days before the flagged day, with no follow-up reporting in the window connecting it to a Day 14 market shift.\", \"item_ids\": [\"a7e26462bb9c4315\"]}, {\"claim\": \"The items dated on Day 14 itself concern a South Korean former president's sentencing, a knife attack on a bus in Germany, and a protest by burn victims in Iran over unequal compensation, none of which have an evident financial or macroeconomic dimension.\", \"item_ids\": [\"79f21e117bb16604\", \"976dcb14836f422b\", \"a83025eeb6cfb03c\"]}], \"primary_item_ids\": [], \"competing_explanation\": \"If forced to pick a candidate, the escalating US-China tariff dispute (list of $200 billion in goods announced Day 4) or the Trump-Putin Helsinki summit (Day 10) are the closest things to market-relevant news in this window, but neither is temporally adjacent to Day 14, and no item on or near Day 14 elaborates on trade, monetary policy, corporate earnings, or geopolitical shocks with direct financial transmission.\", \"insufficient_evidence_reason\": \"The 14-day window is dominated by a heterogeneous mix of disaster reports, sports results, and regional political/crime stories with no item on or near Day 14 describing a financial, monetary, trade, or corporate event of the kind that typically drives volatility. The most plausible macro-relevant item (the China tariff list) is too far removed in time from the flagged day, and no items causally link it to a later development. Absent a proximate, clearly market-relevant event, attributing the flagged volatility change to any single item here would be speculative rather than evidence-based.\"}"
+}

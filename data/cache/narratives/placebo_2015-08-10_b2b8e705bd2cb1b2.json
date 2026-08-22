@@ -1,0 +1,62 @@
+{
+  "window_id": "placebo_2015-08-10",
+  "kind": "placebo",
+  "boundary_date": "2015-08-10",
+  "driver_identified": false,
+  "confidence": "none",
+  "summary": "",
+  "mechanism": "",
+  "claims": [
+    {
+      "claim": "The final day of the window contains a corporate reorganisation announcement in which Google creates a new holding company, Alphabet Inc., encompassing Google Inc. and other subsidiaries \u2014 a structural change at a single issuer rather than a macro shock.",
+      "item_ids": [
+        "4e382db33657eea7"
+      ]
+    },
+    {
+      "claim": "The only genuine credit event in the window occurs a week before the flagged day: Puerto Rico misses a scheduled US$58 million payment against $72 billion of debt, and Moody's treats the commonwealth as in default.",
+      "item_ids": [
+        "1342a134a1fa2f53"
+      ]
+    },
+    {
+      "claim": "Other economic and financial items are isolated and largely idiosyncratic: a Swiss National Bank first-half loss of CHF 50 billion attributed to an earlier peg removal, a central bank cut to 11% with the ruble down 1.5% to 60.60, an HSBC disposal of its Brazilian business for $5.2 billion, and a UK government sale of 5.4% of RBS raising \u00a32.1bn.",
+      "item_ids": [
+        "5aef3f0a85b9c679",
+        "af0aa5c8546e7a47",
+        "bb7da46fa098738a",
+        "f682667a99116b86"
+      ]
+    },
+    {
+      "claim": "The security events clustered on the flagged day \u2014 an attack on the US consulate in Istanbul claimed by DHKP-C, a suicide bombing at Kabul airport, and a fatal stabbing at a store in Sweden \u2014 caused few or no fatalities in the consulate case and involve no assets, infrastructure, or economies of systemic financial importance.",
+      "item_ids": [
+        "972d34684003afd3",
+        "a5396fac7ebde5b1",
+        "547b6b5a8bed2f50"
+      ]
+    },
+    {
+      "claim": "The remainder of the window is dominated by non-financial news: aircraft debris confirmed as belonging to a missing airliner, an escalating Turkey\u2013PKK conflict, Boko Haram attacks and rescues in Nigeria, a typhoon threatening Taiwan, flooding in Myanmar, a legionnaires outbreak, and various crime and accident stories.",
+      "item_ids": [
+        "0b98b943c1b835d2",
+        "afabd52188df3452",
+        "b5a455c55ea62e1a",
+        "8b3e7d02fa3a9b45",
+        "e449f2b1640039cc",
+        "221b3ef4e81ce7ee"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "4e382db33657eea7",
+    "1342a134a1fa2f53",
+    "972d34684003afd3"
+  ],
+  "competing_explanation": "The two least-weak candidates are the Puerto Rico default (a real sovereign-style credit event, but it lands on Day 7 rather than near the flagged day, is confined to a single municipal issuer, and had been widely telegraphed by the size of the debt stock described) and the Alphabet restructuring on Day 14 (single-name, and a holding-company reorganisation is not normally a market-wide volatility catalyst). Neither supports a regime change in aggregate price and volatility conditions on the strength of these items alone.",
+  "insufficient_evidence_reason": "No item in the window describes a macro-level shock \u2014 no policy surprise from a major central bank, no growth or inflation release, no currency or sovereign event in a large economy, no systemic financial institution under stress. The financial items present are small, dispersed across the window, and idiosyncratic; the events on the flagged day itself are either single-issuer corporate news or localised violence with no plausible transmission channel to broad market volatility. On this evidence the flag is more consistent with noise, or with a driver that is simply not represented in the supplied items, than with any identifiable news catalyst.",
+  "raw_response": "{\"driver_identified\":false,\"confidence\":\"none\",\"summary\":\"\",\"mechanism\":\"\",\"claims\":[{\"claim\":\"The final day of the window contains a corporate reorganisation announcement in which Google creates a new holding company, Alphabet Inc., encompassing Google Inc. and other subsidiaries \u2014 a structural change at a single issuer rather than a macro shock.\",\"item_ids\":[\"4e382db33657eea7\"]},{\"claim\":\"The only genuine credit event in the window occurs a week before the flagged day: Puerto Rico misses a scheduled US$58 million payment against $72 billion of debt, and Moody's treats the commonwealth as in default.\",\"item_ids\":[\"1342a134a1fa2f53\"]},{\"claim\":\"Other economic and financial items are isolated and largely idiosyncratic: a Swiss National Bank first-half loss of CHF 50 billion attributed to an earlier peg removal, a central bank cut to 11% with the ruble down 1.5% to 60.60, an HSBC disposal of its Brazilian business for $5.2 billion, and a UK government sale of 5.4% of RBS raising \u00a32.1bn.\",\"item_ids\":[\"5aef3f0a85b9c679\",\"af0aa5c8546e7a47\",\"bb7da46fa098738a\",\"f682667a99116b86\"]},{\"claim\":\"The security events clustered on the flagged day \u2014 an attack on the US consulate in Istanbul claimed by DHKP-C, a suicide bombing at Kabul airport, and a fatal stabbing at a store in Sweden \u2014 caused few or no fatalities in the consulate case and involve no assets, infrastructure, or economies of systemic financial importance.\",\"item_ids\":[\"972d34684003afd3\",\"a5396fac7ebde5b1\",\"547b6b5a8bed2f50\"]},{\"claim\":\"The remainder of the window is dominated by non-financial news: aircraft debris confirmed as belonging to a missing airliner, an escalating Turkey\u2013PKK conflict, Boko Haram attacks and rescues in Nigeria, a typhoon threatening Taiwan, flooding in Myanmar, a legionnaires outbreak, and various crime and accident stories.\",\"item_ids\":[\"0b98b943c1b835d2\",\"afabd52188df3452\",\"b5a455c55ea62e1a\",\"8b3e7d02fa3a9b45\",\"e449f2b1640039cc\",\"221b3ef4e81ce7ee\"]}],\"primary_item_ids\":[\"4e382db33657eea7\",\"1342a134a1fa2f53\",\"972d34684003afd3\"],\"competing_explanation\":\"The two least-weak candidates are the Puerto Rico default (a real sovereign-style credit event, but it lands on Day 7 rather than near the flagged day, is confined to a single municipal issuer, and had been widely telegraphed by the size of the debt stock described) and the Alphabet restructuring on Day 14 (single-name, and a holding-company reorganisation is not normally a market-wide volatility catalyst). Neither supports a regime change in aggregate price and volatility conditions on the strength of these items alone.\",\"insufficient_evidence_reason\":\"No item in the window describes a macro-level shock \u2014 no policy surprise from a major central bank, no growth or inflation release, no currency or sovereign event in a large economy, no systemic financial institution under stress. The financial items present are small, dispersed across the window, and idiosyncratic; the events on the flagged day itself are either single-issuer corporate news or localised violence with no plausible transmission channel to broad market volatility. On this evidence the flag is more consistent with noise, or with a driver that is simply not represented in the supplied items, than with any identifiable news catalyst.\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "82b7e07a7adb10fc"
+}

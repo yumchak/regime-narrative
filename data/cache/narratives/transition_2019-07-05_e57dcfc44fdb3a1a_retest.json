@@ -1,0 +1,79 @@
+{
+  "window_id": "transition_2019-07-05",
+  "kind": "transition",
+  "boundary_date": "2019-07-05",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "Two macro-relevant developments sit in this window. The largest is the meeting between the U.S. and Chinese presidents at the G20 summit, which produced a truce allowing American firms to sell non-sensitive technology to Huawei in exchange for Chinese purchases of U.S. agricultural goods \u2014 a direct de-escalation of a trade dispute with broad cross-asset implications. Closer to the flag date, a sharp escalation in Iran-related risk culminated in Royal Marines seizing a tanker carrying Iranian crude off Gibraltar and the summoning of the UK ambassador in Tehran, on top of earlier U.S. sanctions and explicit warnings about the Strait of Hormuz.",
+  "mechanism": "A trade truce removes a standing tail risk from equity and rates pricing and typically compresses implied volatility, while a state seizure of a crude cargo amid Gulf shipping threats injects a geopolitical premium into oil and re-prices energy-linked volatility; either shift, or their combination, would register as a change in the volatility regime.",
+  "claims": [
+    {
+      "claim": "The U.S. and Chinese presidents met at a G20 summit and agreed a deal permitting American companies to sell non-sensitive technology to Huawei while China buys U.S. food and agricultural products.",
+      "item_ids": [
+        "ffd106fb9d153a16"
+      ]
+    },
+    {
+      "claim": "The United States announced 'major' sanctions on Iran early in the window.",
+      "item_ids": [
+        "909fe4dab29d69af"
+      ]
+    },
+    {
+      "claim": "A senior Saudi official warned of a 'very, very strong reaction' if Iran closed the Strait of Hormuz, and later called for international action on Iran and cooperation to secure Gulf shipping.",
+      "item_ids": [
+        "e4ebbf6feb9ac20c",
+        "1a0e7c5d4f319579"
+      ]
+    },
+    {
+      "claim": "Royal Marines seized an oil tanker off Gibraltar carrying Iranian crude bound for Syria, and Iran summoned the UK ambassador, calling it an 'illegal seizure'.",
+      "item_ids": [
+        "db39729f1dcd20b3"
+      ]
+    },
+    {
+      "claim": "Israel struck Iranian and Syrian military targets near Damascus and Homs, killing 16, with a stray Syrian missile landing on Cyprus.",
+      "item_ids": [
+        "ad18b28d7794b10c",
+        "924b67795c389a1a"
+      ]
+    },
+    {
+      "claim": "A U.S. president met the North Korean leader at the Joint Security Area and invited him to resume denuclearisation talks, a further geopolitical de-escalation in the same week as the G20 meeting.",
+      "item_ids": [
+        "8e0b6e0cc7563070",
+        "1a0ca764f4743607"
+      ]
+    },
+    {
+      "claim": "A large pharmaceutical acquisition was announced, with AbbVie agreeing to buy Allergan for about $63 billion.",
+      "item_ids": [
+        "d835c834c7d63b19"
+      ]
+    },
+    {
+      "claim": "Protesters broke into Hong Kong's Legislative Council Complex during anti-extradition bill demonstrations.",
+      "item_ids": [
+        "6f20a8fd8d2972b0"
+      ]
+    },
+    {
+      "claim": "A magnitude 6.4 earthquake struck Southern California near Ridgecrest with no reported injuries.",
+      "item_ids": [
+        "23499ec66a9e9c95"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "ffd106fb9d153a16",
+    "db39729f1dcd20b3",
+    "e4ebbf6feb9ac20c"
+  ],
+  "competing_explanation": "The flag may reflect the Iran/Gulf thread alone rather than the trade truce: sanctions, Hormuz threats, Israeli strikes on Iranian targets in Syria and the Gibraltar tanker seizure form an escalating sequence that peaks one day before the flag, which would push oil volatility higher rather than compress equity volatility. A third reading is that nothing here is decisive \u2014 the window is otherwise dominated by localised conflict, aviation accidents and weather events with no cross-market transmission, and the model may have flagged noise, particularly since the largest macro item (the G20 deal) falls mid-window rather than at the flag date.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"Two macro-relevant developments sit in this window. The largest is the meeting between the U.S. and Chinese presidents at the G20 summit, which produced a truce allowing American firms to sell non-sensitive technology to Huawei in exchange for Chinese purchases of U.S. agricultural goods \u2014 a direct de-escalation of a trade dispute with broad cross-asset implications. Closer to the flag date, a sharp escalation in Iran-related risk culminated in Royal Marines seizing a tanker carrying Iranian crude off Gibraltar and the summoning of the UK ambassador in Tehran, on top of earlier U.S. sanctions and explicit warnings about the Strait of Hormuz.\",\"mechanism\":\"A trade truce removes a standing tail risk from equity and rates pricing and typically compresses implied volatility, while a state seizure of a crude cargo amid Gulf shipping threats injects a geopolitical premium into oil and re-prices energy-linked volatility; either shift, or their combination, would register as a change in the volatility regime.\",\"claims\":[{\"claim\":\"The U.S. and Chinese presidents met at a G20 summit and agreed a deal permitting American companies to sell non-sensitive technology to Huawei while China buys U.S. food and agricultural products.\",\"item_ids\":[\"ffd106fb9d153a16\"]},{\"claim\":\"The United States announced 'major' sanctions on Iran early in the window.\",\"item_ids\":[\"909fe4dab29d69af\"]},{\"claim\":\"A senior Saudi official warned of a 'very, very strong reaction' if Iran closed the Strait of Hormuz, and later called for international action on Iran and cooperation to secure Gulf shipping.\",\"item_ids\":[\"e4ebbf6feb9ac20c\",\"1a0e7c5d4f319579\"]},{\"claim\":\"Royal Marines seized an oil tanker off Gibraltar carrying Iranian crude bound for Syria, and Iran summoned the UK ambassador, calling it an 'illegal seizure'.\",\"item_ids\":[\"db39729f1dcd20b3\"]},{\"claim\":\"Israel struck Iranian and Syrian military targets near Damascus and Homs, killing 16, with a stray Syrian missile landing on Cyprus.\",\"item_ids\":[\"ad18b28d7794b10c\",\"924b67795c389a1a\"]},{\"claim\":\"A U.S. president met the North Korean leader at the Joint Security Area and invited him to resume denuclearisation talks, a further geopolitical de-escalation in the same week as the G20 meeting.\",\"item_ids\":[\"8e0b6e0cc7563070\",\"1a0ca764f4743607\"]},{\"claim\":\"A large pharmaceutical acquisition was announced, with AbbVie agreeing to buy Allergan for about $63 billion.\",\"item_ids\":[\"d835c834c7d63b19\"]},{\"claim\":\"Protesters broke into Hong Kong's Legislative Council Complex during anti-extradition bill demonstrations.\",\"item_ids\":[\"6f20a8fd8d2972b0\"]},{\"claim\":\"A magnitude 6.4 earthquake struck Southern California near Ridgecrest with no reported injuries.\",\"item_ids\":[\"23499ec66a9e9c95\"]}],\"primary_item_ids\":[\"ffd106fb9d153a16\",\"db39729f1dcd20b3\",\"e4ebbf6feb9ac20c\"],\"competing_explanation\":\"The flag may reflect the Iran/Gulf thread alone rather than the trade truce: sanctions, Hormuz threats, Israeli strikes on Iranian targets in Syria and the Gibraltar tanker seizure form an escalating sequence that peaks one day before the flag, which would push oil volatility higher rather than compress equity volatility. A third reading is that nothing here is decisive \u2014 the window is otherwise dominated by localised conflict, aviation accidents and weather events with no cross-market transmission, and the model may have flagged noise, particularly since the largest macro item (the G20 deal) falls mid-window rather than at the flag date.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "df78a1cda82eb907"
+}

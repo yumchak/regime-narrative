@@ -1,0 +1,21 @@
+{
+  "call_id": "cd9693f5b1b24f0f",
+  "timestamp_utc": "2026-08-22T07:44:54.285443+00:00",
+  "window_id": "placebo_2016-05-03",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2016-05-03",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "c5a5f2e11e7ba5b3",
+  "n_items_in_window": 125,
+  "input_chars": 33200,
+  "usage": {
+    "input_tokens": 14421,
+    "output_tokens": 2968
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"In the days leading into the flagged day, two distinct financial-market stress signals appear: Puerto Rico's governor announced the territory would default on a $422 million bond payment, and the Philippine stock market suffered its biggest drop in months amid election-related uncertainty. Either of these could plausibly register as a volatility event to a model watching price and volatility data, though neither is a globally systemic shock on the scale that would unambiguously explain a broad market regime change.\", \"mechanism\": \"A sovereign bond default raises credit risk premia and can trigger repricing in related debt instruments and contagion fears across emerging-market and municipal-adjacent credit, while a sharp equity market drop driven by political uncertainty directly manifests as increased realized volatility in that market and can spill over into regional risk sentiment.\", \"claims\": [{\"claim\": \"Puerto Rico's governor announced the commonwealth would default on a $422 million bond payment due the following Monday, citing the need to fund essential services.\", \"item_ids\": [\"afc152572ca1a8e3\"]}, {\"claim\": \"The Philippine stock market suffered its biggest drop in months amid uncertainty tied to the upcoming presidential election.\", \"item_ids\": [\"f024e0dcf57d04f6\"]}, {\"claim\": \"The Philippine peso was separately reported as the worst-performing currency in Asia due to election-related volatility.\", \"item_ids\": [\"834e2522328d369a\"]}, {\"claim\": \"Donald Trump won the Indiana Republican primary on the flagged day, a significant development in the US presidential race.\", \"item_ids\": [\"cc705549f6cbf6c7\", \"f51819465b333a5c\"]}, {\"claim\": \"A British department store chain, BHS, collapsed into administration in the window, described as the biggest UK high-street failure since Woolworths.\", \"item_ids\": [\"b27bbebeb574f627\"]}], \"primary_item_ids\": [\"afc152572ca1a8e3\", \"f024e0dcf57d04f6\", \"cc705549f6cbf6c7\"], \"competing_explanation\": \"The items contain no single globally systemic event (e.g., a central bank action, major sovereign crisis affecting a large economy, or a global equity crash); instead there are several regionally-contained financial stress points (Puerto Rico, Philippines, UK retail) and a major US political event (Trump's Indiana win), any of which could be the trigger, or the flagged change could reflect accumulated noise across unrelated regional stories rather than one coherent driver.\", \"insufficient_evidence_reason\": \"\"}"
+}

@@ -1,0 +1,77 @@
+{
+  "window_id": "placebo_2016-02-16",
+  "kind": "placebo",
+  "boundary_date": "2016-02-16",
+  "driver_identified": true,
+  "confidence": "low",
+  "summary": "The only cluster in the window with plausible market relevance is a sharp escalation of the Syria conflict into a direct confrontation risk between major powers over Days 11-13: Saudi Arabia deploying troops and jets to Turkey's Incirlik base ahead of a possible ground invasion, Turkish artillery shelling Kurdish-held positions inside northern Syria, Turkey's prime minister publicly calling Russia a \"terrorist organization\" and threatening a \"decisive response\", and Russia's prime minister declaring a \"new Cold War\" with NATO at the Munich Security Conference. Nothing in the window is a financial, monetary or macroeconomic event, so this reading rests entirely on a geopolitical risk-premium channel and the evidence is weak.",
+  "mechanism": "Direct military contact risk between a NATO member, Russia and Saudi Arabia in a major oil-producing region typically widens crude and geopolitical risk premia and lifts demand for hedges, which shows up as higher implied and realised volatility even without any change in economic fundamentals.",
+  "claims": [
+    {
+      "claim": "Saudi Arabia was reported sending troops and fighter jets to Turkey's Incirlik Air Base ahead of a planned ground invasion of Syria, confirmed in part by Turkey's foreign minister.",
+      "item_ids": [
+        "57dc064368dea0db"
+      ]
+    },
+    {
+      "claim": "Turkey's military shelled Kurdish PYD positions in northern Syria, including an airbase recently captured by the Syrian Democratic Forces.",
+      "item_ids": [
+        "62c604b7fbd3cb6c",
+        "91f1244700d96dc8"
+      ]
+    },
+    {
+      "claim": "Turkey's prime minister accused Russia of behaving like a \"terrorist organization\" in Syria and threatened an \"extremely decisive response\".",
+      "item_ids": [
+        "29c394138f8782ec"
+      ]
+    },
+    {
+      "claim": "At the Munich Security Conference, Russia's prime minister said tensions had sent the world into a \"new Cold War\", while NATO's secretary-general described the relationship as neither cold war nor partnership.",
+      "item_ids": [
+        "cfff5dc077c661f8"
+      ]
+    },
+    {
+      "claim": "Separately, Russia and Ukraine imposed reciprocal bans on each other's cargo trucks transiting their territory.",
+      "item_ids": [
+        "5ab024874176ea34"
+      ]
+    },
+    {
+      "claim": "Earlier in the window there was a North Korean long-range rocket launch condemned by the UN Security Council, Japanese and South Korean military responses, China backing a resolution to make North Korea \"pay the necessary price\", and North Korea freezing South Korean assets at the Kaesong Industrial Park.",
+      "item_ids": [
+        "0a47e88740069845",
+        "cf50df830539753c",
+        "656b379a2bbfcafc",
+        "d4c1e690c0e44fd3"
+      ]
+    },
+    {
+      "claim": "The single item dated to the flagged day is the release of three Americans abducted in Baghdad, which has no evident market significance.",
+      "item_ids": [
+        "5ae54bfc5a420cde"
+      ]
+    },
+    {
+      "claim": "The window contains almost no financial or macroeconomic news; the business items are an Argentine offer to holdout creditors, the signing of a twelve-nation trade deal in Auckland, an Uber settlement, and a newspaper ending print publication.",
+      "item_ids": [
+        "bb0a614b29b27ee6",
+        "ccf7d4b680b73e0e",
+        "fc9ff20e213791f4",
+        "a2ba52e800ddb729"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "57dc064368dea0db",
+    "29c394138f8782ec",
+    "cfff5dc077c661f8"
+  ],
+  "competing_explanation": "The model may simply have flagged noise. There is no monetary policy, credit, earnings, banking or macro-data item anywhere in the window, and the item on the flagged day itself is trivial. A second-order alternative is the North Korea rocket launch and the ensuing Security Council, Japanese, South Korean and Chinese responses plus the Kaesong shutdown, but that escalation peaked around Days 5-10 rather than at the end of the window. A third possibility is the accumulation of unrelated risk headlines rather than any single driver.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"low\",\"summary\":\"The only cluster in the window with plausible market relevance is a sharp escalation of the Syria conflict into a direct confrontation risk between major powers over Days 11-13: Saudi Arabia deploying troops and jets to Turkey's Incirlik base ahead of a possible ground invasion, Turkish artillery shelling Kurdish-held positions inside northern Syria, Turkey's prime minister publicly calling Russia a \\\"terrorist organization\\\" and threatening a \\\"decisive response\\\", and Russia's prime minister declaring a \\\"new Cold War\\\" with NATO at the Munich Security Conference. Nothing in the window is a financial, monetary or macroeconomic event, so this reading rests entirely on a geopolitical risk-premium channel and the evidence is weak.\",\"mechanism\":\"Direct military contact risk between a NATO member, Russia and Saudi Arabia in a major oil-producing region typically widens crude and geopolitical risk premia and lifts demand for hedges, which shows up as higher implied and realised volatility even without any change in economic fundamentals.\",\"claims\":[{\"claim\":\"Saudi Arabia was reported sending troops and fighter jets to Turkey's Incirlik Air Base ahead of a planned ground invasion of Syria, confirmed in part by Turkey's foreign minister.\",\"item_ids\":[\"57dc064368dea0db\"]},{\"claim\":\"Turkey's military shelled Kurdish PYD positions in northern Syria, including an airbase recently captured by the Syrian Democratic Forces.\",\"item_ids\":[\"62c604b7fbd3cb6c\",\"91f1244700d96dc8\"]},{\"claim\":\"Turkey's prime minister accused Russia of behaving like a \\\"terrorist organization\\\" in Syria and threatened an \\\"extremely decisive response\\\".\",\"item_ids\":[\"29c394138f8782ec\"]},{\"claim\":\"At the Munich Security Conference, Russia's prime minister said tensions had sent the world into a \\\"new Cold War\\\", while NATO's secretary-general described the relationship as neither cold war nor partnership.\",\"item_ids\":[\"cfff5dc077c661f8\"]},{\"claim\":\"Separately, Russia and Ukraine imposed reciprocal bans on each other's cargo trucks transiting their territory.\",\"item_ids\":[\"5ab024874176ea34\"]},{\"claim\":\"Earlier in the window there was a North Korean long-range rocket launch condemned by the UN Security Council, Japanese and South Korean military responses, China backing a resolution to make North Korea \\\"pay the necessary price\\\", and North Korea freezing South Korean assets at the Kaesong Industrial Park.\",\"item_ids\":[\"0a47e88740069845\",\"cf50df830539753c\",\"656b379a2bbfcafc\",\"d4c1e690c0e44fd3\"]},{\"claim\":\"The single item dated to the flagged day is the release of three Americans abducted in Baghdad, which has no evident market significance.\",\"item_ids\":[\"5ae54bfc5a420cde\"]},{\"claim\":\"The window contains almost no financial or macroeconomic news; the business items are an Argentine offer to holdout creditors, the signing of a twelve-nation trade deal in Auckland, an Uber settlement, and a newspaper ending print publication.\",\"item_ids\":[\"bb0a614b29b27ee6\",\"ccf7d4b680b73e0e\",\"fc9ff20e213791f4\",\"a2ba52e800ddb729\"]}],\"primary_item_ids\":[\"57dc064368dea0db\",\"29c394138f8782ec\",\"cfff5dc077c661f8\"],\"competing_explanation\":\"The model may simply have flagged noise. There is no monetary policy, credit, earnings, banking or macro-data item anywhere in the window, and the item on the flagged day itself is trivial. A second-order alternative is the North Korea rocket launch and the ensuing Security Council, Japanese, South Korean and Chinese responses plus the Kaesong shutdown, but that escalation peaked around Days 5-10 rather than at the end of the window. A third possibility is the accumulation of unrelated risk headlines rather than any single driver.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "d09ec668db6b539b"
+}

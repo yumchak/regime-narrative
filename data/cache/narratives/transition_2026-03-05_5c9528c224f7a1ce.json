@@ -1,0 +1,97 @@
+{
+  "window_id": "transition_2026-03-05",
+  "kind": "transition",
+  "boundary_date": "2026-03-05",
+  "driver_identified": true,
+  "confidence": "high",
+  "summary": "Beginning on Day 9, Israel and the United States launched strikes on Iran that killed the supreme leader and much of the senior military leadership, and Iran retaliated with ballistic missile and drone attacks across the Gulf \u2014 on the UAE, Kuwait, Bahrain, Saudi Arabia, Qatar's Al Udeid base and shipping. Maersk suspended all transits of the Strait of Hormuz, Gulf airspace and airports closed, tankers were struck, and by Day 14 Iran publicly ruled out a ceasefire while South Korea activated a \u20a9100 trillion fund explicitly to address financial market volatility tied to the war. This regional war, with direct energy-chokepoint and shipping disruption, is a clear and sufficient driver of a regime change in market conditions.",
+  "mechanism": "A shooting war involving a major oil producer, strikes on Gulf oil terminals and tankers, and suspension of Strait of Hormuz transits transmits directly into energy prices, shipping/insurance costs and a global risk-off repricing, while the absence of any negotiated off-ramp keeps the tail of further escalation open \u2014 all of which raise realised and implied volatility across asset classes.",
+  "claims": [
+    {
+      "claim": "Israel launched what it called a preemptive strike on Iran, killing senior officials including the supreme leader.",
+      "item_ids": [
+        "9525707c8e966476",
+        "7795dc4aa6f7a677",
+        "ffbf0402a7362a86"
+      ]
+    },
+    {
+      "claim": "Iran, Iraq, Israel, Kuwait, Qatar and Syria closed their airspace to civilian flights and the UAE suspended flights from Dubai and Al Maktoum airports.",
+      "item_ids": [
+        "bfc63198f51edae8",
+        "9079a854fff149f1"
+      ]
+    },
+    {
+      "claim": "Iran struck targets across the Gulf, including airports in Abu Dhabi and Dubai, a hotel in Bahrain housing US embassy staff, the US embassies in Kuwait City and Riyadh, and the Al Udeid Air Base in Qatar.",
+      "item_ids": [
+        "28fbb841267ec9fb",
+        "313c8ce6f307f1e4",
+        "1e07cb08ae5227ed",
+        "bf3995d6cfacd3cb",
+        "db3a869cc6e9123d"
+      ]
+    },
+    {
+      "claim": "Maersk suspended all vessel transits through the Strait of Hormuz until further notice.",
+      "item_ids": [
+        "df02b0ba9ef0f159"
+      ]
+    },
+    {
+      "claim": "Commercial shipping and energy infrastructure were hit: a tanker was struck by a missile in the Gulf of Oman, an oil terminal at Fujairah caught fire after a drone attack, a Bahraini oil refinery was hit, and an explosion damaged a tanker off Kuwait causing an oil spill.",
+      "item_ids": [
+        "649018a0391dd118",
+        "1fb51449eee418f2",
+        "ac1f040e97c0379c",
+        "eb6627f522631439"
+      ]
+    },
+    {
+      "claim": "UAE stock exchanges (Nasdaq Dubai, Dubai Financial Market, Abu Dhabi Securities Exchange) had been suspended for two days because of the Iranian strikes and were resuming on Day 13.",
+      "item_ids": [
+        "067101c1fb8e65a7"
+      ]
+    },
+    {
+      "claim": "On the flagged day, South Korea's president activated a \u20a9100 trillion (about US$68 billion) stabilization fund explicitly to address financial market volatility linked to the Iran war.",
+      "item_ids": [
+        "ad3ec86586393da1"
+      ]
+    },
+    {
+      "claim": "Diplomatic de-escalation was not in prospect at the close of the window: Iran's security council secretary ruled out negotiations and the foreign minister said Iran was not seeking a ceasefire, despite Trump claiming talks had been agreed.",
+      "item_ids": [
+        "f87dbd367d99cb32",
+        "6a5bad6b8b8e93fd"
+      ]
+    },
+    {
+      "claim": "The conflict widened beyond the Gulf, with US forces sustaining six deaths, a US submarine sinking an Iranian warship off Sri Lanka, missiles fired toward Cyprus and a drone hitting RAF Akrotiri, and the UK deploying a warship to Cyprus.",
+      "item_ids": [
+        "471be24c3756a390",
+        "2368743467c8227f",
+        "fa90eef5b96987ab",
+        "36512026ae2d568b",
+        "3a9944e9168edd25"
+      ]
+    },
+    {
+      "claim": "Separately and earlier in the window, the US raised the global import tariff from 10% to 15% under emergency powers after a Supreme Court ruling against earlier country-specific tariffs.",
+      "item_ids": [
+        "e9d06747a44310bb"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "9525707c8e966476",
+    "df02b0ba9ef0f159",
+    "ad3ec86586393da1"
+  ],
+  "competing_explanation": "The Day 2 change in US tariff policy \u2014 a shift to a 15% blanket global tariff under emergency powers following an adverse Supreme Court ruling \u2014 is itself a genuine macro shock and could account for elevated volatility. It is a weaker candidate for a change flagged on Day 14, however, since it occurred twelve days earlier, while the Iran conflict escalated continuously from Day 9 through the flag date and is the only item explicitly tied in the text to financial market volatility.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"Beginning on Day 9, Israel and the United States launched strikes on Iran that killed the supreme leader and much of the senior military leadership, and Iran retaliated with ballistic missile and drone attacks across the Gulf \u2014 on the UAE, Kuwait, Bahrain, Saudi Arabia, Qatar's Al Udeid base and shipping. Maersk suspended all transits of the Strait of Hormuz, Gulf airspace and airports closed, tankers were struck, and by Day 14 Iran publicly ruled out a ceasefire while South Korea activated a \u20a9100 trillion fund explicitly to address financial market volatility tied to the war. This regional war, with direct energy-chokepoint and shipping disruption, is a clear and sufficient driver of a regime change in market conditions.\",\"mechanism\":\"A shooting war involving a major oil producer, strikes on Gulf oil terminals and tankers, and suspension of Strait of Hormuz transits transmits directly into energy prices, shipping/insurance costs and a global risk-off repricing, while the absence of any negotiated off-ramp keeps the tail of further escalation open \u2014 all of which raise realised and implied volatility across asset classes.\",\"claims\":[{\"claim\":\"Israel launched what it called a preemptive strike on Iran, killing senior officials including the supreme leader.\",\"item_ids\":[\"9525707c8e966476\",\"7795dc4aa6f7a677\",\"ffbf0402a7362a86\"]},{\"claim\":\"Iran, Iraq, Israel, Kuwait, Qatar and Syria closed their airspace to civilian flights and the UAE suspended flights from Dubai and Al Maktoum airports.\",\"item_ids\":[\"bfc63198f51edae8\",\"9079a854fff149f1\"]},{\"claim\":\"Iran struck targets across the Gulf, including airports in Abu Dhabi and Dubai, a hotel in Bahrain housing US embassy staff, the US embassies in Kuwait City and Riyadh, and the Al Udeid Air Base in Qatar.\",\"item_ids\":[\"28fbb841267ec9fb\",\"313c8ce6f307f1e4\",\"1e07cb08ae5227ed\",\"bf3995d6cfacd3cb\",\"db3a869cc6e9123d\"]},{\"claim\":\"Maersk suspended all vessel transits through the Strait of Hormuz until further notice.\",\"item_ids\":[\"df02b0ba9ef0f159\"]},{\"claim\":\"Commercial shipping and energy infrastructure were hit: a tanker was struck by a missile in the Gulf of Oman, an oil terminal at Fujairah caught fire after a drone attack, a Bahraini oil refinery was hit, and an explosion damaged a tanker off Kuwait causing an oil spill.\",\"item_ids\":[\"649018a0391dd118\",\"1fb51449eee418f2\",\"ac1f040e97c0379c\",\"eb6627f522631439\"]},{\"claim\":\"UAE stock exchanges (Nasdaq Dubai, Dubai Financial Market, Abu Dhabi Securities Exchange) had been suspended for two days because of the Iranian strikes and were resuming on Day 13.\",\"item_ids\":[\"067101c1fb8e65a7\"]},{\"claim\":\"On the flagged day, South Korea's president activated a \u20a9100 trillion (about US$68 billion) stabilization fund explicitly to address financial market volatility linked to the Iran war.\",\"item_ids\":[\"ad3ec86586393da1\"]},{\"claim\":\"Diplomatic de-escalation was not in prospect at the close of the window: Iran's security council secretary ruled out negotiations and the foreign minister said Iran was not seeking a ceasefire, despite Trump claiming talks had been agreed.\",\"item_ids\":[\"f87dbd367d99cb32\",\"6a5bad6b8b8e93fd\"]},{\"claim\":\"The conflict widened beyond the Gulf, with US forces sustaining six deaths, a US submarine sinking an Iranian warship off Sri Lanka, missiles fired toward Cyprus and a drone hitting RAF Akrotiri, and the UK deploying a warship to Cyprus.\",\"item_ids\":[\"471be24c3756a390\",\"2368743467c8227f\",\"fa90eef5b96987ab\",\"36512026ae2d568b\",\"3a9944e9168edd25\"]},{\"claim\":\"Separately and earlier in the window, the US raised the global import tariff from 10% to 15% under emergency powers after a Supreme Court ruling against earlier country-specific tariffs.\",\"item_ids\":[\"e9d06747a44310bb\"]}],\"primary_item_ids\":[\"9525707c8e966476\",\"df02b0ba9ef0f159\",\"ad3ec86586393da1\"],\"competing_explanation\":\"The Day 2 change in US tariff policy \u2014 a shift to a 15% blanket global tariff under emergency powers following an adverse Supreme Court ruling \u2014 is itself a genuine macro shock and could account for elevated volatility. It is a weaker candidate for a change flagged on Day 14, however, since it occurred twelve days earlier, while the Iran conflict escalated continuously from Day 9 through the flag date and is the only item explicitly tied in the text to financial market volatility.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "31c58a738f322445"
+}

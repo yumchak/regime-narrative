@@ -1,0 +1,21 @@
+{
+  "call_id": "ed17ff979725f8ad",
+  "timestamp_utc": "2026-08-22T07:52:09.997078+00:00",
+  "window_id": "placebo_2020-03-23",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2020-03-23",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "27e90079056606ce",
+  "n_items_in_window": 125,
+  "input_chars": 23803,
+  "usage": {
+    "input_tokens": 11019,
+    "output_tokens": 1091
+  },
+  "response_text": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"The window covers the acceleration of the COVID-19 pandemic into a full global crisis: the WHO's pandemic declaration, cascading national lockdowns and border closures, mass event cancellations, and an emergency Federal Reserve intervention with a $700 billion QE program. By the final days, surging death tolls in Spain, Italy, and Turkey coincided with a failed U.S. Senate stimulus vote, signaling both a worsening health crisis and policy/market stress.\",\"mechanism\":\"A rapidly escalating global pandemic combined with widespread lockdowns, travel bans, and business closures directly disrupts economic activity and corporate earnings expectations, while the failure of fiscal stimulus in the U.S. Senate removes an expected backstop, together driving heightened uncertainty and volatility in financial markets.\",\"claims\":[{\"claim\":\"The WHO officially declared the coronavirus outbreak a pandemic.\",\"item_ids\":[\"1c57d85d5be0b378\"]},{\"claim\":\"The Federal Reserve made an emergency rate cut to near zero and announced a $700 billion quantitative easing program, its biggest single-day intervention.\",\"item_ids\":[\"972e8754566607fb\"]},{\"claim\":\"Bond and stock markets moved in the same direction for the first time since the 2008 financial crisis, indicating a broad sell-off.\",\"item_ids\":[\"667c19796f449c11\"]},{\"claim\":\"Numerous countries and U.S. states imposed lockdowns, school closures, travel bans, and border closures throughout the window.\",\"item_ids\":[\"5a11b7ce527d25f8\",\"3ad70ff7b6e59bed\",\"09b6ad0fd9e51482\",\"6a522ebcad6bd0e3\",\"debfb67c604a2f19\"]},{\"claim\":\"Major cultural and sporting events were cancelled, including the NHL season suspension, MLB delays, Glastonbury, and Eurovision.\",\"item_ids\":[\"03f3c57c51cb405f\",\"3d458e075d672baf\",\"1819078bc0d0e51e\",\"350f980efe6d7000\"]},{\"claim\":\"Death tolls and case counts surged sharply in Italy, Spain, and Turkey near the end of the window, with Spain reporting its highest single-day death toll and the PM warning 'the worst is yet to come'.\",\"item_ids\":[\"b3067a5a4fa92f64\",\"90cfebc58e1658bb\",\"cb384bee571f9539\"]},{\"claim\":\"The U.S. Senate voted down a stimulus relief package for a second time on the flagged day.\",\"item_ids\":[\"d1e29b6dfa50e147\"]}],\"primary_item_ids\":[\"972e8754566607fb\",\"1c57d85d5be0b378\",\"667c19796f449c11\",\"d1e29b6dfa50e147\",\"b3067a5a4fa92f64\"],\"competing_explanation\":\"One could argue the volatility flag on Day 14 specifically reflects the failed Senate stimulus vote alone, independent of the broader pandemic narrative that had been building for two weeks; however, given the density of escalating pandemic-related disruptions throughout the window, the stimulus failure likely compounded rather than solely caused the shift.\",\"insufficient_evidence_reason\":\"\"}"
+}

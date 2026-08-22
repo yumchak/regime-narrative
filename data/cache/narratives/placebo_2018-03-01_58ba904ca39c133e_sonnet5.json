@@ -1,0 +1,41 @@
+{
+  "window_id": "placebo_2018-03-01",
+  "kind": "placebo",
+  "boundary_date": "2018-03-01",
+  "driver_identified": false,
+  "confidence": "none",
+  "summary": "",
+  "mechanism": "",
+  "claims": [
+    {
+      "claim": "The window contains a wide range of unrelated news items: geopolitical violence (Syria, Somalia, Nigeria, DR Congo), ongoing Russia-election investigation developments (Manafort indictment, Gates guilty plea), a UK retailer administration wave (Maplin Electronics, Toys R Us), a central bank governor's arrest in Latvia, and a Venezuelan cryptocurrency launch, among others.",
+      "item_ids": [
+        "ccc2e0f1e9549c94",
+        "a20c490ece20ec29",
+        "f777831b1abd8ef7",
+        "0ea10735d377b788",
+        "9fcc879216a6ba49",
+        "fba338b7e970ea0a",
+        "a3f5d9133418e777",
+        "c44885d7c282a41c"
+      ]
+    },
+    {
+      "claim": "None of the items in the days immediately preceding or on Day 14 describe a single event with clear, direct, broad-market significance such as a monetary policy shock, systemic financial failure, or major geopolitical shock affecting global markets.",
+      "item_ids": [
+        "19f87d019df64168",
+        "2b14753e8b232054",
+        "6d72aedd80c8894e",
+        "aac9669764319ec3",
+        "ecfc0b123fe38a35"
+      ]
+    }
+  ],
+  "primary_item_ids": [],
+  "competing_explanation": "A case could loosely be made that the cluster of UK retail collapses (Maplin, Toys R Us) on Day 13 signals consumer-sector stress relevant to UK equity volatility, or that the arrest of Latvia's central bank governor (Day 3) combined with the ECB Vice-President nomination (Day 4) created some eurozone financial-sector unease, but neither is developed further in the items nor tied explicitly to a broader market reaction, and neither aligns temporally with the Day 14 flag.",
+  "insufficient_evidence_reason": "The items span many unrelated domains (armed conflict, criminal trials, sports, weather, political leadership changes) without any single event of clear, direct, and well-evidenced market significance. The retail collapses and central-bank arrest are the closest candidates but are limited in scope (single-country, mid-size firms) and not clearly linked in the text to broader market volatility. Absent a specific macro, monetary, or systemic financial event described in the items, attributing the flagged change in market conditions to any of these would require speculation beyond what is supported.",
+  "raw_response": "{\"driver_identified\": false, \"confidence\": \"none\", \"summary\": \"\", \"mechanism\": \"\", \"claims\": [{\"claim\": \"The window contains a wide range of unrelated news items: geopolitical violence (Syria, Somalia, Nigeria, DR Congo), ongoing Russia-election investigation developments (Manafort indictment, Gates guilty plea), a UK retailer administration wave (Maplin Electronics, Toys R Us), a central bank governor's arrest in Latvia, and a Venezuelan cryptocurrency launch, among others.\", \"item_ids\": [\"ccc2e0f1e9549c94\", \"a20c490ece20ec29\", \"f777831b1abd8ef7\", \"0ea10735d377b788\", \"9fcc879216a6ba49\", \"fba338b7e970ea0a\", \"a3f5d9133418e777\", \"c44885d7c282a41c\"]}, {\"claim\": \"None of the items in the days immediately preceding or on Day 14 describe a single event with clear, direct, broad-market significance such as a monetary policy shock, systemic financial failure, or major geopolitical shock affecting global markets.\", \"item_ids\": [\"19f87d019df64168\", \"2b14753e8b232054\", \"6d72aedd80c8894e\", \"aac9669764319ec3\", \"ecfc0b123fe38a35\"]}], \"primary_item_ids\": [], \"competing_explanation\": \"A case could loosely be made that the cluster of UK retail collapses (Maplin, Toys R Us) on Day 13 signals consumer-sector stress relevant to UK equity volatility, or that the arrest of Latvia's central bank governor (Day 3) combined with the ECB Vice-President nomination (Day 4) created some eurozone financial-sector unease, but neither is developed further in the items nor tied explicitly to a broader market reaction, and neither aligns temporally with the Day 14 flag.\", \"insufficient_evidence_reason\": \"The items span many unrelated domains (armed conflict, criminal trials, sports, weather, political leadership changes) without any single event of clear, direct, and well-evidenced market significance. The retail collapses and central-bank arrest are the closest candidates but are limited in scope (single-country, mid-size firms) and not clearly linked in the text to broader market volatility. Absent a specific macro, monetary, or systemic financial event described in the items, attributing the flagged change in market conditions to any of these would require speculation beyond what is supported.\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "24f74a9672ec1acf"
+}

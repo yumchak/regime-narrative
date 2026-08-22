@@ -1,0 +1,59 @@
+{
+  "window_id": "transition_2018-05-08",
+  "kind": "transition",
+  "boundary_date": "2018-05-08",
+  "driver_identified": true,
+  "confidence": "high",
+  "summary": "On the flagged day the U.S. President announced the United States' withdrawal from the Iran nuclear deal, an outcome that had been contested during the window: three days earlier reporting noted the leaders of the UK, Germany and France jointly reaffirming support for the agreement as the best means of preventing an Iranian nuclear weapon. The withdrawal is the only item in the window with direct, broad implications for energy supply and cross-border sanctions exposure, and it lands on Day 14 alongside a cluster of other Middle East escalation items.",
+  "mechanism": "Reimposition of sanctions risk on a major oil producer, plus the prospect of renewed regional confrontation, repriced crude supply expectations and geopolitical risk premia, which typically transmits into energy and broader risk-asset volatility.",
+  "claims": [
+    {
+      "claim": "The United States announced its withdrawal from the Iran Nuclear Deal on the final day of the window.",
+      "item_ids": [
+        "32e117467b79aa9f"
+      ]
+    },
+    {
+      "claim": "Days before the announcement, the leaders of the United Kingdom, Germany and France publicly agreed on their support for the Iran nuclear deal as the best way to prevent Iran from obtaining nuclear weapons, indicating the deal's status was in active dispute.",
+      "item_ids": [
+        "902e093e920acb76"
+      ]
+    },
+    {
+      "claim": "The window contained repeated Middle East military escalation involving Iranian-linked actors: reported missile strikes in Hama and Aleppo governorates that Iran's Tasnim agency denied hit an Iranian base, and Syrian Army advances alongside what were believed to be Iranian-backed militias near Deir ez-Zor.",
+      "item_ids": [
+        "8f3b8aa0550cf5a1",
+        "165be569b9c5c0ad"
+      ]
+    },
+    {
+      "claim": "Israeli and Russian air forces used a hotline over an incident near the Golan Heights, following an earlier shoot-down of a Syrian warplane.",
+      "item_ids": [
+        "b4e1d0935016bec2"
+      ]
+    },
+    {
+      "claim": "Saudi-led coalition airstrikes destroyed the Presidential Palace in Sana'a, Yemen, the day before the announcement.",
+      "item_ids": [
+        "be93be2adc9bb7b0"
+      ]
+    },
+    {
+      "claim": "Official Lebanese election results the day before showed Hezbollah and allied parties winning a slight parliamentary majority.",
+      "item_ids": [
+        "51d75aba4549f164"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "32e117467b79aa9f",
+    "902e093e920acb76",
+    "be93be2adc9bb7b0"
+  ],
+  "competing_explanation": "The window also carries a sustained Korean de-escalation narrative \u2014 the inter-Korean summit and agreement to end the Korean War, North Korea's time-zone change, and a second Kim\u2013Xi meeting on the flagged day \u2014 which could move Asian risk sentiment in the opposite direction and partially offset or confuse the signal. Other candidates (the Asda\u2013Sainsbury's merger, Cambridge Analytica's closure, the K\u012blauea eruption, Amber Rudd's resignation) are sector- or country-specific and too small to account for a regime change in aggregate volatility.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"On the flagged day the U.S. President announced the United States' withdrawal from the Iran nuclear deal, an outcome that had been contested during the window: three days earlier reporting noted the leaders of the UK, Germany and France jointly reaffirming support for the agreement as the best means of preventing an Iranian nuclear weapon. The withdrawal is the only item in the window with direct, broad implications for energy supply and cross-border sanctions exposure, and it lands on Day 14 alongside a cluster of other Middle East escalation items.\",\"mechanism\":\"Reimposition of sanctions risk on a major oil producer, plus the prospect of renewed regional confrontation, repriced crude supply expectations and geopolitical risk premia, which typically transmits into energy and broader risk-asset volatility.\",\"claims\":[{\"claim\":\"The United States announced its withdrawal from the Iran Nuclear Deal on the final day of the window.\",\"item_ids\":[\"32e117467b79aa9f\"]},{\"claim\":\"Days before the announcement, the leaders of the United Kingdom, Germany and France publicly agreed on their support for the Iran nuclear deal as the best way to prevent Iran from obtaining nuclear weapons, indicating the deal's status was in active dispute.\",\"item_ids\":[\"902e093e920acb76\"]},{\"claim\":\"The window contained repeated Middle East military escalation involving Iranian-linked actors: reported missile strikes in Hama and Aleppo governorates that Iran's Tasnim agency denied hit an Iranian base, and Syrian Army advances alongside what were believed to be Iranian-backed militias near Deir ez-Zor.\",\"item_ids\":[\"8f3b8aa0550cf5a1\",\"165be569b9c5c0ad\"]},{\"claim\":\"Israeli and Russian air forces used a hotline over an incident near the Golan Heights, following an earlier shoot-down of a Syrian warplane.\",\"item_ids\":[\"b4e1d0935016bec2\"]},{\"claim\":\"Saudi-led coalition airstrikes destroyed the Presidential Palace in Sana'a, Yemen, the day before the announcement.\",\"item_ids\":[\"be93be2adc9bb7b0\"]},{\"claim\":\"Official Lebanese election results the day before showed Hezbollah and allied parties winning a slight parliamentary majority.\",\"item_ids\":[\"51d75aba4549f164\"]}],\"primary_item_ids\":[\"32e117467b79aa9f\",\"902e093e920acb76\",\"be93be2adc9bb7b0\"],\"competing_explanation\":\"The window also carries a sustained Korean de-escalation narrative \u2014 the inter-Korean summit and agreement to end the Korean War, North Korea's time-zone change, and a second Kim\u2013Xi meeting on the flagged day \u2014 which could move Asian risk sentiment in the opposite direction and partially offset or confuse the signal. Other candidates (the Asda\u2013Sainsbury's merger, Cambridge Analytica's closure, the K\u012blauea eruption, Amber Rudd's resignation) are sector- or country-specific and too small to account for a regime change in aggregate volatility.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "dc81943b296e2626"
+}

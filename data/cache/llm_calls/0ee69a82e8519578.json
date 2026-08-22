@@ -1,0 +1,21 @@
+{
+  "call_id": "0ee69a82e8519578",
+  "timestamp_utc": "2026-08-22T07:46:08.544334+00:00",
+  "window_id": "placebo_2016-10-12",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2016-10-12",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "01fc40f949a7c33f",
+  "n_items_in_window": 85,
+  "input_chars": 18431,
+  "usage": {
+    "input_tokens": 9071,
+    "output_tokens": 1971
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"The two weeks leading up to the flagged day contain a cluster of currency-market disruptions tied to Brexit: sterling fell to a 31-year low against the dollar, then suffered a sharp 'flash crash' blamed on algorithmic trading, followed by the FTSE 100 hitting an all-time intraday high as the weaker pound boosted export-heavy stocks. This sequence of outsized, rapid moves in a major currency and equity index is the most plausible source of the volatility signature the model picked up.\", \"mechanism\": \"Large, fast moves in GBP/USD and a record equity index level driven by currency weakness would show up directly in price and realized-volatility statistics, and algorithmic-trading amplification (explicitly cited as a cause of the flash crash) is a textbook mechanism for the kind of abrupt volatility spike a statistical model would flag.\", \"claims\": [{\"claim\": \"Sterling fell to a 31-year low against the US dollar following the Brexit vote.\", \"item_ids\": [\"1e3083fd27f2558d\"]}, {\"claim\": \"The pound sustained a 'flash crash', dropping from $1.23 to $1.13 within minutes before partially recovering, with observers blaming algorithmic trading.\", \"item_ids\": [\"87deefb351a85293\"]}, {\"claim\": \"Following the Brexit vote and the pound's decline, the FTSE 100 reached an all-time intraday high of 7,129.\", \"item_ids\": [\"e983b66bfcc7e80a\"]}, {\"claim\": \"A Mexican tequila producer explicitly delayed its IPO due to concerns about market volatility around the same period.\", \"item_ids\": [\"42456a5a5bc4c7bf\"]}], \"primary_item_ids\": [\"87deefb351a85293\", \"1e3083fd27f2558d\", \"e983b66bfcc7e80a\"], \"competing_explanation\": \"An alternative reading is that the change reflects idiosyncratic corporate news rather than broad market volatility: John Stumpf's resignation as Wells Fargo CEO amid a sales-practices scandal fell on the flagged day itself, and could have driven volatility in financial-sector names independent of any currency story.\", \"insufficient_evidence_reason\": \"\"}"
+}

@@ -1,0 +1,17 @@
+{
+  "window_id": "placebo_2015-09-11",
+  "kind": "placebo",
+  "boundary_date": "2015-09-11",
+  "driver_identified": false,
+  "confidence": "none",
+  "summary": "",
+  "mechanism": "",
+  "claims": [],
+  "primary_item_ids": [],
+  "competing_explanation": "The most prominent recurring theme across the window is the escalating European refugee/migrant crisis (mass arrivals in Munich, Vienna, and border-control actions by Hungary, Austria, Germany, France, and Denmark) alongside the pending U.S. Senate vote on the Iran nuclear deal, both of which are genuine geopolitical stories but are not described here in terms that connect to price or volatility movements (no mention of equity indices, currencies, bond yields, oil prices, or central bank actions).",
+  "insufficient_evidence_reason": "The item set is dominated by humanitarian, political, legal, and disaster news (migrant crisis, Thai bombing arrests, Manipur riots, Guatemalan corruption scandal, Turkey-PKK clashes, sports and entertainment items) with no item describing a stock market move, interest-rate decision, currency shock, commodity price shock, corporate earnings surprise, or other data point that would plausibly explain a change flagged by a model observing only price and volatility data. Candidate geopolitical stories (Iran deal, refugee crisis, Turkey-PKK conflict) are either gradual, expected, or lack any stated market linkage in the text, so attributing the flagged change to any single item would be speculative rather than evidence-based.",
+  "raw_response": "{\"driver_identified\": false, \"confidence\": \"none\", \"summary\": \"\", \"mechanism\": \"\", \"claims\": [], \"primary_item_ids\": [], \"competing_explanation\": \"The most prominent recurring theme across the window is the escalating European refugee/migrant crisis (mass arrivals in Munich, Vienna, and border-control actions by Hungary, Austria, Germany, France, and Denmark) alongside the pending U.S. Senate vote on the Iran nuclear deal, both of which are genuine geopolitical stories but are not described here in terms that connect to price or volatility movements (no mention of equity indices, currencies, bond yields, oil prices, or central bank actions).\", \"insufficient_evidence_reason\": \"The item set is dominated by humanitarian, political, legal, and disaster news (migrant crisis, Thai bombing arrests, Manipur riots, Guatemalan corruption scandal, Turkey-PKK clashes, sports and entertainment items) with no item describing a stock market move, interest-rate decision, currency shock, commodity price shock, corporate earnings surprise, or other data point that would plausibly explain a change flagged by a model observing only price and volatility data. Candidate geopolitical stories (Iran deal, refugee crisis, Turkey-PKK conflict) are either gradual, expected, or lack any stated market linkage in the text, so attributing the flagged change to any single item would be speculative rather than evidence-based.\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "aa502a94fcd06424"
+}

@@ -1,0 +1,65 @@
+{
+  "window_id": "placebo_2023-02-09",
+  "kind": "placebo",
+  "boundary_date": "2023-02-09",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The dominant event in the window is a pair of very large earthquakes (magnitude 7.8 in Gaziantep Province, Turkey, followed nine hours later by a magnitude 7.5 in Kahramanmara\u015f) on Day 11, with at least 3,400 reported dead across Turkey and Syria at the time of reporting and consequences still unfolding through Day 14, when soldiers killed three inmates during a prison riot in earthquake-affected Hatay Province. A secondary candidate is the geopolitical friction implied by the US shooting down a high-altitude balloon off the east coast on Day 9, which forced the FAA to close airspace and suspend arrivals at three airports.",
+  "mechanism": "A catastrophic earthquake in a large emerging market destroys capital stock, disrupts industry and logistics, and creates immediate uncertainty about insured losses, fiscal cost and local financial-market functioning, which typically shows up as a sharp repricing and elevated volatility in the affected country's assets and in insurance-exposed names; the visible breakdown of order in the disaster zone by Day 14 reinforces the uncertainty.",
+  "claims": [
+    {
+      "claim": "A magnitude 7.8 earthquake struck Gaziantep Province, Turkey, killing at least 3,400 people in Turkey and Syria as initially reported.",
+      "item_ids": [
+        "b99abacebd588376"
+      ]
+    },
+    {
+      "claim": "A second earthquake of magnitude 7.5 struck Kahramanmara\u015f, Turkey, nine hours after the first.",
+      "item_ids": [
+        "d7566de66dcedf1f"
+      ]
+    },
+    {
+      "claim": "Disorder linked to the earthquake continued into the final day of the window, with three inmates killed and twelve injured when soldiers opened fire during a prison riot in Hatay Province, Turkey, by prisoners demanding to see earthquake-affected families.",
+      "item_ids": [
+        "c685576a564757fe"
+      ]
+    },
+    {
+      "claim": "The FAA closed airspace off the US east coast and suspended arrivals at three airports after the President ordered a high-altitude balloon shot down over the Atlantic.",
+      "item_ids": [
+        "a953243f9ebca426"
+      ]
+    },
+    {
+      "claim": "Corporate and macro stress signals appeared earlier in the window: PayPal announced roughly 2,000 job cuts citing a challenging macro-economic environment, and Lebanon's central bank devalued the pound by 90%.",
+      "item_ids": [
+        "104a3765f1c7b5ee",
+        "cdb49008eefccd33"
+      ]
+    },
+    {
+      "claim": "Sector-specific regulatory risk was also present: the UK Competition and Markets Authority provisionally concluded that Microsoft's proposed acquisition of Activision Blizzard would likely substantially lessen competition.",
+      "item_ids": [
+        "514d60758d26f7f4"
+      ]
+    },
+    {
+      "claim": "More than 500,000 UK public-sector workers struck in the largest industrial action in the UK in decades amid pay disputes.",
+      "item_ids": [
+        "659771030f82caea"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "b99abacebd588376",
+    "d7566de66dcedf1f",
+    "c685576a564757fe"
+  ],
+  "competing_explanation": "The balloon shootdown and associated airspace closure on Day 9 point to an escalation in great-power tension, which is the kind of headline that can broaden into cross-asset risk aversion; alternatively, the change may reflect nothing in these items at all, since the earthquake's direct financial channel is largely regional and the remaining items (PayPal layoffs, Lebanese devaluation, UK strikes, the CMA's provisional finding on Microsoft/Activision) are individually modest and unrelated to one another.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The dominant event in the window is a pair of very large earthquakes (magnitude 7.8 in Gaziantep Province, Turkey, followed nine hours later by a magnitude 7.5 in Kahramanmara\u015f) on Day 11, with at least 3,400 reported dead across Turkey and Syria at the time of reporting and consequences still unfolding through Day 14, when soldiers killed three inmates during a prison riot in earthquake-affected Hatay Province. A secondary candidate is the geopolitical friction implied by the US shooting down a high-altitude balloon off the east coast on Day 9, which forced the FAA to close airspace and suspend arrivals at three airports.\",\"mechanism\":\"A catastrophic earthquake in a large emerging market destroys capital stock, disrupts industry and logistics, and creates immediate uncertainty about insured losses, fiscal cost and local financial-market functioning, which typically shows up as a sharp repricing and elevated volatility in the affected country's assets and in insurance-exposed names; the visible breakdown of order in the disaster zone by Day 14 reinforces the uncertainty.\",\"claims\":[{\"claim\":\"A magnitude 7.8 earthquake struck Gaziantep Province, Turkey, killing at least 3,400 people in Turkey and Syria as initially reported.\",\"item_ids\":[\"b99abacebd588376\"]},{\"claim\":\"A second earthquake of magnitude 7.5 struck Kahramanmara\u015f, Turkey, nine hours after the first.\",\"item_ids\":[\"d7566de66dcedf1f\"]},{\"claim\":\"Disorder linked to the earthquake continued into the final day of the window, with three inmates killed and twelve injured when soldiers opened fire during a prison riot in Hatay Province, Turkey, by prisoners demanding to see earthquake-affected families.\",\"item_ids\":[\"c685576a564757fe\"]},{\"claim\":\"The FAA closed airspace off the US east coast and suspended arrivals at three airports after the President ordered a high-altitude balloon shot down over the Atlantic.\",\"item_ids\":[\"a953243f9ebca426\"]},{\"claim\":\"Corporate and macro stress signals appeared earlier in the window: PayPal announced roughly 2,000 job cuts citing a challenging macro-economic environment, and Lebanon's central bank devalued the pound by 90%.\",\"item_ids\":[\"104a3765f1c7b5ee\",\"cdb49008eefccd33\"]},{\"claim\":\"Sector-specific regulatory risk was also present: the UK Competition and Markets Authority provisionally concluded that Microsoft's proposed acquisition of Activision Blizzard would likely substantially lessen competition.\",\"item_ids\":[\"514d60758d26f7f4\"]},{\"claim\":\"More than 500,000 UK public-sector workers struck in the largest industrial action in the UK in decades amid pay disputes.\",\"item_ids\":[\"659771030f82caea\"]}],\"primary_item_ids\":[\"b99abacebd588376\",\"d7566de66dcedf1f\",\"c685576a564757fe\"],\"competing_explanation\":\"The balloon shootdown and associated airspace closure on Day 9 point to an escalation in great-power tension, which is the kind of headline that can broaden into cross-asset risk aversion; alternatively, the change may reflect nothing in these items at all, since the earthquake's direct financial channel is largely regional and the remaining items (PayPal layoffs, Lebanese devaluation, UK strikes, the CMA's provisional finding on Microsoft/Activision) are individually modest and unrelated to one another.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "e838995034a09609"
+}

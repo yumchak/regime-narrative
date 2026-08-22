@@ -1,0 +1,77 @@
+{
+  "window_id": "placebo_2015-09-11",
+  "kind": "placebo",
+  "boundary_date": "2015-09-11",
+  "driver_identified": false,
+  "confidence": "none",
+  "summary": "",
+  "mechanism": "",
+  "claims": [
+    {
+      "claim": "The only item in the window with a clear macro-financial transmission channel is the US Senate's failure to pass a resolution blocking the Iran nuclear agreement, meaning the deal will be formally adopted.",
+      "item_ids": [
+        "0a14cf2d4544216d",
+        "a2b46e554f8f7a3b"
+      ]
+    },
+    {
+      "claim": "That outcome was already signalled more than a week earlier, when it was reported that the President had sufficient Senate support to sustain a veto, so the Day 13 confirmation carried little new information.",
+      "item_ids": [
+        "a2b46e554f8f7a3b",
+        "0a14cf2d4544216d"
+      ]
+    },
+    {
+      "claim": "The remaining high-volume storylines are humanitarian and geopolitical rather than financial: a large-scale movement of refugees across Europe with national policy responses from Germany, Austria, Hungary, France, Denmark and Australia.",
+      "item_ids": [
+        "3a9c84a7376ec8e4",
+        "bfe7b4e0c92216e0",
+        "0e88ea134e330fe4",
+        "1c87d821de6b444b",
+        "a7a85b6b6db5d609",
+        "27bd55cb31ac82ad"
+      ]
+    },
+    {
+      "claim": "Business and economics items in the window are firm-specific and small in scale: a $765 million divestiture of a food brand, a limited vehicle recall, an Indian patent rejection for a single drug, and a German airline pilots' strike that was halted by court injunction.",
+      "item_ids": [
+        "65f1d331b97e5c3b",
+        "c345c1a0bf34f235",
+        "b0ed327f8e111c3f",
+        "b8098edc4e030412",
+        "720b256cc0497237"
+      ]
+    },
+    {
+      "claim": "Conflict items cluster around Turkey/PKK, Yemen, Syria and Iraq, including escalating Turkish air strikes on PKK targets on the flagged day, but none describes disruption to production, shipping or financial infrastructure.",
+      "item_ids": [
+        "cc9a3e403b05f14e",
+        "b3b7711c382bc9d7",
+        "eec9d7a38d541283",
+        "1e63d4a79bb77239",
+        "67f3f982563908d3"
+      ]
+    },
+    {
+      "claim": "Items dated to the flagged day itself are dominated by domestic legal, electoral and disaster news with no evident cross-market significance.",
+      "item_ids": [
+        "33822b5d02522a1d",
+        "5ad9d5d4dcef1279",
+        "c32dfbda796307d7",
+        "274f0dec174f9aab",
+        "1159af95a63b8dca"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "0a14cf2d4544216d",
+    "a2b46e554f8f7a3b",
+    "cc9a3e403b05f14e"
+  ],
+  "competing_explanation": "The most defensible alternative is that the formal adoption of the Iran nuclear agreement (Day 13) repriced expectations for future oil supply and therefore energy-linked volatility, with escalating Turkish strikes on PKK targets in northern Iraq on Day 14 adding a regional risk premium. This reading is weak because the Senate outcome had been telegraphed since Day 5 and the conflict items describe no interruption to production or export routes.",
+  "insufficient_evidence_reason": "The window contains no central bank action, no macroeconomic data release, no sovereign or corporate credit event, no exchange-level disruption and no commodity supply shock. The items are overwhelmingly humanitarian, criminal-justice, weather and regional-conflict reports whose economic footprint is either local or negligible. The single item with a genuine macro channel, the Iran agreement surviving the Senate, was pre-announced within the same window and so is a poor candidate for a discrete change in volatility regime on the final day. On this evidence the flag is more consistent with noise or with a driver outside the supplied news set than with anything reported here.",
+  "raw_response": "{\"driver_identified\": false, \"confidence\": \"none\", \"summary\": \"\", \"mechanism\": \"\", \"claims\": [{\"claim\": \"The only item in the window with a clear macro-financial transmission channel is the US Senate's failure to pass a resolution blocking the Iran nuclear agreement, meaning the deal will be formally adopted.\", \"item_ids\": [\"0a14cf2d4544216d\", \"a2b46e554f8f7a3b\"]}, {\"claim\": \"That outcome was already signalled more than a week earlier, when it was reported that the President had sufficient Senate support to sustain a veto, so the Day 13 confirmation carried little new information.\", \"item_ids\": [\"a2b46e554f8f7a3b\", \"0a14cf2d4544216d\"]}, {\"claim\": \"The remaining high-volume storylines are humanitarian and geopolitical rather than financial: a large-scale movement of refugees across Europe with national policy responses from Germany, Austria, Hungary, France, Denmark and Australia.\", \"item_ids\": [\"3a9c84a7376ec8e4\", \"bfe7b4e0c92216e0\", \"0e88ea134e330fe4\", \"1c87d821de6b444b\", \"a7a85b6b6db5d609\", \"27bd55cb31ac82ad\"]}, {\"claim\": \"Business and economics items in the window are firm-specific and small in scale: a $765 million divestiture of a food brand, a limited vehicle recall, an Indian patent rejection for a single drug, and a German airline pilots' strike that was halted by court injunction.\", \"item_ids\": [\"65f1d331b97e5c3b\", \"c345c1a0bf34f235\", \"b0ed327f8e111c3f\", \"b8098edc4e030412\", \"720b256cc0497237\"]}, {\"claim\": \"Conflict items cluster around Turkey/PKK, Yemen, Syria and Iraq, including escalating Turkish air strikes on PKK targets on the flagged day, but none describes disruption to production, shipping or financial infrastructure.\", \"item_ids\": [\"cc9a3e403b05f14e\", \"b3b7711c382bc9d7\", \"eec9d7a38d541283\", \"1e63d4a79bb77239\", \"67f3f982563908d3\"]}, {\"claim\": \"Items dated to the flagged day itself are dominated by domestic legal, electoral and disaster news with no evident cross-market significance.\", \"item_ids\": [\"33822b5d02522a1d\", \"5ad9d5d4dcef1279\", \"c32dfbda796307d7\", \"274f0dec174f9aab\", \"1159af95a63b8dca\"]}], \"primary_item_ids\": [\"0a14cf2d4544216d\", \"a2b46e554f8f7a3b\", \"cc9a3e403b05f14e\"], \"competing_explanation\": \"The most defensible alternative is that the formal adoption of the Iran nuclear agreement (Day 13) repriced expectations for future oil supply and therefore energy-linked volatility, with escalating Turkish strikes on PKK targets in northern Iraq on Day 14 adding a regional risk premium. This reading is weak because the Senate outcome had been telegraphed since Day 5 and the conflict items describe no interruption to production or export routes.\", \"insufficient_evidence_reason\": \"The window contains no central bank action, no macroeconomic data release, no sovereign or corporate credit event, no exchange-level disruption and no commodity supply shock. The items are overwhelmingly humanitarian, criminal-justice, weather and regional-conflict reports whose economic footprint is either local or negligible. The single item with a genuine macro channel, the Iran agreement surviving the Senate, was pre-announced within the same window and so is a poor candidate for a discrete change in volatility regime on the final day. On this evidence the flag is more consistent with noise or with a driver outside the supplied news set than with anything reported here.\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "593358298ed83594"
+}

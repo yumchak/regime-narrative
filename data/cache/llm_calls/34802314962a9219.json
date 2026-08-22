@@ -1,0 +1,21 @@
+{
+  "call_id": "34802314962a9219",
+  "timestamp_utc": "2026-08-22T07:54:57.927398+00:00",
+  "window_id": "placebo_2024-12-09",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2024-12-09",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "685f42aaa3390156",
+  "n_items_in_window": 125,
+  "input_chars": 22917,
+  "usage": {
+    "input_tokens": 11021,
+    "output_tokens": 1867
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"The dominant development across the window is the rapid collapse of the Syrian government: rebel forces under Tahrir al-Sham advanced from Idlib through Aleppo, Hama, and Homs before seizing Damascus and the Presidential Palace, with Bashar al-Assad fleeing to Moscow. By Day 14 a transitional government was being formed, Israel had struck Syrian military infrastructure, and fighting continued between Turkish-backed and Kurdish forces in Manbij. A second, separate shock was South Korea's brief declaration of martial law and subsequent impeachment proceedings against President Yoon Suk Yeol, which represents a major political crisis in a large economy.\", \"mechanism\": \"A sudden regime collapse in a major Middle Eastern state raises geopolitical risk premia (oil supply routes, regional alliances, Israeli military action against Syrian assets, refugee flows, Iranian and Russian strategic setbacks), which can transmit into volatility across energy, equity, and currency markets. Separately, a NATO-adjacent developed economy's president declaring martial law and facing impeachment is the kind of political shock that spikes volatility in local currency, bond, and equity markets and raises broader risk-off sentiment.\", \"claims\": [{\"claim\": \"Rebel forces led by Tahrir al-Sham captured Aleppo, then Hama, then Homs in rapid succession over the window.\", \"item_ids\": [\"542dd466ea3e30ba\", \"45d9ac42f88172f6\", \"9e44f75a24269851\"]}, {\"claim\": \"Rebel forces seized the Presidential Palace in Damascus and Assad fled the country, later confirmed to be in Moscow with asylum granted by Russia.\", \"item_ids\": [\"46cdfd85215878f1\", \"49e9a3f36958b99d\", \"a82855df249bb59f\"]}, {\"claim\": \"On the flagged day, a transitional Syrian government began forming and Israel had already struck Syrian military and chemical-weapons-related infrastructure, while Turkish-backed and Kurdish forces continued fighting over Manbij.\", \"item_ids\": [\"1ff05296ba501270\", \"cfbcac3bf1b59c9d\", \"5c37ab394f105117\", \"84142cd1f8fb5c1a\"]}, {\"claim\": \"South Korea's president declared martial law citing North Korean threats, triggering protests and the start of impeachment proceedings.\", \"item_ids\": [\"1b8b4fe1e27de981\", \"a53f04157463d201\", \"33132aa2831ccbb8\", \"21627b857bb18fad\"]}, {\"claim\": \"France's government collapsed after a no-confidence vote, with opposition calling for the president's resignation.\", \"item_ids\": [\"94f356ea426012b8\"]}], \"primary_item_ids\": [\"46cdfd85215878f1\", \"a82855df249bb59f\", \"1ff05296ba501270\", \"1b8b4fe1e27de981\"], \"competing_explanation\": \"The South Korean martial law declaration and subsequent impeachment crisis (Days 8-12) is an independent, high-magnitude political shock to a major economy that could alone account for a market volatility flag, separate from or in addition to the Syrian collapse.\", \"insufficient_evidence_reason\": \"\"}"
+}

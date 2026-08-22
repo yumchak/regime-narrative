@@ -1,0 +1,21 @@
+{
+  "call_id": "06c9b45494006019",
+  "timestamp_utc": "2026-08-22T05:22:32.229245+00:00",
+  "window_id": "transition_2022-12-16",
+  "kind": "transition",
+  "run_label": "retest",
+  "boundary_date": "2022-12-16",
+  "model": "claude-opus-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "9f2ce783ae6cefe4",
+  "n_items_in_window": 83,
+  "input_chars": 14182,
+  "usage": {
+    "input_tokens": 7391,
+    "output_tokens": 1757
+  },
+  "response_text": "{\"driver_identified\":false,\"confidence\":\"none\",\"summary\":\"\",\"mechanism\":\"\",\"claims\":[{\"claim\":\"The window contains no monetary policy, inflation, employment, or central bank items of any kind, and no item describing a broad market move, credit event, or macroeconomic data release.\",\"item_ids\":[\"1d9d17aba3034b7d\",\"a100b2046e8e0ae3\"]},{\"claim\":\"The most market-adjacent items are firm- or sector-specific rather than systemic: the US FTC announced it would sue to block Microsoft's acquisition of Activision Blizzard, a jury found the Trump Organization guilty of tax fraud, Glencore agreed to pay $180 million to settle DRC corruption claims, and the fraud trial of Wirecard executives opened in Munich.\",\"item_ids\":[\"750e58b36bc68bcb\",\"8e55534e1e188fb0\",\"f7b0a97ce6b978d1\",\"f8a0c8b3e40e5060\"]},{\"claim\":\"Former FTX CEO Sam Bankman-Fried was arrested in the Bahamas at US request on Day 10, an event confined in the items to a single company's collapse with no described spillover.\",\"item_ids\":[\"a08f377dd8934aa8\"]},{\"claim\":\"On the flagged day, Russian forces launched at least 76 missiles across Ukraine, striking at least nine power stations, continuing a pattern of energy-infrastructure strikes already reported earlier in the window when shelling left Kherson without power.\",\"item_ids\":[\"ff5010fcc2749b47\",\"d5f3dcfa8503627e\"]},{\"claim\":\"Other Day 13-14 items are humanitarian and criminal incidents without asset-price linkage: a landslide near Kuala Lumpur, a residential fire in Lyon, a car bombing in Diyarbakir, and a concert stampede in London.\",\"item_ids\":[\"3df5869bfc6ca9f3\",\"6c2133f7e2195955\",\"99ae838aaf9d1a68\",\"56a61ce58d04ae82\"]},{\"claim\":\"Geopolitical friction items in the window (Kosovo-Serbia tensions, Peruvian political crisis and state of emergency, India-China clash in Tawang, Armenia-Azerbaijan gas blockage) are regional and involve no globally significant markets described in the items.\",\"item_ids\":[\"54ea3b1b2caf0343\",\"c4ef10bc987c4c7b\",\"23f89630268b46e1\",\"82729701e6e6992e\"]}],\"primary_item_ids\":[],\"competing_explanation\":\"The strongest case for a driver would rest on one of three items: the FTC's move to block the Microsoft-Activision deal (large-cap tech M&A risk), the arrest of the former FTX CEO (crypto and digital-asset contagion fear), or the Day 14 missile barrage on Ukrainian power stations (energy-supply and war-escalation risk). Each is plausible in isolation, but the first two occurred on Days 6 and 10 rather than at the flag date, and the third is a continuation of a pattern already present in the window rather than a discontinuity; none is described in terms that imply a broad repricing.\",\"insufficient_evidence_reason\":\"The items are dominated by localised disasters, criminal incidents, regional political crises and war reporting, with no macroeconomic, monetary-policy, or systemic financial event anywhere in the fourteen days. The few finance-relevant items are single-company matters dated well before the flag day, and the Day 14 items are either humanitarian incidents or a continuation of an already-established pattern of strikes. On this evidence the flag is at least as likely to reflect noise or a data-only regime shift as any event recorded here.\"}"
+}

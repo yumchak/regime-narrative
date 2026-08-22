@@ -1,0 +1,21 @@
+{
+  "call_id": "b9fe8c442bccae00",
+  "timestamp_utc": "2026-08-22T05:39:55.345960+00:00",
+  "window_id": "placebo_2022-11-14",
+  "kind": "placebo",
+  "run_label": "retest",
+  "boundary_date": "2022-11-14",
+  "model": "claude-opus-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "291dbfba3370a96b",
+  "n_items_in_window": 65,
+  "input_chars": 11660,
+  "usage": {
+    "input_tokens": 6451,
+    "output_tokens": 1901
+  },
+  "response_text": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"Two macro-relevant resolutions cluster in the second half of the window: Russian forces withdrew from Kherson and Ukrainian troops entered the city, ending the occupation of the only regional capital Russia had taken, and the US midterm results were settled with the Nevada Senate race securing a Democratic Senate majority. Alongside these, an unusually large Bank of England rate rise with an explicit recession forecast set a hawkish macro backdrop earlier in the window. The combination of a major battlefield reversal and the removal of election uncertainty is the most plausible candidate in these items for a shift in market conditions by the flag day, though the Day 13\u201314 items themselves are minor.\",\"mechanism\":\"A large, visible reversal in the Ukraine war compresses the geopolitical/energy risk premium, while the resolution of a contested legislative election removes a known binary political uncertainty; both typically move risk sentiment and re-rate volatility, on top of a repricing of policy paths after an outsized central-bank hike and explicit recession guidance.\",\"claims\":[{\"claim\":\"Russian forces announced a retreat from Kherson city, the western bank of the Dnieper and the western part of Kherson Oblast.\",\"item_ids\":[\"7b3b1ef2d85da7a6\"]},{\"claim\":\"Ukrainian troops subsequently entered Kherson, ending an eight-month occupation of the only Ukrainian regional capital captured during the invasion.\",\"item_ids\":[\"50d0d8167d1368d7\"]},{\"claim\":\"The Nevada Senate result secured a Democratic majority in the US Senate for the incoming Congress, resolving control of the chamber.\",\"item_ids\":[\"8f63d5525401908c\"]},{\"claim\":\"The Bank of England raised rates by 0.75 percentage points to 3.00%, its largest increase in 33 years, and forecast a record-length recession.\",\"item_ids\":[\"23ec3205c90d6887\"]},{\"claim\":\"Inflation pressure was severe in several economies during the window: Turkish inflation reached 85.51% and UK grocery inflation hit a record 14.7% with 27% of households reporting financial strain.\",\"item_ids\":[\"2457e9860518165b\",\"e69360119755d15e\"]},{\"claim\":\"UK labour stress escalated with the Royal College of Nursing announcing the first strike in its 106-year history over pay and inflation.\",\"item_ids\":[\"f61cf567c8f21467\"]},{\"claim\":\"The US continued military support to Ukraine with a further $400 million weapons package, and Putin was confirmed as not attending the G20 summit in person.\",\"item_ids\":[\"bf57e5d73c164c19\",\"afe92cbd52a400e8\"]},{\"claim\":\"Items dated on the flag day itself are limited to EU sanctions listings on Iranian entities, a UK\u2013France Channel migration agreement, and detentions after a bombing in Turkey.\",\"item_ids\":[\"12c573826144e9a1\",\"22032f9810faedad\",\"f1b656072680feed\"]}],\"primary_item_ids\":[\"50d0d8167d1368d7\",\"7b3b1ef2d85da7a6\",\"8f63d5525401908c\"],\"competing_explanation\":\"The change may be purely macro/monetary rather than geopolitical: an outsized Bank of England hike with an explicit recession forecast, record UK grocery inflation, 85% Turkish inflation and a first-ever nursing strike describe an inflation-and-policy stress backdrop that could equally drive a volatility regime shift. Alternatively, the model may have flagged noise \u2014 none of the Day 13 or Day 14 items has obvious market significance, and the strongest candidates occurred several days before the flag.\",\"insufficient_evidence_reason\":\"\"}"
+}

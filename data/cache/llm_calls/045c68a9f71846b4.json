@@ -1,0 +1,20 @@
+{
+  "call_id": "045c68a9f71846b4",
+  "timestamp_utc": "2026-08-22T05:03:27.098276+00:00",
+  "window_id": "placebo_2019-08-20",
+  "kind": "placebo",
+  "boundary_date": "2019-08-20",
+  "model": "claude-opus-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "7fdc3623c9685e74",
+  "n_items_in_window": 51,
+  "input_chars": 11043,
+  "usage": {
+    "input_tokens": 6075,
+    "output_tokens": 1604
+  },
+  "response_text": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The window contains a cluster of macro-political shocks that culminate on the flag day: an Italian governing crisis that begins with a no-confidence motion against Prime Minister Conte and ends with the President accepting his resignation on Day 14, an Argentine market rout in which a primary-election defeat for the incumbent drove the peso to record lows and forced the Treasury Minister out, and an active US-China trade-policy sequence in which Washington delayed a large tranche of 10% import tariffs while the President publicly claimed Chinese troops were massing near Hong Kong amid escalating protests. The Day-14 flag aligns most directly with the formal collapse of the Italian government, on top of an already unsettled backdrop.\",\"mechanism\":\"A collapsed government in a large euro-area sovereign reprices political and fiscal risk premia and widens sovereign spreads, while an EM currency at record lows plus unresolved tariff scheduling and airport-closing unrest in a major financial hub raise cross-asset uncertainty and hedging demand, all of which show up as higher realised and implied volatility.\",\"claims\":[{\"claim\":\"Italy's Deputy Prime Minister filed a vote of no-confidence against the Prime Minister early in the window.\",\"item_ids\":[\"51f62845049b71f1\"]},{\"claim\":\"On the flag day, the President of Italy accepted the Prime Minister's resignation, formally ending the government.\",\"item_ids\":[\"b38a977d4ae85ffa\"]},{\"claim\":\"Argentina's peso fell to record lows after the incumbent President's loss in a primary vote, and the Treasury Minister resigned as a result.\",\"item_ids\":[\"066ea002cb25e075\"]},{\"claim\":\"The US Trade Representative announced a delay for a significant number of products subject to a previously announced 10% import tariff.\",\"item_ids\":[\"04e4472bf6941a27\"]},{\"claim\":\"Hong Kong International Airport was effectively locked down when all departing flights were cancelled amid unrest, and later protests drew claims of 1.7 million participants.\",\"item_ids\":[\"f2911e89ca2b55b3\",\"36be91592abf2aaf\",\"cb6c1483fc3b6bff\"]},{\"claim\":\"The US President stated publicly that intelligence indicated China was moving troops toward the Hong Kong border.\",\"item_ids\":[\"480862d80e194838\"]},{\"claim\":\"A ransomware attack hit the computer systems of 23 towns in Texas, attributed to a single threat actor.\",\"item_ids\":[\"35e2b5150ca3166e\"]}],\"primary_item_ids\":[\"b38a977d4ae85ffa\",\"066ea002cb25e075\",\"04e4472bf6941a27\"],\"competing_explanation\":\"The flag may reflect the trade-policy and Hong Kong complex rather than Italy: the tariff delay, the troop-movement claim, and the airport shutdown/mass rallies all landed in the second week and are individually capable of moving global risk assets, so attribution among these candidates is not clean. It is also possible the model flagged noise, since most Day-13/14 items (Turkish detentions, Amazon smoke over S\u00e3o Paulo, a US ransomware incident, court verdicts) have no clear market channel.\",\"insufficient_evidence_reason\":\"\"}"
+}

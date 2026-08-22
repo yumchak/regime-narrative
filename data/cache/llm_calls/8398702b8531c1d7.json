@@ -1,0 +1,21 @@
+{
+  "call_id": "8398702b8531c1d7",
+  "timestamp_utc": "2026-08-22T05:38:55.801210+00:00",
+  "window_id": "placebo_2022-01-11",
+  "kind": "placebo",
+  "run_label": "retest",
+  "boundary_date": "2022-01-11",
+  "model": "claude-opus-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "ffc6caaf5b1e7b56",
+  "n_items_in_window": 125,
+  "input_chars": 22749,
+  "usage": {
+    "input_tokens": 10911,
+    "output_tokens": 1333
+  },
+  "response_text": "{\"driver_identified\":false,\"confidence\":\"none\",\"summary\":\"\",\"mechanism\":\"\",\"claims\":[{\"claim\":\"The window is dominated by routine pandemic reporting: successive national records for daily COVID-19 case counts across many countries, including the United Kingdom, France, Greece, Australia, Israel, Mexico, Argentina, the Philippines and Turkey.\",\"item_ids\":[\"b5568b8e18607fb4\",\"6bd1361230601a50\",\"cde95effa24e3536\",\"29b09e916f3cfd13\",\"0d6d03c7f79a5f18\",\"b21e4328430b1531\",\"2dd44928908aed98\",\"9cd73c3c3fc86e60\",\"b7a0c2c1a8d02e09\",\"cc79080b0a929225\"]},{\"claim\":\"Most governmental responses reported are incremental public-health measures \u2014 shortened isolation periods, mask mandates, venue restrictions and booster campaigns \u2014 rather than broad economic shutdowns.\",\"item_ids\":[\"cd4292a62c805484\",\"a7a1d52eee69abe3\",\"340ea037255d9e99\",\"2165b94e3971126c\",\"9d5aeca6a38e4e57\",\"fb5d29c4deea9db8\"]},{\"claim\":\"Two items touch directly on financial markets: Chinese property developer Evergrande Group suspended trading of its Hong Kong-listed shares ahead of a planned restructuring, and China announced that companies with at least one million users must undergo cybersecurity review before listing on foreign exchanges.\",\"item_ids\":[\"14140e66415bcad6\",\"700a08b63c01ac3f\"]},{\"claim\":\"There is significant political violence in Kazakhstan, with the president requesting Collective Security Treaty Organization military assistance, issuing a shoot-to-kill order, and a reported death toll rising to 164 with over 5,000 detained.\",\"item_ids\":[\"0f353c620ac7cc65\",\"f6f52ebf33420594\",\"91426c80b2b7b286\",\"e8a28854e6893954\",\"c1eccd4547e6d00e\",\"64eba086c785f94e\"]},{\"claim\":\"Items note Russia\u2013Belarus joint war games announced for an upcoming period and a Ukrainian arrest of an alleged Russian intelligence agent, but no item describes a market or commodity reaction.\",\"item_ids\":[\"e4fc88426390de9f\",\"c61f1f53ea8d9f4e\"]},{\"claim\":\"The final day of the window contains only a national COVID-19 death milestone, an isolation-rule change, a national case record and the death of the President of the European Parliament.\",\"item_ids\":[\"34eee920fdfbe147\",\"9d5aeca6a38e4e57\",\"cc79080b0a929225\",\"469aa97b0be7067b\"]}],\"primary_item_ids\":[\"14140e66415bcad6\",\"0f353c620ac7cc65\",\"cc79080b0a929225\"],\"competing_explanation\":\"The strongest candidates, if one had to be chosen, are the Evergrande share-trading suspension ahead of restructuring combined with China's new pre-listing cybersecurity review rule (both direct capital-markets events), or the armed unrest in Kazakhstan with an external military intervention request. Neither appears on or near the flagged day, neither is accompanied in the items by any described price, index, currency or commodity reaction, and neither is of obviously sufficient scale to shift broad market conditions on its own \u2014 so neither is offered as an identified driver.\",\"insufficient_evidence_reason\":\"The window is overwhelmingly composed of epidemiological reporting, localised disasters and regional security incidents, none of which is described in the items as having any market consequence. The two genuinely financial items (Evergrande's trading suspension and China's foreign-listing review rule) occur mid-window rather than at the flag point, and the items give no evidence of transmission to broad volatility. The flagged day itself contains only routine pandemic milestones and a political death. On this evidence the flag is at least as consistent with noise or with a slow accumulation of pandemic-related uncertainty as with any discrete event.\"}"
+}

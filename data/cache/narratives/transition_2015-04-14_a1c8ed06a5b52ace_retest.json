@@ -1,0 +1,62 @@
+{
+  "window_id": "transition_2015-04-14",
+  "kind": "transition",
+  "boundary_date": "2015-04-14",
+  "driver_identified": false,
+  "confidence": "none",
+  "summary": "",
+  "mechanism": "",
+  "claims": [
+    {
+      "claim": "The only item in the window with clear, broad commodity-market relevance \u2014 a P5+1 framework understanding on Iran's nuclear programme \u2014 occurred on Day 2, twelve days before the flagged day, and the items themselves note no verbal agreement or official document was signed.",
+      "item_ids": [
+        "7c36116ea873729d"
+      ]
+    },
+    {
+      "claim": "The Day 14 items are a Japanese court injunction blocking the restart of two reactors at the Takahama Nuclear Power Plant, an endorsement of removing Cuba from a state-sponsors-of-terrorism list, an armed assault on a ministry building in Mogadishu, and a failed SpaceX booster landing \u2014 none of which is of broad financial-market scale.",
+      "item_ids": [
+        "2cbfbe2040228726",
+        "4118f40f007b4040",
+        "9844b19ea149fa3d",
+        "b438ab0610c3611e"
+      ]
+    },
+    {
+      "claim": "The single explicitly financial item in the window is a disclosure that an Italian bank's exposure to a counterparty exceeded the regulatory limit, an issuer-specific matter with no indication of systemic reach in the items.",
+      "item_ids": [
+        "33ea4fb32bb404e4"
+      ]
+    },
+    {
+      "claim": "Conflict-related items concentrate on Yemen, Libya, Iraq, Pakistan and Afghanistan, and are reported in casualty and evacuation terms with no reference to disrupted energy production, shipping or trade flows.",
+      "item_ids": [
+        "07dbfb8929eb24fd",
+        "0487036855340bae",
+        "cf26923b9b213fe2",
+        "0114325b93b0b672",
+        "e3e4d5e0838b9564",
+        "1f095fc6213c26f0"
+      ]
+    },
+    {
+      "claim": "The remainder of the window consists of accidents, domestic crime and court stories, local elections, sport and human-interest items with no discernible transmission channel to asset prices.",
+      "item_ids": [
+        "3a03147e30d560b0",
+        "75c9f14b4019b5a1",
+        "88e70c4519ab663d",
+        "866b76b75eb2aada",
+        "aa184d6b2333854c",
+        "2ee6fd82eafd9ce4",
+        "b2443e593c0861f9"
+      ]
+    }
+  ],
+  "primary_item_ids": [],
+  "competing_explanation": "The most defensible alternative is that the Iran nuclear framework understanding reset expectations for future crude supply and thereby changed the oil-price volatility regime, with the Day 14 flag reflecting a lagged or gradually-realised repricing rather than a same-day shock; the Takahama restart injunction could similarly be argued to affect Japanese utility and thermal-fuel pricing. Both readings require substantial assumptions the items do not support \u2014 the Iran item is explicitly a framework with nothing signed and sits twelve days before the flag, and the Takahama ruling is a single-plant, single-jurisdiction legal matter.",
+  "insufficient_evidence_reason": "No item in the window describes a macroeconomic release, central bank action, sovereign or systemic credit event, major corporate failure, or supply disruption of a globally traded commodity. The items clustered on the flagged day are geographically dispersed and small in economic scale, and the one item with genuine cross-asset potential (the Iran framework) is both non-binding by its own description and badly mismatched in timing to a Day 14 flag. The most likely reading is that the model responded to price and volatility dynamics with no counterpart in the supplied news record.",
+  "raw_response": "{\"driver_identified\": false, \"confidence\": \"none\", \"summary\": \"\", \"mechanism\": \"\", \"claims\": [{\"claim\": \"The only item in the window with clear, broad commodity-market relevance \u2014 a P5+1 framework understanding on Iran's nuclear programme \u2014 occurred on Day 2, twelve days before the flagged day, and the items themselves note no verbal agreement or official document was signed.\", \"item_ids\": [\"7c36116ea873729d\"]}, {\"claim\": \"The Day 14 items are a Japanese court injunction blocking the restart of two reactors at the Takahama Nuclear Power Plant, an endorsement of removing Cuba from a state-sponsors-of-terrorism list, an armed assault on a ministry building in Mogadishu, and a failed SpaceX booster landing \u2014 none of which is of broad financial-market scale.\", \"item_ids\": [\"2cbfbe2040228726\", \"4118f40f007b4040\", \"9844b19ea149fa3d\", \"b438ab0610c3611e\"]}, {\"claim\": \"The single explicitly financial item in the window is a disclosure that an Italian bank's exposure to a counterparty exceeded the regulatory limit, an issuer-specific matter with no indication of systemic reach in the items.\", \"item_ids\": [\"33ea4fb32bb404e4\"]}, {\"claim\": \"Conflict-related items concentrate on Yemen, Libya, Iraq, Pakistan and Afghanistan, and are reported in casualty and evacuation terms with no reference to disrupted energy production, shipping or trade flows.\", \"item_ids\": [\"07dbfb8929eb24fd\", \"0487036855340bae\", \"cf26923b9b213fe2\", \"0114325b93b0b672\", \"e3e4d5e0838b9564\", \"1f095fc6213c26f0\"]}, {\"claim\": \"The remainder of the window consists of accidents, domestic crime and court stories, local elections, sport and human-interest items with no discernible transmission channel to asset prices.\", \"item_ids\": [\"3a03147e30d560b0\", \"75c9f14b4019b5a1\", \"88e70c4519ab663d\", \"866b76b75eb2aada\", \"aa184d6b2333854c\", \"2ee6fd82eafd9ce4\", \"b2443e593c0861f9\"]}], \"primary_item_ids\": [], \"competing_explanation\": \"The most defensible alternative is that the Iran nuclear framework understanding reset expectations for future crude supply and thereby changed the oil-price volatility regime, with the Day 14 flag reflecting a lagged or gradually-realised repricing rather than a same-day shock; the Takahama restart injunction could similarly be argued to affect Japanese utility and thermal-fuel pricing. Both readings require substantial assumptions the items do not support \u2014 the Iran item is explicitly a framework with nothing signed and sits twelve days before the flag, and the Takahama ruling is a single-plant, single-jurisdiction legal matter.\", \"insufficient_evidence_reason\": \"No item in the window describes a macroeconomic release, central bank action, sovereign or systemic credit event, major corporate failure, or supply disruption of a globally traded commodity. The items clustered on the flagged day are geographically dispersed and small in economic scale, and the one item with genuine cross-asset potential (the Iran framework) is both non-binding by its own description and badly mismatched in timing to a Day 14 flag. The most likely reading is that the model responded to price and volatility dynamics with no counterpart in the supplied news record.\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "e9497ebca7568099"
+}

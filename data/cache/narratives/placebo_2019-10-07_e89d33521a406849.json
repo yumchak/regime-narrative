@@ -1,0 +1,88 @@
+{
+  "window_id": "placebo_2019-10-07",
+  "kind": "placebo",
+  "boundary_date": "2019-10-07",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The clearest event clustered on the flag day is the start of a US troop withdrawal from northern Syria, immediately following Turkish President Erdogan's threat to invade SDF-held areas \"today or tomorrow\", together with the Pentagon expelling Turkey from the Combined Air Operations Centre. This is an abrupt, unscheduled geopolitical realignment in an oil-producing region involving a NATO member, publicly criticised by a senior allied US senator as a win for Iran and Assad and flagged as a risk of an ISIL resurgence among 60,000 detainees. A secondary, slower-burning driver present from the opening of the window is the formal US impeachment inquiry into the president and the associated Ukraine disclosures.",
+  "mechanism": "An imminent cross-border military operation by a NATO member, with US forces repositioning and allied criticism of the decision, raises regional escalation risk that transmits through energy prices, Turkish assets and broad geopolitical risk premia; simultaneous domestic political instability in the US adds headline-driven uncertainty to policy expectations.",
+  "claims": [
+    {
+      "claim": "Turkey's president publicly threatened to invade SDF-held areas of northern Syria \"today or tomorrow\" and dismissed the joint US-Turkish buffer-zone patrols as a \"fairy tale\".",
+      "item_ids": [
+        "ea191e8bd5f9a228"
+      ]
+    },
+    {
+      "claim": "On the final day of the window, both the SDF and Turkey said the United States had begun withdrawing troops from Syrian areas near the Turkish border.",
+      "item_ids": [
+        "52014c6e2f43a707"
+      ]
+    },
+    {
+      "claim": "A prominent US senator described the withdrawal as \"a big win for Iran and Assad [and] a big win for ISIL\", and a former US envoy warned that 60,000 SDF-held ISIL detainees could form the \"nucleus for a resurgent ISIL\".",
+      "item_ids": [
+        "52014c6e2f43a707"
+      ]
+    },
+    {
+      "claim": "The US Department of Defense expelled Turkey from the Combined Air Operations Centre, cutting its access to surveillance information on SDF positions.",
+      "item_ids": [
+        "e4a8d8bed1b3e1bf"
+      ]
+    },
+    {
+      "claim": "A formal impeachment inquiry into the US president was announced at the start of the window, followed by the resignation of the US special envoy to Ukraine a day after a whistleblower report on a call with Ukraine's president, an \"urgent\" State Department inspector general briefing to congressional staff, and the president's personal lawyer retaining counsel.",
+      "item_ids": [
+        "d8dc0eeeaae8924a",
+        "e253172e4d96f5d5",
+        "4c515b5f955761b9",
+        "58d16de19ee435ee"
+      ]
+    },
+    {
+      "claim": "Other regional stress present in the window includes Houthi claims of a major cross-border attack near Najran, Turkey stating it cannot stop buying Iranian oil despite US sanctions, and Syria demanding withdrawal of US and Turkish forces.",
+      "item_ids": [
+        "6390d118728d654f",
+        "59c0988efa3b132f",
+        "6ffa58fbe46decb8"
+      ]
+    },
+    {
+      "claim": "Escalating civil unrest with heavy casualties and an internet blackout occurred in Iraq, and Ecuador declared a state of emergency over fuel-price protests that blocked the capital's transport network.",
+      "item_ids": [
+        "462b7ae135319136",
+        "116d71a7664f46bf",
+        "c0cf75331e181dae",
+        "e670a23451df202a"
+      ]
+    },
+    {
+      "claim": "Corporate distress in consumer-facing sectors appeared repeatedly: a Chapter 11 filing with up to 178 store closures, another retailer closing 60 stores on declining profits, and government responses in two countries to a travel company's collapse.",
+      "item_ids": [
+        "0155c73ff38dc2c5",
+        "1a61318381b3bf12",
+        "7f2f9a0aa1ce3e4b",
+        "57e68af048473dee"
+      ]
+    },
+    {
+      "claim": "North Korea tested a new submarine-launched ballistic missile while also saying it would resume working-level nuclear talks with the United States.",
+      "item_ids": [
+        "056b2c818fc806ae",
+        "5498ba81f809760a"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "52014c6e2f43a707",
+    "e4a8d8bed1b3e1bf",
+    "ea191e8bd5f9a228"
+  ],
+  "competing_explanation": "The US impeachment inquiry and the cascade of Ukraine-related disclosures span the whole window and represent a durable rise in US political and policy uncertainty; a model flagging on Day 14 could be picking up the cumulative effect of that rather than the Syria news. A weaker alternative is that the window simply contains an unusually dense run of unrelated, individually small shocks (Iraq and Ecuador unrest, retail bankruptcies, a missile test, Hong Kong's first live-round shooting) with no single driver, in which case the flag may be noise.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The clearest event clustered on the flag day is the start of a US troop withdrawal from northern Syria, immediately following Turkish President Erdogan's threat to invade SDF-held areas \\\"today or tomorrow\\\", together with the Pentagon expelling Turkey from the Combined Air Operations Centre. This is an abrupt, unscheduled geopolitical realignment in an oil-producing region involving a NATO member, publicly criticised by a senior allied US senator as a win for Iran and Assad and flagged as a risk of an ISIL resurgence among 60,000 detainees. A secondary, slower-burning driver present from the opening of the window is the formal US impeachment inquiry into the president and the associated Ukraine disclosures.\",\"mechanism\":\"An imminent cross-border military operation by a NATO member, with US forces repositioning and allied criticism of the decision, raises regional escalation risk that transmits through energy prices, Turkish assets and broad geopolitical risk premia; simultaneous domestic political instability in the US adds headline-driven uncertainty to policy expectations.\",\"claims\":[{\"claim\":\"Turkey's president publicly threatened to invade SDF-held areas of northern Syria \\\"today or tomorrow\\\" and dismissed the joint US-Turkish buffer-zone patrols as a \\\"fairy tale\\\".\",\"item_ids\":[\"ea191e8bd5f9a228\"]},{\"claim\":\"On the final day of the window, both the SDF and Turkey said the United States had begun withdrawing troops from Syrian areas near the Turkish border.\",\"item_ids\":[\"52014c6e2f43a707\"]},{\"claim\":\"A prominent US senator described the withdrawal as \\\"a big win for Iran and Assad [and] a big win for ISIL\\\", and a former US envoy warned that 60,000 SDF-held ISIL detainees could form the \\\"nucleus for a resurgent ISIL\\\".\",\"item_ids\":[\"52014c6e2f43a707\"]},{\"claim\":\"The US Department of Defense expelled Turkey from the Combined Air Operations Centre, cutting its access to surveillance information on SDF positions.\",\"item_ids\":[\"e4a8d8bed1b3e1bf\"]},{\"claim\":\"A formal impeachment inquiry into the US president was announced at the start of the window, followed by the resignation of the US special envoy to Ukraine a day after a whistleblower report on a call with Ukraine's president, an \\\"urgent\\\" State Department inspector general briefing to congressional staff, and the president's personal lawyer retaining counsel.\",\"item_ids\":[\"d8dc0eeeaae8924a\",\"e253172e4d96f5d5\",\"4c515b5f955761b9\",\"58d16de19ee435ee\"]},{\"claim\":\"Other regional stress present in the window includes Houthi claims of a major cross-border attack near Najran, Turkey stating it cannot stop buying Iranian oil despite US sanctions, and Syria demanding withdrawal of US and Turkish forces.\",\"item_ids\":[\"6390d118728d654f\",\"59c0988efa3b132f\",\"6ffa58fbe46decb8\"]},{\"claim\":\"Escalating civil unrest with heavy casualties and an internet blackout occurred in Iraq, and Ecuador declared a state of emergency over fuel-price protests that blocked the capital's transport network.\",\"item_ids\":[\"462b7ae135319136\",\"116d71a7664f46bf\",\"c0cf75331e181dae\",\"e670a23451df202a\"]},{\"claim\":\"Corporate distress in consumer-facing sectors appeared repeatedly: a Chapter 11 filing with up to 178 store closures, another retailer closing 60 stores on declining profits, and government responses in two countries to a travel company's collapse.\",\"item_ids\":[\"0155c73ff38dc2c5\",\"1a61318381b3bf12\",\"7f2f9a0aa1ce3e4b\",\"57e68af048473dee\"]},{\"claim\":\"North Korea tested a new submarine-launched ballistic missile while also saying it would resume working-level nuclear talks with the United States.\",\"item_ids\":[\"056b2c818fc806ae\",\"5498ba81f809760a\"]}],\"primary_item_ids\":[\"52014c6e2f43a707\",\"e4a8d8bed1b3e1bf\",\"ea191e8bd5f9a228\"],\"competing_explanation\":\"The US impeachment inquiry and the cascade of Ukraine-related disclosures span the whole window and represent a durable rise in US political and policy uncertainty; a model flagging on Day 14 could be picking up the cumulative effect of that rather than the Syria news. A weaker alternative is that the window simply contains an unusually dense run of unrelated, individually small shocks (Iraq and Ecuador unrest, retail bankruptcies, a missile test, Hong Kong's first live-round shooting) with no single driver, in which case the flag may be noise.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "5092602dd8f6f7ca"
+}

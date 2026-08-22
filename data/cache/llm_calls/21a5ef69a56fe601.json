@@ -1,0 +1,21 @@
+{
+  "call_id": "21a5ef69a56fe601",
+  "timestamp_utc": "2026-08-22T07:54:14.173309+00:00",
+  "window_id": "placebo_2022-11-14",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2022-11-14",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "848d098c26632ce3",
+  "n_items_in_window": 65,
+  "input_chars": 11660,
+  "usage": {
+    "input_tokens": 6451,
+    "output_tokens": 1932
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"The most plausible market-relevant developments in this window are the Bank of England's large interest-rate hike and recession warning early in the period, and the major shift in the Russia-Ukraine war as Russian forces announced a retreat from Kherson and Ukrainian troops subsequently entered the city, ending an eight-month occupation. Either of these could plausibly have driven a shift in volatility as markets repriced risk around monetary tightening/recession expectations or around a significant battlefield reversal with implications for energy markets and the broader war outlook.\", \"mechanism\": \"A large, larger-than-expected central bank rate hike paired with an explicit recession forecast directly affects rate expectations, currency and bond markets, while a major turning point in an active war affecting a large energy exporter and its adversary can move energy prices, defense-sector equities, and risk sentiment broadly, both of which transmit into measurable price/volatility changes.\", \"claims\": [{\"claim\": \"The Bank of England raised interest rates by 0.75 percentage points to 3.00%, the largest increase in 33 years, and predicted a record-length recession lasting until mid-next year.\", \"item_ids\": [\"23ec3205c90d6887\"]}, {\"claim\": \"Russian forces announced a retreat from the city of Kherson and surrounding areas on the western bank of the Dnieper River.\", \"item_ids\": [\"7b3b1ef2d85da7a6\"]}, {\"claim\": \"Ukrainian troops subsequently entered Kherson, ending eight months of Russian occupation of the only regional capital Russia had captured.\", \"item_ids\": [\"50d0d8167d1368d7\"]}, {\"claim\": \"The Pentagon announced a further $400 million weapons package for Ukraine around the same period, indicating continued escalation of Western military support.\", \"item_ids\": [\"bf57e5d73c164c19\"]}, {\"claim\": \"Democrats secured a majority in the US Senate for the upcoming Congress after winning the Nevada Senate race, reducing near-term political uncertainty about divided government outcomes.\", \"item_ids\": [\"8f63d5525401908c\"]}], \"primary_item_ids\": [\"23ec3205c90d6887\", \"7b3b1ef2d85da7a6\", \"50d0d8167d1368d7\"], \"competing_explanation\": \"The US midterm election results, including the securing of a Democratic Senate majority and several gubernatorial outcomes, could alternatively account for shifts in market expectations around fiscal and regulatory policy, independent of the war or monetary policy news.\", \"insufficient_evidence_reason\": \"\"}"
+}

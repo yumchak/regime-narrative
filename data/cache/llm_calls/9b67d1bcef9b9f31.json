@@ -1,0 +1,21 @@
+{
+  "call_id": "9b67d1bcef9b9f31",
+  "timestamp_utc": "2026-08-22T05:33:14.825404+00:00",
+  "window_id": "placebo_2019-04-22",
+  "kind": "placebo",
+  "run_label": "retest",
+  "boundary_date": "2019-04-22",
+  "model": "claude-opus-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "bc74aca9a276e182",
+  "n_items_in_window": 45,
+  "input_chars": 10617,
+  "usage": {
+    "input_tokens": 5771,
+    "output_tokens": 1309
+  },
+  "response_text": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"On the flag day itself, the United States demanded that all countries stop purchasing Iranian oil by a stated deadline or face secondary sanctions, an explicit attempt to remove Iranian export volumes from world supply. That is a direct, dated supply shock to the global crude market and is the only item in the window with immediate, first-order pricing consequences. Secondary contributors to a risk-off tone include coordinated attacks in Sri Lanka referenced on Day 13 and an escalating offensive on Tripoli by Libyan forces, another oil-producing jurisdiction.\",\"mechanism\":\"Threatening sanctions on any buyer of Iranian crude forces refiners and traders to reprice expected supply and scramble for alternative barrels, which lifts crude and re-rates energy equities, freight and inflation-linked assets, with volatility rising as participants handicap enforcement, waivers and OPEC offsets.\",\"claims\":[{\"claim\":\"The United States demanded that all countries cease purchasing oil from Iran by a set date or face sanctions, explicitly aimed at cutting Iran's income.\",\"item_ids\":[\"8ad7ffa7dc82c7a7\"]},{\"claim\":\"A rival Libyan parliament stated its Libyan National Army would continue its advance on Tripoli despite international calls to halt, and its commander sought backing in Cairo.\",\"item_ids\":[\"893656cab2bf1fc9\",\"66a4078e85cf722c\"]},{\"claim\":\"The Sri Lankan government temporarily blocked all social media platforms following attacks in the country.\",\"item_ids\":[\"a139ae41f6c34b15\"]},{\"claim\":\"Ukraine's presidential run-off was won decisively by Volodymyr Zelensky, with the incumbent conceding, per exit polls.\",\"item_ids\":[\"f2109f31a07213d5\"]},{\"claim\":\"Earlier in the window, the UK and EU agreed to delay Brexit, removing a near-term cliff-edge date.\",\"item_ids\":[\"28e34456ed7d49e0\"]},{\"claim\":\"Singapore reported the largest year-on-year monthly drop in non-oil exports since a prior reference period, with electronics especially weak, a signal of global trade softness.\",\"item_ids\":[\"0c6fb6e756e8cd4d\"]}],\"primary_item_ids\":[\"8ad7ffa7dc82c7a7\",\"893656cab2bf1fc9\",\"a139ae41f6c34b15\"],\"competing_explanation\":\"The change could instead reflect a broader geopolitical risk cluster late in the window \u2014 mass-casualty attacks in Sri Lanka, Kabul and Riyadh, plus the Libyan advance on Tripoli \u2014 rather than the Iran oil demand specifically; or, less plausibly, a macro-demand read from the sharp Singapore export slump and the Debenhams administration. None of these has the same direct, mechanical link to a single traded price as the Iranian export ultimatum.\",\"insufficient_evidence_reason\":\"\"}"
+}

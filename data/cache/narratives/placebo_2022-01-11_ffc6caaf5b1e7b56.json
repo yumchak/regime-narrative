@@ -1,0 +1,69 @@
+{
+  "window_id": "placebo_2022-01-11",
+  "kind": "placebo",
+  "boundary_date": "2022-01-11",
+  "driver_identified": false,
+  "confidence": "none",
+  "summary": "",
+  "mechanism": "",
+  "claims": [
+    {
+      "claim": "The window is dominated by routine pandemic reporting: record daily case counts across many countries driven by the Omicron variant, with no accompanying reports of new broad economic shutdowns in major economies.",
+      "item_ids": [
+        "b5568b8e18607fb4",
+        "f9fb165c81b61cca",
+        "cde95effa24e3536",
+        "93f985d008791cf9",
+        "cc79080b0a929225"
+      ]
+    },
+    {
+      "claim": "Several governments responded to the case surge by loosening rather than tightening restrictions, shortening isolation periods to protect staffing and economic activity.",
+      "item_ids": [
+        "cd4292a62c805484",
+        "a7a1d52eee69abe3",
+        "9d5aeca6a38e4e57",
+        "b3d718bf897824cd"
+      ]
+    },
+    {
+      "claim": "There is unrest in Kazakhstan involving deaths, a shoot-to-kill order and a request for foreign military assistance, but the items contain no reference to commodity supply, energy output or financial market effects.",
+      "item_ids": [
+        "0f353c620ac7cc65",
+        "f6f52ebf33420594",
+        "91426c80b2b7b286",
+        "e8a28854e6893954"
+      ]
+    },
+    {
+      "claim": "Two China-related corporate/regulatory items appear \u2014 Evergrande suspending trading in its shares ahead of a restructuring, and new cybersecurity review requirements for large Chinese companies seeking foreign listings \u2014 but neither item describes a wider market reaction.",
+      "item_ids": [
+        "14140e66415bcad6",
+        "700a08b63c01ac3f"
+      ]
+    },
+    {
+      "claim": "Geopolitical items on the final days are limited to announced Russia-Belarus war games and an arrest of an alleged Russian intelligence agent in Ukraine, with no escalation described.",
+      "item_ids": [
+        "e4fc88426390de9f",
+        "c61f1f53ea8d9f4e"
+      ]
+    },
+    {
+      "claim": "The items dated on the flag day itself concern a national death milestone, the death of the European Parliament president, an isolation-period change and a national case record \u2014 none of which carries evident market significance.",
+      "item_ids": [
+        "34eee920fdfbe147",
+        "469aa97b0be7067b",
+        "9d5aeca6a38e4e57",
+        "cc79080b0a929225"
+      ]
+    }
+  ],
+  "primary_item_ids": [],
+  "competing_explanation": "The most defensible candidates are (a) the Kazakhstan unrest, which involves a major resource-exporting state and foreign military intervention, and (b) the Chinese items \u2014 Evergrande's share-trading suspension pending restructuring and new listing-approval rules for large Chinese firms. Both could in principle transmit to commodity or equity volatility, but the items themselves describe no price, supply or financial-market consequence, and neither cluster falls near the flag day, so neither can be tied to a change in conditions at the close of the window.",
+  "insufficient_evidence_reason": "The window is overwhelmingly composed of public-health reporting (case records, vaccine approvals, isolation-rule changes) plus scattered local disasters, fires, insurgent attacks and political incidents. No item describes a macroeconomic policy decision, a central bank action, an inflation or growth datapoint, a major corporate failure with described spillover, or a geopolitical escalation with stated market consequences. The items closest to the flag day are particularly low in market content. On this evidence the flag is more consistent with noise, or with a driver outside the supplied item set, than with any event described here.",
+  "raw_response": "{\"driver_identified\":false,\"confidence\":\"none\",\"summary\":\"\",\"mechanism\":\"\",\"claims\":[{\"claim\":\"The window is dominated by routine pandemic reporting: record daily case counts across many countries driven by the Omicron variant, with no accompanying reports of new broad economic shutdowns in major economies.\",\"item_ids\":[\"b5568b8e18607fb4\",\"f9fb165c81b61cca\",\"cde95effa24e3536\",\"93f985d008791cf9\",\"cc79080b0a929225\"]},{\"claim\":\"Several governments responded to the case surge by loosening rather than tightening restrictions, shortening isolation periods to protect staffing and economic activity.\",\"item_ids\":[\"cd4292a62c805484\",\"a7a1d52eee69abe3\",\"9d5aeca6a38e4e57\",\"b3d718bf897824cd\"]},{\"claim\":\"There is unrest in Kazakhstan involving deaths, a shoot-to-kill order and a request for foreign military assistance, but the items contain no reference to commodity supply, energy output or financial market effects.\",\"item_ids\":[\"0f353c620ac7cc65\",\"f6f52ebf33420594\",\"91426c80b2b7b286\",\"e8a28854e6893954\"]},{\"claim\":\"Two China-related corporate/regulatory items appear \u2014 Evergrande suspending trading in its shares ahead of a restructuring, and new cybersecurity review requirements for large Chinese companies seeking foreign listings \u2014 but neither item describes a wider market reaction.\",\"item_ids\":[\"14140e66415bcad6\",\"700a08b63c01ac3f\"]},{\"claim\":\"Geopolitical items on the final days are limited to announced Russia-Belarus war games and an arrest of an alleged Russian intelligence agent in Ukraine, with no escalation described.\",\"item_ids\":[\"e4fc88426390de9f\",\"c61f1f53ea8d9f4e\"]},{\"claim\":\"The items dated on the flag day itself concern a national death milestone, the death of the European Parliament president, an isolation-period change and a national case record \u2014 none of which carries evident market significance.\",\"item_ids\":[\"34eee920fdfbe147\",\"469aa97b0be7067b\",\"9d5aeca6a38e4e57\",\"cc79080b0a929225\"]}],\"primary_item_ids\":[],\"competing_explanation\":\"The most defensible candidates are (a) the Kazakhstan unrest, which involves a major resource-exporting state and foreign military intervention, and (b) the Chinese items \u2014 Evergrande's share-trading suspension pending restructuring and new listing-approval rules for large Chinese firms. Both could in principle transmit to commodity or equity volatility, but the items themselves describe no price, supply or financial-market consequence, and neither cluster falls near the flag day, so neither can be tied to a change in conditions at the close of the window.\",\"insufficient_evidence_reason\":\"The window is overwhelmingly composed of public-health reporting (case records, vaccine approvals, isolation-rule changes) plus scattered local disasters, fires, insurgent attacks and political incidents. No item describes a macroeconomic policy decision, a central bank action, an inflation or growth datapoint, a major corporate failure with described spillover, or a geopolitical escalation with stated market consequences. The items closest to the flag day are particularly low in market content. On this evidence the flag is more consistent with noise, or with a driver outside the supplied item set, than with any event described here.\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "b163fa86750d221a"
+}

@@ -1,0 +1,93 @@
+{
+  "window_id": "placebo_2020-01-07",
+  "kind": "placebo",
+  "boundary_date": "2020-01-07",
+  "driver_identified": true,
+  "confidence": "high",
+  "summary": "A sharp US\u2013Iran military escalation dominates the second half of the window: after a rocket attack killed an American contractor at an Iraqi base and US airstrikes hit Kata'ib Hezbollah, the US embassy in Baghdad was stormed, and a US airstrike in Baghdad killed Quds Force commander Qasem Soleimani. Iran's leadership publicly vowed \"vigorous revenge\", its parliament voted to exit the nuclear deal and designated the US Department of Defense a terrorist organisation, while the US deployed 3,000 additional troops, paused anti-ISIL operations, and Germany began withdrawing forces from Iraq.",
+  "mechanism": "An open-ended threat of state-level military retaliation between the US and Iran centred on Iraq and the Gulf raises the probability of supply disruption and broad geopolitical risk, widening the distribution of expected outcomes and prompting repricing of risk premia and hedging demand, which shows up as elevated volatility.",
+  "claims": [
+    {
+      "claim": "A rocket attack on K-1 Air Base in Kirkuk killed an American civilian contractor and injured US and Iraqi troops, with no group claiming responsibility.",
+      "item_ids": [
+        "8e97a1957e3d2d47"
+      ]
+    },
+    {
+      "claim": "US airstrikes inside Iraq followed, drawing condemnation from the Iraqi Prime Minister as a violation of sovereignty and a dangerous escalation, and warnings of consequences from Iran's foreign ministry.",
+      "item_ids": [
+        "8d9bdbc317e3984c",
+        "0a6c1cb383117975"
+      ]
+    },
+    {
+      "claim": "Supporters of Iran-aligned paramilitaries stormed the US embassy in Baghdad, with the US President blaming Iran; they withdrew the following day.",
+      "item_ids": [
+        "0ad5b9210a25328e",
+        "3e28663a7ffe5e91"
+      ]
+    },
+    {
+      "claim": "US officials confirmed strikes on two Iran-linked targets in Baghdad, and the death of Quds Force commander Qasem Soleikmani was confirmed by the Popular Mobilization Forces.",
+      "item_ids": [
+        "c91cd0e68af44051",
+        "fde6e15502a9a006"
+      ]
+    },
+    {
+      "claim": "A senior Iranian figure publicly promised \"vigorous revenge against America\" and Iranian state television replaced broadcasts with prayers for Soleimani.",
+      "item_ids": [
+        "178b830351df6e12"
+      ]
+    },
+    {
+      "claim": "The US sent over 3,000 additional soldiers to the Middle East as tensions with Iran heightened.",
+      "item_ids": [
+        "9a905f91e47b45ec"
+      ]
+    },
+    {
+      "claim": "Militants fired rockets at Iraqi bases hosting US personnel, nearly hitting the US embassy in Baghdad.",
+      "item_ids": [
+        "6935a58721a28e51"
+      ]
+    },
+    {
+      "claim": "Iran's parliament voted to exit the nuclear deal with world powers.",
+      "item_ids": [
+        "73e791bde018516d"
+      ]
+    },
+    {
+      "claim": "US Central Command announced it had paused operations against ISIL to concentrate on protecting troops at bases in Iraq.",
+      "item_ids": [
+        "6aa3fb80f8c4e618"
+      ]
+    },
+    {
+      "claim": "On the final day, Iran's legislature formally designated the US Department of Defense a terrorist organisation and Germany announced a partial withdrawal of its troops from Iraq citing security concerns.",
+      "item_ids": [
+        "de3c6e14a6567bab",
+        "b90cbc00629ff838"
+      ]
+    },
+    {
+      "claim": "Mass mourning and protests followed, including a funeral procession in Baghdad attended by the Iraqi prime minister and protests in Karachi, Pakistan.",
+      "item_ids": [
+        "a1f77f2a3440a126",
+        "e6cd1775a3987ad8"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "fde6e15502a9a006",
+    "73e791bde018516d",
+    "de3c6e14a6567bab"
+  ],
+  "competing_explanation": "Several other stress events appear in the window \u2014 large-scale Australian bushfires with a state of emergency and air-quality deaths, deadly floods in Jakarta, a Puerto Rico earthquake, North Korea announcing a \"new strategic weapon\", and China suspending London\u2013Shanghai stock exchange cross-listing plans on political grounds. Of these, only the China\u2013UK exchange suspension is directly financial, and it is narrow in scope; none matches the scale or the sustained day-by-day escalation of the US\u2013Iran confrontation.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"A sharp US\u2013Iran military escalation dominates the second half of the window: after a rocket attack killed an American contractor at an Iraqi base and US airstrikes hit Kata'ib Hezbollah, the US embassy in Baghdad was stormed, and a US airstrike in Baghdad killed Quds Force commander Qasem Soleimani. Iran's leadership publicly vowed \\\"vigorous revenge\\\", its parliament voted to exit the nuclear deal and designated the US Department of Defense a terrorist organisation, while the US deployed 3,000 additional troops, paused anti-ISIL operations, and Germany began withdrawing forces from Iraq.\",\"mechanism\":\"An open-ended threat of state-level military retaliation between the US and Iran centred on Iraq and the Gulf raises the probability of supply disruption and broad geopolitical risk, widening the distribution of expected outcomes and prompting repricing of risk premia and hedging demand, which shows up as elevated volatility.\",\"claims\":[{\"claim\":\"A rocket attack on K-1 Air Base in Kirkuk killed an American civilian contractor and injured US and Iraqi troops, with no group claiming responsibility.\",\"item_ids\":[\"8e97a1957e3d2d47\"]},{\"claim\":\"US airstrikes inside Iraq followed, drawing condemnation from the Iraqi Prime Minister as a violation of sovereignty and a dangerous escalation, and warnings of consequences from Iran's foreign ministry.\",\"item_ids\":[\"8d9bdbc317e3984c\",\"0a6c1cb383117975\"]},{\"claim\":\"Supporters of Iran-aligned paramilitaries stormed the US embassy in Baghdad, with the US President blaming Iran; they withdrew the following day.\",\"item_ids\":[\"0ad5b9210a25328e\",\"3e28663a7ffe5e91\"]},{\"claim\":\"US officials confirmed strikes on two Iran-linked targets in Baghdad, and the death of Quds Force commander Qasem Soleikmani was confirmed by the Popular Mobilization Forces.\",\"item_ids\":[\"c91cd0e68af44051\",\"fde6e15502a9a006\"]},{\"claim\":\"A senior Iranian figure publicly promised \\\"vigorous revenge against America\\\" and Iranian state television replaced broadcasts with prayers for Soleimani.\",\"item_ids\":[\"178b830351df6e12\"]},{\"claim\":\"The US sent over 3,000 additional soldiers to the Middle East as tensions with Iran heightened.\",\"item_ids\":[\"9a905f91e47b45ec\"]},{\"claim\":\"Militants fired rockets at Iraqi bases hosting US personnel, nearly hitting the US embassy in Baghdad.\",\"item_ids\":[\"6935a58721a28e51\"]},{\"claim\":\"Iran's parliament voted to exit the nuclear deal with world powers.\",\"item_ids\":[\"73e791bde018516d\"]},{\"claim\":\"US Central Command announced it had paused operations against ISIL to concentrate on protecting troops at bases in Iraq.\",\"item_ids\":[\"6aa3fb80f8c4e618\"]},{\"claim\":\"On the final day, Iran's legislature formally designated the US Department of Defense a terrorist organisation and Germany announced a partial withdrawal of its troops from Iraq citing security concerns.\",\"item_ids\":[\"de3c6e14a6567bab\",\"b90cbc00629ff838\"]},{\"claim\":\"Mass mourning and protests followed, including a funeral procession in Baghdad attended by the Iraqi prime minister and protests in Karachi, Pakistan.\",\"item_ids\":[\"a1f77f2a3440a126\",\"e6cd1775a3987ad8\"]}],\"primary_item_ids\":[\"fde6e15502a9a006\",\"73e791bde018516d\",\"de3c6e14a6567bab\"],\"competing_explanation\":\"Several other stress events appear in the window \u2014 large-scale Australian bushfires with a state of emergency and air-quality deaths, deadly floods in Jakarta, a Puerto Rico earthquake, North Korea announcing a \\\"new strategic weapon\\\", and China suspending London\u2013Shanghai stock exchange cross-listing plans on political grounds. Of these, only the China\u2013UK exchange suspension is directly financial, and it is narrow in scope; none matches the scale or the sustained day-by-day escalation of the US\u2013Iran confrontation.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "aeb88c7227e15718"
+}

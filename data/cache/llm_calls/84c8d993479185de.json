@@ -1,0 +1,21 @@
+{
+  "call_id": "84c8d993479185de",
+  "timestamp_utc": "2026-08-22T07:50:50.018414+00:00",
+  "window_id": "placebo_2019-09-13",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2019-09-13",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "0df5160bbb687ea6",
+  "n_items_in_window": 81,
+  "input_chars": 20095,
+  "usage": {
+    "input_tokens": 9404,
+    "output_tokens": 2944
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"The window contains several plausible sources of macro/political stress that could raise volatility: a weaker-than-expected US manufacturing report showing the first monthly contraction in three years, Argentina's reinstatement of currency controls, and an intensifying UK Brexit crisis (a law forcing Johnson to seek an extension, a rejected snap-election motion, and a court ruling that his prorogation of Parliament was unlawful). No single Day 14 item stands out as decisive, but the cumulative buildup of these threads across the window is consistent with a broad increase in risk-off sentiment.\", \"mechanism\": \"Weak manufacturing data raises recession fears and prompts de-risking in equities and rates, while unresolved Brexit legal/political battles and emerging-market currency intervention (Argentina) add policy uncertainty that typically widens FX, rates, and equity volatility as investors hedge against multiple simultaneous tail risks.\", \"claims\": [{\"claim\": \"US manufacturing activity declined in the month, the first such decline in three years, per ISM data.\", \"item_ids\": [\"8a6bf5f0402af658\"]}, {\"claim\": \"Argentina reinstated currency controls via an emergency decree.\", \"item_ids\": [\"9e408e121b96cec3\"]}, {\"claim\": \"The UK House of Commons passed a bill compelling the Prime Minister to seek a Brexit extension rather than leave without a deal.\", \"item_ids\": [\"bd8b61b32f1be73e\"]}, {\"claim\": \"The House of Commons separately rejected Johnson's motion to hold a snap general election, deepening political deadlock.\", \"item_ids\": [\"5e8c9a0acb72dd78\"]}, {\"claim\": \"Scotland's Court of Session ruled that Johnson's suspension of Parliament was unlawful.\", \"item_ids\": [\"687c0d68867f4f5a\"]}, {\"claim\": \"A Parisian general strike over pension reform shut down parts of the metro system on Day 14.\", \"item_ids\": [\"168f6ed31981f3cc\"]}], \"primary_item_ids\": [\"8a6bf5f0402af658\", \"9e408e121b96cec3\", \"bd8b61b32f1be73e\"], \"competing_explanation\": \"The volatility could instead be driven primarily by the sustained, high-profile Brexit political crisis alone (parliamentary defeats, unlawful-prorogation ruling, Speaker's resignation), which recurs across nearly every day of the window and has a clearer direct channel into GBP and UK equity/rate volatility than the more scattered macro and EM items.\", \"insufficient_evidence_reason\": \"\"}"
+}

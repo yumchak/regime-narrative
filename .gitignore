@@ -2,7 +2,11 @@
 __pycache__/
 *.pyc
 .pytest_cache/
-data/cache/
+# The cache is COMMITTED on purpose: it makes the repository self-contained, so
+# a clone reproduces every figure and renders the hosted demo instantly without
+# an API key. ~15 MB. Verified to contain no credentials.
+# Only a user's own saved runs stay out.
+data/cache/runs/
 outputs/dry_run/
 outputs/_*.txt
 outputs/_*.json

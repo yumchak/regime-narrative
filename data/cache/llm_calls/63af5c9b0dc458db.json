@@ -1,0 +1,21 @@
+{
+  "call_id": "63af5c9b0dc458db",
+  "timestamp_utc": "2026-08-22T07:45:44.730931+00:00",
+  "window_id": "placebo_2016-09-02",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2016-09-02",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "70c9cdf634b7dc12",
+  "n_items_in_window": 76,
+  "input_chars": 14661,
+  "usage": {
+    "input_tokens": 7698,
+    "output_tokens": 2824
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"Two developments stand out as plausible sources of a shift in market conditions: the EU's order that Apple pay up to \u20ac13 billion in back taxes to Ireland, and the death of longtime Uzbek President Islam Karimov on the flagged day itself. The Apple ruling raised broad questions about multinational tax exposure and EU-US regulatory friction, while Karimov's death after 27 years in power introduced sudden political uncertainty in a strategically located, resource-relevant Central Asian state.\", \"mechanism\": \"A multi-billion-euro tax ruling against a major multinational creates uncertainty about corporate tax liabilities and EU-US relations, which can move equity and currency markets broadly; a sudden leadership vacuum in an authoritarian state raises geopolitical risk premia that can spill into regional and commodity markets, both of which are channels through which volatility in price/vol-only data could register.\", \"claims\": [{\"claim\": \"The EU ordered Apple to pay up to 13 billion euros in back taxes to Ireland after a three-year investigation concluded Ireland gave Apple illegal state aid.\", \"item_ids\": [\"36f36fd0ed9695db\"]}, {\"claim\": \"President Islam Karimov of Uzbekistan died after 27 years in office.\", \"item_ids\": [\"c2254b5f7d5ed342\"]}, {\"claim\": \"A hurricane watch and state of emergency were declared in Florida ahead of Hurricane Hermine's expected landfall.\", \"item_ids\": [\"eda4f2af403a62e7\"]}, {\"claim\": \"Numerous armed conflict and terrorism items occurred throughout the window, including bombings in Turkey, Yemen, and Somalia, and clashes in the Philippines and Afghanistan.\", \"item_ids\": [\"3e6a003e34feb254\", \"a992a510cecf3e75\", \"e05000229076f96d\", \"3c796833539fa94b\"]}], \"primary_item_ids\": [\"c2254b5f7d5ed342\", \"36f36fd0ed9695db\", \"eda4f2af403a62e7\"], \"competing_explanation\": \"The window also contains a dense cluster of unrelated geopolitical and terrorism items (Turkey-PKK violence, ISIL-linked bombings in Yemen and Aden, the Aleppo ISIL leader's reported death, and North Korea's nuclear threats) that collectively could have elevated a generalized geopolitical risk premium without any single event being the clear driver, making it hard to isolate one causal story from the news alone.\", \"insufficient_evidence_reason\": \"\"}"
+}

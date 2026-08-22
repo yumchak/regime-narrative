@@ -1,0 +1,21 @@
+{
+  "call_id": "8d48d54d2d43c00e",
+  "timestamp_utc": "2026-08-22T07:53:35.488909+00:00",
+  "window_id": "placebo_2022-01-11",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2022-01-11",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "1bf92a2f884e2825",
+  "n_items_in_window": 125,
+  "input_chars": 22749,
+  "usage": {
+    "input_tokens": 10911,
+    "output_tokens": 1800
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"The window contains a rapidly escalating political and security crisis in Kazakhstan, moving from an appeal for military assistance through violent clashes with mass casualties to a shoot-to-kill order against protesters, alongside a separate collapse in Chinese property-sector confidence signaled by Evergrande's trading suspension. Either or both of these discrete shocks, layered on top of a continuing but already well-known Omicron wave, are plausible candidates for a shift in market volatility.\", \"mechanism\": \"Kazakhstan is a significant producer of oil and uranium and a CSTO/Russian sphere-of-influence state; a violent uprising, foreign troop deployment, and shoot-to-kill orders create tail-risk for regional energy and commodity supply chains and geopolitical stability, which can spike volatility in commodity and related equity markets. Separately, Evergrande's forced trading suspension ahead of restructuring signals renewed stress in Chinese property credit markets, which can transmit into broader risk-asset volatility given the sector's systemic weight.\", \"claims\": [{\"claim\": \"Kazakhstan's president requested military assistance from the CSTO, describing 'terrorist gangs' overrunning strategic facilities.\", \"item_ids\": [\"0f353c620ac7cc65\"]}, {\"claim\": \"Protesters set fire to the presidential residence and offices of the Almaty akim, and explosions/heavy gunfire were reported near Almaty's Republic Square.\", \"item_ids\": [\"64eba086c785f94e\", \"c1eccd4547e6d00e\"]}, {\"claim\": \"Kazakh security forces killed 26 anti-government protesters in a military operation, with two officers reportedly beheaded, and the president issued a shoot-to-kill-without-warning order.\", \"item_ids\": [\"e8a28854e6893954\", \"f6f52ebf33420594\"]}, {\"claim\": \"The death toll from the Kazakhstan protests rose to 164, with over 5,000 people detained.\", \"item_ids\": [\"91426c80b2b7b286\"]}, {\"claim\": \"Chinese property developer Evergrande Group suspended trading of its shares ahead of a planned restructuring.\", \"item_ids\": [\"14140e66415bcad6\"]}, {\"claim\": \"China announced mandatory cybersecurity reviews for companies with over one million users before they can list on foreign exchanges.\", \"item_ids\": [\"700a08b63c01ac3f\"]}], \"primary_item_ids\": [\"f6f52ebf33420594\", \"91426c80b2b7b286\", \"14140e66415bcad6\"], \"competing_explanation\": \"The dominant and most voluminous theme across the entire 14-day window is the global Omicron COVID-19 surge (record case counts in the UK, France, Australia, Greece, and elsewhere, plus new restrictions and vaccine-booster policies); this steady drumbeat, rather than any single discrete event, could itself be what the statistical model is picking up as a regime change in volatility, especially if markets were repricing growth/labor-supply disruption risk from Omicron rather than reacting to Kazakhstan or Evergrande specifically.\", \"insufficient_evidence_reason\": \"\"}"
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "6ad423bdb7d6e819",
+  "timestamp_utc": "2026-08-22T05:25:56.159341+00:00",
+  "window_id": "placebo_2015-09-11",
+  "kind": "placebo",
+  "run_label": "retest",
+  "boundary_date": "2015-09-11",
+  "model": "claude-opus-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "630354b9b8496b4e",
+  "n_items_in_window": 94,
+  "input_chars": 19930,
+  "usage": {
+    "input_tokens": 9622,
+    "output_tokens": 1852
+  },
+  "response_text": "{\"driver_identified\":false,\"confidence\":\"none\",\"summary\":\"\",\"mechanism\":\"\",\"claims\":[{\"claim\":\"The only items with direct financial-market content are small corporate or sectoral events: a $765 million divestiture of a food brand, a limited vehicle recall, an Indian patent office rejection of a pharmaceutical patent, a German airline pilots' strike that was then enjoined by a court, and criminal charges against the head of a defunct cryptocurrency exchange.\",\"item_ids\":[\"65f1d331b97e5c3b\",\"c345c1a0bf34f235\",\"b0ed327f8e111c3f\",\"b8098edc4e030412\",\"720b256cc0497237\",\"1159af95a63b8dca\"]},{\"claim\":\"The most macro-relevant thread is the Iran nuclear agreement: support to sustain a veto was already reported mid-window, and the Senate then failed to pass a resolution blocking the deal, meaning formal adoption.\",\"item_ids\":[\"a2b46e554f8f7a3b\",\"0a14cf2d4544216d\"]},{\"claim\":\"A large volume of items concern the European migration situation, including arrivals in Munich and Vienna, national intake pledges, a Hungarian ministerial resignation and temporary Danish rail closures, but none describe fiscal, monetary or trade consequences.\",\"item_ids\":[\"3a9c84a7376ec8e4\",\"bfe7b4e0c92216e0\",\"1c87d821de6b444b\",\"27bd55cb31ac82ad\",\"0e88ea134e330fe4\",\"a7a85b6b6db5d609\"]},{\"claim\":\"Conflict-related items are numerous but geographically dispersed and involve no reported disruption to energy infrastructure, shipping or commodity supply.\",\"item_ids\":[\"2f9f309a79c8d391\",\"cc9a3e403b05f14e\",\"1e63d4a79bb77239\",\"62de6e8ae235f259\",\"eec9d7a38d541283\"]},{\"claim\":\"Day 14 itself contains only local crime, disaster, election and conflict items with no evident cross-border financial linkage.\",\"item_ids\":[\"33822b5d02522a1d\",\"274f0dec174f9aab\",\"5ad9d5d4dcef1279\",\"f5a84256b57f1996\",\"d98aa0ad7c23828f\"]}],\"primary_item_ids\":[],\"competing_explanation\":\"The strongest candidate, if one insists on naming one, is the formal clearing of the last legislative obstacle to the Iran nuclear agreement, which was reported first as a vote-count expectation and then as an actual failed blocking resolution; an anticipated return of sanctioned crude supply is a recognised channel into energy-price and energy-equity volatility. The case is weak here because the outcome was already flagged as effectively decided more than a week earlier in the same window, so the confirming item carried little new information. A second, weaker candidate is the cumulative escalation of the European migration situation, including a defence minister's resignation and temporary suspension of cross-border rail links, which could be read as a signal of stress on intra-European free movement, but no item connects it to any financial or policy variable.\",\"insufficient_evidence_reason\":\"The window is dominated by conflict, humanitarian, disaster, crime and domestic-political reporting with no item describing a central bank action, a macroeconomic data release, a sovereign or banking stress event, a major index or currency move, a commodity supply disruption, or a shock to a systemically important firm. The few business items are small in scale and idiosyncratic, and the one arguably macro-relevant development (adoption of the Iran agreement) had been telegraphed earlier in the same window. Nothing here plausibly accounts for a regime change in price and volatility behaviour on the final day; the flag is more consistent with noise or with a driver outside the supplied items.\"}"
+}

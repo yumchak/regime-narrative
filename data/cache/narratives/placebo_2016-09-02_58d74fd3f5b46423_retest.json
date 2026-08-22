@@ -1,0 +1,70 @@
+{
+  "window_id": "placebo_2016-09-02",
+  "kind": "placebo",
+  "boundary_date": "2016-09-02",
+  "driver_identified": false,
+  "confidence": "none",
+  "summary": "",
+  "mechanism": "",
+  "claims": [
+    {
+      "claim": "The only item in the window describing a large, quantified financial event is the European Union's order that Apple pay up to 13 billion euros (about $14.5 billion) plus interest in back taxes to Ireland, following a three-year state aid investigation.",
+      "item_ids": [
+        "36f36fd0ed9695db"
+      ]
+    },
+    {
+      "claim": "The only macroeconomic data point in the window is a report that new U.S. single-family home sales unexpectedly rose to their highest level in nearly nine years.",
+      "item_ids": [
+        "2c6f64225232488f"
+      ]
+    },
+    {
+      "claim": "The items dated to the flagged day concern the announced signing of a Colombia\u2013FARC peace deal, a militant attack on Christian areas in Khyber Pakhtunkhwa, and the death of Uzbek President Islam Karimov after 27 years in office \u2014 none of which is described in the items as having financial or market consequences.",
+      "item_ids": [
+        "65646a9fe103c93f",
+        "961a64bc5b508f14",
+        "c2254b5f7d5ed342"
+      ]
+    },
+    {
+      "claim": "The remainder of the window is dominated by geopolitically localised violence, natural disasters and public health items: bombings in Turkey, a Turkish incursion at Jarabulus, attacks in Kabul, Aden, Mogadishu and Kyrgyzstan, earthquakes in Italy and off New Zealand, hurricanes approaching Hawaii and Florida, and Zika cases in Hong Kong, Singapore and Malaysia.",
+      "item_ids": [
+        "eb72815018529a27",
+        "39d608660ed4bb35",
+        "c2dfbcae3766c84f",
+        "a992a510cecf3e75",
+        "e05000229076f96d",
+        "500f89cca73009af",
+        "1a1562acf4bd7ba7",
+        "45378afd35ea16d4",
+        "1cd128233154f72d",
+        "eda4f2af403a62e7",
+        "94059291efd97ded",
+        "35c191a78cf37c55",
+        "af46f3d0078dbf58"
+      ]
+    },
+    {
+      "claim": "Policy and political items in the window \u2014 a Philippine anti-drug crackdown and mining closures, North Korean threats over joint military drills, Japanese defence spending plans, and a U.S. presidential nominee's meeting with the Mexican president \u2014 are reported without any accompanying market or asset-price detail.",
+      "item_ids": [
+        "dd89361cc0dff88f",
+        "23806b0012f5df21",
+        "605e1fe6793c8cea",
+        "5265cd762199cee2",
+        "78fd9c15b86bb0a2"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "36f36fd0ed9695db",
+    "2c6f64225232488f",
+    "c2254b5f7d5ed342"
+  ],
+  "competing_explanation": "The strongest alternative reading is that the EU's 13-billion-euro Apple tax order (Day 11) drove the change: it is a very large, quantified liability against a single very large listed company and raises cross-border tax and EU\u2013U.S. policy uncertainty, which could transmit into index and sector volatility with a short lag. Against this: it is a single-firm regulatory ruling three days before the flag, the item gives no market reaction, and nothing else in the window corroborates a broad repricing. A weaker alternative is a geopolitical risk narrative built from the Uzbek presidential succession and the Turkish/Syrian escalation, but the items supply no financial channel for either.",
+  "insufficient_evidence_reason": "The window contains almost no items of direct, broad market significance and none on or immediately before the flagged day. The two business/economy items point in opposite and both narrow directions \u2014 a firm-specific EU tax order and a single upbeat U.S. housing print \u2014 and neither is reported with any accompanying price, rate, currency or index reaction. There is no central bank decision, no macro shock, no sovereign or banking stress, and no commodity or trade disruption described. The bulk of the coverage is regionally contained violence, natural disasters, sport and public health, which routinely fill an ordinary fortnight without shifting a volatility regime. On this evidence the flag is at least as consistent with noise as with any identifiable news driver.",
+  "raw_response": "{\"driver_identified\":false,\"confidence\":\"none\",\"summary\":\"\",\"mechanism\":\"\",\"claims\":[{\"claim\":\"The only item in the window describing a large, quantified financial event is the European Union's order that Apple pay up to 13 billion euros (about $14.5 billion) plus interest in back taxes to Ireland, following a three-year state aid investigation.\",\"item_ids\":[\"36f36fd0ed9695db\"]},{\"claim\":\"The only macroeconomic data point in the window is a report that new U.S. single-family home sales unexpectedly rose to their highest level in nearly nine years.\",\"item_ids\":[\"2c6f64225232488f\"]},{\"claim\":\"The items dated to the flagged day concern the announced signing of a Colombia\u2013FARC peace deal, a militant attack on Christian areas in Khyber Pakhtunkhwa, and the death of Uzbek President Islam Karimov after 27 years in office \u2014 none of which is described in the items as having financial or market consequences.\",\"item_ids\":[\"65646a9fe103c93f\",\"961a64bc5b508f14\",\"c2254b5f7d5ed342\"]},{\"claim\":\"The remainder of the window is dominated by geopolitically localised violence, natural disasters and public health items: bombings in Turkey, a Turkish incursion at Jarabulus, attacks in Kabul, Aden, Mogadishu and Kyrgyzstan, earthquakes in Italy and off New Zealand, hurricanes approaching Hawaii and Florida, and Zika cases in Hong Kong, Singapore and Malaysia.\",\"item_ids\":[\"eb72815018529a27\",\"39d608660ed4bb35\",\"c2dfbcae3766c84f\",\"a992a510cecf3e75\",\"e05000229076f96d\",\"500f89cca73009af\",\"1a1562acf4bd7ba7\",\"45378afd35ea16d4\",\"1cd128233154f72d\",\"eda4f2af403a62e7\",\"94059291efd97ded\",\"35c191a78cf37c55\",\"af46f3d0078dbf58\"]},{\"claim\":\"Policy and political items in the window \u2014 a Philippine anti-drug crackdown and mining closures, North Korean threats over joint military drills, Japanese defence spending plans, and a U.S. presidential nominee's meeting with the Mexican president \u2014 are reported without any accompanying market or asset-price detail.\",\"item_ids\":[\"dd89361cc0dff88f\",\"23806b0012f5df21\",\"605e1fe6793c8cea\",\"5265cd762199cee2\",\"78fd9c15b86bb0a2\"]}],\"primary_item_ids\":[\"36f36fd0ed9695db\",\"2c6f64225232488f\",\"c2254b5f7d5ed342\"],\"competing_explanation\":\"The strongest alternative reading is that the EU's 13-billion-euro Apple tax order (Day 11) drove the change: it is a very large, quantified liability against a single very large listed company and raises cross-border tax and EU\u2013U.S. policy uncertainty, which could transmit into index and sector volatility with a short lag. Against this: it is a single-firm regulatory ruling three days before the flag, the item gives no market reaction, and nothing else in the window corroborates a broad repricing. A weaker alternative is a geopolitical risk narrative built from the Uzbek presidential succession and the Turkish/Syrian escalation, but the items supply no financial channel for either.\",\"insufficient_evidence_reason\":\"The window contains almost no items of direct, broad market significance and none on or immediately before the flagged day. The two business/economy items point in opposite and both narrow directions \u2014 a firm-specific EU tax order and a single upbeat U.S. housing print \u2014 and neither is reported with any accompanying price, rate, currency or index reaction. There is no central bank decision, no macro shock, no sovereign or banking stress, and no commodity or trade disruption described. The bulk of the coverage is regionally contained violence, natural disasters, sport and public health, which routinely fill an ordinary fortnight without shifting a volatility regime. On this evidence the flag is at least as consistent with noise as with any identifiable news driver.\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "061dd9b1f15dbe69"
+}

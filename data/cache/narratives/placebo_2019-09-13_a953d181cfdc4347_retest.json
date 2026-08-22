@@ -1,0 +1,75 @@
+{
+  "window_id": "placebo_2019-09-13",
+  "kind": "placebo",
+  "boundary_date": "2019-09-13",
+  "driver_identified": false,
+  "confidence": "none",
+  "summary": "",
+  "mechanism": "",
+  "claims": [
+    {
+      "claim": "The three items dated to the flag day are a Paris metro strike over pension reform, U.S. Treasury cyber sanctions on the Lazarus Group and affiliates, and a jail sentence in a college admissions bribery case \u2014 none of which is of a scale normally associated with a market-wide shift in conditions.",
+      "item_ids": [
+        "168f6ed31981f3cc",
+        "8da0b7197d70e7ad",
+        "b7b020fdd728ac9e"
+      ]
+    },
+    {
+      "claim": "The clearest macro-financial items in the window fall early: Argentina reinstated currency controls by emergency decree, and U.S. manufacturing activity was reported to have contracted for the first time in three years.",
+      "item_ids": [
+        "9e408e121b96cec3",
+        "8a6bf5f0402af658"
+      ]
+    },
+    {
+      "claim": "A sustained political-risk thread runs through the window around a possible no-deal EU exit by the UK: warnings of expulsions over a snap election, loss of the governing majority through a defection, parliamentary approval of a bill to force an extension request, rejection of an early election motion, a ministerial resignation, a statement that an extension would not be granted under current conditions, a court ruling that the parliamentary suspension was unlawful, and publication of no-deal contingency plans.",
+      "item_ids": [
+        "7e6f4c8532263dd4",
+        "3f36773aaa37fb4b",
+        "bd8b61b32f1be73e",
+        "5e8c9a0acb72dd78",
+        "9a9fddfa7a679ffe",
+        "7544c555060e35de",
+        "687c0d68867f4f5a",
+        "df8633c5d2aeed39"
+      ]
+    },
+    {
+      "claim": "Severe weather features prominently but is concentrated in the first half of the window, with a hurricane causing deaths in the Bahamas and power outages in the U.S. southeast, and typhoons affecting South Korea and Tokyo.",
+      "item_ids": [
+        "bae0ea011dc0b2b0",
+        "fd0185756f2c0d5b",
+        "b07ab95f0fa9d1ca",
+        "cca20aa56f1faeff",
+        "a1477d46e600abbe"
+      ]
+    },
+    {
+      "claim": "Energy-related items in the window are limited to a planned sovereign oil hedging programme and a dispute over a tanker carrying Iranian oil, neither of which describes a supply disruption.",
+      "item_ids": [
+        "2d09e8da597305cb",
+        "d67693989acd62a6"
+      ]
+    },
+    {
+      "claim": "Other potentially risk-relevant items \u2014 Hong Kong's withdrawal of the extradition bill, a proposal to annex parts of the West Bank, and Venezuelan troop exercises on the Colombian border \u2014 are localised political developments without described financial consequences.",
+      "item_ids": [
+        "1d897326161fe01a",
+        "760d58a915cf4f64",
+        "9372d4b4ef3b9664"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "168f6ed31981f3cc",
+    "8da0b7197d70e7ad",
+    "b7b020fdd728ac9e"
+  ],
+  "competing_explanation": "The most defensible alternative is a slow-building macro/political-risk story rather than a discrete shock: a contraction in U.S. manufacturing early in the window, capital controls reimposed in Argentina, and an escalating constitutional and legislative fight over a possible no-deal EU exit that intensifies late in the window with an adverse court ruling and the release of no-deal contingency plans. That combination could plausibly raise volatility, but it is diffuse, largely front-loaded or continuous, and does not correspond to a change concentrated on the final day; the items dated to the flag day themselves carry no such weight.",
+  "insufficient_evidence_reason": "Nothing in the items dated on or immediately before the flag day describes an event of the scale required to shift market conditions. The final-day items are a localised transport strike, a targeted cyber-sanctions designation, and a criminal sentencing. The genuinely market-relevant items (currency controls, a manufacturing contraction print, hurricane damage) appear in the first half of the window and would have been priced well before the flag, while the Brexit thread is a continuous escalation rather than a discrete change at the close. Attributing the flag to any of these would require assuming a lag or a cumulative tipping point that the items do not support, so the honest reading is that these items do not account for a change at the end of the window.",
+  "raw_response": "{\"driver_identified\":false,\"confidence\":\"none\",\"summary\":\"\",\"mechanism\":\"\",\"claims\":[{\"claim\":\"The three items dated to the flag day are a Paris metro strike over pension reform, U.S. Treasury cyber sanctions on the Lazarus Group and affiliates, and a jail sentence in a college admissions bribery case \u2014 none of which is of a scale normally associated with a market-wide shift in conditions.\",\"item_ids\":[\"168f6ed31981f3cc\",\"8da0b7197d70e7ad\",\"b7b020fdd728ac9e\"]},{\"claim\":\"The clearest macro-financial items in the window fall early: Argentina reinstated currency controls by emergency decree, and U.S. manufacturing activity was reported to have contracted for the first time in three years.\",\"item_ids\":[\"9e408e121b96cec3\",\"8a6bf5f0402af658\"]},{\"claim\":\"A sustained political-risk thread runs through the window around a possible no-deal EU exit by the UK: warnings of expulsions over a snap election, loss of the governing majority through a defection, parliamentary approval of a bill to force an extension request, rejection of an early election motion, a ministerial resignation, a statement that an extension would not be granted under current conditions, a court ruling that the parliamentary suspension was unlawful, and publication of no-deal contingency plans.\",\"item_ids\":[\"7e6f4c8532263dd4\",\"3f36773aaa37fb4b\",\"bd8b61b32f1be73e\",\"5e8c9a0acb72dd78\",\"9a9fddfa7a679ffe\",\"7544c555060e35de\",\"687c0d68867f4f5a\",\"df8633c5d2aeed39\"]},{\"claim\":\"Severe weather features prominently but is concentrated in the first half of the window, with a hurricane causing deaths in the Bahamas and power outages in the U.S. southeast, and typhoons affecting South Korea and Tokyo.\",\"item_ids\":[\"bae0ea011dc0b2b0\",\"fd0185756f2c0d5b\",\"b07ab95f0fa9d1ca\",\"cca20aa56f1faeff\",\"a1477d46e600abbe\"]},{\"claim\":\"Energy-related items in the window are limited to a planned sovereign oil hedging programme and a dispute over a tanker carrying Iranian oil, neither of which describes a supply disruption.\",\"item_ids\":[\"2d09e8da597305cb\",\"d67693989acd62a6\"]},{\"claim\":\"Other potentially risk-relevant items \u2014 Hong Kong's withdrawal of the extradition bill, a proposal to annex parts of the West Bank, and Venezuelan troop exercises on the Colombian border \u2014 are localised political developments without described financial consequences.\",\"item_ids\":[\"1d897326161fe01a\",\"760d58a915cf4f64\",\"9372d4b4ef3b9664\"]}],\"primary_item_ids\":[\"168f6ed31981f3cc\",\"8da0b7197d70e7ad\",\"b7b020fdd728ac9e\"],\"competing_explanation\":\"The most defensible alternative is a slow-building macro/political-risk story rather than a discrete shock: a contraction in U.S. manufacturing early in the window, capital controls reimposed in Argentina, and an escalating constitutional and legislative fight over a possible no-deal EU exit that intensifies late in the window with an adverse court ruling and the release of no-deal contingency plans. That combination could plausibly raise volatility, but it is diffuse, largely front-loaded or continuous, and does not correspond to a change concentrated on the final day; the items dated to the flag day themselves carry no such weight.\",\"insufficient_evidence_reason\":\"Nothing in the items dated on or immediately before the flag day describes an event of the scale required to shift market conditions. The final-day items are a localised transport strike, a targeted cyber-sanctions designation, and a criminal sentencing. The genuinely market-relevant items (currency controls, a manufacturing contraction print, hurricane damage) appear in the first half of the window and would have been priced well before the flag, while the Brexit thread is a continuous escalation rather than a discrete change at the close. Attributing the flag to any of these would require assuming a lag or a cumulative tipping point that the items do not support, so the honest reading is that these items do not account for a change at the end of the window.\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "c37ac06c5bc81a05"
+}

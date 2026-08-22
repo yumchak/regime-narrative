@@ -1,0 +1,73 @@
+{
+  "window_id": "placebo_2025-12-11",
+  "kind": "placebo",
+  "boundary_date": "2025-12-11",
+  "driver_identified": true,
+  "confidence": "low",
+  "summary": "The clearest candidate close to the flag date is the escalation of the Thailand\u2013Cambodia border conflict from skirmishing into overt interstate hostilities: Thai F-16 airstrikes on Cambodian targets and Cambodian shelling of Thai territory on Day 11, followed by heightened security at a regional games opening on Day 12 and Cambodia's full withdrawal of its delegation on Day 13. Secondary candidates earlier in the window are the $72bn Netflix\u2013Warner Bros. Discovery takeover (Day 8) and the worldwide emergency Airbus A320 software fix affecting roughly 6,000 aircraft with major travel disruption (Day 1). None of these is an unambiguous macro shock, and nothing dated Day 14 itself is of obvious market weight, so the case for a genuine regime change is weak.",
+  "mechanism": "Open air and artillery exchanges between two neighbouring states, with a diplomatic rupture visible by Day 13, raise regional risk premia and can transmit into currency, equity and freight/insurance pricing; separately, a very large media-sector takeover and a fleet-wide aircraft software grounding are sector-level repricing events that can lift realised volatility.",
+  "claims": [
+    {
+      "claim": "Thai F-16 jets struck Cambodian military targets in Oddar Meanchey and Preah Vihear, killing four Cambodian civilians and wounding ten.",
+      "item_ids": [
+        "cd53c9674a277bba"
+      ]
+    },
+    {
+      "claim": "Cambodian shelling of Thailand's Ubon Ratchathani province killed a Thai soldier and injured eight others on the same day.",
+      "item_ids": [
+        "e9fec1071bd977b0"
+      ]
+    },
+    {
+      "claim": "The conflict spilled into non-military spheres: the regional games opened in Bangkok under heightened security for Cambodian participants, and Cambodia then withdrew its entire delegation citing security concerns.",
+      "item_ids": [
+        "00eff1f38b82eea2",
+        "781aebb9b8431e53"
+      ]
+    },
+    {
+      "claim": "Netflix agreed to acquire Warner Bros. Discovery for US$72 billion, described as one of the largest entertainment-industry takeovers.",
+      "item_ids": [
+        "71a81ef32b892fb0"
+      ]
+    },
+    {
+      "claim": "Airbus issued an emergency software update for about 6,000 A320 aircraft worldwide, causing major travel disruption.",
+      "item_ids": [
+        "92c22ae1a54b63a4"
+      ]
+    },
+    {
+      "claim": "Two sanctioned tankers described as part of a Russian shadow fleet were hit by explosions in the Bosporus, with at least one catching fire.",
+      "item_ids": [
+        "e60bc838eca84301"
+      ]
+    },
+    {
+      "claim": "On the flag day itself, the reported events were a Bulgarian government resignation after protests over economic policy and corruption, and the election of a new Eurogroup president.",
+      "item_ids": [
+        "1ae1bd3b6d821f50",
+        "7def473d6adb9f84"
+      ]
+    },
+    {
+      "claim": "Russia said its forces captured Pokrovsk, and the head of Ukraine's presidential office resigned after an anti-corruption raid.",
+      "item_ids": [
+        "73b905516963c676",
+        "7b157459d078c685"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "cd53c9674a277bba",
+    "e9fec1071bd977b0",
+    "71a81ef32b892fb0"
+  ],
+  "competing_explanation": "The window may simply contain no market driver at all: the overwhelming majority of items are humanitarian disasters, local crime, sport and national politics with no cross-asset relevance, and the two items dated on the flag day (a Bulgarian cabinet resignation and a Eurogroup leadership election) are minor. On that reading the model flagged noise, and the Thailand\u2013Cambodia escalation, the media megadeal and the Airbus fix are coincidental sector or regional stories rather than the cause of any regime change.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"low\",\"summary\":\"The clearest candidate close to the flag date is the escalation of the Thailand\u2013Cambodia border conflict from skirmishing into overt interstate hostilities: Thai F-16 airstrikes on Cambodian targets and Cambodian shelling of Thai territory on Day 11, followed by heightened security at a regional games opening on Day 12 and Cambodia's full withdrawal of its delegation on Day 13. Secondary candidates earlier in the window are the $72bn Netflix\u2013Warner Bros. Discovery takeover (Day 8) and the worldwide emergency Airbus A320 software fix affecting roughly 6,000 aircraft with major travel disruption (Day 1). None of these is an unambiguous macro shock, and nothing dated Day 14 itself is of obvious market weight, so the case for a genuine regime change is weak.\",\"mechanism\":\"Open air and artillery exchanges between two neighbouring states, with a diplomatic rupture visible by Day 13, raise regional risk premia and can transmit into currency, equity and freight/insurance pricing; separately, a very large media-sector takeover and a fleet-wide aircraft software grounding are sector-level repricing events that can lift realised volatility.\",\"claims\":[{\"claim\":\"Thai F-16 jets struck Cambodian military targets in Oddar Meanchey and Preah Vihear, killing four Cambodian civilians and wounding ten.\",\"item_ids\":[\"cd53c9674a277bba\"]},{\"claim\":\"Cambodian shelling of Thailand's Ubon Ratchathani province killed a Thai soldier and injured eight others on the same day.\",\"item_ids\":[\"e9fec1071bd977b0\"]},{\"claim\":\"The conflict spilled into non-military spheres: the regional games opened in Bangkok under heightened security for Cambodian participants, and Cambodia then withdrew its entire delegation citing security concerns.\",\"item_ids\":[\"00eff1f38b82eea2\",\"781aebb9b8431e53\"]},{\"claim\":\"Netflix agreed to acquire Warner Bros. Discovery for US$72 billion, described as one of the largest entertainment-industry takeovers.\",\"item_ids\":[\"71a81ef32b892fb0\"]},{\"claim\":\"Airbus issued an emergency software update for about 6,000 A320 aircraft worldwide, causing major travel disruption.\",\"item_ids\":[\"92c22ae1a54b63a4\"]},{\"claim\":\"Two sanctioned tankers described as part of a Russian shadow fleet were hit by explosions in the Bosporus, with at least one catching fire.\",\"item_ids\":[\"e60bc838eca84301\"]},{\"claim\":\"On the flag day itself, the reported events were a Bulgarian government resignation after protests over economic policy and corruption, and the election of a new Eurogroup president.\",\"item_ids\":[\"1ae1bd3b6d821f50\",\"7def473d6adb9f84\"]},{\"claim\":\"Russia said its forces captured Pokrovsk, and the head of Ukraine's presidential office resigned after an anti-corruption raid.\",\"item_ids\":[\"73b905516963c676\",\"7b157459d078c685\"]}],\"primary_item_ids\":[\"cd53c9674a277bba\",\"e9fec1071bd977b0\",\"71a81ef32b892fb0\"],\"competing_explanation\":\"The window may simply contain no market driver at all: the overwhelming majority of items are humanitarian disasters, local crime, sport and national politics with no cross-asset relevance, and the two items dated on the flag day (a Bulgarian cabinet resignation and a Eurogroup leadership election) are minor. On that reading the model flagged noise, and the Thailand\u2013Cambodia escalation, the media megadeal and the Airbus fix are coincidental sector or regional stories rather than the cause of any regime change.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "7e140b2115a91b88"
+}

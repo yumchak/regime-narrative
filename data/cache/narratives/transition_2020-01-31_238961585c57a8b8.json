@@ -1,0 +1,77 @@
+{
+  "window_id": "transition_2020-01-31",
+  "kind": "transition",
+  "boundary_date": "2020-01-31",
+  "driver_identified": true,
+  "confidence": "high",
+  "summary": "The window is dominated by the rapid escalation of a novel coronavirus outbreak originating in Wuhan, China: from a third reported death and 136 new cases early in the window to a full quarantine of Wuhan, an official leading group under the Chinese Premier, extension of the national holiday, a Hubei toll of 106 deaths with 1,291 new cases in a single day, and by the final days containment measures outside China (a cruise ship held in Italy, a quarantined repatriation flight of Americans). Secondary but real: closures of commercial activity (Shanghai Disney Resort) and border/travel restrictions (North Korea) signal economic disruption, and the European Parliament's ratification of the Brexit agreement on Day 12 adds a separate discrete political event.",
+  "mechanism": "An accelerating epidemic in the world's second-largest economy forces shutdowns of transport, travel and consumer activity, which repriced growth, demand and supply-chain expectations with high uncertainty about the eventual scale, and uncertainty of that kind is transmitted directly into higher realised and implied volatility.",
+  "claims": [
+    {
+      "claim": "Early in the window Chinese authorities reported a third coronavirus death, 136 new infections over a weekend, and confirmed spread from Wuhan to Shenzhen, Beijing and Hong Kong.",
+      "item_ids": [
+        "4924c6ba6af2fc81"
+      ]
+    },
+    {
+      "claim": "The entire city of Wuhan was quarantined, with all public transport suspended and no one permitted to leave, as the death toll reached 17.",
+      "item_ids": [
+        "c2a2ea5c906916f2"
+      ]
+    },
+    {
+      "claim": "North Korea banned foreign tourists and closed its border with China in response to the virus.",
+      "item_ids": [
+        "b231214a0c03f3db"
+      ]
+    },
+    {
+      "claim": "Commercial closures began, with Shanghai Disney Resort shutting temporarily ahead of the Lunar New Year.",
+      "item_ids": [
+        "09ef28cc16c488b5"
+      ]
+    },
+    {
+      "claim": "China established a national leading group under Premier Li Keqiang and extended the Spring Festival holiday to contain the outbreak.",
+      "item_ids": [
+        "97b948dd74be3431"
+      ]
+    },
+    {
+      "claim": "Hubei reported 1,291 new confirmed cases and 24 further deaths, taking the toll to 106.",
+      "item_ids": [
+        "35e045ccbb45a4fa"
+      ]
+    },
+    {
+      "claim": "China's president publicly addressed the World Health Organization about defeating the virus, indicating the outbreak had become an international health matter.",
+      "item_ids": [
+        "7c92c2a05f037f40"
+      ]
+    },
+    {
+      "claim": "Containment actions spread beyond China: over 6,000 passengers were barred from disembarking a cruise ship in Italy over two suspected cases, and a repatriation flight carrying 195 Americans from China was quarantined on the flagged day.",
+      "item_ids": [
+        "8ad78973d71b51ac",
+        "4dd503b4bee53542"
+      ]
+    },
+    {
+      "claim": "The European Parliament voted 621-49 to pass the Brexit agreement, marking the last day Britain was represented in that parliament.",
+      "item_ids": [
+        "86f5e7477b829179"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "c2a2ea5c906916f2",
+    "35e045ccbb45a4fa",
+    "4dd503b4bee53542"
+  ],
+  "competing_explanation": "The Brexit withdrawal agreement's ratification by the European Parliament on Day 12 is a discrete, scheduled political event with obvious relevance to sterling and European assets, and could account for a localised volatility shift. It is a weaker candidate because it was the ratification of an already-agreed deal rather than a surprise, whereas the epidemic news escalated unpredictably day by day and directly implicated economic activity in China. Other items \u2014 the US impeachment trial, the Middle East peace plan, Iraq unrest and the Syrian offensive in Idlib \u2014 are geopolitically notable but none of the supplied items link them to any market or commodity effect.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"high\",\"summary\":\"The window is dominated by the rapid escalation of a novel coronavirus outbreak originating in Wuhan, China: from a third reported death and 136 new cases early in the window to a full quarantine of Wuhan, an official leading group under the Chinese Premier, extension of the national holiday, a Hubei toll of 106 deaths with 1,291 new cases in a single day, and by the final days containment measures outside China (a cruise ship held in Italy, a quarantined repatriation flight of Americans). Secondary but real: closures of commercial activity (Shanghai Disney Resort) and border/travel restrictions (North Korea) signal economic disruption, and the European Parliament's ratification of the Brexit agreement on Day 12 adds a separate discrete political event.\",\"mechanism\":\"An accelerating epidemic in the world's second-largest economy forces shutdowns of transport, travel and consumer activity, which repriced growth, demand and supply-chain expectations with high uncertainty about the eventual scale, and uncertainty of that kind is transmitted directly into higher realised and implied volatility.\",\"claims\":[{\"claim\":\"Early in the window Chinese authorities reported a third coronavirus death, 136 new infections over a weekend, and confirmed spread from Wuhan to Shenzhen, Beijing and Hong Kong.\",\"item_ids\":[\"4924c6ba6af2fc81\"]},{\"claim\":\"The entire city of Wuhan was quarantined, with all public transport suspended and no one permitted to leave, as the death toll reached 17.\",\"item_ids\":[\"c2a2ea5c906916f2\"]},{\"claim\":\"North Korea banned foreign tourists and closed its border with China in response to the virus.\",\"item_ids\":[\"b231214a0c03f3db\"]},{\"claim\":\"Commercial closures began, with Shanghai Disney Resort shutting temporarily ahead of the Lunar New Year.\",\"item_ids\":[\"09ef28cc16c488b5\"]},{\"claim\":\"China established a national leading group under Premier Li Keqiang and extended the Spring Festival holiday to contain the outbreak.\",\"item_ids\":[\"97b948dd74be3431\"]},{\"claim\":\"Hubei reported 1,291 new confirmed cases and 24 further deaths, taking the toll to 106.\",\"item_ids\":[\"35e045ccbb45a4fa\"]},{\"claim\":\"China's president publicly addressed the World Health Organization about defeating the virus, indicating the outbreak had become an international health matter.\",\"item_ids\":[\"7c92c2a05f037f40\"]},{\"claim\":\"Containment actions spread beyond China: over 6,000 passengers were barred from disembarking a cruise ship in Italy over two suspected cases, and a repatriation flight carrying 195 Americans from China was quarantined on the flagged day.\",\"item_ids\":[\"8ad78973d71b51ac\",\"4dd503b4bee53542\"]},{\"claim\":\"The European Parliament voted 621-49 to pass the Brexit agreement, marking the last day Britain was represented in that parliament.\",\"item_ids\":[\"86f5e7477b829179\"]}],\"primary_item_ids\":[\"c2a2ea5c906916f2\",\"35e045ccbb45a4fa\",\"4dd503b4bee53542\"],\"competing_explanation\":\"The Brexit withdrawal agreement's ratification by the European Parliament on Day 12 is a discrete, scheduled political event with obvious relevance to sterling and European assets, and could account for a localised volatility shift. It is a weaker candidate because it was the ratification of an already-agreed deal rather than a surprise, whereas the epidemic news escalated unpredictably day by day and directly implicated economic activity in China. Other items \u2014 the US impeachment trial, the Middle East peace plan, Iraq unrest and the Syrian offensive in Idlib \u2014 are geopolitically notable but none of the supplied items link them to any market or commodity effect.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "3ad76a07d7e99f7f"
+}

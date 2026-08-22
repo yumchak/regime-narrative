@@ -1,0 +1,71 @@
+{
+  "window_id": "placebo_2020-04-22",
+  "kind": "placebo",
+  "boundary_date": "2020-04-22",
+  "driver_identified": false,
+  "confidence": "none",
+  "summary": "",
+  "mechanism": "",
+  "claims": [
+    {
+      "claim": "The final day of the window contains a single, contentless placeholder item about the pandemic in Asia, with no described event.",
+      "item_ids": [
+        "0c9b3de8cbfbf25f"
+      ]
+    },
+    {
+      "claim": "The penultimate day's items concern localised violence, an election round, a doctor's death, a national record daily death toll in Russia, and a U.S. state lawsuit against China \u2014 none of which are of evident scale for global asset pricing.",
+      "item_ids": [
+        "706dc9f3f38421ba",
+        "8c8bdf422cbb391c",
+        "31c1b858595bc666",
+        "ada3294cdbd70b39",
+        "bd0e9242d16bd583"
+      ]
+    },
+    {
+      "claim": "The only explicitly economic items in the window are a \u20ac540 billion EU loan package agreed by finance ministers, a regulatory approval for a foreign bank to take majority control of a Chinese securities firm, a Korean bank's $86 million settlement, and one carmaker resuming production \u2014 all early or mid-window and modest in scope.",
+      "item_ids": [
+        "6d19f9ea9f8701fd",
+        "dd38fb1ca0cf4ae6",
+        "b93b0c5e5cf6c922",
+        "587798d4c0e85618"
+      ]
+    },
+    {
+      "claim": "The dominant content of the window is a continuing public health emergency: record single-day death tolls in several countries, lockdown extensions, and case-count milestones, which are a persistent backdrop rather than a discrete late-window shock.",
+      "item_ids": [
+        "1855ffab5708e6d0",
+        "fe3cce978c1f2868",
+        "7e2646235d87aed9",
+        "c1422f5d79605ee9",
+        "8e12ef5cb6176ac6",
+        "546d529d7b01b0df"
+      ]
+    },
+    {
+      "claim": "Policy direction in the latter half of the window was mixed but tilted toward reopening rather than fresh restriction, with shops reopening in Germany alongside a warning about a second wave, and antibody testing announced ahead of a planned economic reopening in New York.",
+      "item_ids": [
+        "e3f03127f0527788",
+        "b304fb39d7ffe59a"
+      ]
+    },
+    {
+      "claim": "Geopolitical items late in the window include increased Iranian naval patrols in the Persian Gulf after a naval confrontation, but no accompanying commercial, shipping, or commodity consequence is described.",
+      "item_ids": [
+        "d5f066d3672fd562"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "0c9b3de8cbfbf25f",
+    "e3f03127f0527788",
+    "d5f066d3672fd562"
+  ],
+  "competing_explanation": "The least weak candidate is the reopening-versus-second-wave tension: Germany reopening shops while its chancellor warns of a second wave, and New York beginning antibody testing ahead of reopening, arriving alongside continued record daily death tolls elsewhere. A reader could argue that this juxtaposition marks a shift in the pandemic narrative from uniform shutdown to contested restart, which could re-price expectations for economic activity. But the items give no financial-market detail, no commodity or credit event, and the reopening news falls two days before the flag rather than on it, so this reading requires assumptions the items do not support. A second, weaker candidate is the Iranian announcement of increased Persian Gulf patrols following a naval confrontation, which in other circumstances could bear on energy risk premia; the item describes only rhetoric and patrols and no disruption.",
+  "insufficient_evidence_reason": "The flagged day carries a single placeholder item with no described event, and the two days preceding it contain only regional violence, a national daily-death record, an election round, and a state-level lawsuit \u2014 none plausibly of a magnitude to shift global volatility regimes. The window's genuinely large-scale content (pandemic death tolls, lockdowns, an EU loan package) is either continuous background present from Day 1 or concentrated early in the window, so it cannot explain a change localised at the close. The economic items present are small in scale and firm-specific. On the evidence supplied, the flag is more consistent with noise, or with a driver that simply is not represented in this item set, than with any identifiable event here.",
+  "raw_response": "{\"driver_identified\":false,\"confidence\":\"none\",\"summary\":\"\",\"mechanism\":\"\",\"claims\":[{\"claim\":\"The final day of the window contains a single, contentless placeholder item about the pandemic in Asia, with no described event.\",\"item_ids\":[\"0c9b3de8cbfbf25f\"]},{\"claim\":\"The penultimate day's items concern localised violence, an election round, a doctor's death, a national record daily death toll in Russia, and a U.S. state lawsuit against China \u2014 none of which are of evident scale for global asset pricing.\",\"item_ids\":[\"706dc9f3f38421ba\",\"8c8bdf422cbb391c\",\"31c1b858595bc666\",\"ada3294cdbd70b39\",\"bd0e9242d16bd583\"]},{\"claim\":\"The only explicitly economic items in the window are a \u20ac540 billion EU loan package agreed by finance ministers, a regulatory approval for a foreign bank to take majority control of a Chinese securities firm, a Korean bank's $86 million settlement, and one carmaker resuming production \u2014 all early or mid-window and modest in scope.\",\"item_ids\":[\"6d19f9ea9f8701fd\",\"dd38fb1ca0cf4ae6\",\"b93b0c5e5cf6c922\",\"587798d4c0e85618\"]},{\"claim\":\"The dominant content of the window is a continuing public health emergency: record single-day death tolls in several countries, lockdown extensions, and case-count milestones, which are a persistent backdrop rather than a discrete late-window shock.\",\"item_ids\":[\"1855ffab5708e6d0\",\"fe3cce978c1f2868\",\"7e2646235d87aed9\",\"c1422f5d79605ee9\",\"8e12ef5cb6176ac6\",\"546d529d7b01b0df\"]},{\"claim\":\"Policy direction in the latter half of the window was mixed but tilted toward reopening rather than fresh restriction, with shops reopening in Germany alongside a warning about a second wave, and antibody testing announced ahead of a planned economic reopening in New York.\",\"item_ids\":[\"e3f03127f0527788\",\"b304fb39d7ffe59a\"]},{\"claim\":\"Geopolitical items late in the window include increased Iranian naval patrols in the Persian Gulf after a naval confrontation, but no accompanying commercial, shipping, or commodity consequence is described.\",\"item_ids\":[\"d5f066d3672fd562\"]}],\"primary_item_ids\":[\"0c9b3de8cbfbf25f\",\"e3f03127f0527788\",\"d5f066d3672fd562\"],\"competing_explanation\":\"The least weak candidate is the reopening-versus-second-wave tension: Germany reopening shops while its chancellor warns of a second wave, and New York beginning antibody testing ahead of reopening, arriving alongside continued record daily death tolls elsewhere. A reader could argue that this juxtaposition marks a shift in the pandemic narrative from uniform shutdown to contested restart, which could re-price expectations for economic activity. But the items give no financial-market detail, no commodity or credit event, and the reopening news falls two days before the flag rather than on it, so this reading requires assumptions the items do not support. A second, weaker candidate is the Iranian announcement of increased Persian Gulf patrols following a naval confrontation, which in other circumstances could bear on energy risk premia; the item describes only rhetoric and patrols and no disruption.\",\"insufficient_evidence_reason\":\"The flagged day carries a single placeholder item with no described event, and the two days preceding it contain only regional violence, a national daily-death record, an election round, and a state-level lawsuit \u2014 none plausibly of a magnitude to shift global volatility regimes. The window's genuinely large-scale content (pandemic death tolls, lockdowns, an EU loan package) is either continuous background present from Day 1 or concentrated early in the window, so it cannot explain a change localised at the close. The economic items present are small in scale and firm-specific. On the evidence supplied, the flag is more consistent with noise, or with a driver that simply is not represented in this item set, than with any identifiable event here.\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "1b3623ccdf949ad2"
+}

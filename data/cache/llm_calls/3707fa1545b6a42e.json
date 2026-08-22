@@ -1,0 +1,21 @@
+{
+  "call_id": "3707fa1545b6a42e",
+  "timestamp_utc": "2026-08-22T07:56:16.450290+00:00",
+  "window_id": "placebo_2026-04-27",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2026-04-27",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "263593b65a1ba20f",
+  "n_items_in_window": 125,
+  "input_chars": 23875,
+  "usage": {
+    "input_tokens": 11275,
+    "output_tokens": 2719
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"Throughout the fourteen-day window, an ongoing Iran war and associated Strait of Hormuz crisis dominates the news flow, producing repeated oil-price swings, tanker attacks, shipping disruptions, refinery fires, and LNG supply damage estimates. This sustained geopolitical and energy-supply stress, combined with fragile ceasefire and negotiation news between Iran, the U.S., Israel and Lebanon, is the most plausible source of elevated volatility across the period, though no single sharp catalyst appears on Day 14 itself.\", \"mechanism\": \"Repeated shocks to oil and gas supply (Strait of Hormuz closures/reopenings, tanker attacks, refinery fires, LNG facility damage) combined with on-again/off-again ceasefire and negotiation news create large swings in energy prices and risk sentiment, which transmit into elevated equity and commodity volatility as markets reprice geopolitical risk day to day.\", \"claims\": [{\"claim\": \"Oil prices fell sharply early in the window amid hopes of reduced Middle East tensions, with WTI down 6.2% and Brent down 3.77%.\", \"item_ids\": [\"eb5fb3862f05a549\"]}, {\"claim\": \"The Strait of Hormuz crisis caused fuel shortages, forced Pakistan to impose power outages, and disrupted shipping routes, with tankers and cruise ships only gradually resuming transit.\", \"item_ids\": [\"2af0643a83029c97\", \"0419093683b8474d\", \"8673543c44756c26\", \"1c12fd9c8b37ddb3\"]}, {\"claim\": \"A tanker was reportedly attacked by Iranian gunboats in the strait, prompting India to summon Iran's ambassador.\", \"item_ids\": [\"c8552fabf46bc0a5\", \"e1b16c35aede0654\"]}, {\"claim\": \"The IEA estimated that damage to Qatari LNG facilities plus the Strait of Hormuz closure would cause a major, multi-year loss of global LNG supply.\", \"item_ids\": [\"45c9c177b45fa522\"]}, {\"claim\": \"Vitol's CEO estimated the war would cost between 600 million and one billion barrels of lost oil production.\", \"item_ids\": [\"f18e342c9a8b141e\"]}, {\"claim\": \"Iran-U.S. negotiations remained unresolved and contentious, with Iran denying it agreed to give up enriched uranium and threatening to reject talks while a naval blockade continued.\", \"item_ids\": [\"d51e1bf4c8936dc3\", \"82a408d60b415b22\", \"f9c79089047bb779\"]}, {\"claim\": \"Despite the crisis, some equity markets showed resilience or record highs, with the Nikkei surpassing 60,000 and Asia-Pacific markets trading cautiously mixed after a ceasefire extension.\", \"item_ids\": [\"45948a4c10779f85\", \"3e29d1f7fa894e82\"]}, {\"claim\": \"Germany announced a naval deployment including a minesweeper for a potential mission in the Strait of Hormuz, underscoring the ongoing military and shipping-security dimension of the crisis late in the window.\", \"item_ids\": [\"d21a44666182ce3b\"]}], \"primary_item_ids\": [\"eb5fb3862f05a549\", \"1c12fd9c8b37ddb3\", \"45c9c177b45fa522\"], \"competing_explanation\": \"Day 14 itself contains only minor, unrelated items (a Somali piracy hijacking and a Taiwanese trade-secrets court sentencing), so the flagged change may not correspond to any new event at all; it could instead reflect a delayed statistical reaction to the cumulative, gradually easing Strait of Hormuz crisis rather than a fresh shock on that specific day.\", \"insufficient_evidence_reason\": \"\"}"
+}

@@ -1,0 +1,74 @@
+{
+  "window_id": "placebo_2019-12-03",
+  "kind": "placebo",
+  "boundary_date": "2019-12-03",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The clearest market-relevant thread in the window is a sequence of US\u2013China escalations: the FCC formally designating Huawei and ZTE as national security risks and ordering their removal from carrier networks, Beijing publicly accusing Washington of being the \"world's biggest destabilizing factor\" at the G20, and then the US President signing the Hong Kong Human Rights and Democracy Act into law over explicit Chinese objection, which conditions US trade treatment of Hong Kong on its autonomy. A secondary, independent source of stress is the Middle East, where Iraqi protests turned lethal, the Iranian consulate in Najaf was burned, the Iraqi Prime Minister announced his resignation, and Saudi and Iranian officials exchanged direct threats.",
+  "mechanism": "Legislation and regulatory action that ties trade treatment to political conditions raises the perceived probability that ongoing US\u2013China negotiations break down, repricing tariff and supply-chain risk across equities and FX; simultaneous escalation and leadership collapse in a major oil-producing state adds a crude supply-risk premium.",
+  "claims": [
+    {
+      "claim": "The US FCC unanimously designated Huawei and ZTE as national security risks, barred them from the Universal Service Fund, and ordered national wireless carriers to remove their equipment from existing networks.",
+      "item_ids": [
+        "9a62e6b435cce0c0"
+      ]
+    },
+    {
+      "claim": "China's Foreign Minister publicly accused the United States at the G20 meeting of being the \"world's biggest destabilizing factor\" and of \"smearing China everywhere\".",
+      "item_ids": [
+        "7a88fbdfa51f26b0"
+      ]
+    },
+    {
+      "claim": "The US President signed the Hong Kong Human Rights and Democracy Act into law despite strong Chinese opposition; the law conditions US trade with Hong Kong on the territory retaining sufficient autonomy and bans export of crowd-control munitions to its police.",
+      "item_ids": [
+        "8dd75f067d65babd"
+      ]
+    },
+    {
+      "claim": "Iraqi protesters stormed and set fire to the Iranian Consulate General in Najaf.",
+      "item_ids": [
+        "861d5dc1eab81199"
+      ]
+    },
+    {
+      "claim": "Iraqi security forces killed dozens of protesters in Nasiriyah, Najaf and Baghdad in one of the deadliest days of the protest movement, and violence continued the following day.",
+      "item_ids": [
+        "7bce55760e9eb735",
+        "b716c953b0f638ec"
+      ]
+    },
+    {
+      "claim": "The Prime Minister of Iraq announced plans to offer his resignation to parliament in reaction to the protest movement.",
+      "item_ids": [
+        "34688b2385fb18ab"
+      ]
+    },
+    {
+      "claim": "Saudi Arabia's King blamed Iran for missile and drone attacks and said his country would not hesitate to defend itself, while the head of Iran's Revolutionary Guards delivered a televised \"we will destroy you\" threat aimed at Israel, Saudi Arabia and the United States.",
+      "item_ids": [
+        "2ecf627b36c76a59",
+        "d8b73dafb9969a1d"
+      ]
+    },
+    {
+      "claim": "Items dated on the flagged day itself concern a domestic vaccination travel restriction, a factory explosion in Khartoum, and the resignation of Finland's Prime Minister over handling of industrial strikes.",
+      "item_ids": [
+        "214ea6d069cbda0d",
+        "c37ce967c7a3078f",
+        "f0af39ee2f5d3095"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "8dd75f067d65babd",
+    "9a62e6b435cce0c0",
+    "34688b2385fb18ab"
+  ],
+  "competing_explanation": "The model may simply have flagged noise. Nothing on the final day is of evident market significance \u2014 a national vaccination campaign, an industrial explosion, and a small-economy caretaker government transition \u2014 and the US\u2013China and Iraq items sit five to eleven days before the flag, so the timing fit is imperfect. An alternative reading is that Middle East supply risk alone (consulate burning, mass casualties among protesters, the Iraqi premier's resignation, and explicit Saudi\u2013Iran threat exchanges) is the operative channel rather than trade policy.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The clearest market-relevant thread in the window is a sequence of US\u2013China escalations: the FCC formally designating Huawei and ZTE as national security risks and ordering their removal from carrier networks, Beijing publicly accusing Washington of being the \\\"world's biggest destabilizing factor\\\" at the G20, and then the US President signing the Hong Kong Human Rights and Democracy Act into law over explicit Chinese objection, which conditions US trade treatment of Hong Kong on its autonomy. A secondary, independent source of stress is the Middle East, where Iraqi protests turned lethal, the Iranian consulate in Najaf was burned, the Iraqi Prime Minister announced his resignation, and Saudi and Iranian officials exchanged direct threats.\",\"mechanism\":\"Legislation and regulatory action that ties trade treatment to political conditions raises the perceived probability that ongoing US\u2013China negotiations break down, repricing tariff and supply-chain risk across equities and FX; simultaneous escalation and leadership collapse in a major oil-producing state adds a crude supply-risk premium.\",\"claims\":[{\"claim\":\"The US FCC unanimously designated Huawei and ZTE as national security risks, barred them from the Universal Service Fund, and ordered national wireless carriers to remove their equipment from existing networks.\",\"item_ids\":[\"9a62e6b435cce0c0\"]},{\"claim\":\"China's Foreign Minister publicly accused the United States at the G20 meeting of being the \\\"world's biggest destabilizing factor\\\" and of \\\"smearing China everywhere\\\".\",\"item_ids\":[\"7a88fbdfa51f26b0\"]},{\"claim\":\"The US President signed the Hong Kong Human Rights and Democracy Act into law despite strong Chinese opposition; the law conditions US trade with Hong Kong on the territory retaining sufficient autonomy and bans export of crowd-control munitions to its police.\",\"item_ids\":[\"8dd75f067d65babd\"]},{\"claim\":\"Iraqi protesters stormed and set fire to the Iranian Consulate General in Najaf.\",\"item_ids\":[\"861d5dc1eab81199\"]},{\"claim\":\"Iraqi security forces killed dozens of protesters in Nasiriyah, Najaf and Baghdad in one of the deadliest days of the protest movement, and violence continued the following day.\",\"item_ids\":[\"7bce55760e9eb735\",\"b716c953b0f638ec\"]},{\"claim\":\"The Prime Minister of Iraq announced plans to offer his resignation to parliament in reaction to the protest movement.\",\"item_ids\":[\"34688b2385fb18ab\"]},{\"claim\":\"Saudi Arabia's King blamed Iran for missile and drone attacks and said his country would not hesitate to defend itself, while the head of Iran's Revolutionary Guards delivered a televised \\\"we will destroy you\\\" threat aimed at Israel, Saudi Arabia and the United States.\",\"item_ids\":[\"2ecf627b36c76a59\",\"d8b73dafb9969a1d\"]},{\"claim\":\"Items dated on the flagged day itself concern a domestic vaccination travel restriction, a factory explosion in Khartoum, and the resignation of Finland's Prime Minister over handling of industrial strikes.\",\"item_ids\":[\"214ea6d069cbda0d\",\"c37ce967c7a3078f\",\"f0af39ee2f5d3095\"]}],\"primary_item_ids\":[\"8dd75f067d65babd\",\"9a62e6b435cce0c0\",\"34688b2385fb18ab\"],\"competing_explanation\":\"The model may simply have flagged noise. Nothing on the final day is of evident market significance \u2014 a national vaccination campaign, an industrial explosion, and a small-economy caretaker government transition \u2014 and the US\u2013China and Iraq items sit five to eleven days before the flag, so the timing fit is imperfect. An alternative reading is that Middle East supply risk alone (consulate burning, mass casualties among protesters, the Iraqi premier's resignation, and explicit Saudi\u2013Iran threat exchanges) is the operative channel rather than trade policy.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "d8ac609598425d15"
+}

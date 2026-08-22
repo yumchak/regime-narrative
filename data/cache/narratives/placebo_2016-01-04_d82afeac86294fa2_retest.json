@@ -1,0 +1,65 @@
+{
+  "window_id": "placebo_2016-01-04",
+  "kind": "placebo",
+  "boundary_date": "2016-01-04",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "A rapid diplomatic rupture between Saudi Arabia and Iran dominates the final three days of the window. Following the Saudi execution of Shi'ite cleric Nimr al-Nimr, Iranian protesters burned the Saudi embassy in Tehran, Saudi Arabia severed relations with Iran, and on the flag day Sudan, the UAE and Bahrain followed suit, while sectarian mosque bombings in Iraq were reported as fallout. This escalation between two major regional powers is the only item cluster in the window with obvious cross-border, systemic significance, and it lands precisely at the end of the period.",
+  "mechanism": "An abrupt confrontation between two of the world's largest crude exporters raises the perceived probability of supply disruption and wider regional conflict, which typically repricess energy risk premia and prompts broad risk-off positioning, both of which raise realised and implied volatility.",
+  "claims": [
+    {
+      "claim": "Iranian protesters ransacked and set fire to the Saudi embassy in Tehran in response to the Saudi execution of Nimr al-Nimr.",
+      "item_ids": [
+        "4032ec9987125645"
+      ]
+    },
+    {
+      "claim": "Saudi Arabia broke off diplomatic relations with Iran after the execution and the embassy attack.",
+      "item_ids": [
+        "f81e2b0527f25ccd"
+      ]
+    },
+    {
+      "claim": "On the final day of the window, Sudan, the United Arab Emirates and Bahrain also cut diplomatic relations with Iran.",
+      "item_ids": [
+        "0cfd7c81f22338b9"
+      ]
+    },
+    {
+      "claim": "Two Sunni mosques were bombed in central Iraq amid fears of renewed sectarian strife tied to the execution.",
+      "item_ids": [
+        "ca83866e24bc9fa6"
+      ]
+    },
+    {
+      "claim": "Separately in the same window, regional security tensions included an Iraqi demand that Turkey withdraw troops from northern Iraq with a threat of military action, and a multi-day militant assault on an Indian Air Force base at Pathankot.",
+      "item_ids": [
+        "5ad269feef477410",
+        "bb9114157e329a14"
+      ]
+    },
+    {
+      "claim": "Also on the final day, Denmark introduced identity checks on its border with Germany and Sweden imposed similar measures, despite all three being Schengen members.",
+      "item_ids": [
+        "e3a67c66c8fa430e"
+      ]
+    },
+    {
+      "claim": "Earlier in the window, enriched uranium was reported shipped from Iran to Russia under an international agreement, with IAEA verification a precondition for dismantling economic sanctions on Iran.",
+      "item_ids": [
+        "3ce41bfc42bd9570"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "4032ec9987125645",
+    "f81e2b0527f25ccd",
+    "0cfd7c81f22338b9"
+  ],
+  "competing_explanation": "The items contain no price, index or commodity data, so the market link is inferred rather than observed. Alternative candidates are weak but present: the suspension of free movement within the Schengen area by Denmark and Sweden on the flag day points to strain in European integration, and the uranium shipment tied to prospective sanctions relief for Iran could itself move energy expectations in the opposite direction. The remainder of the window is dominated by natural disasters, local crime and non-financial news, so the model may equally have flagged noise.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"A rapid diplomatic rupture between Saudi Arabia and Iran dominates the final three days of the window. Following the Saudi execution of Shi'ite cleric Nimr al-Nimr, Iranian protesters burned the Saudi embassy in Tehran, Saudi Arabia severed relations with Iran, and on the flag day Sudan, the UAE and Bahrain followed suit, while sectarian mosque bombings in Iraq were reported as fallout. This escalation between two major regional powers is the only item cluster in the window with obvious cross-border, systemic significance, and it lands precisely at the end of the period.\",\"mechanism\":\"An abrupt confrontation between two of the world's largest crude exporters raises the perceived probability of supply disruption and wider regional conflict, which typically repricess energy risk premia and prompts broad risk-off positioning, both of which raise realised and implied volatility.\",\"claims\":[{\"claim\":\"Iranian protesters ransacked and set fire to the Saudi embassy in Tehran in response to the Saudi execution of Nimr al-Nimr.\",\"item_ids\":[\"4032ec9987125645\"]},{\"claim\":\"Saudi Arabia broke off diplomatic relations with Iran after the execution and the embassy attack.\",\"item_ids\":[\"f81e2b0527f25ccd\"]},{\"claim\":\"On the final day of the window, Sudan, the United Arab Emirates and Bahrain also cut diplomatic relations with Iran.\",\"item_ids\":[\"0cfd7c81f22338b9\"]},{\"claim\":\"Two Sunni mosques were bombed in central Iraq amid fears of renewed sectarian strife tied to the execution.\",\"item_ids\":[\"ca83866e24bc9fa6\"]},{\"claim\":\"Separately in the same window, regional security tensions included an Iraqi demand that Turkey withdraw troops from northern Iraq with a threat of military action, and a multi-day militant assault on an Indian Air Force base at Pathankot.\",\"item_ids\":[\"5ad269feef477410\",\"bb9114157e329a14\"]},{\"claim\":\"Also on the final day, Denmark introduced identity checks on its border with Germany and Sweden imposed similar measures, despite all three being Schengen members.\",\"item_ids\":[\"e3a67c66c8fa430e\"]},{\"claim\":\"Earlier in the window, enriched uranium was reported shipped from Iran to Russia under an international agreement, with IAEA verification a precondition for dismantling economic sanctions on Iran.\",\"item_ids\":[\"3ce41bfc42bd9570\"]}],\"primary_item_ids\":[\"4032ec9987125645\",\"f81e2b0527f25ccd\",\"0cfd7c81f22338b9\"],\"competing_explanation\":\"The items contain no price, index or commodity data, so the market link is inferred rather than observed. Alternative candidates are weak but present: the suspension of free movement within the Schengen area by Denmark and Sweden on the flag day points to strain in European integration, and the uranium shipment tied to prospective sanctions relief for Iran could itself move energy expectations in the opposite direction. The remainder of the window is dominated by natural disasters, local crime and non-financial news, so the model may equally have flagged noise.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "bd02e86dcd55871c"
+}

@@ -1,0 +1,86 @@
+{
+  "window_id": "transition_2016-03-30",
+  "kind": "transition",
+  "boundary_date": "2016-03-30",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "Two distinct risk events dominate the window. Mid-window, coordinated suicide bombings struck Brussels airport and metro, attributed to a network linked to the earlier Paris attacks, triggering a multi-day manhunt, arrests, and political fallout across Europe including Poland's withdrawal from an EU refugee relocation pledge; a further mass-casualty bombing killed at least 60 in Lahore on Day 11. Closest to the flag day, Brazil's political crisis escalated sharply on Day 13 with a second impeachment request against President Rousseff, a ministerial resignation, and the main coalition party preparing to vote on leaving the government, following the earlier judicial blocking of Lula's cabinet appointment over the Petrobras kickback investigation.",
+  "mechanism": "Mass-casualty attacks in a European capital raise perceived security and policy risk and typically hit travel, tourism and European risk assets while bidding up safe havens; a governing coalition unravelling amid impeachment proceedings in a large emerging market repriced sovereign, currency and state-oil-company exposure, both of which raise realised and implied volatility.",
+  "claims": [
+    {
+      "claim": "Suicide bombings hit Brussels, with a metro station and the airport targeted by two brothers of Belgian nationality and a third bomber, a fourth suspect remaining at large.",
+      "item_ids": [
+        "4ce543454e1a0b93"
+      ]
+    },
+    {
+      "claim": "One of the Brussels bombers was identified as the suspected bomb-maker who supplied suicide vests for the earlier Paris attacks, and further arrests followed in the Schaerbeek district.",
+      "item_ids": [
+        "c54025c4078ef1ee",
+        "887b69d200cdcf8b"
+      ]
+    },
+    {
+      "claim": "The attacks produced immediate European policy fallout, with Poland abandoning its pledge to shelter Syrian migrants under the EU relocation agreement.",
+      "item_ids": [
+        "c355f845c38c8561"
+      ]
+    },
+    {
+      "claim": "Public disorder followed in Brussels, with police using water cannon against a far-right demonstration at a tribute site, and one charged suspect was released for lack of corroborating evidence.",
+      "item_ids": [
+        "88a6c23a999fe80d",
+        "1d021320fa06514a"
+      ]
+    },
+    {
+      "claim": "A suicide bombing by a Pakistani Taliban faction killed at least 60 and injured 300 at a park in Lahore, prompting an announced paramilitary crackdown in Punjab.",
+      "item_ids": [
+        "5b9fc476045ddc6e",
+        "0d26dd51723b4530"
+      ]
+    },
+    {
+      "claim": "Brazil's Supreme Court ruled that Lula should be stripped of his cabinet role so he could be investigated in connection with the Petrobras kickback scheme.",
+      "item_ids": [
+        "a189afa83a294ec2"
+      ]
+    },
+    {
+      "claim": "On Day 13 a second impeachment request was filed against President Rousseff, a minister resigned, and the Brazilian Democratic Movement Party was expected to vote on leaving the governing coalition, while the presidency said a new coalition would be announced within the week.",
+      "item_ids": [
+        "ec942fbf81ce6c27",
+        "d216e55cf8a50b1b"
+      ]
+    },
+    {
+      "claim": "Additional geopolitical friction accumulated in the window: repeated North Korean missile launches, US and European notification to the UN that Iranian missile launches violated a Security Council resolution, Russian missile-defence deployments to disputed islands and new units near NATO, and US orders for diplomats' and military families to leave southern Turkey over terrorist threats.",
+      "item_ids": [
+        "e2df1068e5a33736",
+        "17eee7116bbbce2e",
+        "39949168abdfef5c",
+        "ccab18b865f9fb8d",
+        "d33964882174b262"
+      ]
+    },
+    {
+      "claim": "Corporate events in the window included a raised counterbid for Starwood Hotels at $14 billion, reported Microsoft financing for a possible Yahoo bid, and an EU competition halt to the Halliburton-Baker Hughes review.",
+      "item_ids": [
+        "de564c681c9a76ff",
+        "6abf55a889bb7ccc",
+        "195a35382eb6aca3"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "4ce543454e1a0b93",
+    "5b9fc476045ddc6e",
+    "ec942fbf81ce6c27"
+  ],
+  "competing_explanation": "The flag falls on Day 14, whose items (Libyan Presidential Council arriving in Tripoli, Venezuelan amnesty bill, Myanmar's civilian presidential inauguration, a Ukrainian film ban) are individually of little market consequence, and the Brussels attacks occurred roughly a week earlier. It is therefore possible the model detected either a delayed regime shift, a decay of the post-attack volatility spike, or simply noise, with no single Day 14 catalyst present in the items.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"Two distinct risk events dominate the window. Mid-window, coordinated suicide bombings struck Brussels airport and metro, attributed to a network linked to the earlier Paris attacks, triggering a multi-day manhunt, arrests, and political fallout across Europe including Poland's withdrawal from an EU refugee relocation pledge; a further mass-casualty bombing killed at least 60 in Lahore on Day 11. Closest to the flag day, Brazil's political crisis escalated sharply on Day 13 with a second impeachment request against President Rousseff, a ministerial resignation, and the main coalition party preparing to vote on leaving the government, following the earlier judicial blocking of Lula's cabinet appointment over the Petrobras kickback investigation.\",\"mechanism\":\"Mass-casualty attacks in a European capital raise perceived security and policy risk and typically hit travel, tourism and European risk assets while bidding up safe havens; a governing coalition unravelling amid impeachment proceedings in a large emerging market repriced sovereign, currency and state-oil-company exposure, both of which raise realised and implied volatility.\",\"claims\":[{\"claim\":\"Suicide bombings hit Brussels, with a metro station and the airport targeted by two brothers of Belgian nationality and a third bomber, a fourth suspect remaining at large.\",\"item_ids\":[\"4ce543454e1a0b93\"]},{\"claim\":\"One of the Brussels bombers was identified as the suspected bomb-maker who supplied suicide vests for the earlier Paris attacks, and further arrests followed in the Schaerbeek district.\",\"item_ids\":[\"c54025c4078ef1ee\",\"887b69d200cdcf8b\"]},{\"claim\":\"The attacks produced immediate European policy fallout, with Poland abandoning its pledge to shelter Syrian migrants under the EU relocation agreement.\",\"item_ids\":[\"c355f845c38c8561\"]},{\"claim\":\"Public disorder followed in Brussels, with police using water cannon against a far-right demonstration at a tribute site, and one charged suspect was released for lack of corroborating evidence.\",\"item_ids\":[\"88a6c23a999fe80d\",\"1d021320fa06514a\"]},{\"claim\":\"A suicide bombing by a Pakistani Taliban faction killed at least 60 and injured 300 at a park in Lahore, prompting an announced paramilitary crackdown in Punjab.\",\"item_ids\":[\"5b9fc476045ddc6e\",\"0d26dd51723b4530\"]},{\"claim\":\"Brazil's Supreme Court ruled that Lula should be stripped of his cabinet role so he could be investigated in connection with the Petrobras kickback scheme.\",\"item_ids\":[\"a189afa83a294ec2\"]},{\"claim\":\"On Day 13 a second impeachment request was filed against President Rousseff, a minister resigned, and the Brazilian Democratic Movement Party was expected to vote on leaving the governing coalition, while the presidency said a new coalition would be announced within the week.\",\"item_ids\":[\"ec942fbf81ce6c27\",\"d216e55cf8a50b1b\"]},{\"claim\":\"Additional geopolitical friction accumulated in the window: repeated North Korean missile launches, US and European notification to the UN that Iranian missile launches violated a Security Council resolution, Russian missile-defence deployments to disputed islands and new units near NATO, and US orders for diplomats' and military families to leave southern Turkey over terrorist threats.\",\"item_ids\":[\"e2df1068e5a33736\",\"17eee7116bbbce2e\",\"39949168abdfef5c\",\"ccab18b865f9fb8d\",\"d33964882174b262\"]},{\"claim\":\"Corporate events in the window included a raised counterbid for Starwood Hotels at $14 billion, reported Microsoft financing for a possible Yahoo bid, and an EU competition halt to the Halliburton-Baker Hughes review.\",\"item_ids\":[\"de564c681c9a76ff\",\"6abf55a889bb7ccc\",\"195a35382eb6aca3\"]}],\"primary_item_ids\":[\"4ce543454e1a0b93\",\"5b9fc476045ddc6e\",\"ec942fbf81ce6c27\"],\"competing_explanation\":\"The flag falls on Day 14, whose items (Libyan Presidential Council arriving in Tripoli, Venezuelan amnesty bill, Myanmar's civilian presidential inauguration, a Ukrainian film ban) are individually of little market consequence, and the Brussels attacks occurred roughly a week earlier. It is therefore possible the model detected either a delayed regime shift, a decay of the post-attack volatility spike, or simply noise, with no single Day 14 catalyst present in the items.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "6f781d524ce48f9d"
+}

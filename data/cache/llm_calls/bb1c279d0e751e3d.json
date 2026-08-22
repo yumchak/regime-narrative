@@ -1,0 +1,21 @@
+{
+  "call_id": "bb1c279d0e751e3d",
+  "timestamp_utc": "2026-08-22T07:42:56.878633+00:00",
+  "window_id": "placebo_2015-08-10",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2015-08-10",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "ceecb366142cdec3",
+  "n_items_in_window": 65,
+  "input_chars": 13087,
+  "usage": {
+    "input_tokens": 7093,
+    "output_tokens": 1600
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"On Day 14, Google announced the creation of a new holding company, Alphabet Inc., restructuring Google Inc. and its various subsidiaries (Calico, Google Ventures, Google Capital, Google X) under a new corporate umbrella. This was a major and unexpected corporate structural change for one of the largest publicly traded companies, which plausibly could have triggered a shift in trading patterns and volatility around that stock and related indices.\", \"mechanism\": \"Sudden corporate restructuring of a mega-cap company changes how investors value and price the underlying business segments, often triggering elevated trading volume and price volatility as the market reprices the new structure and re-assesses risk exposure across the newly separated entities.\", \"claims\": [{\"claim\": \"Google created a new holding company called Alphabet Inc. on Day 14, which contains Google Inc. and other subsidiaries including Calico, Google Ventures, Google Capital, and Google X.\", \"item_ids\": [\"4e382db33657eea7\"]}], \"primary_item_ids\": [\"4e382db33657eea7\"], \"competing_explanation\": \"Several earlier items describe financial and economic stress that could have contributed to elevated volatility leading into Day 14, including Puerto Rico's default on a $58 million debt payment against $72 billion in total debt (Day 7), the Swiss National Bank's report of a 50 billion CHF first-half loss (Day 4), and the Russian Central Bank cutting rates while the ruble fell (Day 4). Any of these could have compounding effects on market sentiment that culminate in volatility flagged by Day 14, independent of the Alphabet announcement.\", \"insufficient_evidence_reason\": \"\"}"
+}

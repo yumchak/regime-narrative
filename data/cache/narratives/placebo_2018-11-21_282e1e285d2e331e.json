@@ -1,0 +1,72 @@
+{
+  "window_id": "placebo_2018-11-21",
+  "kind": "placebo",
+  "boundary_date": "2018-11-21",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The window contains a sustained political crisis around the UK's Brexit withdrawal plan \u2014 a junior ministerial resignation, a contested cabinet sign-off, and then the departure and replacement of the Brexit and Work and Pensions secretaries \u2014 alongside two further items with direct market relevance: the arrest of the Nissan/Renault chairman and the first APEC summit in the forum's history to end without a communiqu\u00e9. The Brexit sequence is the most plausible macro driver of a regime change in price and volatility behaviour by Day 14, with the corporate governance shock and the visible breakdown of multilateral trade consensus as reinforcing contributors.",
+  "mechanism": "Escalating uncertainty over whether the UK government can hold together behind a withdrawal agreement transmits directly into sterling, UK rates and equity risk premia, while a failed multilateral trade communiqu\u00e9 and the sudden arrest of the chairman of a large cross-border auto alliance add idiosyncratic and cross-asset repricing on top of it.",
+  "claims": [
+    {
+      "claim": "A British transport minister resigned over the Prime Minister's Brexit plan and called for a second referendum.",
+      "item_ids": [
+        "0edbbb4e4c348529"
+      ]
+    },
+    {
+      "claim": "The Prime Minister obtained cabinet approval for the Brexit plan, but many Conservative and opposition MPs voiced strong disapproval.",
+      "item_ids": [
+        "fe775946441925b2"
+      ]
+    },
+    {
+      "claim": "The Brexit Secretary (Dominic Raab) and Work and Pensions Secretary (Esther McVey) resigned and were replaced by Stephen Barclay and Amber Rudd.",
+      "item_ids": [
+        "6fda46e8f55a86d4"
+      ]
+    },
+    {
+      "claim": "Nissan chairman and former CEO Carlos Ghosn, who is also chairman and CEO of Renault, was arrested in Japan for breaching financial trading laws, and Nissan recommended he and a director step down.",
+      "item_ids": [
+        "6dce46e1ae812eda"
+      ]
+    },
+    {
+      "claim": "The APEC summit ended without a communiqu\u00e9 for the first time in the forum's history.",
+      "item_ids": [
+        "50bd99045530a413"
+      ]
+    },
+    {
+      "claim": "The European Union reached a provisional agreement on a system to investigate foreign investments into Europe.",
+      "item_ids": [
+        "68dec191375af772"
+      ]
+    },
+    {
+      "claim": "A US federal judge ordered a suspension of construction on the Keystone XL pipeline over an inadequate environmental review.",
+      "item_ids": [
+        "b92f98382e26bc4d"
+      ]
+    },
+    {
+      "claim": "Contested and unresolved US election outcomes persisted through the window, including a mandatory Florida recount with fraud claims made without evidence, and a Georgia candidate declining to concede while announcing a federal lawsuit.",
+      "item_ids": [
+        "7f4d6039efc75d19",
+        "8ac6148b7d1fdbc4",
+        "07b1f01ac50e5b36"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "6fda46e8f55a86d4",
+    "6dce46e1ae812eda",
+    "50bd99045530a413"
+  ],
+  "competing_explanation": "The Brexit resignations occur on Day 9, several days before the flag, so the timing is imperfect; a reading centred on Day 11\u201313 would put more weight on the APEC communiqu\u00e9 failure as a signal of deteriorating trade relations and on the Ghosn arrest as a sector-specific shock. Alternatively, the model may simply have flagged noise: the overwhelming majority of items in this window (wildfires, aviation and maritime accidents, isolated attacks, science announcements, sports results) carry no market content, and none of the candidate items is unambiguously large enough on its own to explain a regime change.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The window contains a sustained political crisis around the UK's Brexit withdrawal plan \u2014 a junior ministerial resignation, a contested cabinet sign-off, and then the departure and replacement of the Brexit and Work and Pensions secretaries \u2014 alongside two further items with direct market relevance: the arrest of the Nissan/Renault chairman and the first APEC summit in the forum's history to end without a communiqu\u00e9. The Brexit sequence is the most plausible macro driver of a regime change in price and volatility behaviour by Day 14, with the corporate governance shock and the visible breakdown of multilateral trade consensus as reinforcing contributors.\",\"mechanism\":\"Escalating uncertainty over whether the UK government can hold together behind a withdrawal agreement transmits directly into sterling, UK rates and equity risk premia, while a failed multilateral trade communiqu\u00e9 and the sudden arrest of the chairman of a large cross-border auto alliance add idiosyncratic and cross-asset repricing on top of it.\",\"claims\":[{\"claim\":\"A British transport minister resigned over the Prime Minister's Brexit plan and called for a second referendum.\",\"item_ids\":[\"0edbbb4e4c348529\"]},{\"claim\":\"The Prime Minister obtained cabinet approval for the Brexit plan, but many Conservative and opposition MPs voiced strong disapproval.\",\"item_ids\":[\"fe775946441925b2\"]},{\"claim\":\"The Brexit Secretary (Dominic Raab) and Work and Pensions Secretary (Esther McVey) resigned and were replaced by Stephen Barclay and Amber Rudd.\",\"item_ids\":[\"6fda46e8f55a86d4\"]},{\"claim\":\"Nissan chairman and former CEO Carlos Ghosn, who is also chairman and CEO of Renault, was arrested in Japan for breaching financial trading laws, and Nissan recommended he and a director step down.\",\"item_ids\":[\"6dce46e1ae812eda\"]},{\"claim\":\"The APEC summit ended without a communiqu\u00e9 for the first time in the forum's history.\",\"item_ids\":[\"50bd99045530a413\"]},{\"claim\":\"The European Union reached a provisional agreement on a system to investigate foreign investments into Europe.\",\"item_ids\":[\"68dec191375af772\"]},{\"claim\":\"A US federal judge ordered a suspension of construction on the Keystone XL pipeline over an inadequate environmental review.\",\"item_ids\":[\"b92f98382e26bc4d\"]},{\"claim\":\"Contested and unresolved US election outcomes persisted through the window, including a mandatory Florida recount with fraud claims made without evidence, and a Georgia candidate declining to concede while announcing a federal lawsuit.\",\"item_ids\":[\"7f4d6039efc75d19\",\"8ac6148b7d1fdbc4\",\"07b1f01ac50e5b36\"]}],\"primary_item_ids\":[\"6fda46e8f55a86d4\",\"6dce46e1ae812eda\",\"50bd99045530a413\"],\"competing_explanation\":\"The Brexit resignations occur on Day 9, several days before the flag, so the timing is imperfect; a reading centred on Day 11\u201313 would put more weight on the APEC communiqu\u00e9 failure as a signal of deteriorating trade relations and on the Ghosn arrest as a sector-specific shock. Alternatively, the model may simply have flagged noise: the overwhelming majority of items in this window (wildfires, aviation and maritime accidents, isolated attacks, science announcements, sports results) carry no market content, and none of the candidate items is unambiguously large enough on its own to explain a regime change.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "1028cd8184d55100"
+}

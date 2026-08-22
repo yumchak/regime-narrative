@@ -1,0 +1,21 @@
+{
+  "call_id": "ea217d64cca03e7b",
+  "timestamp_utc": "2026-08-22T07:46:59.194131+00:00",
+  "window_id": "placebo_2018-04-04",
+  "kind": "placebo",
+  "run_label": "sonnet5",
+  "boundary_date": "2018-04-04",
+  "model": "claude-sonnet-5",
+  "prompt_version": "narrative_v1",
+  "prompt_sha256_16": "a720d1259491bc16",
+  "effort": "high",
+  "output_schema_enforced": true,
+  "input_hash": "c34e6615df6dbd51",
+  "n_items_in_window": 125,
+  "input_chars": 28174,
+  "usage": {
+    "input_tokens": 12772,
+    "output_tokens": 1149
+  },
+  "response_text": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"The clearest candidate for a market-relevant shock on Day 14 is China's announcement of proposed 25% tariffs on 106 U.S. products, including soybeans and Boeing aircraft, explicitly framed as retaliation for a prior U.S. tariff threat worth up to $50 billion. This represents an escalation in a developing U.S.-China trade dispute that had been building over the preceding days (e.g., South Korea-U.S. steel tariff agreement on Day 4).\", \"mechanism\": \"Tit-for-tat tariff threats between the world's two largest economies directly threaten corporate earnings (notably named firms like Boeing) and agricultural exports, which is the kind of headline risk that typically drives broad-based equity and futures volatility as markets reprice trade-war escalation risk.\", \"claims\": [{\"claim\": \"China threatened 25% tariffs on 106 U.S. products, including soybeans and Boeing aircraft, in response to a prior U.S. tariff threat of up to $50 billion.\", \"item_ids\": [\"943d2a608767a64a\"]}, {\"claim\": \"Earlier in the window, South Korea and the United States reached agreements on trade and steel tariffs, indicating an active period of trade policy negotiation and tension.\", \"item_ids\": [\"47022041f95c723c\"]}, {\"claim\": \"On the same day, U.S. President Trump's lawyers were told by special counsel Robert Mueller that the President was not under criminal investigation, a separate item of political/legal significance.\", \"item_ids\": [\"6bc7042eee4c89f8\"]}], \"primary_item_ids\": [\"943d2a608767a64a\", \"47022041f95c723c\"], \"competing_explanation\": \"The Mueller/Trump clarification (6bc7042eee4c89f8) could also be read as market-relevant, since it reduced political uncertainty around the presidency; alternatively, the accumulation of geopolitical tensions (Russian diplomatic expulsions, Syria evacuation of Douma, Skripal poisoning fallout) across the window could be seen as a broader risk-off backdrop rather than a single discrete trigger.\", \"insufficient_evidence_reason\": \"\"}"
+}

@@ -1,0 +1,75 @@
+{
+  "window_id": "placebo_2018-12-20",
+  "kind": "placebo",
+  "boundary_date": "2018-12-20",
+  "driver_identified": true,
+  "confidence": "low",
+  "summary": "The items contain no macroeconomic, central-bank or corporate-earnings news, so any market-relevant driver must be geopolitical or policy-related. The strongest candidates clustered near the flag day are the Pentagon's confirmation that it had begun withdrawing U.S. troops from Syria (Day 13), an abrupt reversal of stated policy, and the ongoing U.S.\u2013China friction embodied by the arrest, extradition proceedings and bail of Huawei's CFO over alleged Iran-sanctions evasion (Days 1 and 5), against a backdrop of senior White House personnel turnover (Day 8). The evidence is thin and none of these items describes a directly financial event.",
+  "mechanism": "An unanticipated reversal of declared foreign-policy commitments, combined with the criminal prosecution of a senior executive of a major Chinese technology firm over sanctions violations, raises perceived policy and geopolitical uncertainty, which typically widens the distribution of expected outcomes for exposed sectors and lifts implied and realised volatility.",
+  "claims": [
+    {
+      "claim": "The Pentagon reported it had begun withdrawing U.S. troops from Syria, while stating the campaign against ISIL was not over.",
+      "item_ids": [
+        "bed5db08d7a98fda"
+      ]
+    },
+    {
+      "claim": "Kurdish-led forces had days earlier seized Hajin, described as the last major ISIL-held town in Syria, providing the stated rationale context for the drawdown.",
+      "item_ids": [
+        "e8de1bfc55c4f16d"
+      ]
+    },
+    {
+      "claim": "Huawei CFO Meng Wanzhou faced extradition to the United States on charges of conspiracy to defraud financial institutions in order to evade U.S. sanctions on Iran, and was granted bail with restrictions by a Canadian judge during the window.",
+      "item_ids": [
+        "e0a1462f272c8252",
+        "4ca87abe6d815527"
+      ]
+    },
+    {
+      "claim": "The U.S. President replaced his White House Chief of Staff, appointing the incumbent budget director as acting chief of staff.",
+      "item_ids": [
+        "6debac741db50f33"
+      ]
+    },
+    {
+      "claim": "The Trump Foundation agreed to dissolve under judicial supervision amid a New York lawsuit.",
+      "item_ids": [
+        "44ca35a3f8f439df"
+      ]
+    },
+    {
+      "claim": "On the flag day, London's Gatwick Airport was shut down intermittently because of drone sightings, affecting hundreds of thousands of passengers, in what police called a deliberate act of disruption.",
+      "item_ids": [
+        "e0093a1970fcb490"
+      ]
+    },
+    {
+      "claim": "Political instability also appeared in Europe, with the Belgian Prime Minister submitting his cabinet's resignation to the King after his largest coalition partner quit over the migration compact.",
+      "item_ids": [
+        "a54e39e300d099bc",
+        "84c8e093d0e52216"
+      ]
+    },
+    {
+      "claim": "Large-scale street protests with mass detentions and injuries occurred in France during the window, and a terrorist attack on a Strasbourg Christmas market killed five people in total.",
+      "item_ids": [
+        "a8f49e18a4d4daf8",
+        "21fae2200be77392",
+        "6229b3a9a290f5f1",
+        "33ba05af6f4c3f4f"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "bed5db08d7a98fda",
+    "e0a1462f272c8252",
+    "4ca87abe6d815527"
+  ],
+  "competing_explanation": "The list may simply contain no driver at all: it is dominated by accidents, sports, domestic politics abroad, space missions and criminal trials, none of which carries financial significance, and the one Day-14 business item (the Gatwick drone shutdown) is a localised operational disruption affecting a single airport rather than a systemic shock. On that reading the model flagged noise, or reacted to macro/market developments that are entirely absent from this news set.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"low\",\"summary\":\"The items contain no macroeconomic, central-bank or corporate-earnings news, so any market-relevant driver must be geopolitical or policy-related. The strongest candidates clustered near the flag day are the Pentagon's confirmation that it had begun withdrawing U.S. troops from Syria (Day 13), an abrupt reversal of stated policy, and the ongoing U.S.\u2013China friction embodied by the arrest, extradition proceedings and bail of Huawei's CFO over alleged Iran-sanctions evasion (Days 1 and 5), against a backdrop of senior White House personnel turnover (Day 8). The evidence is thin and none of these items describes a directly financial event.\",\"mechanism\":\"An unanticipated reversal of declared foreign-policy commitments, combined with the criminal prosecution of a senior executive of a major Chinese technology firm over sanctions violations, raises perceived policy and geopolitical uncertainty, which typically widens the distribution of expected outcomes for exposed sectors and lifts implied and realised volatility.\",\"claims\":[{\"claim\":\"The Pentagon reported it had begun withdrawing U.S. troops from Syria, while stating the campaign against ISIL was not over.\",\"item_ids\":[\"bed5db08d7a98fda\"]},{\"claim\":\"Kurdish-led forces had days earlier seized Hajin, described as the last major ISIL-held town in Syria, providing the stated rationale context for the drawdown.\",\"item_ids\":[\"e8de1bfc55c4f16d\"]},{\"claim\":\"Huawei CFO Meng Wanzhou faced extradition to the United States on charges of conspiracy to defraud financial institutions in order to evade U.S. sanctions on Iran, and was granted bail with restrictions by a Canadian judge during the window.\",\"item_ids\":[\"e0a1462f272c8252\",\"4ca87abe6d815527\"]},{\"claim\":\"The U.S. President replaced his White House Chief of Staff, appointing the incumbent budget director as acting chief of staff.\",\"item_ids\":[\"6debac741db50f33\"]},{\"claim\":\"The Trump Foundation agreed to dissolve under judicial supervision amid a New York lawsuit.\",\"item_ids\":[\"44ca35a3f8f439df\"]},{\"claim\":\"On the flag day, London's Gatwick Airport was shut down intermittently because of drone sightings, affecting hundreds of thousands of passengers, in what police called a deliberate act of disruption.\",\"item_ids\":[\"e0093a1970fcb490\"]},{\"claim\":\"Political instability also appeared in Europe, with the Belgian Prime Minister submitting his cabinet's resignation to the King after his largest coalition partner quit over the migration compact.\",\"item_ids\":[\"a54e39e300d099bc\",\"84c8e093d0e52216\"]},{\"claim\":\"Large-scale street protests with mass detentions and injuries occurred in France during the window, and a terrorist attack on a Strasbourg Christmas market killed five people in total.\",\"item_ids\":[\"a8f49e18a4d4daf8\",\"21fae2200be77392\",\"6229b3a9a290f5f1\",\"33ba05af6f4c3f4f\"]}],\"primary_item_ids\":[\"bed5db08d7a98fda\",\"e0a1462f272c8252\",\"4ca87abe6d815527\"],\"competing_explanation\":\"The list may simply contain no driver at all: it is dominated by accidents, sports, domestic politics abroad, space missions and criminal trials, none of which carries financial significance, and the one Day-14 business item (the Gatwick drone shutdown) is a localised operational disruption affecting a single airport rather than a systemic shock. On that reading the model flagged noise, or reacted to macro/market developments that are entirely absent from this news set.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "91721e2573557eca"
+}

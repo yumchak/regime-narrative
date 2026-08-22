@@ -1,0 +1,76 @@
+{
+  "window_id": "placebo_2019-01-25",
+  "kind": "placebo",
+  "boundary_date": "2019-01-25",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The clearest candidate is the Day 14 announcement that a deal had been reached to reopen the US federal government after a 35-day partial shutdown, a lengthy fiscal standoff whose visible costs (unpaid servicemembers, cancelled official travel, a disputed State of the Union) had been accumulating through the window. Secondary, and close in time, is the escalation of the Venezuelan political crisis, in which the opposition leader swore himself in as president and was recognised by the United States, Canada and several Latin American governments while the incumbent refused to step aside. A third strand is UK political risk, with the Brexit deal suffering a record parliamentary defeat mid-window and an amendment for a second referendum tabled later.",
+  "mechanism": "The resolution of a 35-day funding lapse removes a persistent, dated source of domestic fiscal and macro-data uncertainty, which typically compresses risk premia and can register as a regime shift in price and volatility series; simultaneously, a contested claim to the presidency of a major oil-producing state backed by great-power recognition introduces a fresh commodity- and sovereign-risk channel.",
+  "claims": [
+    {
+      "claim": "A short-term deal was announced on the final day of the window to reopen the US federal government after a partial shutdown lasting 35 days, with the stop-gap lasting three weeks and containing no border barrier funding.",
+      "item_ids": [
+        "e59e822a68cc9ae1"
+      ]
+    },
+    {
+      "claim": "The shutdown had produced visible operational costs during the window, including roughly 42,000 active-duty Coast Guard members missing a paycheck for the first time in such a lapse.",
+      "item_ids": [
+        "f1cedbb8a6634a4f"
+      ]
+    },
+    {
+      "claim": "The shutdown had also generated institutional friction, with the President postponing the House Speaker's diplomatic travel and the Speaker refusing to authorise the State of the Union in the House chamber until the shutdown ended.",
+      "item_ids": [
+        "ee264a81ef6b5b0f",
+        "bed7924b6ca38e65"
+      ]
+    },
+    {
+      "claim": "Two days before the flag, Venezuela's opposition leader swore himself in as president while the de facto president refused to recognise this, and the United States, Canada and several Latin American nations recognised him.",
+      "item_ids": [
+        "c07590bc34251541",
+        "fdae9590094ef24a"
+      ]
+    },
+    {
+      "claim": "The Venezuelan situation had been deteriorating through the window, with the opposition leader briefly detained, a National Guard mutiny quashed, and deadly protests in Caracas and Estado Bol\u00edvar.",
+      "item_ids": [
+        "ecd0a4aab9b78698",
+        "19f1fb9f4f584507",
+        "82be364f5552333d"
+      ]
+    },
+    {
+      "claim": "Mid-window, the UK Prime Minister's Brexit deal was defeated in Parliament by 432 votes to 202, described as the worst defeat for a Prime Minister in modern British history, and the government then survived a no-confidence vote by a majority of 19.",
+      "item_ids": [
+        "1bf48b2f08cd502e",
+        "fb0b28020a686590"
+      ]
+    },
+    {
+      "claim": "An opposition amendment requiring a second referendum before full EU exit was proposed later in the window.",
+      "item_ids": [
+        "3d5550ccb27f9975"
+      ]
+    },
+    {
+      "claim": "A separate political risk event, a Greek governing coalition partner withdrawing over the Prespa agreement, was resolved when the Prime Minister survived a confidence vote.",
+      "item_ids": [
+        "4df3d86bce235bb1",
+        "f10dda799fa8e3de"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "e59e822a68cc9ae1",
+    "c07590bc34251541",
+    "fdae9590094ef24a"
+  ],
+  "competing_explanation": "The Venezuelan recognition dispute on Day 12 could be the true driver rather than the shutdown deal, since a contested presidency in a large oil exporter carries a direct commodity-price channel; alternatively, the model may have flagged the resolution of accumulated UK and US political uncertainty (Brexit defeat surviving a confidence vote, shutdown ending) as a volatility-compression event rather than a shock. It is also possible the flag is noise: most items here are humanitarian, criminal or regional in nature with no obvious pricing channel.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\":true,\"confidence\":\"medium\",\"summary\":\"The clearest candidate is the Day 14 announcement that a deal had been reached to reopen the US federal government after a 35-day partial shutdown, a lengthy fiscal standoff whose visible costs (unpaid servicemembers, cancelled official travel, a disputed State of the Union) had been accumulating through the window. Secondary, and close in time, is the escalation of the Venezuelan political crisis, in which the opposition leader swore himself in as president and was recognised by the United States, Canada and several Latin American governments while the incumbent refused to step aside. A third strand is UK political risk, with the Brexit deal suffering a record parliamentary defeat mid-window and an amendment for a second referendum tabled later.\",\"mechanism\":\"The resolution of a 35-day funding lapse removes a persistent, dated source of domestic fiscal and macro-data uncertainty, which typically compresses risk premia and can register as a regime shift in price and volatility series; simultaneously, a contested claim to the presidency of a major oil-producing state backed by great-power recognition introduces a fresh commodity- and sovereign-risk channel.\",\"claims\":[{\"claim\":\"A short-term deal was announced on the final day of the window to reopen the US federal government after a partial shutdown lasting 35 days, with the stop-gap lasting three weeks and containing no border barrier funding.\",\"item_ids\":[\"e59e822a68cc9ae1\"]},{\"claim\":\"The shutdown had produced visible operational costs during the window, including roughly 42,000 active-duty Coast Guard members missing a paycheck for the first time in such a lapse.\",\"item_ids\":[\"f1cedbb8a6634a4f\"]},{\"claim\":\"The shutdown had also generated institutional friction, with the President postponing the House Speaker's diplomatic travel and the Speaker refusing to authorise the State of the Union in the House chamber until the shutdown ended.\",\"item_ids\":[\"ee264a81ef6b5b0f\",\"bed7924b6ca38e65\"]},{\"claim\":\"Two days before the flag, Venezuela's opposition leader swore himself in as president while the de facto president refused to recognise this, and the United States, Canada and several Latin American nations recognised him.\",\"item_ids\":[\"c07590bc34251541\",\"fdae9590094ef24a\"]},{\"claim\":\"The Venezuelan situation had been deteriorating through the window, with the opposition leader briefly detained, a National Guard mutiny quashed, and deadly protests in Caracas and Estado Bol\u00edvar.\",\"item_ids\":[\"ecd0a4aab9b78698\",\"19f1fb9f4f584507\",\"82be364f5552333d\"]},{\"claim\":\"Mid-window, the UK Prime Minister's Brexit deal was defeated in Parliament by 432 votes to 202, described as the worst defeat for a Prime Minister in modern British history, and the government then survived a no-confidence vote by a majority of 19.\",\"item_ids\":[\"1bf48b2f08cd502e\",\"fb0b28020a686590\"]},{\"claim\":\"An opposition amendment requiring a second referendum before full EU exit was proposed later in the window.\",\"item_ids\":[\"3d5550ccb27f9975\"]},{\"claim\":\"A separate political risk event, a Greek governing coalition partner withdrawing over the Prespa agreement, was resolved when the Prime Minister survived a confidence vote.\",\"item_ids\":[\"4df3d86bce235bb1\",\"f10dda799fa8e3de\"]}],\"primary_item_ids\":[\"e59e822a68cc9ae1\",\"c07590bc34251541\",\"fdae9590094ef24a\"],\"competing_explanation\":\"The Venezuelan recognition dispute on Day 12 could be the true driver rather than the shutdown deal, since a contested presidency in a large oil exporter carries a direct commodity-price channel; alternatively, the model may have flagged the resolution of accumulated UK and US political uncertainty (Brexit defeat surviving a confidence vote, shutdown ending) as a volatility-compression event rather than a shock. It is also possible the flag is noise: most items here are humanitarian, criminal or regional in nature with no obvious pricing channel.\",\"insufficient_evidence_reason\":\"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "4e56aa7c75060f9a"
+}

@@ -1,0 +1,52 @@
+{
+  "window_id": "placebo_2015-05-29",
+  "kind": "placebo",
+  "boundary_date": "2015-05-29",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "The most salient sequence across the window is an escalation of Middle East conflict: ISIS's capture of Ramadi in Iraq, the resumption of Saudi-led airstrikes on Houthi rebels in Yemen, and a car bombing at a Shia mosque in Dammam, Saudi Arabia claimed by Islamic State on the flagged day. This pattern of expanding conflict involving a major oil-producing region is a plausible source of increased market unease.",
+  "mechanism": "Escalating conflict near Gulf oil infrastructure and inside Saudi Arabia itself can raise geopolitical risk premia, affect oil price expectations, and trigger risk-off flows, all of which show up as elevated volatility in price data even without a single dramatic shock.",
+  "claims": [
+    {
+      "claim": "ISIS captured the strategically important Iraqi city of Ramadi, with an estimated 500 killed and thousands displaced.",
+      "item_ids": [
+        "2f70eb6a8cc2dccc"
+      ]
+    },
+    {
+      "claim": "Roughly 55,000 people fled Ramadi after its capture by Islamic State.",
+      "item_ids": [
+        "46e5f21c13cbde4b"
+      ]
+    },
+    {
+      "claim": "The Syrian Observatory for Human Rights stated Islamic State controlled more than half of Syria.",
+      "item_ids": [
+        "dac93d0bef3657ef"
+      ]
+    },
+    {
+      "claim": "Saudi-led airstrikes against Houthi rebels in Yemen resumed after a five-day ceasefire.",
+      "item_ids": [
+        "227035a14cbcc0e1"
+      ]
+    },
+    {
+      "claim": "On the flagged day, Islamic State claimed responsibility for a car bomb at a mosque in Dammam, Saudi Arabia, killing at least four and injuring dozens.",
+      "item_ids": [
+        "ad790b6f0569082c"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "2f70eb6a8cc2dccc",
+    "227035a14cbcc0e1",
+    "ad790b6f0569082c"
+  ],
+  "competing_explanation": "A separate and equally visible story is the FIFA corruption scandal, with Swiss and U.S. authorities detaining senior FIFA officials for extradition on bribery charges tied to World Cup bids; this dominated law-and-crime coverage in the final days of the window and could itself be read as a market-relevant governance/corporate-exposure event for sponsors and broadcasters, competing with the Middle East conflict narrative as the more 'newsworthy' shock.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"The most salient sequence across the window is an escalation of Middle East conflict: ISIS's capture of Ramadi in Iraq, the resumption of Saudi-led airstrikes on Houthi rebels in Yemen, and a car bombing at a Shia mosque in Dammam, Saudi Arabia claimed by Islamic State on the flagged day. This pattern of expanding conflict involving a major oil-producing region is a plausible source of increased market unease.\", \"mechanism\": \"Escalating conflict near Gulf oil infrastructure and inside Saudi Arabia itself can raise geopolitical risk premia, affect oil price expectations, and trigger risk-off flows, all of which show up as elevated volatility in price data even without a single dramatic shock.\", \"claims\": [{\"claim\": \"ISIS captured the strategically important Iraqi city of Ramadi, with an estimated 500 killed and thousands displaced.\", \"item_ids\": [\"2f70eb6a8cc2dccc\"]}, {\"claim\": \"Roughly 55,000 people fled Ramadi after its capture by Islamic State.\", \"item_ids\": [\"46e5f21c13cbde4b\"]}, {\"claim\": \"The Syrian Observatory for Human Rights stated Islamic State controlled more than half of Syria.\", \"item_ids\": [\"dac93d0bef3657ef\"]}, {\"claim\": \"Saudi-led airstrikes against Houthi rebels in Yemen resumed after a five-day ceasefire.\", \"item_ids\": [\"227035a14cbcc0e1\"]}, {\"claim\": \"On the flagged day, Islamic State claimed responsibility for a car bomb at a mosque in Dammam, Saudi Arabia, killing at least four and injuring dozens.\", \"item_ids\": [\"ad790b6f0569082c\"]}], \"primary_item_ids\": [\"2f70eb6a8cc2dccc\", \"227035a14cbcc0e1\", \"ad790b6f0569082c\"], \"competing_explanation\": \"A separate and equally visible story is the FIFA corruption scandal, with Swiss and U.S. authorities detaining senior FIFA officials for extradition on bribery charges tied to World Cup bids; this dominated law-and-crime coverage in the final days of the window and could itself be read as a market-relevant governance/corporate-exposure event for sponsors and broadcasters, competing with the Middle East conflict narrative as the more 'newsworthy' shock.\", \"insufficient_evidence_reason\": \"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "a9c2d7c0e3be73d1"
+}

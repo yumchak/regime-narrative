@@ -1,0 +1,46 @@
+{
+  "window_id": "placebo_2023-02-09",
+  "kind": "placebo",
+  "boundary_date": "2023-02-09",
+  "driver_identified": true,
+  "confidence": "medium",
+  "summary": "A major magnitude 7.8 earthquake struck Gaziantep Province, Turkey, killing at least 3,400 people, followed nine hours later by a second magnitude 7.5 earthquake in Kahramanmara\u015f; the disaster's aftermath continued into the flagged day with a deadly prison riot in earthquake-affected Hatay Province.",
+  "mechanism": "A disaster of this scale in a G20 economy with significant industrial, agricultural, and financial exposure (Turkish lira, sovereign debt, insurance and construction sectors) can generate sustained volatility through reconstruction cost estimates, currency pressure, and regional instability spillover into Syria, especially as continuing unrest (prison riot tied to earthquake) signals unresolved social and security strain.",
+  "claims": [
+    {
+      "claim": "A magnitude 7.8 earthquake struck Gaziantep Province, Turkey, killing at least 3,400 people.",
+      "item_ids": [
+        "b99abacebd588376"
+      ]
+    },
+    {
+      "claim": "A second magnitude 7.5 earthquake occurred in Kahramanmara\u015f, Turkey, nine hours after the first.",
+      "item_ids": [
+        "d7566de66dcedf1f"
+      ]
+    },
+    {
+      "claim": "On the flagged day, a prison riot broke out in Hatay Province, Turkey, with inmates demanding to see earthquake-affected families, resulting in three deaths and twelve injuries after soldiers opened fire.",
+      "item_ids": [
+        "c685576a564757fe"
+      ]
+    },
+    {
+      "claim": "A separate, unrelated geopolitical event on Day 9 involved the U.S. closing airspace off the East Coast and shooting down a high-altitude balloon, indicating heightened US-related tension in the window.",
+      "item_ids": [
+        "a953243f9ebca426"
+      ]
+    }
+  ],
+  "primary_item_ids": [
+    "b99abacebd588376",
+    "d7566de66dcedf1f",
+    "c685576a564757fe"
+  ],
+  "competing_explanation": "The FAA's closure of East Coast airspace and the shootdown of a high-altitude balloon (Day 9) reflects a distinct geopolitical tension episode (implicitly US-China related) that could independently unsettle markets through fears of escalating great-power friction, separate from the Turkey-Syria earthquake narrative.",
+  "insufficient_evidence_reason": "",
+  "raw_response": "{\"driver_identified\": true, \"confidence\": \"medium\", \"summary\": \"A major magnitude 7.8 earthquake struck Gaziantep Province, Turkey, killing at least 3,400 people, followed nine hours later by a second magnitude 7.5 earthquake in Kahramanmara\u015f; the disaster's aftermath continued into the flagged day with a deadly prison riot in earthquake-affected Hatay Province.\", \"mechanism\": \"A disaster of this scale in a G20 economy with significant industrial, agricultural, and financial exposure (Turkish lira, sovereign debt, insurance and construction sectors) can generate sustained volatility through reconstruction cost estimates, currency pressure, and regional instability spillover into Syria, especially as continuing unrest (prison riot tied to earthquake) signals unresolved social and security strain.\", \"claims\": [{\"claim\": \"A magnitude 7.8 earthquake struck Gaziantep Province, Turkey, killing at least 3,400 people.\", \"item_ids\": [\"b99abacebd588376\"]}, {\"claim\": \"A second magnitude 7.5 earthquake occurred in Kahramanmara\u015f, Turkey, nine hours after the first.\", \"item_ids\": [\"d7566de66dcedf1f\"]}, {\"claim\": \"On the flagged day, a prison riot broke out in Hatay Province, Turkey, with inmates demanding to see earthquake-affected families, resulting in three deaths and twelve injuries after soldiers opened fire.\", \"item_ids\": [\"c685576a564757fe\"]}, {\"claim\": \"A separate, unrelated geopolitical event on Day 9 involved the U.S. closing airspace off the East Coast and shooting down a high-altitude balloon, indicating heightened US-related tension in the window.\", \"item_ids\": [\"a953243f9ebca426\"]}], \"primary_item_ids\": [\"b99abacebd588376\", \"d7566de66dcedf1f\", \"c685576a564757fe\"], \"competing_explanation\": \"The FAA's closure of East Coast airspace and the shootdown of a high-altitude balloon (Day 9) reflects a distinct geopolitical tension episode (implicitly US-China related) that could independently unsettle markets through fears of escalating great-power friction, separate from the Turkey-Syria earthquake narrative.\", \"insufficient_evidence_reason\": \"\"}",
+  "parse_ok": true,
+  "parse_error": "",
+  "call_log_id": "a732d087cab80f41"
+}
