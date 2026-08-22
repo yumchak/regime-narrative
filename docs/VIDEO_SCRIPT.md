@@ -4,7 +4,12 @@
 and Part 1 is not optional — an earlier draft of this script was 7:00 of project
 with no self-introduction at all, which would have failed the rules outright.
 
-Fill in every `[SQUARE BRACKET]` — those are yours, not mine to invent.
+Name, university, branding, AI journey and career aspiration are **filled in** —
+grounded in your own repos (`purgedcv`, `pypbo`, `quantguard`) and in this
+project, so every word is checkable. Two brackets remain because they are
+genuinely yours: a **fun fact**, and **why Polymer specifically**. A third is
+optional. Rewrite any of it in your own voice — read it aloud first; if a
+sentence doesn't sound like you, change it.
 
 Narration is pitched at ~145 wpm. Every figure is the measured value in
 `outputs/`; none is rounded in your favour.
@@ -18,10 +23,10 @@ aspirations for the summer internship.
 
 | Time | On screen | Narration |
 |---|---|---|
-| **0:00–0:12** | You, talking to camera. Name and university as a lower third. | Hi, I'm **[NAME]**, a penultimate-year BSc Mathematics with Statistics student at the University of Bristol. **[ONE-LINE BRANDING — e.g. "I build statistical models that are honest about what they cannot do."]** |
-| **0:12–0:40** | Screen: your first regime chart from the earlier notebook, then a cut to this repo's test suite scrolling past. | My AI journey started as autocomplete and turned into something else. **[ONE OR TWO SENTENCES, TRUE TO YOU — what changed, and when.]** What I've landed on is this: AI is fastest at the parts I already understand, and most dangerous at the parts I don't. This project is built around that. The language model never touches a number — it only reads news. Every claim it makes is measured by code I can defend line by line. |
-| **0:40–0:52** | Something visual and personal. | A fun fact: **[FUN FACT]**. |
-| **0:52–1:05** | Back to camera. | For a summer internship I'm looking for **[WHAT YOU WANT — e.g. quantitative research, where the work is building signals and then trying hard to break them]**. **[ONE SENTENCE ON WHY POLYMER SPECIFICALLY.]** |
+| **0:00–0:12** | You, talking to camera. Lower third: *Victor Sze · BSc Mathematics with Statistics · University of Bristol*. | Hi, I'm Victor, a penultimate-year Mathematics with Statistics student at the University of Bristol. I build tools that stop quantitative research fooling itself. |
+| **0:12–0:45** | Quick montage of your own repos: `purgedcv`, `pypbo`, `quantguard` — pause two seconds on quantguard's line *"The LLM proposes; deterministic code verifies."* Then cut to this repo's test suite scrolling past. | If you look at what I build, it's all the same thing. Purged cross-validation. Probability of backtest overfitting. An auditor that detects leakage in quant research. They're all tools for not fooling yourself. My AI journey went the same way. It started as autocomplete. What changed is that I stopped asking models for answers and started asking what would prove them wrong. **[OPTIONAL — one sentence on the specific moment that changed, if you have one.]** So the rule I've landed on is the tagline of one of those repos: the language model proposes, and deterministic code verifies. In this project the model never touches a number. It only reads news. Every claim it makes is checked by code I can defend line by line — including the check that says where it fails. |
+| **0:45–0:55** | Something visual and personal. | A fun fact: **[FUN FACT]**. |
+| **0:55–1:05** | Back to camera. | For a summer internship I want to be in quantitative research — where the job is to build a signal and then spend most of your time trying to break it. That's the part I already do for fun, and this project is what it looks like when I do it properly. **[ONE SENTENCE: WHY POLYMER SPECIFICALLY.]** |
 
 ---
 
