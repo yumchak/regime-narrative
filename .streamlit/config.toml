@@ -1,0 +1,16 @@
+# Deployed-app defaults. Local runs pick these up too, which is fine.
+[server]
+# The app reads cached JSON and, on demand, fetches news. Neither needs uploads
+# larger than a small CSV of dates.
+maxUploadSize = 5
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#37567f"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f3f6f9"
+textColor = "#16202a"

@@ -169,3 +169,67 @@ def test_onepager_covers_every_required_section():
     text = out.read_text(encoding="utf-8").lower()
     for section in ("problem", "solution", "use of ai", "impact", "reflections"):
         assert section in text, f"required write-up section missing: {section}"
+
+
+# ---------------------------------------------------------------------------
+# deployability -- errors here only surface on the host, which is the worst
+# place to find them
+# ---------------------------------------------------------------------------
+
+STDLIB_OR_LOCAL = {
+    "__future__", "argparse", "base64", "dataclasses", "datetime", "functools",
+    "glob", "hashlib", "http", "importlib", "io", "json", "os", "pathlib", "re",
+    "statistics", "subprocess", "sys", "textwrap", "time", "typing", "urllib",
+    "warnings", "collections", "regime_narrative", "pytest",
+}
+# import name -> distribution name, where they differ
+DIST_NAME = {
+    "sklearn": "scikit-learn", "yaml": "PyYAML", "rank_bm25": "rank-bm25",
+    "dateutil": "python-dateutil", "PIL": "pillow",
+}
+
+
+def _imported_third_party() -> set[str]:
+    roots = set()
+    targets = [PROJECT_ROOT / "app.py"]
+    targets += list((PROJECT_ROOT / "src").rglob("*.py"))
+    for path in targets:
+        for line in path.read_text(encoding="utf-8", errors="ignore").splitlines():
+            m = re.match(r"^\s*(?:import|from)\s+([A-Za-z_][A-Za-z0-9_]*)", line)
+            if m:
+                roots.add(m.group(1))
+    return {r for r in roots if r not in STDLIB_OR_LOCAL}
+
+
+def test_every_imported_package_is_in_requirements():
+    """A missing pin fails at deploy time, not at test time, unless we check.
+
+    requirements.txt was once pinned before streamlit and plotly were added, so
+    the app imported two packages the deployed host would never install.
+    """
+    req = (PROJECT_ROOT / "requirements.txt").read_text(encoding="utf-8").lower()
+    missing = []
+    for mod in sorted(_imported_third_party()):
+        dist = DIST_NAME.get(mod, mod).lower()
+        if dist not in req:
+            missing.append(f"{mod} (as {dist})")
+    assert not missing, (
+        "imported but absent from requirements.txt: " + ", ".join(missing)
+    )
+
+
+def test_streamlit_itself_is_pinned():
+    """The app cannot start without it, and it is not covered above."""
+    req = (PROJECT_ROOT / "requirements.txt").read_text(encoding="utf-8").lower()
+    assert "streamlit" in req
+
+
+def test_requirements_are_pinned_not_floating():
+    """A floating range means the deployed app is not the one that was tested."""
+    lines = [
+        l.strip() for l in
+        (PROJECT_ROOT / "requirements.txt").read_text(encoding="utf-8").splitlines()
+        if l.strip() and not l.startswith("#")
+    ]
+    unpinned = [l for l in lines if "==" not in l]
+    assert not unpinned, f"unpinned requirements: {unpinned}"
