@@ -1,0 +1,13 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "regime-narrative",
+      "runtimeExecutable": ".venv/Scripts/python.exe",
+      "runtimeArgs": ["-m", "streamlit", "run", "app.py",
+                      "--server.headless", "true",
+                      "--browser.gatherUsageStats", "false"],
+      "autoPort": true
+    }
+  ]
+}

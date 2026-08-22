@@ -241,8 +241,17 @@ def generate_narrative(
     prompt_version: str | None = None,
     model: str | None = None,
     use_cache: bool = True,
+    run_label: str = "",
 ) -> Narrative:
-    """One window in, one structured explanation out. No batching."""
+    """One window in, one structured explanation out. No batching.
+
+    ``run_label`` namespaces the cache so a replicate run can be generated
+    without overwriting the primary result. This matters more than it used to:
+    sampling parameters were removed from the API, so identical inputs no longer
+    guarantee identical outputs, and the headline placebo statistic is an
+    LLM-emitted label. Measuring how often that label changes between runs is
+    part of knowing what the placebo p-value is worth.
+    """
     cfg = load_settings()
     model = model or cfg["llm"]["model"]
     system_prompt, prompt_hash = load_prompt(prompt_version)
@@ -252,7 +261,8 @@ def generate_narrative(
         f"{model}|{prompt_hash}|{user_text}".encode("utf-8")
     ).hexdigest()[:16]
 
-    cache_path = cache_dir("narratives") / f"{window_id}_{input_hash}.json"
+    suffix = f"_{run_label}" if run_label else ""
+    cache_path = cache_dir("narratives") / f"{window_id}_{input_hash}{suffix}.json"
     if use_cache and cache_path.exists():
         return Narrative(**json.loads(cache_path.read_text(encoding="utf-8")))
 
@@ -288,6 +298,7 @@ def generate_narrative(
             "timestamp_utc": datetime.now(timezone.utc).isoformat(),
             "window_id": window_id,
             "kind": kind,
+            "run_label": run_label or "primary",
             "boundary_date": window.boundary_date.isoformat(),
             "model": model,
             "prompt_version": prompt_version or cfg["llm"]["prompt_version"],

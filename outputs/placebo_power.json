@@ -1,0 +1,33 @@
+{
+  "question": "Given 20 transitions and 13 clean controls, what difference could this study ever have detected?",
+  "observed": {
+    "transition_rate": 0.8,
+    "clean_control_rate": 0.615,
+    "gap_pp": 18.5,
+    "fisher_p": 0.4251
+  },
+  "power_at_observed_effect": {
+    "vs_clean_n13": 0.166,
+    "vs_all_n40": 0.163
+  },
+  "power_curve_vs_clean_controls": {
+    "85%": 0.27,
+    "90%": 0.409,
+    "95%": 0.598,
+    "100%": 0.805
+  },
+  "power_curve_vs_all_controls": {
+    "85%": 0.308,
+    "90%": 0.516,
+    "95%": 0.786,
+    "100%": 0.988
+  },
+  "transition_rate_needed_for_80pct_power": {
+    "n_ctrl_13": "~100%",
+    "n_ctrl_40": "~95%",
+    "n_ctrl_100": "~94%",
+    "n_ctrl_200": "~93%"
+  },
+  "binding_constraint": "n_transitions = 20, not the number of controls. Even 200 controls only reaches 80% power if the transition rate is ~93%. More placebo sampling cannot fix this; only more transitions can.",
+  "honest_reading": "This study did not detect a difference and was never powered to detect anything short of a near-total one. Power at the observed 18.5pp gap is 0.16. The correct statement is \"underpowered, difference not resolved\", NOT \"no difference exists\". The gap runs in the predicted direction; the study cannot say whether it is real."
+}
