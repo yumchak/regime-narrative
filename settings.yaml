@@ -1,0 +1,69 @@
+# regime-narrative — single source of truth for every tunable.
+# Nothing in src/ hardcodes a value that appears here.
+
+study:
+  start_date: "2010-01-01"
+  end_date: null            # null = today
+
+universe:                   # the original fitted universe (unchanged from prior work)
+  spy: "SPY"
+  tlt: "TLT"
+  gld: "GLD"
+  vix: "^VIX"
+  hyg: "HYG"
+
+unseen_indices:             # never fitted on — the generalisation test
+  nikkei: "^N225"
+  hang_seng: "^HSI"
+  dax: "^GDAXI"
+
+hmm:
+  n_states: 2
+  covariance_type: "full"
+  n_iter: 1000
+  primary_seed: 42
+  stability_seeds: [0, 1, 7, 13, 42, 101, 202, 303, 404, 505]
+
+walk_forward:
+  train_days: 756           # 3 years
+  test_days: 126            # 6 months
+
+# --- PRE-REGISTERED PRIMARY SPECIFICATION -------------------------------
+# Fixed before any narrative is generated. Everything else is sensitivity.
+transitions:
+  min_dwell_days: 20        # persistence filter; provisional pending power analysis
+  dwell_sensitivity: [5, 10, 20, 30]
+  seed_stability_threshold: 0.6   # transition must survive in >=60% of seeds
+  date_tolerance_days: 5          # two seeds' transitions match if within this
+
+news:
+  window_days: 14           # window CLOSES on the transition date (inclusive)
+  max_items_per_window: 250   # effectively uncapped for a 14-day window;
+                              # selecting items would bias what the model can find
+  holdout_fraction: 0.5     # split for blind matching: generate on one half, match on other
+  holdout_seed: 20260822
+  primary_source: "gdelt"   # overridden by Day-0 recon result
+  fallback_source: "wikipedia"
+
+placebo:
+  offset_days_min: 30       # must exceed news.window_days so windows are disjoint
+  offset_days_max: 90
+  n_per_transition: 2        # two controls per transition: more power for the
+                            # rate comparison, and enough of them land in calm
+                            # stretches to give a usable clean stratum
+  min_gap_days: 21          # controls must also be disjoint from EACH OTHER,
+                            # not only from transitions; 21 > window_days = 14
+  seed: 20260822
+
+llm:
+  model: "claude-opus-5"    # swap here, one line, nowhere else.
+                            # claude-sonnet-5 is the cheaper swap for a rerun;
+                            # the whole run is ~320k input tokens over 60 calls.
+  temperature: 0.0
+  max_tokens: 2000
+  prompt_version: "narrative_v1"
+
+paths:
+  cache: "data/cache"
+  outputs: "outputs"
+  logs: "data/cache/llm_calls"

@@ -1,0 +1,1462 @@
+{
+  "specification": {
+    "min_dwell_days": 20,
+    "news_window_days": 14,
+    "placebo_offset_days": [
+      30,
+      90
+    ],
+    "train_days": 756,
+    "test_days": 126,
+    "primary_seed": 42
+  },
+  "data": {
+    "n_days": 4164,
+    "start": "2010-02-02",
+    "end": "2026-08-21"
+  },
+  "in_sample": {
+    "label": "in-sample (original procedure)",
+    "n_calm": 2710,
+    "n_stressed": 1454,
+    "vol_calm": 0.0067789090359673225,
+    "vol_stressed": 0.015757972331896065,
+    "ratio": 2.32455875249069,
+    "levene_stat": 612.8852114221087,
+    "levene_p": 2.4160192781130555e-126,
+    "ttest_stat": 1.2825137393633936,
+    "ttest_p": 0.19983266576434963,
+    "mean_calm": 0.0007206519283826664,
+    "mean_stressed": 0.0001649566822759963,
+    "ratio_ci_low": 1.9522747208008504,
+    "ratio_ci_high": 2.769953934267782
+  },
+  "out_of_sample": {
+    "label": "out-of-sample (pooled test days)",
+    "n_calm": 2156,
+    "n_stressed": 1246,
+    "vol_calm": 0.006923028455758523,
+    "vol_stressed": 0.015057765832424602,
+    "ratio": 2.175025847235925,
+    "levene_stat": 348.77984195437034,
+    "levene_p": 3.563445545744438e-74,
+    "ttest_stat": 0.6001594598474016,
+    "ttest_p": 0.5484874532694888,
+    "mean_calm": 0.0006376721121442254,
+    "mean_stressed": 0.0003664680518432044,
+    "ratio_ci_low": 1.761024134905962,
+    "ratio_ci_high": 2.68528700977205
+  },
+  "out_of_sample_forward": {
+    "label": "forward-20d",
+    "n_calm": 2142,
+    "n_stressed": 1246,
+    "fwd_vol_calm": 0.007193595824574656,
+    "fwd_vol_stressed": 0.012153294692472952,
+    "ratio": 1.6894603184342172,
+    "median_ratio": 1.602905834554701
+  },
+  "walk_forward": {
+    "n_folds": 27,
+    "n_oos_days": 3402,
+    "failures": [],
+    "folds_with_both_states": 20,
+    "per_fold_ratio_median": 1.5244411796916855,
+    "per_fold_ratio_mean": 1.8026197836310005,
+    "per_fold_ratio_above_1": 18,
+    "per_fold": [
+      {
+        "fold": 0,
+        "start": "2013-02-04",
+        "end": "2013-08-02",
+        "n_calm": 104,
+        "n_stressed": 22,
+        "vol_calm": 0.006820165815817226,
+        "vol_stressed": 0.010384475681841962,
+        "ratio": 1.522613373674646
+      },
+      {
+        "fold": 1,
+        "start": "2013-08-05",
+        "end": "2014-02-03",
+        "n_calm": 120,
+        "n_stressed": 6,
+        "vol_calm": 0.007052995962271088,
+        "vol_stressed": 0.0064492142948402165,
+        "ratio": 0.9143935895241245
+      },
+      {
+        "fold": 2,
+        "start": "2014-02-04",
+        "end": "2014-08-04",
+        "n_calm": 126,
+        "n_stressed": 0,
+        "vol_calm": 0.00606008582771688,
+        "vol_stressed": NaN,
+        "ratio": NaN
+      },
+      {
+        "fold": 3,
+        "start": "2014-08-05",
+        "end": "2015-02-03",
+        "n_calm": 126,
+        "n_stressed": 0,
+        "vol_calm": 0.008360073959103587,
+        "vol_stressed": NaN,
+        "ratio": NaN
+      },
+      {
+        "fold": 4,
+        "start": "2015-02-04",
+        "end": "2015-08-04",
+        "n_calm": 73,
+        "n_stressed": 53,
+        "vol_calm": 0.007034673119106498,
+        "vol_stressed": 0.0064411186326526985,
+        "ratio": 0.9156244396286619
+      },
+      {
+        "fold": 5,
+        "start": "2015-08-05",
+        "end": "2016-02-03",
+        "n_calm": 23,
+        "n_stressed": 103,
+        "vol_calm": 0.007313784986366345,
+        "vol_stressed": 0.013703189863151185,
+        "ratio": 1.873611254459265
+      },
+      {
+        "fold": 6,
+        "start": "2016-02-04",
+        "end": "2016-08-03",
+        "n_calm": 52,
+        "n_stressed": 74,
+        "vol_calm": 0.005970616386621179,
+        "vol_stressed": 0.009710242696535977,
+        "ratio": 1.6263383992136
+      },
+      {
+        "fold": 7,
+        "start": "2016-08-04",
+        "end": "2017-02-02",
+        "n_calm": 105,
+        "n_stressed": 21,
+        "vol_calm": 0.005557687328991196,
+        "vol_stressed": 0.006403211979131811,
+        "ratio": 1.1521360594954684
+      },
+      {
+        "fold": 8,
+        "start": "2017-02-03",
+        "end": "2017-08-03",
+        "n_calm": 126,
+        "n_stressed": 0,
+        "vol_calm": 0.004455117334460896,
+        "vol_stressed": NaN,
+        "ratio": NaN
+      },
+      {
+        "fold": 9,
+        "start": "2017-08-04",
+        "end": "2018-02-02",
+        "n_calm": 120,
+        "n_stressed": 6,
+        "vol_calm": 0.004192421373334601,
+        "vol_stressed": 0.011230596914217713,
+        "ratio": 2.6787853400539823
+      },
+      {
+        "fold": 10,
+        "start": "2018-02-05",
+        "end": "2018-08-03",
+        "n_calm": 61,
+        "n_stressed": 65,
+        "vol_calm": 0.005535817745005945,
+        "vol_stressed": 0.01310229248416336,
+        "ratio": 2.366821504552493
+      },
+      {
+        "fold": 11,
+        "start": "2018-08-06",
+        "end": "2019-02-05",
+        "n_calm": 46,
+        "n_stressed": 80,
+        "vol_calm": 0.004145774852973227,
+        "vol_stressed": 0.014773487964004448,
+        "ratio": 3.563504649416583
+      },
+      {
+        "fold": 12,
+        "start": "2019-02-06",
+        "end": "2019-08-06",
+        "n_calm": 68,
+        "n_stressed": 58,
+        "vol_calm": 0.006124426216839153,
+        "vol_stressed": 0.00870834746584654,
+        "ratio": 1.4219042172314653
+      },
+      {
+        "fold": 13,
+        "start": "2019-08-07",
+        "end": "2020-02-05",
+        "n_calm": 61,
+        "n_stressed": 65,
+        "vol_calm": 0.005030246670624384,
+        "vol_stressed": 0.009673982685288391,
+        "ratio": 1.9231626834092412
+      },
+      {
+        "fold": 14,
+        "start": "2020-02-06",
+        "end": "2020-08-05",
+        "n_calm": 0,
+        "n_stressed": 126,
+        "vol_calm": NaN,
+        "vol_stressed": 0.02807899588334698,
+        "ratio": NaN
+      },
+      {
+        "fold": 15,
+        "start": "2020-08-06",
+        "end": "2021-02-04",
+        "n_calm": 0,
+        "n_stressed": 126,
+        "vol_calm": NaN,
+        "vol_stressed": 0.010851178769046906,
+        "ratio": NaN
+      },
+      {
+        "fold": 16,
+        "start": "2021-02-05",
+        "end": "2021-08-05",
+        "n_calm": 79,
+        "n_stressed": 47,
+        "vol_calm": 0.006393053750935351,
+        "vol_stressed": 0.009757519664021459,
+        "ratio": 1.526268985708725
+      },
+      {
+        "fold": 17,
+        "start": "2021-08-06",
+        "end": "2022-02-03",
+        "n_calm": 118,
+        "n_stressed": 8,
+        "vol_calm": 0.00887228897810349,
+        "vol_stressed": 0.012368043429834226,
+        "ratio": 1.394008182145345
+      },
+      {
+        "fold": 18,
+        "start": "2022-02-04",
+        "end": "2022-08-05",
+        "n_calm": 15,
+        "n_stressed": 111,
+        "vol_calm": 0.01387337589791813,
+        "vol_stressed": 0.016112834302339986,
+        "ratio": 1.161421302277113
+      },
+      {
+        "fold": 19,
+        "start": "2022-08-08",
+        "end": "2023-02-06",
+        "n_calm": 23,
+        "n_stressed": 103,
+        "vol_calm": 0.011221607974659872,
+        "vol_stressed": 0.015248811133070986,
+        "ratio": 1.3588793306186744
+      },
+      {
+        "fold": 20,
+        "start": "2023-02-07",
+        "end": "2023-08-08",
+        "n_calm": 126,
+        "n_stressed": 0,
+        "vol_calm": 0.00831150412551849,
+        "vol_stressed": NaN,
+        "ratio": NaN
+      },
+      {
+        "fold": 21,
+        "start": "2023-08-09",
+        "end": "2024-02-07",
+        "n_calm": 125,
+        "n_stressed": 1,
+        "vol_calm": 0.007540462788796275,
+        "vol_stressed": NaN,
+        "ratio": NaN
+      },
+      {
+        "fold": 22,
+        "start": "2024-02-08",
+        "end": "2024-08-08",
+        "n_calm": 122,
+        "n_stressed": 4,
+        "vol_calm": 0.007430173742815299,
+        "vol_stressed": 0.022429645801872223,
+        "ratio": 3.01872426920849
+      },
+      {
+        "fold": 23,
+        "start": "2024-08-09",
+        "end": "2025-02-10",
+        "n_calm": 98,
+        "n_stressed": 28,
+        "vol_calm": 0.007323081734620665,
+        "vol_stressed": 0.010111826176523462,
+        "ratio": 1.3808156924862254
+      },
+      {
+        "fold": 24,
+        "start": "2025-02-11",
+        "end": "2025-08-12",
+        "n_calm": 37,
+        "n_stressed": 89,
+        "vol_calm": 0.005397376178160646,
+        "vol_stressed": 0.01846217091611833,
+        "ratio": 3.4205825769235143
+      },
+      {
+        "fold": 25,
+        "start": "2025-08-13",
+        "end": "2026-02-11",
+        "n_calm": 119,
+        "n_stressed": 7,
+        "vol_calm": 0.0068240077650162665,
+        "vol_stressed": 0.010879642803194442,
+        "ratio": 1.594318643505897
+      },
+      {
+        "fold": 26,
+        "start": "2026-02-12",
+        "end": "2026-08-13",
+        "n_calm": 83,
+        "n_stressed": 43,
+        "vol_calm": 0.008309484061563708,
+        "vol_stressed": 0.010291139618165855,
+        "ratio": 1.2384811790864945
+      }
+    ]
+  },
+  "generalisation": [
+    {
+      "index": "nikkei",
+      "n_days": 3907,
+      "n_folds": 25,
+      "vol_calm": 0.01145374773207303,
+      "vol_stressed": 0.01761237872749288,
+      "ratio_oos": 1.537695707944948,
+      "ratio_ci": [
+        1.353249203936752,
+        1.7735337495051628
+      ],
+      "ratio_forward": 1.1800893386095745,
+      "per_fold_median": 1.3825540535609593,
+      "levene_p": 5.878496991835122e-28,
+      "n_calm": 2068,
+      "n_stressed": 1082
+    },
+    {
+      "index": "hang_seng",
+      "n_days": 3968,
+      "n_folds": 25,
+      "vol_calm": 0.01135376514814094,
+      "vol_stressed": 0.01661821277056376,
+      "ratio_oos": 1.4636741692058706,
+      "ratio_ci": [
+        1.2790854825211995,
+        1.6733587153096492
+      ],
+      "ratio_forward": 1.316558566790623,
+      "per_fold_median": 1.3676599670134806,
+      "levene_p": 4.902930321211882e-24,
+      "n_calm": 2107,
+      "n_stressed": 1043
+    },
+    {
+      "index": "dax",
+      "n_days": 4091,
+      "n_folds": 26,
+      "vol_calm": 0.008728891856743153,
+      "vol_stressed": 0.016348842146787387,
+      "ratio_oos": 1.872957348435672,
+      "ratio_ci": [
+        1.6304801688901984,
+        2.178782782654947
+      ],
+      "ratio_forward": 1.5836313009744145,
+      "per_fold_median": 1.5648017282791087,
+      "levene_p": 7.109247014291483e-65,
+      "n_calm": 2183,
+      "n_stressed": 1093
+    }
+  ],
+  "dwell_sensitivity": [
+    {
+      "min_dwell_days": 1,
+      "n_transitions": 80,
+      "n_to_stressed": 41,
+      "n_to_calm": 39,
+      "n_episodes": 85,
+      "median_episode_days": 18.0,
+      "mean_episode_days": 40.023529411764706,
+      "max_episode_days": 363
+    },
+    {
+      "min_dwell_days": 5,
+      "n_transitions": 47,
+      "n_to_stressed": 24,
+      "n_to_calm": 23,
+      "n_episodes": 51,
+      "median_episode_days": 33.0,
+      "mean_episode_days": 66.70588235294117,
+      "max_episode_days": 417
+    },
+    {
+      "min_dwell_days": 10,
+      "n_transitions": 36,
+      "n_to_stressed": 18,
+      "n_to_calm": 18,
+      "n_episodes": 39,
+      "median_episode_days": 55.0,
+      "mean_episode_days": 87.23076923076923,
+      "max_episode_days": 417
+    },
+    {
+      "min_dwell_days": 15,
+      "n_transitions": 29,
+      "n_to_stressed": 14,
+      "n_to_calm": 15,
+      "n_episodes": 31,
+      "median_episode_days": 70.0,
+      "mean_episode_days": 109.74193548387096,
+      "max_episode_days": 451
+    },
+    {
+      "min_dwell_days": 20,
+      "n_transitions": 24,
+      "n_to_stressed": 12,
+      "n_to_calm": 12,
+      "n_episodes": 25,
+      "median_episode_days": 74.0,
+      "mean_episode_days": 136.08,
+      "max_episode_days": 503
+    },
+    {
+      "min_dwell_days": 30,
+      "n_transitions": 18,
+      "n_to_stressed": 9,
+      "n_to_calm": 9,
+      "n_episodes": 19,
+      "median_episode_days": 108.0,
+      "mean_episode_days": 179.05263157894737,
+      "max_episode_days": 605
+    },
+    {
+      "min_dwell_days": 45,
+      "n_transitions": 14,
+      "n_to_stressed": 7,
+      "n_to_calm": 7,
+      "n_episodes": 15,
+      "median_episode_days": 188.0,
+      "mean_episode_days": 226.8,
+      "max_episode_days": 605
+    },
+    {
+      "min_dwell_days": 60,
+      "n_transitions": 12,
+      "n_to_stressed": 6,
+      "n_to_calm": 6,
+      "n_episodes": 13,
+      "median_episode_days": 225.0,
+      "mean_episode_days": 261.6923076923077,
+      "max_episode_days": 605
+    }
+  ],
+  "transitions_primary_seed": [
+    {
+      "date": "2013-06-03",
+      "direction": "calm->stressed",
+      "dwell_before": 82,
+      "dwell_after": 20,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.985
+    },
+    {
+      "date": "2013-07-01",
+      "direction": "stressed->calm",
+      "dwell_before": 20,
+      "dwell_after": 503,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.351
+    },
+    {
+      "date": "2015-06-30",
+      "direction": "calm->stressed",
+      "dwell_before": 503,
+      "dwell_after": 188,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.915
+    },
+    {
+      "date": "2016-03-30",
+      "direction": "stressed->calm",
+      "dwell_before": 188,
+      "dwell_after": 52,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.081
+    },
+    {
+      "date": "2016-06-13",
+      "direction": "calm->stressed",
+      "dwell_before": 52,
+      "dwell_after": 32,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 1.0
+    },
+    {
+      "date": "2016-07-28",
+      "direction": "stressed->calm",
+      "dwell_before": 32,
+      "dwell_after": 377,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.07
+    },
+    {
+      "date": "2018-01-26",
+      "direction": "calm->stressed",
+      "dwell_before": 377,
+      "dwell_after": 70,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.953
+    },
+    {
+      "date": "2018-05-08",
+      "direction": "stressed->calm",
+      "dwell_before": 70,
+      "dwell_after": 108,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.24
+    },
+    {
+      "date": "2018-10-10",
+      "direction": "calm->stressed",
+      "dwell_before": 108,
+      "dwell_after": 96,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 1.0
+    },
+    {
+      "date": "2019-03-01",
+      "direction": "stressed->calm",
+      "dwell_before": 96,
+      "dwell_after": 47,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.07
+    },
+    {
+      "date": "2019-05-08",
+      "direction": "calm->stressed",
+      "dwell_before": 47,
+      "dwell_after": 40,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.982
+    },
+    {
+      "date": "2019-07-05",
+      "direction": "stressed->calm",
+      "dwell_before": 40,
+      "dwell_after": 21,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.156
+    },
+    {
+      "date": "2019-08-05",
+      "direction": "calm->stressed",
+      "dwell_before": 21,
+      "dwell_after": 63,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 1.0
+    },
+    {
+      "date": "2019-11-01",
+      "direction": "stressed->calm",
+      "dwell_before": 63,
+      "dwell_after": 61,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.247
+    },
+    {
+      "date": "2020-01-31",
+      "direction": "calm->stressed",
+      "dwell_before": 61,
+      "dwell_after": 287,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.867
+    },
+    {
+      "date": "2021-03-23",
+      "direction": "stressed->calm",
+      "dwell_before": 287,
+      "dwell_after": 225,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.409
+    },
+    {
+      "date": "2022-02-10",
+      "direction": "calm->stressed",
+      "dwell_before": 225,
+      "dwell_after": 214,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.84
+    },
+    {
+      "date": "2022-12-16",
+      "direction": "stressed->calm",
+      "dwell_before": 214,
+      "dwell_after": 451,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.312
+    },
+    {
+      "date": "2024-10-04",
+      "direction": "calm->stressed",
+      "dwell_before": 451,
+      "dwell_after": 24,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.986
+    },
+    {
+      "date": "2024-11-07",
+      "direction": "stressed->calm",
+      "dwell_before": 24,
+      "dwell_after": 74,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.079
+    },
+    {
+      "date": "2025-02-27",
+      "direction": "calm->stressed",
+      "dwell_before": 74,
+      "dwell_after": 83,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.833
+    },
+    {
+      "date": "2025-06-27",
+      "direction": "stressed->calm",
+      "dwell_before": 83,
+      "dwell_after": 173,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.381
+    },
+    {
+      "date": "2026-03-06",
+      "direction": "calm->stressed",
+      "dwell_before": 173,
+      "dwell_after": 43,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 1.0
+    },
+    {
+      "date": "2026-05-07",
+      "direction": "stressed->calm",
+      "dwell_before": 43,
+      "dwell_after": 68,
+      "at_fold_boundary": false,
+      "seed_support": null,
+      "n_seeds": 0,
+      "stressed_prob": 0.181
+    }
+  ],
+  "seed_stability": {
+    "n_seeds": 10,
+    "counts_per_seed": {
+      "0": 24,
+      "1": 24,
+      "7": 26,
+      "13": 24,
+      "42": 24,
+      "101": 23,
+      "202": 21,
+      "303": 23,
+      "404": 19,
+      "505": 22
+    },
+    "n_stable_transitions": 20,
+    "n_primary_seed_transitions": 24,
+    "transitions": [
+      {
+        "date": "2015-04-14",
+        "direction": "stressed->calm",
+        "dwell_before": 65,
+        "dwell_after": 53,
+        "at_fold_boundary": false,
+        "seed_support": 0.6,
+        "n_seeds": 6,
+        "stressed_prob": 0.205
+      },
+      {
+        "date": "2015-06-29",
+        "direction": "calm->stressed",
+        "dwell_before": 53,
+        "dwell_after": 189,
+        "at_fold_boundary": false,
+        "seed_support": 0.9,
+        "n_seeds": 9,
+        "stressed_prob": 0.977
+      },
+      {
+        "date": "2016-03-30",
+        "direction": "stressed->calm",
+        "dwell_before": 189,
+        "dwell_after": 52,
+        "at_fold_boundary": false,
+        "seed_support": 0.9,
+        "n_seeds": 9,
+        "stressed_prob": 0.081
+      },
+      {
+        "date": "2016-06-13",
+        "direction": "calm->stressed",
+        "dwell_before": 52,
+        "dwell_after": 32,
+        "at_fold_boundary": false,
+        "seed_support": 1.0,
+        "n_seeds": 10,
+        "stressed_prob": 1.0
+      },
+      {
+        "date": "2016-07-28",
+        "direction": "stressed->calm",
+        "dwell_before": 32,
+        "dwell_after": 377,
+        "at_fold_boundary": false,
+        "seed_support": 1.0,
+        "n_seeds": 10,
+        "stressed_prob": 0.09
+      },
+      {
+        "date": "2018-01-26",
+        "direction": "calm->stressed",
+        "dwell_before": 377,
+        "dwell_after": 70,
+        "at_fold_boundary": false,
+        "seed_support": 0.9,
+        "n_seeds": 9,
+        "stressed_prob": 0.955
+      },
+      {
+        "date": "2018-05-08",
+        "direction": "stressed->calm",
+        "dwell_before": 70,
+        "dwell_after": 108,
+        "at_fold_boundary": false,
+        "seed_support": 1.0,
+        "n_seeds": 10,
+        "stressed_prob": 0.234
+      },
+      {
+        "date": "2018-10-10",
+        "direction": "calm->stressed",
+        "dwell_before": 108,
+        "dwell_after": 96,
+        "at_fold_boundary": false,
+        "seed_support": 1.0,
+        "n_seeds": 10,
+        "stressed_prob": 1.0
+      },
+      {
+        "date": "2019-03-01",
+        "direction": "stressed->calm",
+        "dwell_before": 96,
+        "dwell_after": 47,
+        "at_fold_boundary": false,
+        "seed_support": 1.0,
+        "n_seeds": 10,
+        "stressed_prob": 0.07
+      },
+      {
+        "date": "2019-05-08",
+        "direction": "calm->stressed",
+        "dwell_before": 47,
+        "dwell_after": 40,
+        "at_fold_boundary": false,
+        "seed_support": 1.0,
+        "n_seeds": 10,
+        "stressed_prob": 0.982
+      },
+      {
+        "date": "2019-07-05",
+        "direction": "stressed->calm",
+        "dwell_before": 40,
+        "dwell_after": 21,
+        "at_fold_boundary": false,
+        "seed_support": 1.0,
+        "n_seeds": 10,
+        "stressed_prob": 0.156
+      },
+      {
+        "date": "2019-08-05",
+        "direction": "calm->stressed",
+        "dwell_before": 21,
+        "dwell_after": 63,
+        "at_fold_boundary": false,
+        "seed_support": 1.0,
+        "n_seeds": 10,
+        "stressed_prob": 1.0
+      },
+      {
+        "date": "2019-11-01",
+        "direction": "stressed->calm",
+        "dwell_before": 63,
+        "dwell_after": 61,
+        "at_fold_boundary": false,
+        "seed_support": 1.0,
+        "n_seeds": 10,
+        "stressed_prob": 0.247
+      },
+      {
+        "date": "2020-01-31",
+        "direction": "calm->stressed",
+        "dwell_before": 61,
+        "dwell_after": 287,
+        "at_fold_boundary": false,
+        "seed_support": 1.0,
+        "n_seeds": 10,
+        "stressed_prob": 0.867
+      },
+      {
+        "date": "2021-03-23",
+        "direction": "stressed->calm",
+        "dwell_before": 287,
+        "dwell_after": 225,
+        "at_fold_boundary": false,
+        "seed_support": 1.0,
+        "n_seeds": 10,
+        "stressed_prob": 0.409
+      },
+      {
+        "date": "2022-02-10",
+        "direction": "calm->stressed",
+        "dwell_before": 225,
+        "dwell_after": 214,
+        "at_fold_boundary": false,
+        "seed_support": 1.0,
+        "n_seeds": 10,
+        "stressed_prob": 0.84
+      },
+      {
+        "date": "2022-12-16",
+        "direction": "stressed->calm",
+        "dwell_before": 214,
+        "dwell_after": 451,
+        "at_fold_boundary": false,
+        "seed_support": 1.0,
+        "n_seeds": 10,
+        "stressed_prob": 0.312
+      },
+      {
+        "date": "2025-03-04",
+        "direction": "calm->stressed",
+        "dwell_before": 95,
+        "dwell_after": 76,
+        "at_fold_boundary": false,
+        "seed_support": 0.8,
+        "n_seeds": 8,
+        "stressed_prob": 0.84
+      },
+      {
+        "date": "2026-03-05",
+        "direction": "calm->stressed",
+        "dwell_before": 183,
+        "dwell_after": 52,
+        "at_fold_boundary": false,
+        "seed_support": 1.0,
+        "n_seeds": 10,
+        "stressed_prob": 0.577
+      },
+      {
+        "date": "2026-05-19",
+        "direction": "stressed->calm",
+        "dwell_before": 52,
+        "dwell_after": 60,
+        "at_fold_boundary": false,
+        "seed_support": 0.9,
+        "n_seeds": 9,
+        "stressed_prob": 0.447
+      }
+    ]
+  },
+  "placebo": {
+    "dates": [
+      {
+        "date": "2015-02-12",
+        "matched_to": "2015-04-14",
+        "offset_days": -61,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 61,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2015-05-29",
+        "matched_to": "2015-04-14",
+        "offset_days": 45,
+        "state_at_date": 0,
+        "days_to_nearest_transition": 31,
+        "stratum": "clean"
+      },
+      {
+        "date": "2015-08-10",
+        "matched_to": "2015-06-29",
+        "offset_days": 42,
+        "state_at_date": 0,
+        "days_to_nearest_transition": 42,
+        "stratum": "clean"
+      },
+      {
+        "date": "2015-09-11",
+        "matched_to": "2015-06-29",
+        "offset_days": 74,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 74,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2016-01-04",
+        "matched_to": "2016-03-30",
+        "offset_days": -86,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 86,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2016-02-16",
+        "matched_to": "2016-03-30",
+        "offset_days": -43,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 43,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2016-05-03",
+        "matched_to": "2016-06-13",
+        "offset_days": -41,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 34,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2016-06-28",
+        "matched_to": "2016-07-28",
+        "offset_days": -30,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 15,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2016-09-02",
+        "matched_to": "2016-06-13",
+        "offset_days": 81,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 36,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2016-10-12",
+        "matched_to": "2016-07-28",
+        "offset_days": 76,
+        "state_at_date": 0,
+        "days_to_nearest_transition": 76,
+        "stratum": "clean"
+      },
+      {
+        "date": "2017-12-22",
+        "matched_to": "2018-01-26",
+        "offset_days": -35,
+        "state_at_date": 0,
+        "days_to_nearest_transition": 35,
+        "stratum": "clean"
+      },
+      {
+        "date": "2018-03-01",
+        "matched_to": "2018-01-26",
+        "offset_days": 34,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 34,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2018-04-04",
+        "matched_to": "2018-05-08",
+        "offset_days": -34,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 34,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2018-07-20",
+        "matched_to": "2018-05-08",
+        "offset_days": 73,
+        "state_at_date": 0,
+        "days_to_nearest_transition": 73,
+        "stratum": "clean"
+      },
+      {
+        "date": "2018-11-21",
+        "matched_to": "2018-10-10",
+        "offset_days": 42,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 42,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2018-12-20",
+        "matched_to": "2018-10-10",
+        "offset_days": 71,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 71,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2019-01-25",
+        "matched_to": "2019-03-01",
+        "offset_days": -35,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 35,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2019-02-15",
+        "matched_to": "2019-05-08",
+        "offset_days": -82,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 14,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2019-03-28",
+        "matched_to": "2019-05-08",
+        "offset_days": -41,
+        "state_at_date": 0,
+        "days_to_nearest_transition": 27,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2019-04-22",
+        "matched_to": "2019-03-01",
+        "offset_days": 52,
+        "state_at_date": 0,
+        "days_to_nearest_transition": 16,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2019-05-30",
+        "matched_to": "2019-07-05",
+        "offset_days": -36,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 22,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2019-08-20",
+        "matched_to": "2019-07-05",
+        "offset_days": 46,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 15,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2019-09-13",
+        "matched_to": "2019-08-05",
+        "offset_days": 39,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 39,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2019-10-07",
+        "matched_to": "2019-08-05",
+        "offset_days": 63,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 25,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2019-12-03",
+        "matched_to": "2019-11-01",
+        "offset_days": 32,
+        "state_at_date": 0,
+        "days_to_nearest_transition": 32,
+        "stratum": "clean"
+      },
+      {
+        "date": "2020-01-07",
+        "matched_to": "2019-11-01",
+        "offset_days": 67,
+        "state_at_date": 0,
+        "days_to_nearest_transition": 24,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2020-03-23",
+        "matched_to": "2020-01-31",
+        "offset_days": 52,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 52,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2020-04-22",
+        "matched_to": "2020-01-31",
+        "offset_days": 82,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 82,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2021-02-18",
+        "matched_to": "2021-03-23",
+        "offset_days": -33,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 33,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2021-05-10",
+        "matched_to": "2021-03-23",
+        "offset_days": 48,
+        "state_at_date": 0,
+        "days_to_nearest_transition": 48,
+        "stratum": "clean"
+      },
+      {
+        "date": "2022-01-11",
+        "matched_to": "2022-02-10",
+        "offset_days": -30,
+        "state_at_date": 0,
+        "days_to_nearest_transition": 30,
+        "stratum": "clean"
+      },
+      {
+        "date": "2022-04-27",
+        "matched_to": "2022-02-10",
+        "offset_days": 76,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 76,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2022-11-14",
+        "matched_to": "2022-12-16",
+        "offset_days": -32,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 32,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2023-02-09",
+        "matched_to": "2022-12-16",
+        "offset_days": 55,
+        "state_at_date": 0,
+        "days_to_nearest_transition": 55,
+        "stratum": "clean"
+      },
+      {
+        "date": "2024-12-09",
+        "matched_to": "2025-03-04",
+        "offset_days": -85,
+        "state_at_date": 0,
+        "days_to_nearest_transition": 85,
+        "stratum": "clean"
+      },
+      {
+        "date": "2025-05-08",
+        "matched_to": "2025-03-04",
+        "offset_days": 65,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 65,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2025-12-11",
+        "matched_to": "2026-03-05",
+        "offset_days": -84,
+        "state_at_date": 0,
+        "days_to_nearest_transition": 84,
+        "stratum": "clean"
+      },
+      {
+        "date": "2026-04-27",
+        "matched_to": "2026-03-05",
+        "offset_days": 53,
+        "state_at_date": 1,
+        "days_to_nearest_transition": 22,
+        "stratum": "contaminated"
+      },
+      {
+        "date": "2026-06-23",
+        "matched_to": "2026-05-19",
+        "offset_days": 35,
+        "state_at_date": 0,
+        "days_to_nearest_transition": 35,
+        "stratum": "clean"
+      },
+      {
+        "date": "2026-07-28",
+        "matched_to": "2026-05-19",
+        "offset_days": 70,
+        "state_at_date": 0,
+        "days_to_nearest_transition": 70,
+        "stratum": "clean"
+      }
+    ],
+    "balance": {
+      "n_transitions": 20,
+      "n_placebos": 40,
+      "coverage": 1.0,
+      "transition_year_mean": 2019.45,
+      "placebo_year_mean": 2019.42,
+      "year_mean_gap": 0.025,
+      "mean_abs_offset_days": 54.0,
+      "min_days_to_any_transition": 14,
+      "state_split": {
+        "1": 24,
+        "0": 16
+      },
+      "stratum_split": {
+        "clean": 13,
+        "contaminated": 27
+      },
+      "transitions_without_control": []
+    }
+  },
+  "dwell_distribution": [
+    {
+      "state": 0,
+      "regime": "calm",
+      "start": "2013-02-04",
+      "end": "2013-05-31",
+      "length_days": 82
+    },
+    {
+      "state": 1,
+      "regime": "stressed",
+      "start": "2013-06-03",
+      "end": "2013-06-28",
+      "length_days": 20
+    },
+    {
+      "state": 0,
+      "regime": "calm",
+      "start": "2013-07-01",
+      "end": "2015-06-29",
+      "length_days": 503
+    },
+    {
+      "state": 1,
+      "regime": "stressed",
+      "start": "2015-06-30",
+      "end": "2016-03-29",
+      "length_days": 188
+    },
+    {
+      "state": 0,
+      "regime": "calm",
+      "start": "2016-03-30",
+      "end": "2016-06-10",
+      "length_days": 52
+    },
+    {
+      "state": 1,
+      "regime": "stressed",
+      "start": "2016-06-13",
+      "end": "2016-07-27",
+      "length_days": 32
+    },
+    {
+      "state": 0,
+      "regime": "calm",
+      "start": "2016-07-28",
+      "end": "2018-01-25",
+      "length_days": 377
+    },
+    {
+      "state": 1,
+      "regime": "stressed",
+      "start": "2018-01-26",
+      "end": "2018-05-07",
+      "length_days": 70
+    },
+    {
+      "state": 0,
+      "regime": "calm",
+      "start": "2018-05-08",
+      "end": "2018-10-09",
+      "length_days": 108
+    },
+    {
+      "state": 1,
+      "regime": "stressed",
+      "start": "2018-10-10",
+      "end": "2019-02-28",
+      "length_days": 96
+    },
+    {
+      "state": 0,
+      "regime": "calm",
+      "start": "2019-03-01",
+      "end": "2019-05-07",
+      "length_days": 47
+    },
+    {
+      "state": 1,
+      "regime": "stressed",
+      "start": "2019-05-08",
+      "end": "2019-07-03",
+      "length_days": 40
+    },
+    {
+      "state": 0,
+      "regime": "calm",
+      "start": "2019-07-05",
+      "end": "2019-08-02",
+      "length_days": 21
+    },
+    {
+      "state": 1,
+      "regime": "stressed",
+      "start": "2019-08-05",
+      "end": "2019-10-31",
+      "length_days": 63
+    },
+    {
+      "state": 0,
+      "regime": "calm",
+      "start": "2019-11-01",
+      "end": "2020-01-30",
+      "length_days": 61
+    },
+    {
+      "state": 1,
+      "regime": "stressed",
+      "start": "2020-01-31",
+      "end": "2021-03-22",
+      "length_days": 287
+    },
+    {
+      "state": 0,
+      "regime": "calm",
+      "start": "2021-03-23",
+      "end": "2022-02-09",
+      "length_days": 225
+    },
+    {
+      "state": 1,
+      "regime": "stressed",
+      "start": "2022-02-10",
+      "end": "2022-12-15",
+      "length_days": 214
+    },
+    {
+      "state": 0,
+      "regime": "calm",
+      "start": "2022-12-16",
+      "end": "2024-10-03",
+      "length_days": 451
+    },
+    {
+      "state": 1,
+      "regime": "stressed",
+      "start": "2024-10-04",
+      "end": "2024-11-06",
+      "length_days": 24
+    },
+    {
+      "state": 0,
+      "regime": "calm",
+      "start": "2024-11-07",
+      "end": "2025-02-26",
+      "length_days": 74
+    },
+    {
+      "state": 1,
+      "regime": "stressed",
+      "start": "2025-02-27",
+      "end": "2025-06-26",
+      "length_days": 83
+    },
+    {
+      "state": 0,
+      "regime": "calm",
+      "start": "2025-06-27",
+      "end": "2026-03-05",
+      "length_days": 173
+    },
+    {
+      "state": 1,
+      "regime": "stressed",
+      "start": "2026-03-06",
+      "end": "2026-05-06",
+      "length_days": 43
+    },
+    {
+      "state": 0,
+      "regime": "calm",
+      "start": "2026-05-07",
+      "end": "2026-08-13",
+      "length_days": 68
+    }
+  ],
+  "persistence_filter": {
+    "min_dwell_days": 20,
+    "raw_state_flips": 84,
+    "flips_after_filter": 24,
+    "flips_removed_as_noise": 60
+  }
+}

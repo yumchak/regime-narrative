@@ -1,0 +1,1678 @@
+{
+  "interpretation": "Ceiling on the blind-matching test, using each window's generation half as a stand-in for a perfect explanation. A real explanation is a lossy summary and should score at or below this.",
+  "length_sweep": [
+    {
+      "proxy_words": 60,
+      "accuracy": 0.3,
+      "top3": 0.5,
+      "mrr": 0.4321,
+      "p_value": 0.00024993751562109475
+    },
+    {
+      "proxy_words": 120,
+      "accuracy": 0.4,
+      "top3": 0.6,
+      "mrr": 0.5431,
+      "p_value": 0.00024993751562109475
+    },
+    {
+      "proxy_words": 200,
+      "accuracy": 0.7,
+      "top3": 0.85,
+      "mrr": 0.7989,
+      "p_value": 0.00024993751562109475
+    },
+    {
+      "proxy_words": 400,
+      "accuracy": 0.65,
+      "top3": 0.75,
+      "mrr": 0.7481,
+      "p_value": 0.00024993751562109475
+    },
+    {
+      "proxy_words": 800,
+      "accuracy": 0.9,
+      "top3": 1.0,
+      "mrr": 0.9333,
+      "p_value": 0.00024993751562109475
+    },
+    {
+      "proxy_words": "full_half",
+      "accuracy": 0.95,
+      "top3": 0.95,
+      "mrr": 0.9625,
+      "p_value": 0.00024993751562109475
+    }
+  ],
+  "length_sweep_note": "The full-half ceiling flatters the test: it uses thousands of words where a real explanation has one or two hundred. At 120-200 words the ceiling is 40-70%. Significance survives at every length tested.",
+  "section_arms": {
+    "all_sections": {
+      "n_scored": 20,
+      "n_candidates": 20,
+      "accuracy": 0.95,
+      "chance": 0.05,
+      "mrr": 0.9625,
+      "p_value": 0.00024993751562109475,
+      "median_holdout_words": 2772
+    },
+    "business_only": {
+      "n_scored": 12,
+      "n_candidates": 12,
+      "accuracy": 0.1667,
+      "chance": 0.0833,
+      "mrr": 0.2966,
+      "p_value": 0.27393151712071984,
+      "median_holdout_words": 183
+    },
+    "non_business": {
+      "n_scored": 20,
+      "n_candidates": 20,
+      "accuracy": 0.9,
+      "chance": 0.05,
+      "mrr": 0.935,
+      "p_value": 0.00024993751562109475,
+      "median_holdout_words": 2567
+    }
+  },
+  "section_note": "The ceiling is carried by generic world news. Business-only text matches near chance, partly because there is far less of it. An explanation that obeys the prompt and discusses market drivers has comparatively little matchable text, so a null result on this test would be ambiguous between 'explanations are generic' and 'the matchable signal is not where the explanation looks'.",
+  "window_days": 14,
+  "holdout_fraction": 0.5,
+  "results": {
+    "transitions_only": {
+      "n_candidates": 20,
+      "n_scored": 20,
+      "n_correct": 19,
+      "accuracy": 0.95,
+      "chance": 0.05,
+      "top3_accuracy": 0.95,
+      "mean_reciprocal_rank": 0.9625,
+      "p_value": 9.999000099990002e-05,
+      "per_item": [
+        {
+          "window_id": "transition_2015-04-14",
+          "predicted": "transition_2016-03-30",
+          "correct": false,
+          "rank": 4,
+          "score_correct": 308.8998359451737,
+          "score_best": 367.35945278544455,
+          "top3": [
+            "transition_2016-03-30",
+            "transition_2015-06-29",
+            "transition_2019-07-05"
+          ]
+        },
+        {
+          "window_id": "transition_2015-06-29",
+          "predicted": "transition_2015-06-29",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 570.6574020895365,
+          "score_best": 570.6574020895365,
+          "top3": [
+            "transition_2015-06-29",
+            "transition_2016-03-30",
+            "transition_2016-06-13"
+          ]
+        },
+        {
+          "window_id": "transition_2016-03-30",
+          "predicted": "transition_2016-03-30",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1369.204066147578,
+          "score_best": 1369.204066147578,
+          "top3": [
+            "transition_2016-03-30",
+            "transition_2016-06-13",
+            "transition_2016-07-28"
+          ]
+        },
+        {
+          "window_id": "transition_2016-06-13",
+          "predicted": "transition_2016-06-13",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 997.2029904718812,
+          "score_best": 997.2029904718812,
+          "top3": [
+            "transition_2016-06-13",
+            "transition_2016-03-30",
+            "transition_2016-07-28"
+          ]
+        },
+        {
+          "window_id": "transition_2016-07-28",
+          "predicted": "transition_2016-07-28",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 883.4255659449868,
+          "score_best": 883.4255659449868,
+          "top3": [
+            "transition_2016-07-28",
+            "transition_2016-03-30",
+            "transition_2016-06-13"
+          ]
+        },
+        {
+          "window_id": "transition_2018-01-26",
+          "predicted": "transition_2018-01-26",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 546.1143269926749,
+          "score_best": 546.1143269926749,
+          "top3": [
+            "transition_2018-01-26",
+            "transition_2018-05-08",
+            "transition_2019-11-01"
+          ]
+        },
+        {
+          "window_id": "transition_2018-05-08",
+          "predicted": "transition_2018-05-08",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1017.5302491324009,
+          "score_best": 1017.5302491324009,
+          "top3": [
+            "transition_2018-05-08",
+            "transition_2019-11-01",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "transition_2018-10-10",
+          "predicted": "transition_2018-10-10",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 606.7491121254002,
+          "score_best": 606.7491121254002,
+          "top3": [
+            "transition_2018-10-10",
+            "transition_2018-05-08",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "transition_2019-03-01",
+          "predicted": "transition_2019-03-01",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 819.5225196243704,
+          "score_best": 819.5225196243704,
+          "top3": [
+            "transition_2019-03-01",
+            "transition_2018-05-08",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "transition_2019-05-08",
+          "predicted": "transition_2019-05-08",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 434.08748417498595,
+          "score_best": 434.08748417498595,
+          "top3": [
+            "transition_2019-05-08",
+            "transition_2016-03-30",
+            "transition_2019-11-01"
+          ]
+        },
+        {
+          "window_id": "transition_2019-07-05",
+          "predicted": "transition_2019-07-05",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 492.0286201263288,
+          "score_best": 492.0286201263288,
+          "top3": [
+            "transition_2019-07-05",
+            "transition_2019-11-01",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "transition_2019-08-05",
+          "predicted": "transition_2019-08-05",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 384.5546958393455,
+          "score_best": 384.5546958393455,
+          "top3": [
+            "transition_2019-08-05",
+            "transition_2016-03-30",
+            "transition_2019-11-01"
+          ]
+        },
+        {
+          "window_id": "transition_2019-11-01",
+          "predicted": "transition_2019-11-01",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 853.0664421104099,
+          "score_best": 853.0664421104099,
+          "top3": [
+            "transition_2019-11-01",
+            "transition_2016-03-30",
+            "transition_2016-06-13"
+          ]
+        },
+        {
+          "window_id": "transition_2020-01-31",
+          "predicted": "transition_2020-01-31",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 659.5917189474503,
+          "score_best": 659.5917189474503,
+          "top3": [
+            "transition_2020-01-31",
+            "transition_2019-11-01",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "transition_2021-03-23",
+          "predicted": "transition_2021-03-23",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 2507.7408367887588,
+          "score_best": 2507.7408367887588,
+          "top3": [
+            "transition_2021-03-23",
+            "transition_2022-02-10",
+            "transition_2022-12-16"
+          ]
+        },
+        {
+          "window_id": "transition_2022-02-10",
+          "predicted": "transition_2022-02-10",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1557.3866675200954,
+          "score_best": 1557.3866675200954,
+          "top3": [
+            "transition_2022-02-10",
+            "transition_2021-03-23",
+            "transition_2022-12-16"
+          ]
+        },
+        {
+          "window_id": "transition_2022-12-16",
+          "predicted": "transition_2022-12-16",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 703.16118557227,
+          "score_best": 703.16118557227,
+          "top3": [
+            "transition_2022-12-16",
+            "transition_2026-03-05",
+            "transition_2025-03-04"
+          ]
+        },
+        {
+          "window_id": "transition_2025-03-04",
+          "predicted": "transition_2025-03-04",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1284.6853700179095,
+          "score_best": 1284.6853700179095,
+          "top3": [
+            "transition_2025-03-04",
+            "transition_2026-05-19",
+            "transition_2026-03-05"
+          ]
+        },
+        {
+          "window_id": "transition_2026-03-05",
+          "predicted": "transition_2026-03-05",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1329.1342073228675,
+          "score_best": 1329.1342073228675,
+          "top3": [
+            "transition_2026-03-05",
+            "transition_2026-05-19",
+            "transition_2025-03-04"
+          ]
+        },
+        {
+          "window_id": "transition_2026-05-19",
+          "predicted": "transition_2026-05-19",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1180.0973000092074,
+          "score_best": 1180.0973000092074,
+          "top3": [
+            "transition_2026-05-19",
+            "transition_2026-03-05",
+            "transition_2025-03-04"
+          ]
+        }
+      ]
+    },
+    "placebos_only": {
+      "n_candidates": 40,
+      "n_scored": 40,
+      "n_correct": 37,
+      "accuracy": 0.925,
+      "chance": 0.025,
+      "top3_accuracy": 0.975,
+      "mean_reciprocal_rank": 0.9563,
+      "p_value": 9.999000099990002e-05,
+      "per_item": [
+        {
+          "window_id": "placebo_2015-02-12",
+          "predicted": "placebo_2015-02-12",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 473.0218233525765,
+          "score_best": 473.0218233525765,
+          "top3": [
+            "placebo_2015-02-12",
+            "placebo_2015-05-29",
+            "placebo_2016-02-16"
+          ]
+        },
+        {
+          "window_id": "placebo_2015-05-29",
+          "predicted": "placebo_2015-05-29",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 811.0025991110732,
+          "score_best": 811.0025991110732,
+          "top3": [
+            "placebo_2015-05-29",
+            "placebo_2016-05-03",
+            "placebo_2016-06-28"
+          ]
+        },
+        {
+          "window_id": "placebo_2015-08-10",
+          "predicted": "placebo_2016-01-04",
+          "correct": false,
+          "rank": 4,
+          "score_correct": 381.22192903640547,
+          "score_best": 410.8405224105944,
+          "top3": [
+            "placebo_2016-01-04",
+            "placebo_2015-09-11",
+            "placebo_2015-05-29"
+          ]
+        },
+        {
+          "window_id": "placebo_2015-09-11",
+          "predicted": "placebo_2015-09-11",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 766.0922578795804,
+          "score_best": 766.0922578795804,
+          "top3": [
+            "placebo_2015-09-11",
+            "placebo_2016-05-03",
+            "placebo_2016-01-04"
+          ]
+        },
+        {
+          "window_id": "placebo_2016-01-04",
+          "predicted": "placebo_2016-01-04",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 822.475868398987,
+          "score_best": 822.475868398987,
+          "top3": [
+            "placebo_2016-01-04",
+            "placebo_2016-05-03",
+            "placebo_2015-09-11"
+          ]
+        },
+        {
+          "window_id": "placebo_2016-02-16",
+          "predicted": "placebo_2016-02-16",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 855.9956511889872,
+          "score_best": 855.9956511889872,
+          "top3": [
+            "placebo_2016-02-16",
+            "placebo_2016-05-03",
+            "placebo_2016-06-28"
+          ]
+        },
+        {
+          "window_id": "placebo_2016-05-03",
+          "predicted": "placebo_2016-05-03",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1365.4835276555266,
+          "score_best": 1365.4835276555266,
+          "top3": [
+            "placebo_2016-05-03",
+            "placebo_2016-06-28",
+            "placebo_2016-01-04"
+          ]
+        },
+        {
+          "window_id": "placebo_2016-06-28",
+          "predicted": "placebo_2016-06-28",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 990.4404110431285,
+          "score_best": 990.4404110431285,
+          "top3": [
+            "placebo_2016-06-28",
+            "placebo_2016-05-03",
+            "placebo_2016-01-04"
+          ]
+        },
+        {
+          "window_id": "placebo_2016-09-02",
+          "predicted": "placebo_2016-09-02",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 592.4316827440863,
+          "score_best": 592.4316827440863,
+          "top3": [
+            "placebo_2016-09-02",
+            "placebo_2016-05-03",
+            "placebo_2016-02-16"
+          ]
+        },
+        {
+          "window_id": "placebo_2016-10-12",
+          "predicted": "placebo_2016-10-12",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 793.3305288886321,
+          "score_best": 793.3305288886321,
+          "top3": [
+            "placebo_2016-10-12",
+            "placebo_2015-09-11",
+            "placebo_2016-05-03"
+          ]
+        },
+        {
+          "window_id": "placebo_2017-12-22",
+          "predicted": "placebo_2017-12-22",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 590.321423523412,
+          "score_best": 590.321423523412,
+          "top3": [
+            "placebo_2017-12-22",
+            "placebo_2016-05-03",
+            "placebo_2016-01-04"
+          ]
+        },
+        {
+          "window_id": "placebo_2018-03-01",
+          "predicted": "placebo_2018-03-01",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 370.1296985085243,
+          "score_best": 370.1296985085243,
+          "top3": [
+            "placebo_2018-03-01",
+            "placebo_2019-05-30",
+            "placebo_2018-04-04"
+          ]
+        },
+        {
+          "window_id": "placebo_2018-04-04",
+          "predicted": "placebo_2018-04-04",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1231.794277642331,
+          "score_best": 1231.794277642331,
+          "top3": [
+            "placebo_2018-04-04",
+            "placebo_2019-10-07",
+            "placebo_2016-05-03"
+          ]
+        },
+        {
+          "window_id": "placebo_2018-07-20",
+          "predicted": "placebo_2018-07-20",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 498.8153785087423,
+          "score_best": 498.8153785087423,
+          "top3": [
+            "placebo_2018-07-20",
+            "placebo_2018-04-04",
+            "placebo_2019-10-07"
+          ]
+        },
+        {
+          "window_id": "placebo_2018-11-21",
+          "predicted": "placebo_2018-11-21",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 610.8135753519518,
+          "score_best": 610.8135753519518,
+          "top3": [
+            "placebo_2018-11-21",
+            "placebo_2017-12-22",
+            "placebo_2016-06-28"
+          ]
+        },
+        {
+          "window_id": "placebo_2018-12-20",
+          "predicted": "placebo_2018-12-20",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 469.3475287569681,
+          "score_best": 469.3475287569681,
+          "top3": [
+            "placebo_2018-12-20",
+            "placebo_2016-06-28",
+            "placebo_2018-04-04"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-01-25",
+          "predicted": "placebo_2019-01-25",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 453.89713462997474,
+          "score_best": 453.89713462997474,
+          "top3": [
+            "placebo_2019-01-25",
+            "placebo_2019-02-15",
+            "placebo_2019-03-28"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-02-15",
+          "predicted": "placebo_2019-01-25",
+          "correct": false,
+          "rank": 2,
+          "score_correct": 394.9026613573768,
+          "score_best": 408.7774123762536,
+          "top3": [
+            "placebo_2019-01-25",
+            "placebo_2019-02-15",
+            "placebo_2016-05-03"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-03-28",
+          "predicted": "placebo_2019-03-28",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 623.5831791960387,
+          "score_best": 623.5831791960387,
+          "top3": [
+            "placebo_2019-03-28",
+            "placebo_2016-05-03",
+            "placebo_2019-12-03"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-04-22",
+          "predicted": "placebo_2019-10-07",
+          "correct": false,
+          "rank": 2,
+          "score_correct": 336.1394091777949,
+          "score_best": 340.1073830840921,
+          "top3": [
+            "placebo_2019-10-07",
+            "placebo_2019-04-22",
+            "placebo_2019-05-30"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-05-30",
+          "predicted": "placebo_2019-05-30",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 627.1659410275308,
+          "score_best": 627.1659410275308,
+          "top3": [
+            "placebo_2019-05-30",
+            "placebo_2016-05-03",
+            "placebo_2015-05-29"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-08-20",
+          "predicted": "placebo_2019-08-20",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 431.9595380011039,
+          "score_best": 431.9595380011039,
+          "top3": [
+            "placebo_2019-08-20",
+            "placebo_2016-05-03",
+            "placebo_2019-12-03"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-09-13",
+          "predicted": "placebo_2019-09-13",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 748.3130510661339,
+          "score_best": 748.3130510661339,
+          "top3": [
+            "placebo_2019-09-13",
+            "placebo_2019-10-07",
+            "placebo_2019-12-03"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-10-07",
+          "predicted": "placebo_2019-10-07",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 886.3438932578116,
+          "score_best": 886.3438932578116,
+          "top3": [
+            "placebo_2019-10-07",
+            "placebo_2016-05-03",
+            "placebo_2018-04-04"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-12-03",
+          "predicted": "placebo_2019-12-03",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 783.9441278691871,
+          "score_best": 783.9441278691871,
+          "top3": [
+            "placebo_2019-12-03",
+            "placebo_2016-05-03",
+            "placebo_2019-10-07"
+          ]
+        },
+        {
+          "window_id": "placebo_2020-01-07",
+          "predicted": "placebo_2020-01-07",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1052.9659847193718,
+          "score_best": 1052.9659847193718,
+          "top3": [
+            "placebo_2020-01-07",
+            "placebo_2016-05-03",
+            "placebo_2016-01-04"
+          ]
+        },
+        {
+          "window_id": "placebo_2020-03-23",
+          "predicted": "placebo_2020-03-23",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 2814.120332925556,
+          "score_best": 2814.120332925556,
+          "top3": [
+            "placebo_2020-03-23",
+            "placebo_2020-04-22",
+            "placebo_2021-02-18"
+          ]
+        },
+        {
+          "window_id": "placebo_2020-04-22",
+          "predicted": "placebo_2020-04-22",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1708.4619561337374,
+          "score_best": 1708.4619561337374,
+          "top3": [
+            "placebo_2020-04-22",
+            "placebo_2020-03-23",
+            "placebo_2021-05-10"
+          ]
+        },
+        {
+          "window_id": "placebo_2021-02-18",
+          "predicted": "placebo_2021-02-18",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 2347.3397017398966,
+          "score_best": 2347.3397017398966,
+          "top3": [
+            "placebo_2021-02-18",
+            "placebo_2021-05-10",
+            "placebo_2022-01-11"
+          ]
+        },
+        {
+          "window_id": "placebo_2021-05-10",
+          "predicted": "placebo_2021-05-10",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 2206.661625275376,
+          "score_best": 2206.661625275376,
+          "top3": [
+            "placebo_2021-05-10",
+            "placebo_2022-01-11",
+            "placebo_2021-02-18"
+          ]
+        },
+        {
+          "window_id": "placebo_2022-01-11",
+          "predicted": "placebo_2022-01-11",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 2715.4252383998123,
+          "score_best": 2715.4252383998123,
+          "top3": [
+            "placebo_2022-01-11",
+            "placebo_2021-05-10",
+            "placebo_2021-02-18"
+          ]
+        },
+        {
+          "window_id": "placebo_2022-04-27",
+          "predicted": "placebo_2022-04-27",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1335.987927786254,
+          "score_best": 1335.987927786254,
+          "top3": [
+            "placebo_2022-04-27",
+            "placebo_2023-02-09",
+            "placebo_2021-05-10"
+          ]
+        },
+        {
+          "window_id": "placebo_2022-11-14",
+          "predicted": "placebo_2022-11-14",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 639.1565998504179,
+          "score_best": 639.1565998504179,
+          "top3": [
+            "placebo_2022-11-14",
+            "placebo_2022-04-27",
+            "placebo_2026-06-23"
+          ]
+        },
+        {
+          "window_id": "placebo_2023-02-09",
+          "predicted": "placebo_2023-02-09",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 654.7690339706643,
+          "score_best": 654.7690339706643,
+          "top3": [
+            "placebo_2023-02-09",
+            "placebo_2024-12-09",
+            "placebo_2022-04-27"
+          ]
+        },
+        {
+          "window_id": "placebo_2024-12-09",
+          "predicted": "placebo_2024-12-09",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1472.007621184717,
+          "score_best": 1472.007621184717,
+          "top3": [
+            "placebo_2024-12-09",
+            "placebo_2025-12-11",
+            "placebo_2026-04-27"
+          ]
+        },
+        {
+          "window_id": "placebo_2025-05-08",
+          "predicted": "placebo_2025-05-08",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 913.7729763111472,
+          "score_best": 913.7729763111472,
+          "top3": [
+            "placebo_2025-05-08",
+            "placebo_2026-04-27",
+            "placebo_2025-12-11"
+          ]
+        },
+        {
+          "window_id": "placebo_2025-12-11",
+          "predicted": "placebo_2025-12-11",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1086.7179321045296,
+          "score_best": 1086.7179321045296,
+          "top3": [
+            "placebo_2025-12-11",
+            "placebo_2026-07-28",
+            "placebo_2026-04-27"
+          ]
+        },
+        {
+          "window_id": "placebo_2026-04-27",
+          "predicted": "placebo_2026-04-27",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1417.1689557676898,
+          "score_best": 1417.1689557676898,
+          "top3": [
+            "placebo_2026-04-27",
+            "placebo_2026-06-23",
+            "placebo_2026-07-28"
+          ]
+        },
+        {
+          "window_id": "placebo_2026-06-23",
+          "predicted": "placebo_2026-06-23",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1582.1700146939925,
+          "score_best": 1582.1700146939925,
+          "top3": [
+            "placebo_2026-06-23",
+            "placebo_2026-07-28",
+            "placebo_2026-04-27"
+          ]
+        },
+        {
+          "window_id": "placebo_2026-07-28",
+          "predicted": "placebo_2026-07-28",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1516.8158650693795,
+          "score_best": 1516.8158650693795,
+          "top3": [
+            "placebo_2026-07-28",
+            "placebo_2026-06-23",
+            "placebo_2026-04-27"
+          ]
+        }
+      ]
+    },
+    "all_windows": {
+      "n_candidates": 60,
+      "n_scored": 60,
+      "n_correct": 55,
+      "accuracy": 0.9167,
+      "chance": 0.0167,
+      "top3_accuracy": 0.9667,
+      "mean_reciprocal_rank": 0.9442,
+      "p_value": 9.999000099990002e-05,
+      "per_item": [
+        {
+          "window_id": "placebo_2015-02-12",
+          "predicted": "placebo_2015-02-12",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 472.81422524351194,
+          "score_best": 472.81422524351194,
+          "top3": [
+            "placebo_2015-02-12",
+            "placebo_2015-05-29",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "placebo_2015-05-29",
+          "predicted": "placebo_2015-05-29",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 814.9240220668019,
+          "score_best": 814.9240220668019,
+          "top3": [
+            "placebo_2015-05-29",
+            "transition_2016-06-13",
+            "placebo_2016-05-03"
+          ]
+        },
+        {
+          "window_id": "placebo_2015-08-10",
+          "predicted": "placebo_2016-01-04",
+          "correct": false,
+          "rank": 4,
+          "score_correct": 384.2431064620029,
+          "score_best": 407.58693918604865,
+          "top3": [
+            "placebo_2016-01-04",
+            "placebo_2015-09-11",
+            "placebo_2015-05-29"
+          ]
+        },
+        {
+          "window_id": "placebo_2015-09-11",
+          "predicted": "placebo_2015-09-11",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 771.4049463830262,
+          "score_best": 771.4049463830262,
+          "top3": [
+            "placebo_2015-09-11",
+            "transition_2016-03-30",
+            "placebo_2016-05-03"
+          ]
+        },
+        {
+          "window_id": "placebo_2016-01-04",
+          "predicted": "placebo_2016-01-04",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 834.159977094795,
+          "score_best": 834.159977094795,
+          "top3": [
+            "placebo_2016-01-04",
+            "placebo_2016-05-03",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "placebo_2016-02-16",
+          "predicted": "placebo_2016-02-16",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 869.0657574628008,
+          "score_best": 869.0657574628008,
+          "top3": [
+            "placebo_2016-02-16",
+            "placebo_2016-05-03",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "placebo_2016-05-03",
+          "predicted": "placebo_2016-05-03",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1372.6376378190473,
+          "score_best": 1372.6376378190473,
+          "top3": [
+            "placebo_2016-05-03",
+            "transition_2016-03-30",
+            "placebo_2016-06-28"
+          ]
+        },
+        {
+          "window_id": "placebo_2016-06-28",
+          "predicted": "placebo_2016-06-28",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1000.7550660252272,
+          "score_best": 1000.7550660252272,
+          "top3": [
+            "placebo_2016-06-28",
+            "placebo_2016-05-03",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "placebo_2016-09-02",
+          "predicted": "placebo_2016-09-02",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 598.6986793208803,
+          "score_best": 598.6986793208803,
+          "top3": [
+            "placebo_2016-09-02",
+            "placebo_2016-05-03",
+            "placebo_2016-02-16"
+          ]
+        },
+        {
+          "window_id": "placebo_2016-10-12",
+          "predicted": "placebo_2016-10-12",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 788.9900036905192,
+          "score_best": 788.9900036905192,
+          "top3": [
+            "placebo_2016-10-12",
+            "transition_2016-03-30",
+            "placebo_2015-09-11"
+          ]
+        },
+        {
+          "window_id": "placebo_2017-12-22",
+          "predicted": "placebo_2017-12-22",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 594.7842786308207,
+          "score_best": 594.7842786308207,
+          "top3": [
+            "placebo_2017-12-22",
+            "transition_2016-03-30",
+            "placebo_2016-05-03"
+          ]
+        },
+        {
+          "window_id": "placebo_2018-03-01",
+          "predicted": "placebo_2018-03-01",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 377.8322819779639,
+          "score_best": 377.8322819779639,
+          "top3": [
+            "placebo_2018-03-01",
+            "transition_2018-05-08",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "placebo_2018-04-04",
+          "predicted": "placebo_2018-04-04",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1204.416289005081,
+          "score_best": 1204.416289005081,
+          "top3": [
+            "placebo_2018-04-04",
+            "transition_2018-05-08",
+            "placebo_2019-10-07"
+          ]
+        },
+        {
+          "window_id": "placebo_2018-07-20",
+          "predicted": "placebo_2018-07-20",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 507.8299869952965,
+          "score_best": 507.8299869952965,
+          "top3": [
+            "placebo_2018-07-20",
+            "transition_2018-05-08",
+            "placebo_2018-04-04"
+          ]
+        },
+        {
+          "window_id": "placebo_2018-11-21",
+          "predicted": "placebo_2018-11-21",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 621.7635635846367,
+          "score_best": 621.7635635846367,
+          "top3": [
+            "placebo_2018-11-21",
+            "transition_2018-05-08",
+            "placebo_2017-12-22"
+          ]
+        },
+        {
+          "window_id": "placebo_2018-12-20",
+          "predicted": "placebo_2018-12-20",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 469.9890188332523,
+          "score_best": 469.9890188332523,
+          "top3": [
+            "placebo_2018-12-20",
+            "transition_2016-03-30",
+            "placebo_2016-06-28"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-01-25",
+          "predicted": "placebo_2019-01-25",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 460.6013252008903,
+          "score_best": 460.6013252008903,
+          "top3": [
+            "placebo_2019-01-25",
+            "placebo_2019-02-15",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-02-15",
+          "predicted": "placebo_2019-01-25",
+          "correct": false,
+          "rank": 2,
+          "score_correct": 397.7207901647232,
+          "score_best": 418.7706903359569,
+          "top3": [
+            "placebo_2019-01-25",
+            "placebo_2019-02-15",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-03-28",
+          "predicted": "placebo_2019-03-28",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 635.6284888426474,
+          "score_best": 635.6284888426474,
+          "top3": [
+            "placebo_2019-03-28",
+            "placebo_2016-05-03",
+            "placebo_2019-12-03"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-04-22",
+          "predicted": "placebo_2019-10-07",
+          "correct": false,
+          "rank": 2,
+          "score_correct": 341.0438109890981,
+          "score_best": 345.8916901924092,
+          "top3": [
+            "placebo_2019-10-07",
+            "placebo_2019-04-22",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-05-30",
+          "predicted": "placebo_2019-05-30",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 635.4012449929062,
+          "score_best": 635.4012449929062,
+          "top3": [
+            "placebo_2019-05-30",
+            "transition_2016-03-30",
+            "placebo_2016-05-03"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-08-20",
+          "predicted": "placebo_2019-08-20",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 425.88355069679795,
+          "score_best": 425.88355069679795,
+          "top3": [
+            "placebo_2019-08-20",
+            "transition_2019-08-05",
+            "placebo_2016-05-03"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-09-13",
+          "predicted": "placebo_2019-09-13",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 751.7744113163867,
+          "score_best": 751.7744113163867,
+          "top3": [
+            "placebo_2019-09-13",
+            "transition_2016-03-30",
+            "placebo_2019-10-07"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-10-07",
+          "predicted": "placebo_2019-10-07",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 889.5220948119037,
+          "score_best": 889.5220948119037,
+          "top3": [
+            "placebo_2019-10-07",
+            "transition_2016-03-30",
+            "placebo_2016-05-03"
+          ]
+        },
+        {
+          "window_id": "placebo_2019-12-03",
+          "predicted": "placebo_2019-12-03",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 763.8705151843131,
+          "score_best": 763.8705151843131,
+          "top3": [
+            "placebo_2019-12-03",
+            "transition_2019-11-01",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "placebo_2020-01-07",
+          "predicted": "placebo_2020-01-07",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1062.5866673227329,
+          "score_best": 1062.5866673227329,
+          "top3": [
+            "placebo_2020-01-07",
+            "placebo_2016-05-03",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "placebo_2020-03-23",
+          "predicted": "placebo_2020-03-23",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 2823.7383225424833,
+          "score_best": 2823.7383225424833,
+          "top3": [
+            "placebo_2020-03-23",
+            "placebo_2020-04-22",
+            "transition_2021-03-23"
+          ]
+        },
+        {
+          "window_id": "placebo_2020-04-22",
+          "predicted": "placebo_2020-04-22",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1724.912465889564,
+          "score_best": 1724.912465889564,
+          "top3": [
+            "placebo_2020-04-22",
+            "placebo_2020-03-23",
+            "transition_2021-03-23"
+          ]
+        },
+        {
+          "window_id": "placebo_2021-02-18",
+          "predicted": "placebo_2021-02-18",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 2421.353510812883,
+          "score_best": 2421.353510812883,
+          "top3": [
+            "placebo_2021-02-18",
+            "transition_2021-03-23",
+            "placebo_2021-05-10"
+          ]
+        },
+        {
+          "window_id": "placebo_2021-05-10",
+          "predicted": "placebo_2021-05-10",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 2302.7100784406116,
+          "score_best": 2302.7100784406116,
+          "top3": [
+            "placebo_2021-05-10",
+            "transition_2021-03-23",
+            "placebo_2022-01-11"
+          ]
+        },
+        {
+          "window_id": "placebo_2022-01-11",
+          "predicted": "placebo_2022-01-11",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 2787.3918136316274,
+          "score_best": 2787.3918136316274,
+          "top3": [
+            "placebo_2022-01-11",
+            "transition_2021-03-23",
+            "placebo_2021-05-10"
+          ]
+        },
+        {
+          "window_id": "placebo_2022-04-27",
+          "predicted": "placebo_2022-04-27",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1370.7017792100662,
+          "score_best": 1370.7017792100662,
+          "top3": [
+            "placebo_2022-04-27",
+            "transition_2022-02-10",
+            "placebo_2023-02-09"
+          ]
+        },
+        {
+          "window_id": "placebo_2022-11-14",
+          "predicted": "placebo_2022-11-14",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 639.3338979960758,
+          "score_best": 639.3338979960758,
+          "top3": [
+            "placebo_2022-11-14",
+            "transition_2022-12-16",
+            "placebo_2022-04-27"
+          ]
+        },
+        {
+          "window_id": "placebo_2023-02-09",
+          "predicted": "placebo_2023-02-09",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 670.9239296500831,
+          "score_best": 670.9239296500831,
+          "top3": [
+            "placebo_2023-02-09",
+            "transition_2022-12-16",
+            "placebo_2022-04-27"
+          ]
+        },
+        {
+          "window_id": "placebo_2024-12-09",
+          "predicted": "placebo_2024-12-09",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1526.1952087377201,
+          "score_best": 1526.1952087377201,
+          "top3": [
+            "placebo_2024-12-09",
+            "transition_2025-03-04",
+            "placebo_2025-12-11"
+          ]
+        },
+        {
+          "window_id": "placebo_2025-05-08",
+          "predicted": "placebo_2025-05-08",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 930.5602497173458,
+          "score_best": 930.5602497173458,
+          "top3": [
+            "placebo_2025-05-08",
+            "transition_2025-03-04",
+            "placebo_2025-12-11"
+          ]
+        },
+        {
+          "window_id": "placebo_2025-12-11",
+          "predicted": "placebo_2025-12-11",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1105.6713167951507,
+          "score_best": 1105.6713167951507,
+          "top3": [
+            "placebo_2025-12-11",
+            "transition_2026-03-05",
+            "placebo_2026-07-28"
+          ]
+        },
+        {
+          "window_id": "placebo_2026-04-27",
+          "predicted": "placebo_2026-04-27",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1429.9011488223014,
+          "score_best": 1429.9011488223014,
+          "top3": [
+            "placebo_2026-04-27",
+            "placebo_2026-06-23",
+            "transition_2026-05-19"
+          ]
+        },
+        {
+          "window_id": "placebo_2026-06-23",
+          "predicted": "placebo_2026-06-23",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1592.4031011205655,
+          "score_best": 1592.4031011205655,
+          "top3": [
+            "placebo_2026-06-23",
+            "transition_2026-05-19",
+            "placebo_2026-07-28"
+          ]
+        },
+        {
+          "window_id": "placebo_2026-07-28",
+          "predicted": "placebo_2026-07-28",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1545.8415323141282,
+          "score_best": 1545.8415323141282,
+          "top3": [
+            "placebo_2026-07-28",
+            "placebo_2026-06-23",
+            "transition_2026-05-19"
+          ]
+        },
+        {
+          "window_id": "transition_2015-04-14",
+          "predicted": "placebo_2016-05-03",
+          "correct": false,
+          "rank": 14,
+          "score_correct": 316.9382628217359,
+          "score_best": 420.7794812133386,
+          "top3": [
+            "placebo_2016-05-03",
+            "transition_2016-03-30",
+            "placebo_2018-04-04"
+          ]
+        },
+        {
+          "window_id": "transition_2015-06-29",
+          "predicted": "transition_2015-06-29",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 644.8069510681811,
+          "score_best": 644.8069510681811,
+          "top3": [
+            "transition_2015-06-29",
+            "transition_2016-03-30",
+            "placebo_2016-05-03"
+          ]
+        },
+        {
+          "window_id": "transition_2016-03-30",
+          "predicted": "transition_2016-03-30",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1467.2869805813093,
+          "score_best": 1467.2869805813093,
+          "top3": [
+            "transition_2016-03-30",
+            "placebo_2016-05-03",
+            "placebo_2016-01-04"
+          ]
+        },
+        {
+          "window_id": "transition_2016-06-13",
+          "predicted": "transition_2016-06-13",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1073.2353261088554,
+          "score_best": 1073.2353261088554,
+          "top3": [
+            "transition_2016-06-13",
+            "transition_2016-03-30",
+            "placebo_2016-05-03"
+          ]
+        },
+        {
+          "window_id": "transition_2016-07-28",
+          "predicted": "transition_2016-07-28",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 992.2272760822282,
+          "score_best": 992.2272760822282,
+          "top3": [
+            "transition_2016-07-28",
+            "transition_2016-03-30",
+            "placebo_2016-05-03"
+          ]
+        },
+        {
+          "window_id": "transition_2018-01-26",
+          "predicted": "transition_2018-01-26",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 593.3322333562758,
+          "score_best": 593.3322333562758,
+          "top3": [
+            "transition_2018-01-26",
+            "placebo_2016-05-03",
+            "transition_2018-05-08"
+          ]
+        },
+        {
+          "window_id": "transition_2018-05-08",
+          "predicted": "transition_2018-05-08",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1069.2856075141326,
+          "score_best": 1069.2856075141326,
+          "top3": [
+            "transition_2018-05-08",
+            "placebo_2018-04-04",
+            "placebo_2019-10-07"
+          ]
+        },
+        {
+          "window_id": "transition_2018-10-10",
+          "predicted": "transition_2018-10-10",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 692.0239006812426,
+          "score_best": 692.0239006812426,
+          "top3": [
+            "transition_2018-10-10",
+            "transition_2018-05-08",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "transition_2019-03-01",
+          "predicted": "transition_2019-03-01",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 895.0062959958768,
+          "score_best": 895.0062959958768,
+          "top3": [
+            "transition_2019-03-01",
+            "placebo_2019-02-15",
+            "placebo_2018-04-04"
+          ]
+        },
+        {
+          "window_id": "transition_2019-05-08",
+          "predicted": "transition_2019-05-08",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 475.8561491442482,
+          "score_best": 475.8561491442482,
+          "top3": [
+            "transition_2019-05-08",
+            "transition_2016-03-30",
+            "placebo_2015-09-11"
+          ]
+        },
+        {
+          "window_id": "transition_2019-07-05",
+          "predicted": "placebo_2016-05-03",
+          "correct": false,
+          "rank": 3,
+          "score_correct": 522.2096911087164,
+          "score_best": 562.0954618801856,
+          "top3": [
+            "placebo_2016-05-03",
+            "placebo_2018-04-04",
+            "transition_2019-07-05"
+          ]
+        },
+        {
+          "window_id": "transition_2019-08-05",
+          "predicted": "transition_2019-08-05",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 423.2223960145273,
+          "score_best": 423.2223960145273,
+          "top3": [
+            "transition_2019-08-05",
+            "placebo_2016-05-03",
+            "placebo_2019-10-07"
+          ]
+        },
+        {
+          "window_id": "transition_2019-11-01",
+          "predicted": "transition_2019-11-01",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 957.8335811750205,
+          "score_best": 957.8335811750205,
+          "top3": [
+            "transition_2019-11-01",
+            "placebo_2019-10-07",
+            "transition_2016-03-30"
+          ]
+        },
+        {
+          "window_id": "transition_2020-01-31",
+          "predicted": "transition_2020-01-31",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 708.8625917921086,
+          "score_best": 708.8625917921086,
+          "top3": [
+            "transition_2020-01-31",
+            "placebo_2016-01-04",
+            "placebo_2020-04-22"
+          ]
+        },
+        {
+          "window_id": "transition_2021-03-23",
+          "predicted": "transition_2021-03-23",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 2555.5429612477724,
+          "score_best": 2555.5429612477724,
+          "top3": [
+            "transition_2021-03-23",
+            "placebo_2021-05-10",
+            "placebo_2021-02-18"
+          ]
+        },
+        {
+          "window_id": "transition_2022-02-10",
+          "predicted": "transition_2022-02-10",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1532.671425740377,
+          "score_best": 1532.671425740377,
+          "top3": [
+            "transition_2022-02-10",
+            "placebo_2022-01-11",
+            "transition_2021-03-23"
+          ]
+        },
+        {
+          "window_id": "transition_2022-12-16",
+          "predicted": "transition_2022-12-16",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 746.6649728337766,
+          "score_best": 746.6649728337766,
+          "top3": [
+            "transition_2022-12-16",
+            "placebo_2022-04-27",
+            "placebo_2023-02-09"
+          ]
+        },
+        {
+          "window_id": "transition_2025-03-04",
+          "predicted": "transition_2025-03-04",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1340.5412907234106,
+          "score_best": 1340.5412907234106,
+          "top3": [
+            "transition_2025-03-04",
+            "placebo_2024-12-09",
+            "transition_2026-03-05"
+          ]
+        },
+        {
+          "window_id": "transition_2026-03-05",
+          "predicted": "transition_2026-03-05",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1365.4979235324024,
+          "score_best": 1365.4979235324024,
+          "top3": [
+            "transition_2026-03-05",
+            "placebo_2026-06-23",
+            "transition_2026-05-19"
+          ]
+        },
+        {
+          "window_id": "transition_2026-05-19",
+          "predicted": "transition_2026-05-19",
+          "correct": true,
+          "rank": 1,
+          "score_correct": 1212.0457497450536,
+          "score_best": 1212.0457497450536,
+          "top3": [
+            "transition_2026-05-19",
+            "placebo_2026-06-23",
+            "placebo_2026-07-28"
+          ]
+        }
+      ]
+    }
+  }
+}
