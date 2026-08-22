@@ -117,3 +117,52 @@ What replaces it, and what it means for reproducibility:
 The prompt text itself is unchanged. It still describes every output field,
 because the model fills a schema more coherently when it knows what the fields
 mean -- the schema guarantees shape, the prompt supplies intent.
+
+---
+
+## `narrative_v1` — outcome, 2026-08-22, after the first full run
+
+The four risks logged above before generating anything, checked against what
+actually came back. No prompt change is being made on the strength of this: the
+prompt is frozen for the reported results, and any revision becomes `v2` with
+its own run.
+
+**1. Over-declining — did not materialise, and the direction is informative.**
+The model declined on 2 of 20 transitions and 8 of 40 controls. It declines, but
+not often, and — importantly for the placebo test — it declines *more* on
+controls than on transitions, which is the direction the design hoped for. The
+confidence bar is not set too high. Transition mix: 6 high, 10 medium, 2 low,
+2 none. Control mix: 8 high, 18 medium, 6 low, 8 none.
+
+**2. Citation padding — did not materialise.** Mean 1.93 cited items per claim,
+median 1, maximum 9. The model is not spraying citations to look grounded. This
+matters because the grounding metric scores a claim against the *union* of its
+cited items, so padding would have inflated it for free. It did not need a cap
+in the prompt after all.
+
+**3. Section bias — real, and it cuts the opposite way to the worry.** The
+concern was that the model would reach for geopolitics because Wikipedia's
+Current Events is mostly non-business. What the blind-match arms show is that
+the explanations carry *more* market-relevant content than an arbitrary slice of
+the same window: real explanations match business-only held-out text at 28.6%
+against 7.1% chance (p = 0.016), while the ceiling proxy managed 16.7% (p =
+0.27). A real explanation beat the "best any explanation could do" on that arm,
+which means the proxy was a bad query rather than an upper bound. The section
+labelled "ceiling" for the business arm should be read as a reference point, not
+a ceiling.
+
+**4. JSON compliance — solved by construction, not by the prompt.** Zero parse
+failures in 60 calls. This risk was written when the output contract lived in the
+prompt and `max_tokens` was 2000. Both changed: the schema is now enforced
+server-side via `output_config.format`, and `max_tokens` is 4000. The largest
+single output carried 13 claims and did not truncate. The `parse_ok` flag stays
+in the dataclass as a belt-and-braces check but no longer has a failure mode to
+catch.
+
+**The undecided question from before is now decided.** The prompt header states
+how many items are in the window, which is a weak signal about how eventful the
+period was. Transition and control windows are closely matched on item count
+(180.6 vs 181.9 mean), so the leak is small — and since the placebo comparison
+did not separate, there is no favourable result for it to have manufactured.
+Left as-is for the reported run; a `v2` would remove it, because a leak that
+happens not to have mattered is still a leak.

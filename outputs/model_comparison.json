@@ -1,0 +1,43 @@
+{
+  "strata": [
+    {
+      "model": "claude-opus-5",
+      "transitions_confident": "16/20",
+      "controls_confident": "8/13"
+    },
+    {
+      "model": "claude-sonnet-5",
+      "transitions_confident": "20/20",
+      "controls_confident": "10/13"
+    }
+  ],
+  "mantel_haenszel_or": 4.375,
+  "mh_or_95ci": [
+    1.286,
+    14.881
+  ],
+  "mh_chi2": 3.367,
+  "mh_p": 0.0665,
+  "per_model_fisher_p": {
+    "claude-opus-5": 0.4251390433815351,
+    "claude-sonnet-5": 0.052419354838709686
+  },
+  "note": "Stratified by model rather than pooled: the same windows are scored twice, so pooling would treat two readings of one window as two independent observations.",
+  "caveat_on_the_combined_estimate": "Mantel-Haenszel assumes the strata are INDEPENDENT. They are not: both models scored the same 20 transitions and the same 13 clean controls, so the two strata are two readings of one sample, not two samples. The stated 95% CI [1.29, 14.88] is therefore too narrow, and the MH p of 0.067 is optimistic. Treat this as a consistency check, not as a combined test.",
+  "defensible_statement": "The effect points the same way under both models, with a similar magnitude (+18.5pp on claude-opus-5, +23.1pp on claude-sonnet-5), and the claude-sonnet-5 arm alone reaches Fisher p = 0.052. Neither arm is significant at 0.05, and a combined test is not available because the two arms share their windows. What replicates is the direction, not a significant result.",
+  "what_replicated_exactly": {
+    "blind_match_accuracy": {
+      "claude-opus-5": 0.55,
+      "claude-sonnet-5": 0.55
+    },
+    "grounding_rate": {
+      "claude-opus-5": 0.964,
+      "claude-sonnet-5": 0.968
+    },
+    "fabricated_citation_rate": {
+      "claude-opus-5": 0.0,
+      "claude-sonnet-5": 0.0
+    },
+    "reading": "The structural measurements are model-independent -- they are properties of having the news and citing it. The self-reported confidence label is not: window-by-window agreement between the two models is kappa 0.25, and claude-sonnet-5 declines half as often. That is the argument for treating blind matching as the load-bearing result and the confidence label as a weak instrument."
+  }
+}

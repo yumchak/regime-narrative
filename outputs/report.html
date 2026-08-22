@@ -44,7 +44,7 @@ ul{margin:8px 0;padding-left:20px} li{margin:4px 0}
 </style></head><body><div class='wrap'>
 <h1>Regime detection with a measured explanation layer</h1>
 <p class="sub">A two-state HMM decides <em>when</em> the market regime changed. A language model reading only news published before that date describes <em>what was happening</em>. Every claim about the second half is tested, including the ways it fails.</p>
-<p class="meta">Generated 2026-08-22 06:30 UTC · Study period 2010-02-02 to 2026-08-21 · 4164 trading days</p>
+<p class="meta">Generated 2026-08-22 08:01 UTC · Study period 2010-02-02 to 2026-08-21 · 4164 trading days</p>
 <div class="grid">
 <div class="card"><div class="k">Out-of-sample vol ratio</div><div class="v">2.18×</div><div class="n">95% CI 1.76–2.69 · in-sample was 2.32×</div></div>
 <div class="card"><div class="k">Forward-vol ratio</div><div class="v">1.69×</div><div class="n">volatility that had not happened yet</div></div>
@@ -188,7 +188,21 @@ ul{margin:8px 0;padding-left:20px} li{margin:4px 0}
 </tbody></table>
 <div class="good">A 54× separation between cited and random items from the same fortnight. The objection does not hold: this is not a test everything passes.</div>
 <div class="caveat"><strong>What it still cannot see.</strong> The tokeniser drops numerals, so a misquoted figure is invisible to it; negation is invisible; and bag-of-words cannot tell &ldquo;X caused Y&rdquo; from &ldquo;Y caused X&rdquo;. Grounding establishes that a claim's content came from the item it cites, not that the claim is correct.</div>
-<h2>8 · Specification and reproducibility</h2>
+<h2>8 · Does any of this depend on which model was used?</h2>
+<p>A result that holds on one model is a result about that model. The entire pipeline was re-run on a second — identical prompt, identical windows, identical scoring — to separate properties of the method from properties of one model's calibration.</p>
+<table><thead><tr><th>Measurement</th><th class="num">claude-opus-5</th><th class="num">claude-sonnet-5</th></tr></thead><tbody>
+<tr><td>Blind-match accuracy (vs 5% chance)</td><td class="num">55.0%</td><td class="num">55.0%</td></tr>
+<tr><td>Claims grounded in cited item</td><td class="num">96.4%</td><td class="num">96.8%</td></tr>
+<tr><td>Fabricated citations</td><td class="num">0.0%</td><td class="num">0.0%</td></tr>
+<tr class="total"><td>Confident on real transitions</td><td class="num">16/20</td><td class="num">20/20</td></tr>
+<tr class="total"><td>Confident on clean controls</td><td class="num">8/13</td><td class="num">10/13</td></tr>
+<tr><td>Fisher exact <em>p</em></td><td class="num">0.425</td><td class="num">0.052</td></tr>
+</tbody></table>
+<div class="good"><strong>The structural measurements are model-independent.</strong> Blind-match accuracy is identical to the window (55% on both), grounding differs by four tenths of a point, and neither model fabricated a single citation across roughly 950 claims. These are properties of having the news and being made to cite it, not of one model's style.</div>
+<div class="caveat"><strong>The self-reported confidence label is not.</strong> Window-by-window agreement between the two models is only &kappa;&nbsp;=&nbsp;—, and claude-sonnet-5 declines half as often — it called every one of the 20 transitions confidently. So the absolute rates are a property of the model, not of the data. This is the argument for treating blind matching as the load-bearing result and the confidence label as a weak instrument, and it is a good reason not to have built the headline on a self-report.</div>
+<p><strong>What does replicate is the direction.</strong> The effect points the same way under both models, with a similar magnitude (+18.5pp on claude-opus-5, +23.1pp on claude-sonnet-5), and the claude-sonnet-5 arm alone reaches Fisher p = 0.052. Neither arm is significant at 0.05, and a combined test is not available because the two arms share their windows. What replicates is the direction, not a significant result.</p>
+<div class="caveat"><strong>Why no combined test is quoted.</strong> Stratifying the two arms gives a Mantel-Haenszel odds ratio of 4.38 with a nominal 95% interval of [1.29, 14.88] — but Mantel-Haenszel assumes the strata are independent, and these are two readings of the same windows rather than two samples. The interval is therefore too narrow and the combined <em>p</em> too small. It is reported here as a consistency check and is deliberately not used as evidence.</div>
+<h2>9 · Specification and reproducibility</h2>
 <p>Fixed before any narrative was generated:</p>
 <table><tbody>
 <tr><td>min dwell days</td><td class="num mono">20</td></tr>

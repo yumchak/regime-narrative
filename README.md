@@ -17,19 +17,40 @@ explanation is worth.
 
 ## The claim
 
-> A two-state Gaussian HMM, refitted inside each of 27 walk-forward folds and
-> scored only on held-out days, separates SPY volatility regimes by **2.18×**
-> (95% CI 1.76–2.69); the same procedure refitted on three indices outside the
-> original universe gives 1.54×, 1.46× and 1.87×. A 20-day persistence filter
-> reduces 84 raw state flips to 24 transitions, of which **20 recur across
-> random seeds**. For each, a language model reading only news published before
-> that date produced a citation-grounded explanation. Stripped of dates and
-> scrambled, *X*% matched back to the correct window against 1/20 chance. On
-> era-matched non-transition dates the same pipeline produced confident
-> explanations *Y*% of the time, and that is the honest limit of the method.
+> A two-state Gaussian HMM, refitted inside each walk-forward fold and scored
+> only on held-out days, separates SPY volatility regimes in **18 of the 20
+> folds that contain both states** (exact sign test *p* = 0.00040; median
+> **1.52×**, 95% CI 1.37–1.90; pooled 2.18×). The same procedure refitted on
+> three indices outside the original universe gives forward-volatility ratios of
+> 1.18×, 1.32× and 1.58×. A 20-day persistence filter reduces 84 raw state flips
+> to 24 transitions, of which **20 recur across random seeds**. For each, a
+> language model reading only news published before that date produced a
+> citation-grounded explanation. Stripped of dates and scrambled, **55% matched
+> back to the correct fortnight against 5% chance** (*p* < 0.0001), and **71.7%
+> against 33.3%** when restricted to competing only with the three temporally
+> nearest windows, so era alone cannot account for it. **96.4% of 474 claims are
+> grounded in the item they cite, against a 1.8% random-citation floor, with
+> zero fabricated citations.** On era-matched non-transition dates the identical
+> pipeline produced confident explanations **61.5%** of the time against 80% on
+> real transitions: **+18.5pp, 95% CI [−12, +47]pp**. That comparison is
+> unresolved, and this design could not have resolved it. That is the honest
+> limit of the method.
 
-*X* and *Y* require `ANTHROPIC_API_KEY`. Everything before them is computed and
-reproducible offline.
+Every figure is reproducible offline from cache. Only regenerating the
+narratives needs `ANTHROPIC_API_KEY`.
+
+### On the last clause
+
+The placebo comparison is the one that did not come out in the method's favour,
+and it is stated as an interval rather than a verdict on purpose. Saying the
+explanations are "not diagnostic" would be an affirmative claim of no
+difference, and *p* = 0.43 licenses no such thing. Power at the observed gap is
+**0.17** — this study had roughly a one-in-six chance of detecting the very
+effect it observed, and the binding constraint is the number of transitions, not
+the number of controls. The gap runs in the predicted direction and reproduces
+exactly on a full replicate run (κ = 0.84 on the confidence label; rates
+0.80 → 0.80 and 0.65 → 0.65), so it is stable rather than noisy. It is simply
+not resolved.
 
 ## The architectural split
 

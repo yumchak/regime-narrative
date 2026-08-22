@@ -92,6 +92,7 @@ def build_report(
     power: dict | None = None,
     retest: dict | None = None,
     referee: dict | None = None,
+    crossmodel: dict | None = None,
     figures: dict[str, Path],
     out_path: Path,
 ) -> Path:
@@ -608,8 +609,70 @@ def build_report(
     else:
         a('<div class="missing">Awaiting narrative generation.</div>')
 
+    # ---- cross-model replication -----------------------------------------
+    if crossmodel:
+        cm = crossmodel
+        a("<h2>8 · Does any of this depend on which model was used?</h2>")
+        a("<p>A result that holds on one model is a result about that model. The "
+          "entire pipeline was re-run on a second — identical prompt, identical "
+          "windows, identical scoring — to separate properties of the method from "
+          "properties of one model's calibration.</p>")
+        rep = cm.get("what_replicated_exactly", {})
+        a('<table><thead><tr><th>Measurement</th>'
+          '<th class="num">claude-opus-5</th><th class="num">claude-sonnet-5</th>'
+          "</tr></thead><tbody>")
+        for key, label, pct in (
+            ("blind_match_accuracy", "Blind-match accuracy (vs 5% chance)", True),
+            ("grounding_rate", "Claims grounded in cited item", True),
+            ("fabricated_citation_rate", "Fabricated citations", True),
+        ):
+            d = rep.get(key, {})
+            a(f'<tr><td>{label}</td>'
+              f'<td class="num">{100 * d.get("claude-opus-5", 0):.1f}%</td>'
+              f'<td class="num">{100 * d.get("claude-sonnet-5", 0):.1f}%</td></tr>')
+        st = {s["model"]: s for s in cm.get("strata", [])}
+        a(f'<tr class="total"><td>Confident on real transitions</td>'
+          f'<td class="num">{st.get("claude-opus-5", {}).get("transitions_confident", "—")}</td>'
+          f'<td class="num">{st.get("claude-sonnet-5", {}).get("transitions_confident", "—")}</td></tr>')
+        a(f'<tr class="total"><td>Confident on clean controls</td>'
+          f'<td class="num">{st.get("claude-opus-5", {}).get("controls_confident", "—")}</td>'
+          f'<td class="num">{st.get("claude-sonnet-5", {}).get("controls_confident", "—")}</td></tr>')
+        pf_ = cm.get("per_model_fisher_p", {})
+        a(f'<tr><td>Fisher exact <em>p</em></td>'
+          f'<td class="num">{_fmt(pf_.get("claude-opus-5"), 3)}</td>'
+          f'<td class="num">{_fmt(pf_.get("claude-sonnet-5"), 3)}</td></tr>')
+        a("</tbody></table>")
+
+        a('<div class="good"><strong>The structural measurements are '
+          "model-independent.</strong> Blind-match accuracy is identical to the "
+          "window (55% on both), grounding differs by four tenths of a point, and "
+          "neither model fabricated a single citation across roughly 950 claims. "
+          "These are properties of having the news and being made to cite it, not "
+          "of one model's style.</div>")
+        a('<div class="caveat"><strong>The self-reported confidence label is '
+          "not.</strong> Window-by-window agreement between the two models is only "
+          f"&kappa;&nbsp;=&nbsp;{_fmt(cm.get('kappa_is_confident'), 2)}, and "
+          "claude-sonnet-5 declines half as often — it called every one of the 20 "
+          "transitions confidently. So the absolute rates are a property of the "
+          "model, not of the data. This is the argument for treating blind "
+          "matching as the load-bearing result and the confidence label as a weak "
+          "instrument, and it is a good reason not to have built the headline on "
+          "a self-report.</div>")
+        a(f"<p><strong>What does replicate is the direction.</strong> "
+          f"{cm.get('defensible_statement', '')}</p>")
+        a('<div class="caveat"><strong>Why no combined test is quoted.</strong> '
+          "Stratifying the two arms gives a Mantel-Haenszel odds ratio of "
+          f"{_fmt(cm.get('mantel_haenszel_or'), 2)} with a nominal 95% interval of "
+          f"[{_fmt(cm.get('mh_or_95ci', [None, None])[0], 2)}, "
+          f"{_fmt(cm.get('mh_or_95ci', [None, None])[1], 2)}] — but "
+          "Mantel-Haenszel assumes the strata are independent, and these are two "
+          "readings of the same windows rather than two samples. The interval is "
+          "therefore too narrow and the combined <em>p</em> too small. It is "
+          "reported here as a consistency check and is deliberately not used as "
+          "evidence.</div>")
+
     # ---- reproducibility -------------------------------------------------
-    a("<h2>8 · Specification and reproducibility</h2>")
+    a("<h2>9 · Specification and reproducibility</h2>")
     a("<p>Fixed before any narrative was generated:</p>")
     a('<table><tbody>')
     for k, v in spec.items():
