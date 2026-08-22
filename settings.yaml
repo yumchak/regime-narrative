@@ -59,8 +59,9 @@ llm:
   model: "claude-opus-5"    # swap here, one line, nowhere else.
                             # claude-sonnet-5 is the cheaper swap for a rerun;
                             # the whole run is ~320k input tokens over 60 calls.
-  temperature: 0.0
-  max_tokens: 2000
+  effort: "high"            # replaces temperature: sampling params were removed
+                            # on current models and now return a 400.
+  max_tokens: 4000
   prompt_version: "narrative_v1"
 
 paths:

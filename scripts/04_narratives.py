@@ -83,7 +83,7 @@ def dry_run(cfg, windows: dict) -> None:
     est_in = total_chars / 3.7
     print(f"rendered {len(windows)} prompts to {outdir}")
     print(f"total input ~{total_chars:,} chars ~= {est_in:,.0f} tokens")
-    print(f"model: {cfg['llm']['model']}  temperature: {cfg['llm']['temperature']}")
+    print(f"model: {cfg['llm']['model']}  effort: {cfg['llm']['effort']}")
     print("no API calls made")
 
 
@@ -114,8 +114,8 @@ def main() -> None:
         print("    python scripts/04_narratives.py --dry-run")
         sys.exit(2)
 
-    print(f"generating with {cfg['llm']['model']} at temperature "
-          f"{cfg['llm']['temperature']}, one call per window")
+    print(f"generating with {cfg['llm']['model']} at effort "
+          f"{cfg['llm']['effort']}, schema-enforced output, one call per window")
     narratives = {}
     for i, (wid, w) in enumerate(windows.items(), 1):
         n = generate_narrative(w["gen"], window_id=wid, kind=w["kind"])

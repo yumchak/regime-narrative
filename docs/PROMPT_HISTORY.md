@@ -83,3 +83,37 @@ and could bias confidence. Transition and control windows are closely matched on
 item count (180.6 vs 186.1 mean), so the leak is small — but it is a leak, and
 removing it costs nothing if the first run shows confidence correlating with
 item count.
+
+
+---
+
+## Determinism note — 2026-08-22, before the first run
+
+The brief specified "temperature zero, one transition per call, no batching".
+Two of those three survive; the first does not, and it is worth stating plainly
+rather than quietly leaving `temperature: 0.0` in a settings file where a reader
+would assume it took effect.
+
+**Sampling parameters have been removed on current Claude models.** Passing
+`temperature` (or `top_p`/`top_k`) to `claude-opus-5` returns a 400. The code
+originally passed `temperature=0.0` on every call, so all 60 would have failed
+before a single narrative was produced. Caught before the first run, not after.
+
+What replaces it, and what it means for reproducibility:
+
+* `output_config.effort` controls reasoning depth. Set to `high`.
+* `output_config.format` now enforces the JSON schema server-side rather than
+  asking the prompt nicely for valid JSON. This removes the parse-failure path
+  entirely instead of handling it, and it is strictly better than the previous
+  arrangement -- the `parse_ok` flag stays in the dataclass as a belt-and-braces
+  check but should never fire.
+* **Outputs are no longer bit-reproducible by re-running.** Nothing in the API
+  now offers a determinism knob. Reproducibility therefore comes from the
+  archive rather than from re-execution: every call is cached by input hash, and
+  every call is logged with the model id, prompt hash, input hash, token counts
+  and raw response. A reader can verify exactly what was sent and what came
+  back; they cannot regenerate it byte-for-byte, and the report should say so.
+
+The prompt text itself is unchanged. It still describes every output field,
+because the model fills a schema more coherently when it knows what the fields
+mean -- the schema guarantees shape, the prompt supplies intent.

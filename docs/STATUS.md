@@ -13,7 +13,7 @@ export ANTHROPIC_API_KEY=sk-...
 python scripts/04_narratives.py && python scripts/05_report.py
 ```
 
-60 calls, ~320k input tokens total, `claude-opus-5` at temperature 0. To see the
+60 calls, ~320k input tokens total, `claude-opus-5` at effort `high`. To see the
 exact prompts without spending anything: `python scripts/04_narratives.py --dry-run`
 (they are already rendered to `outputs/dry_run/`).
 

@@ -27,6 +27,39 @@ from .news.base import NewsWindow
 
 PROMPT_DIR = PROJECT_ROOT / "prompts"
 
+# Schema-enforced output shape. Kept in lockstep with the field list in
+# prompts/narrative_v1.md -- the prompt explains what each field means, the
+# schema guarantees the structure.
+NARRATIVE_SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "required": [
+        "driver_identified", "confidence", "summary", "mechanism", "claims",
+        "primary_item_ids", "competing_explanation", "insufficient_evidence_reason",
+    ],
+    "properties": {
+        "driver_identified": {"type": "boolean"},
+        "confidence": {"type": "string", "enum": ["high", "medium", "low", "none"]},
+        "summary": {"type": "string"},
+        "mechanism": {"type": "string"},
+        "claims": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": False,
+                "required": ["claim", "item_ids"],
+                "properties": {
+                    "claim": {"type": "string"},
+                    "item_ids": {"type": "array", "items": {"type": "string"}},
+                },
+            },
+        },
+        "primary_item_ids": {"type": "array", "items": {"type": "string"}},
+        "competing_explanation": {"type": "string"},
+        "insufficient_evidence_reason": {"type": "string"},
+    },
+}
+
 _RE_FRONTMATTER = re.compile(r"\A---\n.*?\n---\n", re.S)
 
 # Absolute-date patterns stripped from item text before the model sees it.
@@ -235,9 +268,18 @@ def generate_narrative(
     response = client.messages.create(
         model=model,
         max_tokens=cfg["llm"]["max_tokens"],
-        temperature=cfg["llm"]["temperature"],
         system=system_prompt,
         messages=[{"role": "user", "content": user_text}],
+        # Sampling parameters were removed on current models -- passing
+        # temperature returns a 400. Depth is controlled by effort instead.
+        output_config={
+            "effort": cfg["llm"]["effort"],
+            # Schema-constrained output. The prompt still describes the fields,
+            # because the model reasons better when it knows what it is filling
+            # in, but the schema is what guarantees the shape. This removes the
+            # parse-failure path entirely rather than handling it.
+            "format": {"type": "json_schema", "schema": NARRATIVE_SCHEMA},
+        },
     )
     raw = "".join(block.text for block in response.content if block.type == "text")
 
@@ -250,7 +292,8 @@ def generate_narrative(
             "model": model,
             "prompt_version": prompt_version or cfg["llm"]["prompt_version"],
             "prompt_sha256_16": prompt_hash,
-            "temperature": cfg["llm"]["temperature"],
+            "effort": cfg["llm"]["effort"],
+            "output_schema_enforced": True,
             "input_hash": input_hash,
             "n_items_in_window": len(window),
             "input_chars": len(user_text),
