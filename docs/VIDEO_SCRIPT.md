@@ -24,7 +24,40 @@ Figures are the measured values in `outputs/`; none is rounded in your favour.
 | **0:00–0:12**<br>(12s · 28w) | To camera. Lower third: *Victor Sze · BSc Mathematics with Statistics · University of Bristol*. | Hi, I'm Victor, a penultimate-year Maths and Statistics student at Bristol. I build tools that stop quantitative research fooling itself. |
 | **0:12–0:45**<br>(33s · 80w) | Montage of your repos — `purgedcv`, `pypbo`, `quantguard`. Hold two seconds on quantguard's line *"The LLM proposes; deterministic code verifies."* Cut to this repo's tests scrolling past. | Look at what I build and it's all one thing. Purged cross-validation. Probability of backtest overfitting. An auditor for leakage in quant research. Tools for not fooling yourself. My AI journey went the same way — it started as autocomplete, and what changed is that I stopped asking models for answers and started asking what would prove them wrong. **[OPTIONAL: one sentence on the moment that changed.]** So: the model proposes, code verifies. |
 | **0:45–0:55**<br>(10s · 22w) | Something visual and personal. | A fun fact — **[FUN FACT]**. |
-| **0:55–1:05**<br>(10s · 26w) | To camera. | I want a quant research internship, where you build a signal and then try hard to break it. **[ONE SENTENCE: WHY POLYMER.]** |
+| **0:55–1:05**<br>(10s · 26w) | To camera. | **[PICK ONE OF THE THREE BELOW.]** |
+
+### Career aspiration — three directions, pick one
+
+All three fit the 10-second slot (~26 words) and all three are consistent with
+what you actually built. They point at different things, so choose the one you
+would still believe in an interview.
+
+**A — The researcher.** Leans on the through-line already established in the
+previous beat. Safest, and the most coherent with the rest of the video.
+
+> I want a quant research internship, where you build a signal and then spend
+> most of your time trying to break it. **[WHY POLYMER.]**
+
+**B — The one who ships.** Positions you as someone whose research reaches other
+people, which is what the dashboard actually demonstrates. Use this if you want
+the tool, not the statistics, to be the thing they remember.
+
+> I want to do research that other people can actually use — signals that arrive
+> with their error bars attached, not just a number in a notebook. **[WHY
+> POLYMER.]**
+
+**C — The one who wants to be wrong faster.** The boldest, and the most
+memorable if you deliver it plainly rather than as a slogan. It also sets up
+your placebo result, so the video pays it off later.
+
+> I want to work somewhere that treats a negative result as a finding. This
+> project's best number is the one that went against me. **[WHY POLYMER.]**
+
+**On the Polymer sentence.** One line, specific, and true. Something you can
+name — a strategy, a team, something they published, the fact that the expo is
+judged on a code walkthrough rather than a pitch. A generic "I admire your
+culture" is worse than saying nothing; if you have nothing specific, cut the
+sentence and use the extra two seconds on the line above.
 
 ---
 
