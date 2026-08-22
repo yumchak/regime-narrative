@@ -637,7 +637,7 @@ elif view == "Your data":
     st.markdown(
         '<div class="good"><b>What you get that you cannot get from just asking a '
         "model.</b> Anyone can ask an LLM what happened in March 2020. What is hard "
-        "is knowing whether the answer is specific to that fortnight or generic "
+        "is knowing whether the answer is specific to those two weeks or generic "
         "commentary that would fit any month. Every run here comes back with a "
         "blind-matching score against chance, a citation-grounding rate, and an "
         "era-matched control arm — so the explanation arrives with its own error "

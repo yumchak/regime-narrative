@@ -520,9 +520,9 @@ def build_report(
             hn = referee["blind_match_hard_negatives"]
             a("<h3>Against era-adjacent hard negatives</h3>")
             a("<p>A sceptic can explain a high score against the full pool by "
-              "era-matching: adjacent fortnights share running stories, so the "
+              "era-matching: adjacent windows share running stories, so the "
               "matcher might only be recovering roughly <em>when</em>, not "
-              "<em>which</em> fortnight. Restricting each explanation to compete "
+              "<em>which</em> window. Restricting each explanation to compete "
               "only against its temporal neighbours removes that explanation.</p>")
             a('<table><thead><tr><th>Candidate pool</th><th class="num">Correct</th>'
               '<th class="num">Accuracy</th><th class="num">Chance</th>'
@@ -597,7 +597,7 @@ def build_report(
             a("</tbody></table>")
             a('<div class="good">A '
               f'{gn["grounded_rate_cited"] / max(gn["grounded_rate_random_same_window"], 1e-9):.0f}× '
-              "separation between cited and random items from the same fortnight. "
+              "separation between cited and random items from the same window. "
               "The objection does not hold: this is not a test everything passes."
               "</div>")
             a('<div class="caveat"><strong>What it still cannot see.</strong> The '

@@ -113,7 +113,7 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);
 <div class='wrap'>
 <h1>Regime detection with a measured explanation layer</h1>
 <p class="sub">A two-state HMM decides <em>when</em> the market regime changed. A language model reading only news published before that date describes <em>what was happening</em>. Every claim about the second half is tested, including the ways it fails.</p>
-<p class="meta">Generated 2026-08-22 15:29 UTC · Study period 2010-02-02 to 2026-08-21 · 4164 trading days</p>
+<p class="meta">Generated 2026-08-22 20:06 UTC · Study period 2010-02-02 to 2026-08-21 · 4164 trading days</p>
 <div class="grid">
 <div class="card"><div class="k">Out-of-sample vol ratio</div><div class="v">2.18×</div><div class="n">95% CI 1.76–2.69 · in-sample was 2.32×</div></div>
 <div class="card"><div class="k">Forward-vol ratio</div><div class="v">1.69×</div><div class="n">volatility that had not happened yet</div></div>
@@ -235,7 +235,7 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);
 <tr><td>All windows pooled</td><td class="num">33/60</td><td class="num">55.0%</td><td class="num">1.7%</td><td class="num">0.630</td><td class="num">0.0001</td></tr>
 </tbody></table></div>
 <h3>Against era-adjacent hard negatives</h3>
-<p>A sceptic can explain a high score against the full pool by era-matching: adjacent fortnights share running stories, so the matcher might only be recovering roughly <em>when</em>, not <em>which</em> fortnight. Restricting each explanation to compete only against its temporal neighbours removes that explanation.</p>
+<p>A sceptic can explain a high score against the full pool by era-matching: adjacent windows share running stories, so the matcher might only be recovering roughly <em>when</em>, not <em>which</em> window. Restricting each explanation to compete only against its temporal neighbours removes that explanation.</p>
 <div class="scroll"><table><thead><tr><th>Candidate pool</th><th class="num">Correct</th><th class="num">Accuracy</th><th class="num">Chance</th><th class="num">p</th></tr></thead><tbody>
 <tr><td>3 temporally nearest windows</td><td class="num">43/60</td><td class="num">71.7%</td><td class="num">33.3%</td><td class="num">1.5e-09</td></tr>
 <tr><td>5 temporally nearest windows</td><td class="num">37/60</td><td class="num">61.7%</td><td class="num">20.0%</td><td class="num">2.2e-12</td></tr>
@@ -255,7 +255,7 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);
 <tr class="total"><td>The item the claim actually cites</td><td class="num">0.614</td><td class="num">96.6%</td></tr>
 <tr><td>A random item from the same window (4,740 draws)</td><td class="num">0.024</td><td class="num">1.8%</td></tr>
 </tbody></table></div>
-<div class="good">A 54× separation between cited and random items from the same fortnight. The objection does not hold: this is not a test everything passes.</div>
+<div class="good">A 54× separation between cited and random items from the same window. The objection does not hold: this is not a test everything passes.</div>
 <div class="caveat"><strong>What it still cannot see.</strong> The tokeniser drops numerals, so a misquoted figure is invisible to it; negation is invisible; and bag-of-words cannot tell &ldquo;X caused Y&rdquo; from &ldquo;Y caused X&rdquo;. Grounding establishes that a claim's content came from the item it cites, not that the claim is correct.</div>
 <h2>8 · Does any of this depend on which model was used?</h2>
 <p>A result that holds on one model is a result about that model. The entire pipeline was re-run on a second — identical prompt, identical windows, identical scoring — to separate properties of the method from properties of one model's calibration.</p>

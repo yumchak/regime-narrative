@@ -109,7 +109,7 @@ def sample_placebo_dates(
     # Without this, two controls can land days apart and share most of their
     # articles -- which happened: 2019-04-08 and 2019-04-15 were sampled seven
     # days apart, and the blind-matching ceiling test then predicted one from
-    # the other, because they were largely the same fortnight of news.
+    # the other, because they were largely the same two weeks of news.
     min_gap = max(window_days, min_gap_days or window_days)
 
     used: set[date] = set()

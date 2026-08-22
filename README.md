@@ -26,7 +26,7 @@ explanation is worth.
 > to 24 transitions, of which **20 recur across random seeds**. For each, a
 > language model reading only news published before that date produced a
 > citation-grounded explanation. Stripped of dates and scrambled, **55% matched
-> back to the correct fortnight against 5% chance** (*p* < 0.0001), and **71.7%
+> back to the correct 14-day window against 5% chance** (*p* < 0.0001), and **71.7%
 > against 33.3%** when restricted to competing only with the three temporally
 > nearest windows, so era alone cannot account for it. **96.4% of 474 claims are
 > grounded in the item they cite, against a 1.8% random-citation floor, with

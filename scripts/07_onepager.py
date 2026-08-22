@@ -137,7 +137,7 @@ BSc Mathematics with Statistics, University of Bristol.</p>
 separates SPY volatility regimes in <b>{sg.get('n_folds_ratio_above_1')} of {sg.get('n_folds_with_both_states')} folds</b>
 containing both states (sign test p&nbsp;=&nbsp;{sg.get('sign_test_p', 0):.5f}). Reading only news
 published <i>before</i> each of {stab['n_stable_transitions']} transitions, a language model produced
-cited explanations matching back to their own fortnight
+cited explanations matching back to their own 14-day window
 <b>{100 * hn.get('accuracy', 0):.0f}% of the time against {100 * hn.get('chance', 0):.0f}% chance</b>, with
 <b>{100 * fa.get('grounding_rate', 0):.1f}% of {fa.get('n_claims', 0)} claims grounded, zero fabricated</b>. Whether they
 are <i>diagnostic</i> is unresolved: <b>+{pi.get('difference_pp')}pp, 95% CI
@@ -185,7 +185,7 @@ error bars</b>. Tested on {stab['n_stable_transitions']} detected transitions an
 control dates:</p>
 <table>
 <tr><th>Does the narrator work?</th><th class="n">Result</th><th class="n">Against</th></tr>
-<tr><td>Matched back to its own fortnight</td><td class="n">{100 * hn.get('accuracy', 0):.0f}%</td><td class="n">{100 * hn.get('chance', 0):.0f}% chance</td></tr>
+<tr><td>Matched to its own 14-day window</td><td class="n">{100 * hn.get('accuracy', 0):.0f}%</td><td class="n">{100 * hn.get('chance', 0):.0f}% chance</td></tr>
 <tr><td>Claims grounded in the item cited</td><td class="n">{100 * fa.get('grounding_rate', 0):.1f}%</td><td class="n">{100 * gn.get('grounded_rate_random_same_window', 0):.1f}% floor</td></tr>
 <tr><td>Fabricated citations</td><td class="n">0</td><td class="n">of {fa.get('n_claims', 0)}</td></tr>
 <tr class="hi"><td>Confident on <i>non</i>-events</td><td class="n">{100 * c_rate:.0f}%</td><td class="n">vs {100 * t_rate:.0f}%</td></tr>

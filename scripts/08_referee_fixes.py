@@ -223,7 +223,7 @@ def main() -> None:
     out["blind_match_hard_negatives"]["why"] = (
         "A critic can explain 55%-against-1.7% by era-matching: adjacent windows "
         "share running stories, so the matcher might only be recovering roughly "
-        "when, not which fortnight. Restricting each explanation to compete only "
+        "when, not which two-week window. Restricting each explanation to compete "
         "against its temporal neighbours removes that explanation. The signal "
         "survives, which is stronger evidence than the headline number."
     )
