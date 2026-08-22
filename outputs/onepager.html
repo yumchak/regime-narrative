@@ -73,14 +73,18 @@ score, a grounding rate, and a matched control arm.</p>
 
 <h2>Impact &amp; value</h2>
 <table>
-<tr><th>Separation, out-of-sample</th><th class="n"></th></tr>
-<tr class="hi"><td>SPY per-fold median</td><td class="n">1.52&times;</td></tr>
-<tr><td>Forward-20d, unseen indices</td><td class="n"></td></tr>
-<tr><td>Nikkei 225</td><td class="n">1.18&times;</td></tr><tr><td>Hang Seng</td><td class="n">1.32&times;</td></tr><tr><td>DAX</td><td class="n">1.58&times;</td></tr>
+<tr><th>Stressed / calm volatility</th><th class="n">Same&#8209;day</th><th class="n">Forward&nbsp;20d</th></tr>
+<tr class="hi"><td>SPY <i>(fitted)</i></td><td class="n">2.18&times;</td><td class="n">1.69&times;</td></tr>
+<tr><td>Nikkei 225</td><td class="n">1.54&times;</td><td class="n">1.18&times;</td></tr><tr><td>Hang Seng</td><td class="n">1.46&times;</td><td class="n">1.32&times;</td></tr><tr><td>DAX</td><td class="n">1.87&times;</td><td class="n">1.58&times;</td></tr>
 </table>
-<p>Forward-20d is volatility that had <i>not happened</i> when the state was
-assigned &mdash; the honest metric, since the HMM is fed trailing volatility.
-Nikkei is close to nothing, and is reported as such.</p>
+<p>A ratio of 2.18&times; means the stressed state's daily moves are
+2.18 times the size of the calm state's. <b>Same-day</b> is partly
+definitional &mdash; the HMM is fed trailing volatility, so it had better
+separate on it. <b>Forward-20d</b> measures volatility that had <i>not
+happened</i> when the state was assigned, and is the honest number. Nikkei at
+1.18&times; is close to nothing, and is reported as such. Within SPY the
+per-fold median is 1.52&times;, below the pooled
+figure because pooling mixes calm and crisis years.</p>
 
 </div>
 <div class="col">

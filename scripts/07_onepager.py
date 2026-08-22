@@ -101,6 +101,7 @@ def main() -> None:
 
     gen_rows = "".join(
         f'<tr><td>{PRETTY.get(g["index"], g["index"])}</td>'
+        f'<td class="n">{g["ratio_oos"]:.2f}&times;</td>'
         f'<td class="n">{g["ratio_forward"]:.2f}&times;</td></tr>'
         for g in R["generalisation"] if "error" not in g
     )
@@ -154,14 +155,18 @@ score, a grounding rate, and a matched control arm.</p>
 
 <h2>Impact &amp; value</h2>
 <table>
-<tr><th>Separation, out-of-sample</th><th class="n"></th></tr>
-<tr class="hi"><td>SPY per-fold median</td><td class="n">{sg.get('median_ratio', 0):.2f}&times;</td></tr>
-<tr><td>Forward-20d, unseen indices</td><td class="n"></td></tr>
+<tr><th>Stressed / calm volatility</th><th class="n">Same&#8209;day</th><th class="n">Forward&nbsp;20d</th></tr>
+<tr class="hi"><td>SPY <i>(fitted)</i></td><td class="n">{oos['ratio']:.2f}&times;</td><td class="n">{fwd['ratio']:.2f}&times;</td></tr>
 {gen_rows}
 </table>
-<p>Forward-20d is volatility that had <i>not happened</i> when the state was
-assigned &mdash; the honest metric, since the HMM is fed trailing volatility.
-Nikkei is close to nothing, and is reported as such.</p>
+<p>A ratio of {oos['ratio']:.2f}&times; means the stressed state's daily moves are
+{oos['ratio']:.2f} times the size of the calm state's. <b>Same-day</b> is partly
+definitional &mdash; the HMM is fed trailing volatility, so it had better
+separate on it. <b>Forward-20d</b> measures volatility that had <i>not
+happened</i> when the state was assigned, and is the honest number. Nikkei at
+1.18&times; is close to nothing, and is reported as such. Within SPY the
+per-fold median is {sg.get('median_ratio', 0):.2f}&times;, below the pooled
+figure because pooling mixes calm and crisis years.</p>
 
 </div>
 <div class="col">
