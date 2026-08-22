@@ -113,6 +113,30 @@ scripts/01..05                the pipeline, in order
 tests/                        47 tests; the boundary and the negative controls
 ```
 
+## Your API key
+
+Put it in a file called `.env` in the project root. One line:
+
+```
+ANTHROPIC_API_KEY=sk-ant-api03-your-key-here
+```
+
+Copy `.env.example` to `.env` and fill it in. That is the only place a key
+belongs in this project.
+
+`.env` is gitignored, and `tests/test_secrets.py` fails if anything shaped like
+a key appears in a tracked file — checked by a test rather than by remembering,
+because git remembers a committed secret permanently.
+
+`src/regime_narrative/config.py` loads `.env` on import, so every script, the
+dashboard and the test suite pick it up with no further setup. A real
+environment variable beats the file, so `ANTHROPIC_API_KEY=... python ...` and
+CI secrets still win.
+
+**If you share the dashboard with anyone**, do not ship your key: the sidebar
+has a key field that holds the value in browser session memory only, so each
+person brings their own.
+
 ## Running it
 
 ```bash

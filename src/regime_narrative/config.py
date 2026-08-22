@@ -17,6 +17,51 @@ import yaml
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SETTINGS_PATH = PROJECT_ROOT / "settings.yaml"
+ENV_PATH = PROJECT_ROOT / ".env"
+
+
+def load_env_file(path: Path | None = None, *, override: bool = False) -> list[str]:
+    """Read ``.env`` into the process environment. Returns the names it set.
+
+    Written out rather than pulling in python-dotenv: it is a dozen lines, and a
+    credential path is a bad place to add a dependency nobody reads.
+
+    A real environment variable wins over the file by default, so a CI secret or
+    a one-off ``ANTHROPIC_API_KEY=... python ...`` is never silently overridden
+    by a stale file on disk.
+
+    ``.env`` is gitignored and a test asserts that no tracked file contains a
+    key, because the failure mode here is permanent: git remembers.
+    """
+    path = path or ENV_PATH
+    if not path.exists():
+        return []
+
+    loaded: list[str] = []
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        if line.lower().startswith("export "):
+            line = line[7:].lstrip()
+        if "=" not in line:
+            continue
+        key, _, value = line.partition("=")
+        key, value = key.strip(), value.strip()
+        # Strip one matched pair of surrounding quotes, if present.
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+            value = value[1:-1]
+        if not key:
+            continue
+        if override or not os.environ.get(key):
+            os.environ[key] = value
+            loaded.append(key)
+    return loaded
+
+
+# Load on import so every script, the dashboard and the test suite all see the
+# same credentials without each one remembering to ask.
+load_env_file()
 
 
 class Settings(dict):
