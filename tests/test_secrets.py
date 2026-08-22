@@ -140,3 +140,32 @@ def test_malformed_lines_are_skipped_rather_than_crashing(tmp_path, monkeypatch)
     f = tmp_path / ".env"
     f.write_text("this line has no equals sign\n=novalue\nDEMO_TOKEN=ok\n", encoding="utf-8")
     assert load_env_file(f) == ["DEMO_TOKEN"]
+
+
+# ---------------------------------------------------------------------------
+# expo submission rules -- the write-up has hard limits and they are checkable
+# ---------------------------------------------------------------------------
+
+
+def test_onepager_declares_no_font_below_11pt():
+    """Polymer Tech Expo 2026: "Minimum font size: 11-point".
+
+    A hard fail if violated, and easy to reintroduce by tweaking one rule, so it
+    is asserted rather than remembered. Page *fit* is measured separately in the
+    browser; this guards the font floor, which is the part expressible in code.
+    """
+    src = (PROJECT_ROOT / "scripts" / "07_onepager.py").read_text(encoding="utf-8")
+    sizes = [float(x) for x in re.findall(r"font(?:-size)?:\s*([0-9.]+)pt", src)]
+    assert sizes, "no font sizes found -- has the stylesheet moved?"
+    too_small = sorted({s for s in sizes if s < 11})
+    assert not too_small, f"font sizes below the 11pt expo minimum: {too_small}"
+
+
+def test_onepager_covers_every_required_section():
+    """The write-up must address problem, solution, use of AI, impact, reflections."""
+    out = PROJECT_ROOT / "outputs" / "onepager.html"
+    if not out.exists():
+        pytest.skip("run scripts/07_onepager.py first")
+    text = out.read_text(encoding="utf-8").lower()
+    for section in ("problem", "solution", "use of ai", "impact", "reflections"):
+        assert section in text, f"required write-up section missing: {section}"

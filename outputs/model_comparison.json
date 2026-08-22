@@ -39,5 +39,8 @@
       "claude-sonnet-5": 0.0
     },
     "reading": "The structural measurements are model-independent -- they are properties of having the news and citing it. The self-reported confidence label is not: window-by-window agreement between the two models is kappa 0.25, and claude-sonnet-5 declines half as often. That is the argument for treating blind matching as the load-bearing result and the confidence label as a weak instrument."
-  }
+  },
+  "kappa_is_confident": 0.25,
+  "kappa_driver_identified": 0.175,
+  "agreement_is_confident": 0.75
 }

@@ -1,197 +1,128 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8">
-<title>regime-narrative — one page</title><style>
-@page { size: A4; margin: 12mm 13mm; }
+<title>regime-narrative</title><style>
+@page { size: A4; margin: 11mm 12mm; }
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
-body { font: 8.6pt/1.34 "Segoe UI", -apple-system, Helvetica, Arial, sans-serif;
-  color: #16202a; background: #fff; width: 184mm; margin: 0 auto; padding: 4mm 0; }
-h1 { font-size: 15pt; line-height: 1.12; margin: 0 0 1mm; letter-spacing: -0.35pt; }
-.sub { font-size: 8.4pt; color: #55636f; margin: 0 0 3mm; }
-h2 { font-size: 8.4pt; text-transform: uppercase; letter-spacing: 0.7pt;
-  color: #55636f; margin: 3.6mm 0 1.4mm; padding-bottom: 0.7mm;
-  border-bottom: 0.5pt solid #c9d2da; }
-p { margin: 0 0 1.6mm; }
-.claim { border-left: 2.2pt solid #37567f; background: #f4f7fa;
-  padding: 2.4mm 3mm; margin: 0 0 3mm; font-size: 8.9pt; line-height: 1.42; }
-.cols { display: flex; gap: 5mm; }
+body { font: 11pt/1.16 "Segoe UI", -apple-system, Helvetica, Arial, sans-serif;
+  color: #14202a; background: #fff; }
+h1 { font-size: 16pt; line-height: 1.06; margin: 0 0 1mm; letter-spacing: -0.3pt; }
+.sub { font-size: 11pt; color: #4a5763; margin: 0 0 2.5mm; }
+h2 { font-size: 11pt; text-transform: uppercase; letter-spacing: 0.5pt;
+  color: #37567f; margin: 2.2mm 0 0.8mm; }
+p { margin: 0 0 1.2mm; }
+.claim { border-left: 2.5pt solid #37567f; background: #f2f6fa;
+  padding: 1.6mm 2.2mm; margin: 0 0 2mm; font-size: 11pt; line-height: 1.18; }
+.cols { display: flex; gap: 4.5mm; }
 .col { flex: 1; min-width: 0; }
-table { border-collapse: collapse; width: 100%; font-size: 7.9pt; margin: 0 0 1.6mm; }
-th, td { padding: 1.15mm 1.6mm; text-align: left; border-bottom: 0.4pt solid #dde3e9; }
-th { background: #f4f7fa; font-weight: 600; font-size: 7pt; text-transform: uppercase;
-  letter-spacing: 0.35pt; color: #55636f; }
-td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
-tr.hi td { font-weight: 600; border-top: 0.9pt solid #16202a; }
-.flag { border-left: 2.2pt solid #a8641c; background: #fdf8f2; padding: 2.2mm 3mm;
-  margin: 1.6mm 0 0; font-size: 8.1pt; }
-.ok { border-left: 2.2pt solid #2e7d55; background: #f2f8f5; padding: 2.2mm 3mm;
-  margin: 1.6mm 0 0; font-size: 8.1pt; }
-ul { margin: 0 0 1.6mm; padding-left: 3.6mm; }
-li { margin: 0 0 0.7mm; }
-.foot { margin-top: 3.4mm; padding-top: 1.6mm; border-top: 0.4pt solid #c9d2da;
-  font-size: 7.1pt; color: #6b7783; }
-code { font-family: Consolas, monospace; font-size: 7.4pt; }
+table { border-collapse: collapse; width: 100%; font-size: 11pt; margin: 1mm 0 1.5mm;
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.5mm 1.4mm; text-align: left; border-bottom: 0.4pt solid #dbe2e8; }
+th { font-weight: 600; font-size: 11pt; color: #4a5763; }
+td.n, th.n { text-align: right; }
+tr.hi td { font-weight: 600; border-top: 0.8pt solid #14202a; }
+.flag { border-left: 2.5pt solid #9a5c17; background: #fdf7f0; padding: 1.8mm 2.6mm;
+  margin: 1.2mm 0; font-size: 11pt; line-height: 1.16; }
+ul { margin: 0 0 1.5mm; padding-left: 4mm; }
+li { margin: 0 0 0.5mm; }
 b { font-weight: 600; }
+.foot { margin-top: 2.5mm; padding-top: 1.2mm; border-top: 0.4pt solid #dbe2e8;
+  font-size: 11pt; color: #4a5763; }
 </style></head><body>
 
-<h1>A regime model that can say what happened — and a measurement of how much
-that is worth</h1>
-<p class="sub">Statistical regime detection with a citation-grounded explanation
-layer, and three controls that test it. BSc Mathematics with Statistics,
-University of Bristol.</p>
+<h1>Regime detection that can say what happened &mdash; and a measurement of
+how much that is worth</h1>
+<p class="sub">An auditable explanation layer for any regime model.
+BSc Mathematics with Statistics, University of Bristol.</p>
 
 <div class="claim">
-A two-state Gaussian HMM, <b>refitted inside each of 27 walk-forward
-folds</b> and scored only on held-out days, separates SPY volatility regimes by
-<b>2.18×</b> (95% CI 1.76–2.69);
-the same procedure refitted on three indices outside the original universe gives
-1.54×, 1.46×, 1.87×.
-A 20-day persistence filter reduces
-84 raw state flips to 24, of which
-<b>20 recur across random seeds</b>. For each, a
-language model reading <b>only news published before that date</b> produced a
-citation-grounded explanation. Stripped of dates and scrambled,
-<b>55% matched back to the correct fortnight
-against 5% chance</b> (p&nbsp;&lt;&nbsp;0.0001),
-with <b>96.4% of 474 claims
-grounded in the source they cite and zero fabricated citations</b>. On
-era-matched non-transition dates the identical pipeline produced confident
-explanations 61.5% of the time against
-80% on real transitions: <b>+18.5pp,
-95% CI [-12, 47]pp</b>. That comparison is unresolved, and this
-design could not have resolved it. That is the honest limit of the method.
+<b>The claim.</b> A two-state HMM refitted inside every walk-forward fold
+separates SPY volatility regimes in 18 of the
+20 folds containing both states (sign test
+<b>p&nbsp;=&nbsp;0.00040</b>). Reading only news published
+<i>before</i> each of 20 transitions, a language model produced cited
+explanations that match back to their own fortnight
+<b>72% of the time against 33% chance</b>, with
+<b>96.4% of 474 claims grounded and zero fabricated
+citations</b>. Whether they are <i>diagnostic</i> of a regime change is
+unresolved: <b>+18.5pp over matched controls, 95% CI
+[-12,&nbsp;47]pp</b>.
 </div>
 
 <div class="cols">
 <div class="col">
 
-<h2>The problem</h2>
-<p>A regime model tells you the market changed. It cannot tell you what happened,
-because it never sees anything except returns. So its output is coloured bands a
-human interprets from memory — undocumented, unauditable, and different for every
-person who looks. For a platform running thirty PMs, that is thirty private
-readings of one signal.</p>
+<h2>Problem</h2>
+<p>A regime model tells you the market changed but not what happened, because it
+only ever sees returns. Its output is coloured bands a human interprets from
+memory &mdash; undocumented, unauditable, different for everyone who looks. For a
+platform running thirty portfolio managers, that is thirty private readings of
+one signal.</p>
 
-<h2>The split that makes it testable</h2>
-<p><b>The HMM decides <i>when</i> the regime changed. The language model only
-describes <i>what was in the news</i> at that moment.</b> No number in the
-statistical results comes from the model, and it never moves a regime boundary.</p>
+<h2>Solution</h2>
+<p><b>The HMM decides <i>when</i> the regime changed; the language model only
+describes <i>what was in the news</i> then.</b> No statistic comes from the
+language model. For each date the tool retrieves a 14-day window that
+<i>provably</i> closes on it, and returns an explanation whose every claim cites
+a supplied article.</p>
+<p>The reusable part is the <b>controls</b>, not the explanations. Anyone can ask
+a model what happened in March 2020; nobody can otherwise tell you whether the
+answer is specific to that window or boilerplate fitting any month. Point the
+tool at any regime model's dates and each explanation arrives with a blind-match
+score, a grounding rate, and a matched control arm.</p>
 
-<h2>Regime separation, out-of-sample</h2>
+<h2>Impact &amp; value</h2>
 <table>
-<thead><tr><th>Index</th><th class="n">Same-day</th><th class="n">Forward 20d</th>
-<th class="n">Per-fold median</th></tr></thead>
-<tbody>
-<tr class="hi"><td>SPY <i>(fitted universe)</i></td>
-<td class="n">2.18×</td><td class="n">1.69×</td>
-<td class="n">1.52×</td></tr>
-<tr><td>Nikkei 225</td><td class="n">1.54×</td><td class="n">1.18×</td><td class="n">1.38×</td></tr><tr><td>Hang Seng</td><td class="n">1.46×</td><td class="n">1.32×</td><td class="n">1.37×</td></tr><tr><td>DAX</td><td class="n">1.87×</td><td class="n">1.58×</td><td class="n">1.56×</td></tr>
-</tbody></table>
-<p><b>Forward-20d</b> measures volatility that had not happened when the state
-was assigned — the HMM is fed <i>trailing</i> volatility, so the same-day figure
-is partly definitional and the forward one is the real claim. Nikkei at
-1.18× is close to nothing, and that is reported rather than left
-behind its more flattering same-day figure.</p>
-<div class="ok"><b>The strongest form of the separation result.</b> Of the
-20 folds that contain both states,
-<b>18 have a ratio above 1.0 — exact sign test
-p&nbsp;=&nbsp;0.00040</b>, median
-1.52× (95% CI 1.37–1.9).
-This is distribution-free and immune to the objection that the pooled
-2.18× mixes calm-era and crisis-era days. It is the number to
-defend.</div>
-
-<h2>Three corrections to the prior work</h2>
-<ul>
-<li>The earlier notebook's 2.32× was <b>in-sample over the full
-history</b>, and its 26 folds belonged to a separate return classifier. One
-sentence, two unrelated experiments. Refit per fold it is 2.18×.</li>
-<li>States are assigned by a <b>forward filter</b>, not Viterbi — which smooths
-over the whole test block, letting a label depend on up to
-126 days of future data and contaminating the very
-transition dates the news control rests on.</li>
-<li>The scaler is fitted <b>inside</b> each fold.</li>
-</ul>
+<tr><th>Separation, out-of-sample</th><th class="n"></th></tr>
+<tr class="hi"><td>SPY per-fold median</td><td class="n">1.52&times;</td></tr>
+<tr><td>Forward-20d, unseen indices</td><td class="n"></td></tr>
+<tr><td>Nikkei 225</td><td class="n">1.18&times;</td></tr><tr><td>Hang Seng</td><td class="n">1.32&times;</td></tr><tr><td>DAX</td><td class="n">1.58&times;</td></tr>
+</table>
+<p>Forward-20d is volatility that had <i>not happened</i> when the state was
+assigned &mdash; the honest metric, since the HMM is fed trailing volatility.
+Nikkei is close to nothing, and is reported as such.</p>
 
 </div>
 <div class="col">
 
-<h2>Control 1 — hindsight</h2>
-<p>The window closes on the transition date, enforced structurally: a window
-object refuses to construct if any item post-dates it.
-60 windows, 10,888 items,
-0 retrieval failures,
-<b>zero post-boundary survivors</b>.</p>
-<div class="flag"><b>Why revision pinning is not optional.</b> Wikipedia's page
-for a given day keeps being edited for years. Across sampled transition dates a
-mean of <b>38.2%</b> of the current
-page was written <i>after</i> the boundary, peaking at
-<b>71.2%</b> — the 2018 January 26 page was 1,266 bytes on the day and is 4,401 today, last edited in 2025. Fetching the
-live page would feed the model text written with full knowledge of what followed,
-while the manifest recorded the window as closing on the date. Every page is
-pinned by revision id.</div>
+<h2>Use of AI</h2>
+<p><code>claude-opus-5</code> via the Anthropic Messages API &mdash; one call per
+window, effort high, schema enforced server-side. Prompts are version-controlled
+files with a dated iteration history, never inline strings; every call logs model
+id, prompt hash and input hash. Built with Claude Code. News via the
+revision-pinned Wikipedia MediaWiki API, prices via yfinance, statistics via
+hmmlearn and scikit-learn, tool in Streamlit.</p>
 
-<h2>Control 2 — memorisation</h2>
-<p>Dates are stripped before the model sees the text; every claim must cite a
-supplied item; grounding is scored by lexical overlap, so the check itself has no
-world knowledge. <b>96.4% grounded,
-0.0% fabricated citations,
-474 claims — against a
-1.8% floor</b> when the
-same claims are scored against a randomly chosen item from the same window
-(4,740 draws). It is not a metric everything passes. Splitting either side of the training cutoff
-was abandoned: the post-cutoff arm holds three transitions, and reporting
-<i>n</i>=3 as a test is worse than not running it.</p>
+<h2>Three controls</h2>
+<ul>
+<li><b>Hindsight.</b> A window object refuses to construct if any item post-dates
+it: 60 windows, 10,888 items, zero survivors. Pages are
+pinned by revision id because a mean of <b>38.2%</b> of a
+current Wikipedia day-page (peak 71.2%) was written <i>after</i>
+the boundary.</li>
+<li><b>Memorisation.</b> Dates stripped; every claim must cite; grounding scored
+lexically, so the check has no world knowledge.</li>
+<li><b>Placebo.</b> Era-matched controls, identical prompt and pipeline.</li>
+</ul>
 
-<h2>Control 3 — placebo, and the limit</h2>
-<table>
-<thead><tr><th>Arm</th><th class="n">n</th><th class="n">Confident</th></tr></thead>
-<tbody>
-<tr><td>Real transitions</td><td class="n">20</td>
-<td class="n">80.0%</td></tr>
-<tr><td>Era-matched controls</td><td class="n">40</td>
-<td class="n">65.0%</td></tr>
-<tr class="hi"><td>Clean controls</td>
-<td class="n">13</td>
-<td class="n">61.5%</td></tr>
-</tbody></table>
-<p>Fisher exact <code>p = 0.43</code>.
-Identical prompt, identical pipeline; only the news differs.</p>
-<div class="flag"><b>Not significant means not resolved, not absent.</b> Power at
-the observed 18.5pp gap is <b>0.17</b> — a one-in-six chance of
-detecting the effect actually observed. Reaching 80% power with
-20 transitions would need a near-100%
-transition rate, and the binding constraint is the number of transitions, not
-controls: even 200 controls only gets there at ~93%. The gap runs in the
-predicted direction and <b>reproduces exactly on a full replicate run</b>
-(&kappa;&nbsp;=&nbsp;0.84 on the
-confidence label; rates 0.8&rarr;0.8
-and 0.65&rarr;0.65),
-so it is stable rather than noisy — but this design could not have proven it.</div>
-<div class="ok"><b>What is established.</b> The explanations are specific to
-their window. A sceptic can explain 55%-against-5%
-by era-matching — adjacent fortnights share running stories — so each explanation
-was re-scored against only its <b>three temporally nearest</b> windows:
-<b>71.7% against 33.3% chance</b>.
-Era cannot explain that. What is <i>not</i> established is that the explanations
-are diagnostic of a regime change — the comparison above is unresolved, not
-settled either way.</div>
-
-<h2>Built with</h2>
-<p>Claude Code for development. <code>claude-opus-5</code> via
-the Anthropic Messages API with schema-enforced structured output, one call per
-window, prompts in version-controlled files, every call logged with model id,
-prompt hash and input hash. Wikipedia MediaWiki API (revision-pinned), yfinance,
-hmmlearn, scikit-learn. 69 tests, including negative controls proving the
-blind-match test returns chance on boilerplate.</p>
+<h2>Reflections</h2>
+<p>The placebo arm went against me and is the result I would keep. Calling the
+explanations &ldquo;not diagnostic&rdquo; would be a no-difference claim that
+<i>p</i>&nbsp;=&nbsp;0.43 does not license. <b>Power at the observed gap is
+0.17</b> &mdash; one chance in six of detecting the effect observed. The
+binding constraint is 20 transitions, not controls, so more placebos cannot fix
+it; pre-specifying volatility <i>onsets</i> would roughly triple it.</p>
+<div class="flag"><b>What replicates.</b> Re-run on <code>claude-sonnet-5</code>,
+blind matching is identical and grounding differs by 0.4pp &mdash; properties of
+having the news. The confidence label is not
+(&kappa;&nbsp;=&nbsp;0.25; Sonnet declined half as often), which is why
+blind matching is load-bearing and the self-report is a weak instrument.</div>
+<p><b>Given more time:</b> more transitions, not more controls. One leak stays
+open &mdash; the boundary is 23:59&nbsp;UTC and Wikipedia reports closes the same
+evening &mdash; though controls carry <i>more</i> of it than transitions, so it
+does not manufacture the gap.</p>
 
 </div>
-</div>
-
-<div class="foot">
-Every figure on this page is substituted from the committed results at build time,
-not typed in. Reproducible offline from cache. The interactive dashboard runs the
-same pipeline on any regime model's dates, not only this one.
 </div>
 
 </body></html>
