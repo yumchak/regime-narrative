@@ -89,6 +89,8 @@ def build_report(
     ceiling: dict | None,
     narratives: dict | None,
     *,
+    power: dict | None = None,
+    retest: dict | None = None,
     figures: dict[str, Path],
     out_path: Path,
 ) -> Path:
@@ -300,6 +302,64 @@ def build_report(
         a(f"<p>Fisher exact, transitions vs all controls: "
           f"<code>p = {_fmt(p.get('fisher_p_all'), 4)}</code>; "
           f"vs clean controls: <code>p = {_fmt(p.get('fisher_p_clean'), 4)}</code>.</p>")
+
+        if power:
+            obs = power.get("observed", {})
+            a('<div class="caveat"><strong>What this result does and does not say — '
+              "read this before quoting the number.</strong><br><br>"
+              "The control arm did not separate. But <em>&ldquo;not "
+              "significant&rdquo;</em> here means <em>&ldquo;not resolved&rdquo;</em>, "
+              "not <em>&ldquo;no difference&rdquo;</em>, and the distinction is the "
+              "whole of it.<br><br>"
+              f"<strong>Power at the observed "
+              f"{_fmt(obs.get('gap_pp'), 1)} percentage-point gap is "
+              f"{_fmt(power.get('power_at_observed_effect', {}).get('vs_clean_n13'), 2)}"
+              "</strong> — this study had roughly a one-in-six chance of detecting "
+              "the very effect it observed. To reach 80% power with 20 transitions, "
+              "the transition rate would have to be near 100%. The binding "
+              "constraint is the number of transitions, not the number of controls: "
+              "even 200 controls only reaches 80% power at a ~93% transition rate, "
+              "so no amount of extra placebo sampling fixes this.<br><br>"
+              "The gap runs in the predicted direction and is stable on replication "
+              "(below). The honest statement is that these narratives are not yet "
+              "shown to be diagnostic of a regime change, and that this design could "
+              "not have shown it short of a near-total effect.</div>")
+            rows = power.get("power_curve_vs_clean_controls", {})
+            if rows:
+                a('<table><thead><tr><th>If the transition rate were…</th>'
+                  '<th class="num">Power to detect it (vs 13 clean controls)</th>'
+                  "</tr></thead><tbody>")
+                for k, v in rows.items():
+                    a(f'<tr><td>{k}</td><td class="num">{_fmt(v, 2)}</td></tr>')
+                a("</tbody></table>")
+
+        if retest:
+            a("<h3>Is the label even stable?</h3>")
+            a("<p>Sampling parameters were removed from the API, so identical "
+              "inputs no longer guarantee identical outputs — and the statistic "
+              "above is a label the model emits about itself. Every window was "
+              "therefore generated a second time.</p>")
+            a('<table><tbody>')
+            a(f'<tr><td>Agreement on &ldquo;confident&rdquo;</td>'
+              f'<td class="num">{_fmt(100 * retest.get("agreement_is_confident", 0), 1)}% '
+              f'(&kappa; = {_fmt(retest.get("kappa_is_confident"), 2)})</td></tr>')
+            a(f'<tr><td>Agreement on driver identified</td>'
+              f'<td class="num">{_fmt(100 * retest.get("agreement_driver_identified", 0), 1)}% '
+              f'(&kappa; = {_fmt(retest.get("kappa_driver_identified"), 2)})</td></tr>')
+            a(f'<tr><td>Exact confidence label</td>'
+              f'<td class="num">{_fmt(100 * retest.get("agreement_exact_confidence_label", 0), 1)}%</td></tr>')
+            a(f'<tr class="total"><td>Transition confident rate, run 1 &rarr; run 2</td>'
+              f'<td class="num">{_fmt(retest.get("confident_rate_run1_transitions"), 2)} '
+              f'&rarr; {_fmt(retest.get("confident_rate_run2_transitions"), 2)}</td></tr>')
+            a(f'<tr class="total"><td>Control confident rate, run 1 &rarr; run 2</td>'
+              f'<td class="num">{_fmt(retest.get("confident_rate_run1_placebos"), 2)} '
+              f'&rarr; {_fmt(retest.get("confident_rate_run2_placebos"), 2)}</td></tr>')
+            a("</tbody></table>")
+            a('<div class="good">Individual labels move — 20% of windows return a '
+              "different confidence word — but the aggregate rates reproduce "
+              "exactly. The placebo gap is a stable property of the method, not an "
+              "artefact of one sampling run. That is what licenses calling the "
+              "result underpowered rather than noisy.</div>")
     else:
         a('<div class="missing">Narrative generation has not been run '
           "(<code>ANTHROPIC_API_KEY</code> not set). The control dates, the "
@@ -380,18 +440,23 @@ def build_report(
                   f'<td class="num">{d.get("median_holdout_words")}</td></tr>')
             a("</tbody></table>")
 
-    a('<div class="caveat"><strong>The most important caveat in this report.</strong> '
-      "The high ceiling is carried by generic world news, not market content. "
-      "Restricting the held-out text to business and economy sections drops "
-      "matching to <strong>16.7% against 8.3% chance (p = 0.27)</strong>, while "
-      "non-business sections alone reach 90%. Part of that gap is statistical "
-      "power — business holdouts contain a median of 183 words against 2,772 — "
-      "but the implication stands either way: an explanation that obeys the "
-      "prompt and discusses market drivers has comparatively little matchable "
-      "text. A null result on this test would therefore be ambiguous between "
+    a('<div class="caveat"><strong>A caveat that the results partly answered.</strong> '
+      "The ceiling above is carried by generic world news rather than market "
+      "content: restricting the held-out text to business and economy sections "
+      "drops the <em>ceiling</em> to 16.7% against 8.3% chance (p = 0.27), while "
+      "non-business sections alone reach 90%. That raised a real worry — an "
+      "explanation that obeys the prompt and discusses market drivers might have "
+      "little matchable text, and a null result would then be ambiguous between "
       "&ldquo;the explanations are generic&rdquo; and &ldquo;the matchable signal "
-      "is not where the explanation looks&rdquo;. Both arms are reported below; "
-      "neither alone settles the question.</div>")
+      "is not where the explanation looks&rdquo;.<br><br>"
+      "<strong>The measured result came out better than its own ceiling on that "
+      "arm.</strong> Real explanations match business-only holdout text at 28.6% "
+      "against 7.1% chance (p = 0.016) — significant, and above the 16.7% the "
+      "ceiling test predicted. The reason is that a real explanation concentrates "
+      "on market-relevant content, whereas the ceiling proxy was an arbitrary "
+      "slice of the window. The worry was worth having and it did not "
+      "materialise; the section gap is still reported below so the reader can "
+      "see both.</div>")
 
     if narratives:
         bm = narratives.get("blind_match", {})

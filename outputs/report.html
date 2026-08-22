@@ -44,7 +44,7 @@ ul{margin:8px 0;padding-left:20px} li{margin:4px 0}
 </style></head><body><div class='wrap'>
 <h1>Regime detection with a measured explanation layer</h1>
 <p class="sub">A two-state HMM decides <em>when</em> the market regime changed. A language model reading only news published before that date describes <em>what was happening</em>. Every claim about the second half is tested, including the ways it fails.</p>
-<p class="meta">Generated 2026-08-22 05:44 UTC · Study period 2010-02-02 to 2026-08-21 · 4164 trading days</p>
+<p class="meta">Generated 2026-08-22 06:01 UTC · Study period 2010-02-02 to 2026-08-21 · 4164 trading days</p>
 <div class="grid">
 <div class="card"><div class="k">Out-of-sample vol ratio</div><div class="v">2.18×</div><div class="n">95% CI 1.76–2.69 · in-sample was 2.32×</div></div>
 <div class="card"><div class="k">Forward-vol ratio</div><div class="v">1.69×</div><div class="n">volatility that had not happened yet</div></div>
@@ -111,6 +111,23 @@ ul{margin:8px 0;padding-left:20px} li{margin:4px 0}
 <tr><td>Clean controls (primary)</td><td class="num">13</td><td class="num">8</td><td class="num">0.61</td></tr>
 </tbody></table>
 <p>Fisher exact, transitions vs all controls: <code>p = 0.3705</code>; vs clean controls: <code>p = 0.4251</code>.</p>
+<div class="caveat"><strong>What this result does and does not say — read this before quoting the number.</strong><br><br>The control arm did not separate. But <em>&ldquo;not significant&rdquo;</em> here means <em>&ldquo;not resolved&rdquo;</em>, not <em>&ldquo;no difference&rdquo;</em>, and the distinction is the whole of it.<br><br><strong>Power at the observed 18.5 percentage-point gap is 0.17</strong> — this study had roughly a one-in-six chance of detecting the very effect it observed. To reach 80% power with 20 transitions, the transition rate would have to be near 100%. The binding constraint is the number of transitions, not the number of controls: even 200 controls only reaches 80% power at a ~93% transition rate, so no amount of extra placebo sampling fixes this.<br><br>The gap runs in the predicted direction and is stable on replication (below). The honest statement is that these narratives are not yet shown to be diagnostic of a regime change, and that this design could not have shown it short of a near-total effect.</div>
+<table><thead><tr><th>If the transition rate were…</th><th class="num">Power to detect it (vs 13 clean controls)</th></tr></thead><tbody>
+<tr><td>85%</td><td class="num">0.27</td></tr>
+<tr><td>90%</td><td class="num">0.41</td></tr>
+<tr><td>95%</td><td class="num">0.60</td></tr>
+<tr><td>100%</td><td class="num">0.81</td></tr>
+</tbody></table>
+<h3>Is the label even stable?</h3>
+<p>Sampling parameters were removed from the API, so identical inputs no longer guarantee identical outputs — and the statistic above is a label the model emits about itself. Every window was therefore generated a second time.</p>
+<table><tbody>
+<tr><td>Agreement on &ldquo;confident&rdquo;</td><td class="num">93.3% (&kappa; = 0.84)</td></tr>
+<tr><td>Agreement on driver identified</td><td class="num">93.3% (&kappa; = 0.76)</td></tr>
+<tr><td>Exact confidence label</td><td class="num">80.0%</td></tr>
+<tr class="total"><td>Transition confident rate, run 1 &rarr; run 2</td><td class="num">0.80 &rarr; 0.80</td></tr>
+<tr class="total"><td>Control confident rate, run 1 &rarr; run 2</td><td class="num">0.65 &rarr; 0.65</td></tr>
+</tbody></table>
+<div class="good">Individual labels move — 20% of windows return a different confidence word — but the aggregate rates reproduce exactly. The placebo gap is a stable property of the method, not an artefact of one sampling run. That is what licenses calling the result underpowered rather than noisy.</div>
 <h2>6 · Blind matching — are the explanations specific?</h2>
 <p>Explanations are stripped of dates, scrambled, and matched back to their window using BM25 against <strong>held-out</strong> articles the model never saw. The matcher has no world knowledge, so it cannot date an explanation from training the way an LLM judge could.</p>
 <h3>Ceiling — what any explanation could achieve</h3>
@@ -137,7 +154,7 @@ ul{margin:8px 0;padding-left:20px} li{margin:4px 0}
 <tr><td>Business and economy only</td><td class="num">12</td><td class="num">16.7%</td><td class="num">8.3%</td><td class="num">0.2739</td><td class="num">183</td></tr>
 <tr><td>Everything except business</td><td class="num">20</td><td class="num">90.0%</td><td class="num">5.0%</td><td class="num">0.0002</td><td class="num">2567</td></tr>
 </tbody></table>
-<div class="caveat"><strong>The most important caveat in this report.</strong> The high ceiling is carried by generic world news, not market content. Restricting the held-out text to business and economy sections drops matching to <strong>16.7% against 8.3% chance (p = 0.27)</strong>, while non-business sections alone reach 90%. Part of that gap is statistical power — business holdouts contain a median of 183 words against 2,772 — but the implication stands either way: an explanation that obeys the prompt and discusses market drivers has comparatively little matchable text. A null result on this test would therefore be ambiguous between &ldquo;the explanations are generic&rdquo; and &ldquo;the matchable signal is not where the explanation looks&rdquo;. Both arms are reported below; neither alone settles the question.</div>
+<div class="caveat"><strong>A caveat that the results partly answered.</strong> The ceiling above is carried by generic world news rather than market content: restricting the held-out text to business and economy sections drops the <em>ceiling</em> to 16.7% against 8.3% chance (p = 0.27), while non-business sections alone reach 90%. That raised a real worry — an explanation that obeys the prompt and discusses market drivers might have little matchable text, and a null result would then be ambiguous between &ldquo;the explanations are generic&rdquo; and &ldquo;the matchable signal is not where the explanation looks&rdquo;.<br><br><strong>The measured result came out better than its own ceiling on that arm.</strong> Real explanations match business-only holdout text at 28.6% against 7.1% chance (p = 0.016) — significant, and above the 16.7% the ceiling test predicted. The reason is that a real explanation concentrates on market-relevant content, whereas the ceiling proxy was an arbitrary slice of the window. The worry was worth having and it did not materialise; the section gap is still reported below so the reader can see both.</div>
 <table><thead><tr><th>Arm</th><th class="num">Correct</th><th class="num">Accuracy</th><th class="num">Chance</th><th class="num">MRR</th><th class="num">p</th></tr></thead><tbody>
 <tr><td>Transitions, all sections</td><td class="num">11/20</td><td class="num">55.0%</td><td class="num">5.0%</td><td class="num">0.689</td><td class="num">0.0001</td></tr>
 <tr><td>Transitions, business only</td><td class="num">4/14</td><td class="num">28.6%</td><td class="num">7.1%</td><td class="num">0.392</td><td class="num">0.0163</td></tr>
