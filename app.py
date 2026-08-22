@@ -624,6 +624,7 @@ elif view == "Controls":
 
 elif view == "Your data":
     from regime_narrative import pipeline as pl
+    from regime_narrative import runs as runstore
 
     st.title("Run this on your own regime model")
     st.caption(
@@ -643,6 +644,69 @@ elif view == "Your data":
         "bars.</div>",
         unsafe_allow_html=True,
     )
+
+    saved = runstore.list_runs()
+    if saved:
+        with st.expander(f"📂 Reload a previous run ({len(saved)} saved)", expanded=False):
+            st.caption(
+                "Runs are written to disk when they finish, so a refresh or a "
+                "closed tab does not lose them. Individual narratives and news "
+                "windows are cached separately, so re-running the same dates is "
+                "free and near-instant either way."
+            )
+            pick = st.selectbox(
+                "Saved run", saved, format_func=lambda r: r.display,
+                label_visibility="collapsed",
+            )
+            c1, c2, c3 = st.columns([1, 1, 3])
+            if c1.button("Load"):
+                st.session_state["byo_loaded"] = runstore.load_run(pick.run_id)
+                st.session_state.pop("byo_result", None)
+                st.rerun()
+            if c2.button("Delete"):
+                runstore.delete_run(pick.run_id)
+                st.rerun()
+            c3.caption(f"`{pick.path.name}` · {pick.model} · "
+                       f"{pick.window_days}-day windows · {pick.n_narratives} explanations")
+
+    # A reloaded run is displayed from its file and short-circuits the rest.
+    loaded = st.session_state.get("byo_loaded")
+    if loaded and not st.session_state.get("byo_result"):
+        st.success(f"Loaded **{loaded['label']}** — saved {loaded['saved_at'][:16].replace('T', ' ')}")
+        r = loaded["retrieval"]
+        c = st.columns(4)
+        c[0].metric("Windows retrieved", f"{r['n_retrieved']}/{r['n_requested']}")
+        c[1].metric("News items", f"{r['total_items']:,}")
+        c[2].metric("Retrieval failures", r["n_failed"])
+        c[3].metric("Post-boundary survivors",
+                    "0" if not r["any_post_boundary_survivors"] else "LEAK")
+        m = st.columns(3)
+        lbm = loaded.get("blind_match", {}).get("transitions_all_sections", {})
+        if "error" not in lbm and lbm:
+            m[0].metric("Blind match", f"{lbm['n_correct']}/{lbm['n_scored']}",
+                        delta=f"{100 * lbm['accuracy']:.0f}% vs {100 * lbm['chance']:.0f}% chance")
+        lfa = loaded.get("faithfulness", {}).get("all", {})
+        if lfa:
+            m[1].metric("Claims grounded", f"{100 * lfa.get('grounding_rate', 0):.0f}%",
+                        delta=f"{lfa.get('n_claims', 0)} claims", delta_color="off")
+        lpb = loaded.get("placebo", {})
+        if lpb.get("controls", {}).get("n"):
+            m[2].metric("Confident: events vs controls",
+                        f"{100 * lpb['transitions']['confident_rate']:.0f}% / "
+                        f"{100 * lpb['controls']['confident_rate']:.0f}%",
+                        delta=f"Fisher p = {lpb['fisher_p']:.3f}" if lpb.get("fisher_p") else None,
+                        delta_color="off")
+        st.dataframe(pd.DataFrame(loaded.get("records", [])), hide_index=True,
+                     width='stretch', height=300)
+        st.download_button(
+            "Download this run (JSON)",
+            json.dumps(loaded, indent=2).encode("utf-8"),
+            file_name=f"{loaded['run_id']}.json", mime="application/json",
+        )
+        if st.button("Start a new run instead"):
+            st.session_state.pop("byo_loaded", None)
+            st.rerun()
+        st.stop()
 
     st.subheader("1 · Your dates")
     tab_up, tab_paste, tab_demo = st.tabs(["Upload CSV", "Paste dates", "Use this study"])
@@ -766,6 +830,17 @@ elif view == "Your data":
                          generate=not dry, progress=prog)
         bar.empty()
         st.session_state["byo_result"] = res
+        st.session_state.pop("byo_loaded", None)
+        if res.narratives:
+            try:
+                rid = runstore.save_run(
+                    res, cfg=cfg, model=CFG["llm"]["model"],
+                    label=f"{len(res.transitions)} events",
+                )
+                st.success(f"Saved as `{rid}` — reload it from the panel above "
+                           "even after a refresh.")
+            except Exception as exc:
+                st.warning(f"Run finished but could not be saved: {exc}")
 
     res = st.session_state.get("byo_result")
     if res is None:

@@ -454,9 +454,12 @@ def to_records(result: PipelineResult) -> pd.DataFrame:
     rows = []
     for wid, n in result.narratives.items():
         w = result.windows[wid]
+        # .get rather than indexing: a malformed or partial faithfulness entry
+        # should cost this row its grounding columns, not crash the whole export
+        # the user is trying to download.
         fa = next(
             (r for r in result.faithfulness.get("per_window", [])
-             if r["window_id"] == wid), {}
+             if isinstance(r, dict) and r.get("window_id") == wid), {}
         )
         rows.append({
             "window_id": wid,
