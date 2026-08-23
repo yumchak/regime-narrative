@@ -1,6 +1,6 @@
 # 6-minute video script — regime-narrative
 
-**Polymer Tech Expo 2026.** Limit 7:00; this runs **6:35**, leaving 25 seconds
+**Polymer Tech Expo 2026.** Limit 7:00; this runs **6:25**, leaving 35 seconds
 of slack.
 
 Every cell is timed to its own word count at **~118 words per minute** — an
@@ -29,7 +29,7 @@ Two brackets are yours. Everything else is written.
 
 ---
 
-## PART 2 — Project showcase · 1:09–6:35
+## PART 2 — Project showcase · 1:09–6:25
 
 ### 1 · What I built · 1:09–1:50
 
@@ -56,13 +56,13 @@ Two brackets are yours. Everything else is written.
 | **4:07–4:35** | **Provenance → Prompt tab.** Scroll slowly. Stop on Rule 2, then Rule 4. | This is the system prompt. One file, version controlled, never buried in code. Two rules carry it. Every claim has to cite one of the articles I gave it — that's what makes the answer checkable. And it's told it may refuse. Without that line it invents something every single time, and the test collapses. |
 | **4:35–5:09** | **Open `outputs/slide_tools.png` full screen** (double-click it, then maximise the image viewer). Hold it for the whole segment. | The narrative layer is Claude Opus 5 through the Messages API — one call per date, and the output format is enforced by the API rather than politely asked for in the prompt. News comes from Wikipedia's API, pinned by revision. Prices from yfinance, the model from hmmlearn, and the dashboard is Streamlit. Every call is logged with the model, the prompt hash and the input hash. |
 
-### 4 · Iterations and reflections · 5:09–6:35
+### 4 · Iterations and reflections · 5:09–6:25
 
 | Time | SHOW | Say |
 |---|---|---|
-| **5:09–5:40** | **Controls → Blind matching**, then **Memorisation**. Point at each number. | Here's what worked. I hide the dates, shuffle the explanations, and try to match each one back to its own two weeks. Seventy-two percent right, where guessing gets thirty-three. Then I check every claim against the article it cited — ninety-six percent hold up, against a two percent floor if I'd picked a random article. Nine hundred citations, not one invented. |
-| **5:40–6:12** | **Controls → Placebo tab.** Hold it. | And here's what didn't. On real events it's confident eighty percent of the time. On ordinary days, sixty-two. Those should be far apart, and they aren't. But I can't call it a failure either — with only twenty real transitions, this test had a seventeen percent chance of finding a difference even if one was there. It was never going to work. |
-| **6:12–6:35** | **Your face**, or back to the chart. | Given more time I'd test only the days volatility starts, which roughly triples the cases that count. What I've got is an explanation you can check, and an honest measurement of how far to trust it. That second part is the bit I'd keep. |
+| **5:09–5:36** | **Controls → Blind matching**, then **Memorisation**. Point at each number. | Here's what worked. I hide the dates, shuffle the explanations, and match each one back to its own two weeks. Seventy-two percent right — guessing gets thirty-three. Then I check every claim against the article it cited. Ninety-six percent hold up; a random article gives two. Nine hundred citations, none invented. |
+| **5:36–6:04** | **Controls → Placebo tab.** Hold it. | And here's what didn't. On real events it's confident eighty percent of the time. On ordinary days, sixty-two. Those should be far apart. They aren't. But I can't call it a failure — with only twenty real events, this test had about a one-in-six chance of spotting a gap even if one was there. |
+| **6:04–6:25** | **Your face**, or back to the chart. | Next I'd test only the days volatility starts — that roughly triples the cases that count. I've built an explanation you can check, and an honest measure of how far to trust it. The second part is the one I'd keep. |
 
 ---
 
@@ -84,7 +84,7 @@ Two brackets are yours. Everything else is written.
 **3:20–3:45** — the ordinary Tuesday. The whole project in one answer.
 Don't rush, and don't fill the silence.
 
-**5:40–6:12** — the result that went against you. Say it evenly. Anyone can
+**5:36–6:04** — the result that went against you. Say it evenly. Anyone can
 present a win.
 
 ## If you overrun
