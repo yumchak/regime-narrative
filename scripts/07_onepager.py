@@ -70,7 +70,7 @@ tr.hi td { font-weight: 600; border-top: 0.8pt solid #14202a; }
 ul { margin: 0 0 1.5mm; padding-left: 4mm; }
 li { margin: 0 0 0.5mm; }
 b { font-weight: 600; }
-img { width: 79%; height: auto; display: block; margin: 0.5mm auto 0.5mm; }
+img { width: 71%; height: auto; display: block; margin: 0.5mm auto 0.5mm; }
 figcaption { font-size: 11pt; color: #4a5763; margin: 0 0 1.5mm; }
 .wide { margin: 0 0 2mm; }
 .foot { margin-top: 2.5mm; padding-top: 1.2mm; border-top: 0.4pt solid #dbe2e8;
@@ -184,16 +184,16 @@ written explanation citing dated sources &mdash; <b>arriving with its own error
 bars</b>. Tested on {stab['n_stable_transitions']} transitions and {pb.get('placebos_all', {}).get('n', 40)} matched control dates:</p>
 <table>
 <tr><th>Does the narrator work?</th><th class="n">What we found</th></tr>
-<tr><td>Told which 14-day window it came from</td><td class="n">{100 * hn.get('accuracy', 0):.0f}% right &mdash; guessing gives {100 * hn.get('chance', 0):.0f}%</td></tr>
+<tr><td>Date hidden: can we still tell which two weeks it describes?</td><td class="n">{100 * hn.get('accuracy', 0):.0f}% &mdash; guessing gives {100 * hn.get('chance', 0):.0f}%</td></tr>
 <tr><td>Claims really come from the source cited</td><td class="n">{100 * fa.get('grounding_rate', 0):.1f}% &mdash; a random source gives {100 * gn.get('grounded_rate_random_same_window', 0):.1f}%</td></tr>
 <tr><td>Invented citations</td><td class="n">none, in {fa.get('n_claims', 0)} claims</td></tr>
-<tr class="hi"><td>Confident on real events / on ordinary days</td><td class="n">{100 * t_rate:.0f}% / {100 * c_rate:.0f}% &mdash; too close</td></tr>
+<tr class="hi"><td>Confident on real events, vs on ordinary days</td><td class="n">{100 * t_rate:.0f}% vs {100 * c_rate:.0f}% &mdash; ignoring the news gives no gap</td></tr>
 <tr><td>Whole study re-run on a different AI</td><td class="n">same scores</td></tr>
 </table>
-<p><b>The reusable asset is the controls, not the explanations.</b> Anyone can ask
-a model what happened in a month; nobody can otherwise say whether the answer is
-specific to it. Point this at any regime model's dates and every explanation
-returns with that table attached.</p>
+<p><b>The reusable asset is the controls, not the explanations.</b> Anyone can
+ask a model what happened in a month; nobody can otherwise say whether the
+answer is specific to it. Point this at any regime model's dates and every
+explanation returns with that table attached.</p>
 
 <h2>Reflections</h2>
 <p><b>Row four is the finding.</b> The model explains an ordinary Tuesday almost
@@ -203,10 +203,9 @@ be a no-difference claim <i>p</i>&nbsp;=&nbsp;0.43 does not license: it is
 gap is only {pw:.2f}, and the constraint is {pb.get('transitions', {}).get('n', 20)} transitions, not controls, so
 more placebos could never have helped. <b>What this buys today is auditability,
 not signal generation.</b></p>
-<p><b>Next:</b> pre-specify volatility <i>onsets</i> rather than all transitions,
-which roughly triples the power. One leak stays open &mdash; the boundary is
-23:59&nbsp;UTC and Wikipedia reports the US close the same evening, though
-controls carry <i>more</i> of it than transitions.</p>
+<p><b>Next:</b> pre-specify volatility <i>onsets</i> rather than all
+transitions, which roughly triples the power. One leak stays open: the boundary
+is 23:59&nbsp;UTC and Wikipedia reports the US close the same evening.</p>
 
 </div>
 </div>
