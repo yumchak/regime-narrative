@@ -155,11 +155,9 @@ way that feeling informed beats being informed.</p>
 describes <i>what was in the news</i> then.</b> No statistic comes from the
 model. For each date it retrieves a 14-day news window and returns an
 explanation whose every claim cites a supplied article.</p>
-<p>The window <b>provably</b> closes on the date: a window object refuses to
-construct if any item post-dates it. Pages are pinned to their revision id,
-because a mean of <b>{leak.get('mean_pct_written_after_boundary')}%</b> of a Wikipedia day-page as it
-stands today (peak {leak.get('max_pct_written_after_boundary')}%) was written <i>after</i> the day it
-describes.</p>
+<p>Nothing published after the date can enter the window &mdash; the code refuses
+to build one. Pages are pinned to the revision that existed then, because
+<b>{leak.get('mean_pct_written_after_boundary')}%</b> of a Wikipedia day-page (peak {leak.get('max_pct_written_after_boundary')}%) is written later.</p>
 
 <h2>Use of AI</h2>
 <p><code>claude-opus-5</code> via the Anthropic Messages API &mdash; one call per
