@@ -4,13 +4,13 @@
 @page { size: A4; margin: 11mm 12mm; }
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
-body { font: 11pt/1.16 "Segoe UI", -apple-system, Helvetica, Arial, sans-serif;
+body { font: 11pt/1.10 "Segoe UI", -apple-system, Helvetica, Arial, sans-serif;
   color: #14202a; background: #fff; }
 h1 { font-size: 16pt; line-height: 1.06; margin: 0 0 1mm; letter-spacing: -0.3pt; }
 .sub { font-size: 11pt; color: #4a5763; margin: 0 0 2.5mm; }
 h2 { font-size: 11pt; text-transform: uppercase; letter-spacing: 0.5pt;
-  color: #37567f; margin: 2.2mm 0 0.8mm; }
-p { margin: 0 0 1.2mm; }
+  color: #37567f; margin: 1.8mm 0 0.7mm; }
+p { margin: 0 0 1.0mm; }
 .claim { border-left: 2.5pt solid #37567f; background: #f2f6fa;
   padding: 1.6mm 2.2mm; margin: 0 0 2mm; font-size: 11pt; line-height: 1.18; }
 .cols { display: flex; gap: 4.5mm; }
@@ -26,7 +26,7 @@ tr.hi td { font-weight: 600; border-top: 0.8pt solid #14202a; }
 ul { margin: 0 0 1.5mm; padding-left: 4mm; }
 li { margin: 0 0 0.5mm; }
 b { font-weight: 600; }
-img { width: 52%; height: auto; display: block; margin: 0.5mm auto 0.5mm; }
+img { width: 54%; height: auto; display: block; margin: 0.5mm auto 0.5mm; }
 figcaption { font-size: 11pt; color: #4a5763; margin: 0 0 1.5mm; }
 .wide { margin: 0 0 2mm; }
 .foot { margin-top: 2.5mm; padding-top: 1.2mm; border-top: 0.4pt solid #dbe2e8;
@@ -68,9 +68,9 @@ to build one. Pages are pinned to the revision that existed then, because
 <h2>Use of AI</h2>
 <p><code>claude-opus-5</code> via the Anthropic Messages API &mdash; one call per
 window, effort high, schema enforced server-side. Prompts are version-controlled
-files with a dated iteration history, never inline strings; every call logs the
-model id, prompt hash and input hash, so any sentence traces to the exact prompt
-and news behind it. Built with Claude Code. MediaWiki API, yfinance, hmmlearn,
+with a dated iteration history, never inline strings; every call logs the model
+id, prompt hash and input hash, so any sentence traces to the exact prompt and
+news behind it. Built with Claude Code. MediaWiki API, yfinance, hmmlearn,
 scikit-learn, Streamlit.</p>
 
 </div>
@@ -85,29 +85,29 @@ scikit-learn, Streamlit.</p>
 <tr class="hi"><td>Confident on real events, vs ordinary days</td><td class="n">80% vs 62% &mdash; ignoring the news gives no gap</td></tr>
 <tr><td>Whole study re-run on a different AI</td><td class="n">same scores</td></tr>
 </table>
-<p><i>The detector underneath:</i> stressed days move <b>2.18&times;</b> as much as
-calm days out-of-sample, and 18 of 20 folds separate
-independently (p&nbsp;=&nbsp;0.00040).</p>
+<p><i>The detector underneath:</i> stressed days move <b>2.18&times;</b> as much as calm
+days, in 18 of 20 folds independently (p&nbsp;=&nbsp;0.00040).</p>
 
 <h2>Impact &amp; value</h2>
 <p><b>Who needs it.</b> A risk team asked why a stress signal fired that week. A
-PM handing a book to someone who was not there. A researcher with a changepoint
-model and no way to say what its dates mean. All three rely on memory today.</p>
+PM handing over a book they did not build. A researcher whose changepoint model
+produces dates nobody can interpret. All three rely on memory today.</p>
 <p><b>What changes.</b> The interpretation becomes a written record with dated
-sources, produced the same way every time, and carrying a number for how far to
+sources, produced the same way every time, carrying a number for how far to
 trust it. <b>The reusable part is the controls, not the explanations</b> &mdash;
 point them at any regime model's dates, any asset, any method, and every
 explanation returns with the scorecard above attached.</p>
 <p><b>Honest scope.</b> Row four says these are not yet shown to tell real events
-from ordinary days &mdash; so this buys an auditable record of <i>why</i> a date
-was flagged, not a trading signal.</p>
+from ordinary days &mdash; so this buys an auditable record of <i>why</i>, not a
+trading signal.</p>
 
 <h2>Reflections</h2>
-<p>The placebo arm went against me and is the result I would keep: power at that
-gap is only 0.17, and the constraint is 20 transitions, not controls,
-so more placebos could never have helped. <b>Next:</b> pre-specify volatility
-<i>onsets</i>, which roughly triples it. One leak stays open &mdash; the boundary
-is 23:59&nbsp;UTC and Wikipedia reports the US close that evening.</p>
+<p><b>The test that failed is the one I would keep</b> &mdash; but it was never
+going to work. With only 20 real transitions it had a 17% chance of
+spotting a difference even if one was there. More ordinary dates would not have
+helped; only more transitions would. <b>Next:</b> test only the days volatility <i>starts</i>, not every change &mdash;
+that roughly triples the number that count. One gap stays open: the cut-off is
+midnight UTC, and Wikipedia reports the US close that same evening.</p>
 
 </div>
 </div>
