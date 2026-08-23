@@ -70,7 +70,7 @@ tr.hi td { font-weight: 600; border-top: 0.8pt solid #14202a; }
 ul { margin: 0 0 1.5mm; padding-left: 4mm; }
 li { margin: 0 0 0.5mm; }
 b { font-weight: 600; }
-img { width: 87%; height: auto; display: block; margin: 0.5mm auto 0.5mm; }
+img { width: 79%; height: auto; display: block; margin: 0.5mm auto 0.5mm; }
 figcaption { font-size: 11pt; color: #4a5763; margin: 0 0 1.5mm; }
 .wide { margin: 0 0 2mm; }
 .foot { margin-top: 2.5mm; padding-top: 1.2mm; border-top: 0.4pt solid #dbe2e8;
@@ -180,16 +180,15 @@ Code. Wikipedia MediaWiki API, yfinance, hmmlearn, scikit-learn, Streamlit.</p>
 
 <h2>Impact &amp; value</h2>
 <p>It replaces &ldquo;trust me, that band is the Greek referendum&rdquo; with a
-written explanation citing dated sources &mdash; <b>and arriving with its own
-error bars</b>. Tested on {stab['n_stable_transitions']} detected transitions and {pb.get('placebos_all', {}).get('n', 40)} matched
-control dates:</p>
+written explanation citing dated sources &mdash; <b>arriving with its own error
+bars</b>. Tested on {stab['n_stable_transitions']} transitions and {pb.get('placebos_all', {}).get('n', 40)} matched control dates:</p>
 <table>
 <tr><th>Does the narrator work?</th><th class="n">Result</th><th class="n">Against</th></tr>
 <tr><td>Matched to its own 14-day window</td><td class="n">{100 * hn.get('accuracy', 0):.0f}%</td><td class="n">{100 * hn.get('chance', 0):.0f}% chance</td></tr>
 <tr><td>Claims grounded in the item cited</td><td class="n">{100 * fa.get('grounding_rate', 0):.1f}%</td><td class="n">{100 * gn.get('grounded_rate_random_same_window', 0):.1f}% floor</td></tr>
 <tr><td>Fabricated citations</td><td class="n">0</td><td class="n">of {fa.get('n_claims', 0)}</td></tr>
-<tr class="hi"><td>Confident on <i>non</i>-events</td><td class="n">{100 * c_rate:.0f}%</td><td class="n">vs {100 * t_rate:.0f}%</td></tr>
-<tr><td>Repeated on a second model</td><td class="n">{100 * xrep.get('blind_match_accuracy', {}).get('claude-sonnet-5', 0):.0f}%</td><td class="n">identical</td></tr>
+<tr class="hi"><td>Confident on <b>real</b> transitions</td><td class="n">{100 * t_rate:.0f}%</td><td class="n">vs {100 * c_rate:.0f}% ordinary days</td></tr>
+<tr><td>Same tests, a different AI</td><td class="n">same</td><td class="n">scores repeat</td></tr>
 </table>
 <p><b>The reusable asset is the controls, not the explanations.</b> Anyone can ask
 a model what happened in a month; nobody can otherwise say whether the answer is
