@@ -70,7 +70,7 @@ tr.hi td { font-weight: 600; border-top: 0.8pt solid #14202a; }
 ul { margin: 0 0 1.5mm; padding-left: 4mm; }
 li { margin: 0 0 0.5mm; }
 b { font-weight: 600; }
-img { width: 71%; height: auto; display: block; margin: 0.5mm auto 0.5mm; }
+img { width: 68%; height: auto; display: block; margin: 0.5mm auto 0.5mm; }
 figcaption { font-size: 11pt; color: #4a5763; margin: 0 0 1.5mm; }
 .wide { margin: 0 0 2mm; }
 .foot { margin-top: 2.5mm; padding-top: 1.2mm; border-top: 0.4pt solid #dbe2e8;
@@ -132,17 +132,9 @@ how much that is worth</h1>
 <p class="sub">An auditable explanation layer for any regime model.
 BSc Mathematics with Statistics, University of Bristol.</p>
 
-<div class="claim">
-<b>The claim.</b> A two-state HMM refitted inside every walk-forward fold
-separates SPY volatility regimes in <b>{sg.get('n_folds_ratio_above_1')} of {sg.get('n_folds_with_both_states')} folds</b>
-containing both states (sign test p&nbsp;=&nbsp;{sg.get('sign_test_p', 0):.5f}). Reading only news
-published <i>before</i> each of {stab['n_stable_transitions']} transitions, a language model produced
-cited explanations matching back to their own 14-day window
-<b>{100 * hn.get('accuracy', 0):.0f}% of the time against {100 * hn.get('chance', 0):.0f}% chance</b>, with
-<b>{100 * fa.get('grounding_rate', 0):.1f}% of {fa.get('n_claims', 0)} claims grounded, zero fabricated</b>. Whether they
-are <i>diagnostic</i> is unresolved: <b>+{pi.get('difference_pp')}pp, 95% CI
-[{ci[0]:.0f},&nbsp;{ci[1]:.0f}]pp</b>.
-</div>
+<p class="sub"><b>Finding:</b> the explanations are specific and faithful to
+their sources; whether they are <i>diagnostic</i> of a regime change is
+unresolved, and this design could never have resolved it.</p>
 
 <div class="wide">{_img("pipeline.png")}</div>
 
@@ -183,17 +175,19 @@ Code. Wikipedia MediaWiki API, yfinance, hmmlearn, scikit-learn, Streamlit.</p>
 written explanation citing dated sources &mdash; <b>arriving with its own error
 bars</b>. Tested on {stab['n_stable_transitions']} transitions and {pb.get('placebos_all', {}).get('n', 40)} matched control dates:</p>
 <table>
-<tr><th>Does the narrator work?</th><th class="n">What we found</th></tr>
+<tr><th>Can you trust the explanations?</th><th class="n">What we found</th></tr>
 <tr><td>Date hidden: can we still tell which two weeks it describes?</td><td class="n">{100 * hn.get('accuracy', 0):.0f}% &mdash; guessing gives {100 * hn.get('chance', 0):.0f}%</td></tr>
 <tr><td>Claims really come from the source cited</td><td class="n">{100 * fa.get('grounding_rate', 0):.1f}% &mdash; a random source gives {100 * gn.get('grounded_rate_random_same_window', 0):.1f}%</td></tr>
 <tr><td>Invented citations</td><td class="n">none, in {fa.get('n_claims', 0)} claims</td></tr>
 <tr class="hi"><td>Confident on real events, vs on ordinary days</td><td class="n">{100 * t_rate:.0f}% vs {100 * c_rate:.0f}% &mdash; ignoring the news gives no gap</td></tr>
 <tr><td>Whole study re-run on a different AI</td><td class="n">same scores</td></tr>
 </table>
-<p><b>The reusable asset is the controls, not the explanations.</b> Anyone can
-ask a model what happened in a month; nobody can otherwise say whether the
-answer is specific to it. Point this at any regime model's dates and every
-explanation returns with that table attached.</p>
+<p><b>Why this is not a chatbot.</b> Anyone can ask a model what happened in a
+month and get a fluent answer &mdash; and it reads identically whether it is
+specific to that month or would fit any month. <b>A chatbot gives you an answer;
+this gives you an answer and how far to trust it.</b> The reusable asset is the
+controls, not the explanations: point it at any regime model's dates, any asset,
+any method, and every explanation returns with that scorecard attached.</p>
 
 <h2>Reflections</h2>
 <p><b>Row four is the finding.</b> The model explains an ordinary Tuesday almost
