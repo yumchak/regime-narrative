@@ -70,7 +70,7 @@ tr.hi td { font-weight: 600; border-top: 0.8pt solid #14202a; }
 ul { margin: 0 0 1.5mm; padding-left: 4mm; }
 li { margin: 0 0 0.5mm; }
 b { font-weight: 600; }
-img { width: 68%; height: auto; display: block; margin: 0.5mm auto 0.5mm; }
+img { width: 52%; height: auto; display: block; margin: 0.5mm auto 0.5mm; }
 figcaption { font-size: 11pt; color: #4a5763; margin: 0 0 1.5mm; }
 .wide { margin: 0 0 2mm; }
 .foot { margin-top: 2.5mm; padding-top: 1.2mm; border-top: 0.4pt solid #dbe2e8;
@@ -143,63 +143,66 @@ unresolved, and this design could never have resolved it.</p>
 
 <h2>Problem statement</h2>
 <p>A regime model tells you the market changed, not what happened &mdash; it only
-ever sees returns. So its output is coloured bands that a human interprets from
-memory. On a desk of thirty portfolio managers that is thirty private,
-unrecorded readings of one signal, and the reasoning leaves with whoever
-remembers the week.</p>
+sees returns. A human fills the gap from memory, so one signal becomes thirty
+private readings that leave when the people do.</p>
+<p><b>The obvious fix creates a second problem.</b> A language model answers in
+seconds, and it reads the same whether drawn from that month's news or invented.
+An unverifiable explanation is worse than none, because it feels like progress.</p>
 
 <h2>Solution overview</h2>
-<p>Above. A two-state HMM marks <i>when</i> the regime changed; a language model
-reading <i>only news published before that date</i> describes what was
-happening. The two never mix: no statistic comes from the model, and it never
-moves a regime boundary.</p>
-<p>The boundary is enforced by the type system &mdash; a window object refuses to
+<p><b>The HMM decides <i>when</i> the regime changed; the language model only
+describes <i>what was in the news</i> then.</b> No statistic comes from the
+model. For each date it retrieves a 14-day news window and returns an
+explanation whose every claim cites a supplied article.</p>
+<p>The window <b>provably</b> closes on the date: a window object refuses to
 construct if any item post-dates it. Pages are pinned to their revision id,
 because a mean of <b>{leak.get('mean_pct_written_after_boundary')}%</b> of a Wikipedia day-page as it
 stands today (peak {leak.get('max_pct_written_after_boundary')}%) was written <i>after</i> the day it
-describes. Fetching the live page feeds the model hindsight, invisibly.</p>
+describes.</p>
 
 <h2>Use of AI</h2>
 <p><code>claude-opus-5</code> via the Anthropic Messages API &mdash; one call per
-window, effort high, output schema enforced server-side. Prompts live in
-version-controlled files with a dated iteration history, never inline strings;
-every call logs the model id, prompt hash and input hash, so any sentence in the
-results traces to the exact prompt and news window behind it. Built with Claude
-Code. Wikipedia MediaWiki API, yfinance, hmmlearn, scikit-learn, Streamlit.</p>
+window, effort high, schema enforced server-side. Prompts are version-controlled
+files with a dated iteration history, never inline strings; every call logs the
+model id, prompt hash and input hash, so any sentence traces to the exact prompt
+and news behind it. Built with Claude Code. MediaWiki API, yfinance, hmmlearn,
+scikit-learn, Streamlit.</p>
 
 </div>
 <div class="col">
 
-<h2>Impact &amp; value</h2>
-<p>It replaces &ldquo;trust me, that band is the Greek referendum&rdquo; with a
-written explanation citing dated sources &mdash; <b>arriving with its own error
-bars</b>. Tested on {stab['n_stable_transitions']} transitions and {pb.get('placebos_all', {}).get('n', 40)} matched control dates:</p>
+<h2>Validation</h2>
 <table>
 <tr><th>Can you trust the explanations?</th><th class="n">What we found</th></tr>
 <tr><td>Date hidden: can we still tell which two weeks it describes?</td><td class="n">{100 * hn.get('accuracy', 0):.0f}% &mdash; guessing gives {100 * hn.get('chance', 0):.0f}%</td></tr>
 <tr><td>Claims really come from the source cited</td><td class="n">{100 * fa.get('grounding_rate', 0):.1f}% &mdash; a random source gives {100 * gn.get('grounded_rate_random_same_window', 0):.1f}%</td></tr>
 <tr><td>Invented citations</td><td class="n">none, in {fa.get('n_claims', 0)} claims</td></tr>
-<tr class="hi"><td>Confident on real events, vs on ordinary days</td><td class="n">{100 * t_rate:.0f}% vs {100 * c_rate:.0f}% &mdash; ignoring the news gives no gap</td></tr>
+<tr class="hi"><td>Confident on real events, vs ordinary days</td><td class="n">{100 * t_rate:.0f}% vs {100 * c_rate:.0f}% &mdash; ignoring the news gives no gap</td></tr>
 <tr><td>Whole study re-run on a different AI</td><td class="n">same scores</td></tr>
 </table>
-<p><b>Why this is not a chatbot.</b> Anyone can ask a model what happened in a
-month and get a fluent answer &mdash; and it reads identically whether it is
-specific to that month or would fit any month. <b>A chatbot gives you an answer;
-this gives you an answer and how far to trust it.</b> The reusable asset is the
-controls, not the explanations: point it at any regime model's dates, any asset,
-any method, and every explanation returns with that scorecard attached.</p>
+<p><i>The detector underneath:</i> stressed days move <b>{oos['ratio']:.2f}&times;</b> as much as
+calm days out-of-sample, and {sg.get('n_folds_ratio_above_1')} of {sg.get('n_folds_with_both_states')} folds separate
+independently (p&nbsp;=&nbsp;{sg.get('sign_test_p', 0):.5f}).</p>
+
+<h2>Impact &amp; value</h2>
+<p><b>Who needs it.</b> A risk team asked why a stress signal fired that week. A
+PM handing a book to someone who was not there. A researcher with a changepoint
+model and no way to say what its dates mean. All three rely on memory today.</p>
+<p><b>What changes.</b> The interpretation becomes a written record with dated
+sources, produced the same way every time, and carrying a number for how far to
+trust it. <b>The reusable part is the controls, not the explanations</b> &mdash;
+point them at any regime model's dates, any asset, any method, and every
+explanation returns with the scorecard above attached.</p>
+<p><b>Honest scope.</b> Row four says these are not yet shown to tell real events
+from ordinary days &mdash; so this buys an auditable record of <i>why</i> a date
+was flagged, not a trading signal.</p>
 
 <h2>Reflections</h2>
-<p><b>Row four is the finding.</b> The model explains an ordinary Tuesday almost
-as readily as a real transition. Calling that &ldquo;not diagnostic&rdquo; would
-be a no-difference claim <i>p</i>&nbsp;=&nbsp;0.43 does not license: it is
-<b>+{pi.get('difference_pp')}pp, 95% CI [{ci[0]:.0f},&nbsp;{ci[1]:.0f}]pp</b>, unresolved &mdash; power at that
-gap is only {pw:.2f}, and the constraint is {pb.get('transitions', {}).get('n', 20)} transitions, not controls, so
-more placebos could never have helped. <b>What this buys today is auditability,
-not signal generation.</b></p>
-<p><b>Next:</b> pre-specify volatility <i>onsets</i> rather than all
-transitions, which roughly triples the power. One leak stays open: the boundary
-is 23:59&nbsp;UTC and Wikipedia reports the US close the same evening.</p>
+<p>The placebo arm went against me and is the result I would keep: power at that
+gap is only {pw:.2f}, and the constraint is {pb.get('transitions', {}).get('n', 20)} transitions, not controls,
+so more placebos could never have helped. <b>Next:</b> pre-specify volatility
+<i>onsets</i>, which roughly triples it. One leak stays open &mdash; the boundary
+is 23:59&nbsp;UTC and Wikipedia reports the US close that evening.</p>
 
 </div>
 </div>
