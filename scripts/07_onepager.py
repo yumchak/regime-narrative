@@ -183,12 +183,12 @@ Code. Wikipedia MediaWiki API, yfinance, hmmlearn, scikit-learn, Streamlit.</p>
 written explanation citing dated sources &mdash; <b>arriving with its own error
 bars</b>. Tested on {stab['n_stable_transitions']} transitions and {pb.get('placebos_all', {}).get('n', 40)} matched control dates:</p>
 <table>
-<tr><th>Does the narrator work?</th><th class="n">Result</th><th class="n">Against</th></tr>
-<tr><td>Matched to its own 14-day window</td><td class="n">{100 * hn.get('accuracy', 0):.0f}%</td><td class="n">{100 * hn.get('chance', 0):.0f}% chance</td></tr>
-<tr><td>Claims grounded in the item cited</td><td class="n">{100 * fa.get('grounding_rate', 0):.1f}%</td><td class="n">{100 * gn.get('grounded_rate_random_same_window', 0):.1f}% floor</td></tr>
-<tr><td>Fabricated citations</td><td class="n">0</td><td class="n">of {fa.get('n_claims', 0)}</td></tr>
-<tr class="hi"><td>Confident on <b>real</b> transitions</td><td class="n">{100 * t_rate:.0f}%</td><td class="n">vs {100 * c_rate:.0f}% ordinary days</td></tr>
-<tr><td>Same tests, a different AI</td><td class="n">same</td><td class="n">scores repeat</td></tr>
+<tr><th>Does the narrator work?</th><th class="n">What we found</th></tr>
+<tr><td>Told which 14-day window it came from</td><td class="n">{100 * hn.get('accuracy', 0):.0f}% right &mdash; guessing gives {100 * hn.get('chance', 0):.0f}%</td></tr>
+<tr><td>Claims really come from the source cited</td><td class="n">{100 * fa.get('grounding_rate', 0):.1f}% &mdash; a random source gives {100 * gn.get('grounded_rate_random_same_window', 0):.1f}%</td></tr>
+<tr><td>Invented citations</td><td class="n">none, in {fa.get('n_claims', 0)} claims</td></tr>
+<tr class="hi"><td>Confident on real events / on ordinary days</td><td class="n">{100 * t_rate:.0f}% / {100 * c_rate:.0f}% &mdash; too close</td></tr>
+<tr><td>Whole study re-run on a different AI</td><td class="n">same scores</td></tr>
 </table>
 <p><b>The reusable asset is the controls, not the explanations.</b> Anyone can ask
 a model what happened in a month; nobody can otherwise say whether the answer is

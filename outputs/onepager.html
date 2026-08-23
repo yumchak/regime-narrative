@@ -89,12 +89,12 @@ Code. Wikipedia MediaWiki API, yfinance, hmmlearn, scikit-learn, Streamlit.</p>
 written explanation citing dated sources &mdash; <b>arriving with its own error
 bars</b>. Tested on 20 transitions and 40 matched control dates:</p>
 <table>
-<tr><th>Does the narrator work?</th><th class="n">Result</th><th class="n">Against</th></tr>
-<tr><td>Matched to its own 14-day window</td><td class="n">72%</td><td class="n">33% chance</td></tr>
-<tr><td>Claims grounded in the item cited</td><td class="n">96.4%</td><td class="n">1.8% floor</td></tr>
-<tr><td>Fabricated citations</td><td class="n">0</td><td class="n">of 474</td></tr>
-<tr class="hi"><td>Confident on <b>real</b> transitions</td><td class="n">80%</td><td class="n">vs 62% ordinary days</td></tr>
-<tr><td>Same tests, a different AI</td><td class="n">same</td><td class="n">scores repeat</td></tr>
+<tr><th>Does the narrator work?</th><th class="n">What we found</th></tr>
+<tr><td>Told which 14-day window it came from</td><td class="n">72% right &mdash; guessing gives 33%</td></tr>
+<tr><td>Claims really come from the source cited</td><td class="n">96.4% &mdash; a random source gives 1.8%</td></tr>
+<tr><td>Invented citations</td><td class="n">none, in 474 claims</td></tr>
+<tr class="hi"><td>Confident on real events / on ordinary days</td><td class="n">80% / 62% &mdash; too close</td></tr>
+<tr><td>Whole study re-run on a different AI</td><td class="n">same scores</td></tr>
 </table>
 <p><b>The reusable asset is the controls, not the explanations.</b> Anyone can ask
 a model what happened in a month; nobody can otherwise say whether the answer is
