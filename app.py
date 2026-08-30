@@ -103,6 +103,7 @@ NEWS = load_json("news_manifest.json")
 CEILING = load_json("blind_match_ceiling.json")
 NARR = load_json("narrative_results.json")
 RETEST = load_json("retest_stability.json")
+POWER = load_json("placebo_power.json")
 STATES = load_states()
 CFG = load_settings()
 
@@ -493,6 +494,42 @@ elif view == "Controls":
                 "Identical prompt and identical pipeline in both arms; only the news "
                 "differs. This single comparison is the most important number here."
             )
+
+            # A null result means nothing without the power behind it. The comparison
+            # above did not separate; the only honest way to report that is next to
+            # what this design could ever have detected -- which is almost nothing.
+            if POWER:
+                pw = POWER.get("power_at_observed_effect", {}).get("vs_clean_n13")
+                obs = POWER.get("observed", {})
+                st.markdown("**What could this test ever have detected?**")
+                q = st.columns(3)
+                q[0].metric("Observed gap", f"{obs.get('gap_pp')} pp",
+                            delta=f"{100 * obs.get('transition_rate', 0):.0f}% vs "
+                                  f"{100 * obs.get('clean_control_rate', 0):.0f}%",
+                            delta_color="off")
+                q[1].metric("Power at that gap", f"{pw:.2f}",
+                            delta=f"about 1 in {round(1 / pw)}" if pw else None,
+                            delta_color="off")
+                q[2].metric("Binding constraint",
+                            f"{NARR['placebo']['transitions']['n']} transitions",
+                            delta="not the controls", delta_color="off")
+                st.markdown(
+                    f'<div class="caveat"><b>Underpowered by design, not by accident.</b> '
+                    f'If the {obs.get("gap_pp")}-point gap above is real, this study had '
+                    f'roughly a <b>1 in {round(1 / pw)}</b> chance of detecting it. The '
+                    f"correct reading is <i>difference not resolved</i> &mdash; not "
+                    f"<i>no difference exists</i>. More control dates cannot fix this; "
+                    f"only more transitions can.</div>",
+                    unsafe_allow_html=True,
+                )
+                curve = POWER.get("power_curve_vs_clean_controls", {})
+                if curve:
+                    st.caption("Power against a hypothetical transition rate "
+                               "(the non-circular version of the same question):")
+                    st.dataframe(pd.DataFrame(
+                        [{"If the transition rate were": k, "Power": v}
+                         for k, v in curve.items()]),
+                        hide_index=True, width='stretch')
         else:
             st.info("Awaiting narrative generation.")
 
