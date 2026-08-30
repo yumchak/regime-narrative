@@ -104,6 +104,7 @@ CEILING = load_json("blind_match_ceiling.json")
 NARR = load_json("narrative_results.json")
 RETEST = load_json("retest_stability.json")
 POWER = load_json("placebo_power.json")
+REFEREE = load_json("referee_stats.json")
 STATES = load_states()
 CFG = load_settings()
 
@@ -604,6 +605,25 @@ elif view == "Controls":
             ] if isinstance(bm.get(k), dict) and "error" not in bm.get(k, {})]),
                 hide_index=True, width='stretch')
 
+        # 55%-against-5% is open to one objection: neighbouring windows share
+        # running stories, so the matcher may only be recovering roughly WHEN.
+        # Making each explanation compete against its nearest neighbours removes
+        # that reading, and is the number worth quoting.
+        if REFEREE and REFEREE.get("blind_match_hard_negatives"):
+            hn = REFEREE["blind_match_hard_negatives"]
+            st.markdown("**Against the hardest decoys — its own nearest neighbours**")
+            st.dataframe(pd.DataFrame([{
+                "Competing against": lbl,
+                "Correct": f"{hn[k]['n_correct']}/{hn[k]['n_scored']}",
+                "Accuracy": hn[k]["accuracy"],
+                "Chance": hn[k]["chance"],
+                "p": round(hn[k]["binomial_p"], 5),
+            } for k, lbl in [("3_temporally_nearest", "3 nearest windows"),
+                             ("5_temporally_nearest", "5 nearest windows")]
+              if isinstance(hn.get(k), dict)]),
+                hide_index=True, width='stretch')
+            st.caption(hn.get("why", ""))
+
     with tab4:
         st.subheader("Memorisation")
         st.markdown(
@@ -638,6 +658,24 @@ elif view == "Controls":
                            "number cannot be read as a conveniently chosen cut-off.")
                 st.dataframe(pd.DataFrame(sens), hide_index=True,
                              width='stretch')
+
+        # A grounding rate means nothing without the rate everything scores.
+        if REFEREE and REFEREE.get("grounding_null"):
+            gn = REFEREE["grounding_null"]
+            st.markdown("**Against a random article — is this a metric anything passes?**")
+            g = st.columns(3)
+            g[0].metric("Grounded, article it cited",
+                        f"{100 * gn['grounded_rate_cited']:.1f}%",
+                        delta=f"mean overlap {gn['mean_overlap_cited']:.0%}",
+                        delta_color="off")
+            g[1].metric("Grounded, random article",
+                        f"{100 * gn['grounded_rate_random_same_window']:.1f}%",
+                        delta=f"mean overlap {gn['mean_overlap_random_same_window']:.1%}",
+                        delta_color="off")
+            g[2].metric("Random draws", f"{gn['n_random_draws']:,}",
+                        delta=f"over {gn['n_claims_scored']} claims", delta_color="off")
+            st.caption(gn.get("statement", ""))
+
         if RETEST:
             st.subheader("Label stability")
             c = st.columns(3)
