@@ -198,10 +198,12 @@ trading signal.</p>
 <h2>Reflections</h2>
 <p><b>The test that failed is the one I would keep</b> &mdash; but it was never
 going to work. With only {pb.get('transitions', {}).get('n', 20)} real transitions it had a {100 * pw:.0f}% chance of
-spotting a difference even if one was there. More ordinary dates would not have
-helped; only more transitions would. <b>Next:</b> test only the days volatility <i>starts</i>, not every change &mdash;
-that roughly triples the number that count. One gap stays open: the cut-off is
-midnight UTC, and Wikipedia reports the US close that same evening.</p>
+spotting a difference even if one was there; only more transitions would help,
+not more ordinary dates. <b>Next:</b> test only the days volatility
+<i>starts</i> &mdash; the days it <i>ends</i> carry no news driver, and that
+leaves ten cases, so it needs roughly three times the history. One gap stays
+open: the cut-off is midnight UTC; Wikipedia reports the US close that
+evening.</p>
 
 </div>
 </div>
