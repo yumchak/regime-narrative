@@ -304,7 +304,62 @@ Things worth naming as engineering rather than analysis:
 
 ---
 
-## 8 · CV-ready lines
+## 8 · Stack and methods inventory
+
+What was actually used, for applications and interviews. Read off the code, not
+recalled.
+
+**Data sources / APIs**
+- `yfinance 1.6.0` — prices. Fitted: SPY, TLT, GLD, `^VIX`, HYG.
+  Never fitted on: `^N225`, `^HSI`, `^GDAXI`.
+- **Wikipedia MediaWiki API** — Current Events portal, revision-pinned with
+  `rvstart` + `rvdir=older`.
+- **Anthropic Messages API** — `claude-opus-5`, plus `claude-sonnet-5` for the
+  replication arm.
+- **GDELT** — evaluated and rejected on day-0 reconnaissance; it refused queries
+  before ~2015. Wikipedia was the fallback that became primary. The config still
+  records the original intent.
+
+**Features** — four, 20-day lookback: trailing realised volatility, momentum,
+VIX level, HYG 20-day return (credit proxy). Plus *forward* realised volatility
+(t+1 … t+20) as the anti-circularity statistic — the model is fed trailing vol,
+so separating states by trailing vol is near-definitional; separating them by
+volatility that has not happened yet is a real claim.
+
+**Model** — `GaussianHMM` (hmmlearn), 2 states, full covariance, 1000 iters.
+Walk-forward 756 train / 126 test. `StandardScaler` fitted inside each fold.
+**Custom forward-filter recursion with its own log-sum-exp**, replacing
+`predict()`. Persistence filter (20d, swept at 5/10/20/30). Seed stability over
+10 seeds at a 60% threshold, ±5-day match tolerance. Primary specification
+pre-registered before any narrative was generated.
+
+**Statistics** — Levene · Welch t-test · Fisher exact · binomial test ·
+Wilcoxon signed-rank · sign test · **block bootstrap** · **permutation test**
+(10,000 perms) · **Newcombe score interval** · **Mantel-Haenszel stratified OR**
+· **Cohen's κ** · Monte Carlo power simulation.
+The bootstrap, Newcombe interval and κ are hand-written, not imported.
+
+**Retrieval / NLP** — **Okapi BM25 implemented from scratch** (no BM25 library
+in the project at all). This is methodological, not stylistic: the blind-match
+control is only valid because the matcher has no world knowledge, and a reader
+can verify that by reading the scoring. Lexical-overlap scoring for citation
+grounding. Deterministic 50% held-out split.
+
+**LLM engineering** — Anthropic SDK `1.0.0`; `output_config` carrying
+`effort: high` and a server-enforced JSON schema; **no temperature** (sampling
+params were removed on current models and now 400). `max_tokens` 4000, ~320k
+input tokens over 60 calls. Prompts as versioned files. Per-call logging of
+model id, prompt version and hash, input hash, token usage and raw response.
+Disk cache keyed by input hash. Rate-limited client: 1.1s interval, 6 retries,
+exponential backoff, honours `Retry-After`.
+
+**Tooling** — pytest · Streamlit `1.62` · plotly `6.9` · matplotlib · pandas
+`3.0` · numpy `2.5` · scipy `1.18` · scikit-learn `1.9` · Jinja2 · PyYAML ·
+Chrome headless `--print-to-pdf` · Streamlit `AppTest` for headless UI checks.
+
+---
+
+## 9 · CV-ready lines
 
 **One-liner**
 > Built a walk-forward regime detector for equity markets (2.18× out-of-sample
